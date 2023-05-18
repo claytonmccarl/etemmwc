@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader> 
+      <fileDesc>
+         <titleStmt>
+            <title>News article "Fifty Years of Freedom" written by an unknown author. No date given.</title> <!-- create title, include semantic elements such as name, place, and date -->
+            <author>Author unknown</author> <!-- author (person, organization, etc.) of material -->
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Moriah Ferrer and Janaya Ferrer</name> <!-- person adds their name here-->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder M1, Item 2138</idno> <!-- this should be filled in accordance to material's location -->
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes about the celebration of Emancipation day in Edward Waters College and Bethel Baptists Institutional Church.</summary> <!-- one-sentence summary of material's content -->
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A one-page clipping of a typewritten news article.</p> <!-- one-sentence physical description of material (number of pages, print or handwritten, condition, dimensions, etc.) -->
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_f_47_001.jpg"/> <!-- create instances in accordance to number of images -->
+         <div><head style="case(allcaps)">Fifty Years of Freedom</head></div>
+         <div><div><head>Celebration Largely Attended Last<lb/>
+                     Night and at <name type="place">Edward Waters Col-
+                     lege</name> in the Afternoon.</head></div></div>
+         <div>
+            <p style="indent">
+               The celebration of <name type="event">Emancipation day</name><lb/>
+               was held in the <name type="place">chapel</name> of <name type="organization">Edward Wa-<lb/>
+               ters College</name> yesterday afternoon by the<lb/>
+               faculty and students, and last night<lb/>
+               in <name type="place">Bethel Baptist Institutional Church</name>,<lb/>
+               under the auspices of the <name type="organization">Lincoln Me-<lb/>
+               morial Association and the Colored<lb/>
+               Citizens’ Protective League</name>.<lb/>
+
+            </p>
+            <p style="indent">
+               At the <choice><sic>colleg</sic><corr>college</corr></choice><choice><orig/><reg>,</reg></choice> many from the city at-<lb/>
+               tended and the exercises by the stu-<lb/>
+               dents, with good music, were especially<lb/>
+               enjoyed. The principal address was<lb/>
+               delivered by <name type="person">Prof. J. A. Lankford, M.<lb/>
+               M. S.</name>, <name type="person">supervising architect</name> of the <name type="organization">A.<lb/>
+               M. E. Church</name>.
+
+            </p>
+            <p style="indent">
+               <name type="person">Prof. Lankford</name>’s address was quite<lb/>
+               embracive, taking in the history of his<lb/>
+               race in ancient and modern times. The<lb/>
+               achievements of his race in the past<lb/>
+               fifty years were dwelt upon with great<lb/>
+               emphasis, enumerating what has been<lb/>
+               done educationally, industrially and re-<lb/>
+               ligiously. This address was received<lb/>
+               with much applause and the celebra-<lb/>
+               tion at the college was a most credit-<lb/>
+               able success.<lb/>
+            </p>
+            <p style="indent">
+               <name type="place">Bethel Baptist Church</name> last night was<lb/>
+               filled. <name type="person">Mr. A. L. Lewis</name> presided. The<lb/>
+               choir of the church led in the singing<lb/>
+               “America,” the large congregation<lb/>
+               joining in. Prayer was offered by the<lb/> 
+               <name type="person">Rev. R. L. Brown</name>, followed by singing.<lb/>
+               <title level="a">The Emancipation Proclamation</title> was<lb/>
+               read by <name type="person">Mrs. Edna Yates-French</name>. A<lb/>
+               selection was rendered by the choral<lb/>
+               class of <name type="organization">Cookman Institute</name>.<lb/>
+            </p>
+            <p style="indent">
+               “Harriet Beecher Stowe, a Forerun-<lb/>
+               ner of Emancipation,” was delivered<choice><orig/><reg>.</reg></choice><lb/>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

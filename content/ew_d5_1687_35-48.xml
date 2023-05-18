@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m">Manuscript Suspense</title>
+            <author>Eartha M.M. White</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding</resp>
+               <name>Michael "Dean" Rice</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder D5, Item 1687, p. 35-48</idno>                  
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>
+                        Documents are all part of a larger manuscript titled "Suspense" by Eartha M.M. White. The documents in this file comprise pages 35-48 of the manuscript. The pages are approximately 8 inches by 11 inches. Most of the pages are in good condition, but a few are in poor condition. The ink has bled on almost every page, but the text is still mostly legible. The text is print.
+                     </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_d5_1687_35-48_001.jpg"/><!-- Note_1: This file picks up mid-paragraph because it is only a portion of the "Suspense" Manuscript. -->
+         <p>
+            <choice><orig>35</orig><reg/></choice>guns, soldiers riding up and reading long and important-sounding<lb/>
+            proclamations that they couldn't understand, even when <name type="person_group">blue-clad Negro<lb/>
+            soldiers</name> came to the plantations to help them celebrate. To others<lb/>
+            <name type="event">emancipation</name> meant guarded whisperings, then a long wait for darkness<lb/>
+            so that they could slip away from the masters from whim they still<lb/>
+            expected harshness.<lb/>
+         </p>
+         <lb/>
+         
+            <p style="indent">
+               As in other states, many refused to leave their plantations. In<lb/>
+            <name type="place" subtype="county">Duval</name>, <name type="place" subtype="county">St. Johns</name>, <name type="place" subtype="county">Jefferson</name>, and some other counties many of the<lb/>
+               slaves remained on the plantations where their descendants may be<lb/>
+            found today under a sharecropping arrangement; others were given tracts<lb/>
+            of land for their own use.<lb/>
+         </p>     
+         <lb/>
+         
+            <p style="indent">
+               Many left immediately for the cities. In <name type="place" subtype="city">Jacksonville</name>, where a<lb/>
+            number of <name type="person_group">Northern soldiers</name> were quartered, temporary houses had to<lb/>
+            be provided for hundreds of them. Confusion naturally resulted,<lb/>
+               intensified by the <name type="person_group">Negro's</name> entrance into politics, religion, and other<lb/>
+               professional fields. Economic helplessness settled on the <name type="person_group">Negro's</name><lb/>
+            shoulders for a time.<lb/>
+         </p>
+         <lb/>
+         
+            <p style="indent">
+               <hi style="underline">Interviews with Ex-Slaves</hi>. Perhaps no form of social life has<lb/>
+            been more violently defended and condemned than slavery. To some,<lb/>
+            especially when viewed through the softening haze of time, the insti<lb break="no"/>
+            tution of slavery seems like paradise on earth; to others it is the<lb/>
+               opposite. What did the slaves themselves think of the system? Field<lb/>
+            workers of the <name type="organization">Florida Writers' Project</name> interviewed more than a score<lb/>
+               of ex-slaves and asked them to tell what they remembered. The subjects<lb/>
+               of both the following interviews were women, whether because women live<lb/>
+               longer or are better talkers than men it would be hard to say.<lb/>
+         </p>
+         <pb n="2" facs="../images/ew_d5_1687_35-48_002.jpg"/>
+         <p style="indent">
+            <choice><orig>36</orig><reg/></choice>
+            <hi style="underline"><name type="person">Margarett Mickerson</name></hi>. <name type="person">Margarett Mickerson</name> was born to <name type="person">William<lb/>
+               A. Carr</name> on his plantation near <name type="place" subtype="lake">Lake Jackson</name>, <name type="place" subtype="county">Leon County</name>, many years<lb/>
+            ago. She now lives in <name type="place" subtype="city">Jacksonville</name> with her daughter.<lb/>
+         </p>   
+         <lb/>
+         
+            <p style="indent">
+               <quote><name type="person">Mr. Kilgo</name> wuz de fust overseer I member; I wuz big enuf to tote<lb/>
+               meat an stuff fum de smokehouse to de kitchen an to tote water in an<lb/>
+                  git wood fur granny to cook de dinner an fur de sucklers who nu'sed<lb/>
+                  de babies, an I ca'ied dinners back to de hans.</quote><lb/> 
+             
+            </p>
+         <lb/>
+         <p rend ="indent">
+            <quote>On dis plantation was bout a hunnert haid. We done de cookin<lb/>
+               in de fiahplace in iron pots, an de meals wuz plenty uf peas, greens,<lb/>
+               cornbread, burn co'n fur coffee. Sometime de marster bot coffee fur<lb/>
+               us; we got water fum de open well. Jes fore de big gun fiahed dey<lb/>
+               fetched my pa fum de bay whar he wuz makin salt; he done hear dem<lb/>   
+               say de <name type="person_group">Yankees</name> is comin an' he shure wuz glad.</quote><lb/> 
+            
+         </p>
+         <lb/>
+         <p rend = "indent">
+            <quote>We done had rice an cotton an co'n an taters what got to be<lb/>
+               tended, an cowhides to be tanned an thread to be spinned. They done<lb/>
+               made de thread into ropes for plow lines.</quote><lb/> 
+            
+         </p>
+         <lb/>
+         <p style="indent">
+            <quote><name type="person">Ole Marse Carr</name> done feed us, but he didn care what an whar, jes<lb/> 
+               so you made money, an when you made five an six bales o cotton he<lb/>
+               say you ain done nothin'.</quote><lb/> 
+            
+         </p>
+         <lb/>
+         <p style="indent">
+            <quote>When de big gun fiahed on a Sat'day me an <name type="person">Cave</name> an <name type="person">Minnie Howard</name><lb/>
+               wuz settin up co'n fur de plowers to come long an put dirt to em;<lb/>
+               <name type="person">Carr</name> he read de free papers to us on Sunday, an de co'n an cotton<lb/>
+            
+         
+         <pb n="3" facs="../images/ew_d5_1687_35-48_003.jpg"/>
+         
+            <choice><orig>37</orig><reg/></choice>
+               dey had to be tended to. <name type="person">Marse Carr</name> he done tole us he gwine gi us<lb/> 
+              de net proceeds</quote>—here she chuckles—<quote>what turn out to be de co'n<lb/>
+                 an cotton stalks. Den he ask dem whut would stay wid him to step off<lb/>
+                 on de right, an dem dat wuz leavin to step off on de lef.</quote><lb/> 
+               
+         </p>
+         <lb/>
+         <p style="indent">
+            <quote>My pa made soap fum ashes when he clean de new groun; he done<lb/>
+               take a hopper to put de ashes in, made a li'le stool side de house,<lb/>
+               put de ashes in an po'red water on it to drip. Den at night when he<lb/>
+               git off fum work he done put in de grease an make de soap. I done<lb/>
+               make it myself sometime, an I makes it now.</quote><lb/> 
+             
+         </p>
+         <lb/>
+         <p style="indent">
+            <quote>My step-pa useter make shoes fum cowhides fur de farm han's on<lb/>
+               de plantation an fur ev'y buddy cep <name type="person">ole Marse</name> an his fambly; deys wuz<lb/>
+               diffunt, fine.</quote><lb/>
+            
+         </p>
+         <lb/>
+         <p style="indent">
+            <quote>My gramma <name type="person">Phoebe Austin</name>—my mother wuz name <name type="person">Rachel Jackson</name> an<lb/>
+               my pa wuz name <name type="person">Edmun' Jackson</name>; my mother an uncle <name type ="person">Robert</name> an <name type="person">Joe</name> wuz<lb/>
+               stole fum <name type="place" subtype="state">Virginny</name> an fetched here. I don know no niggers dat listed<lb/>
+               in de <name type="event">War</name>. I don member much about de <name type="event">War</name>, only when dey started<lb/>
+               talking bout drillin men; <name type="person">Joe Sanders</name> wuz a Lootenen. <name type="person">Marse Carr's</name> sons, <name type="person">Tom</name> an <name type="person">Willie</name> went to de <name type="event">War</name>.</quote><lb/>
+               
+         </p>
+         <lb/>
+         <p style="indent">
+            <quote>We didn had no doctors, only de grannies; we mostly used hippecat<lb/>
+               (ipecac) fur medicine.</quote><lb/>
+            
+         </p>
+         <lb/>
+         <p style="indent">
+            <quote>Lak I done tole you, <name type="person">Kilgo</name> wuz de fus overseer I ricollec, den<lb/>
+               <name type="person">Sanders</name> wuz nex, an <name type="person">Joe Sanders</name> atter him; <name type="person">John C. Heywood</name> came in<lb/>
+            
+         
+         <pb n="4" facs="../images/ew_d5_1687_35-48_004.jpg"/>
+         
+            <choice><orig>38</orig><reg/></choice>
+               atter <name type="person">Sanders</name>, an when de big gun fiahed <name type="person">ole man Brockington</name> wuz dere.<lb/>
+               I never saw a nigger sol but dey ca'ied em fum our house an I never<lb/>
+               seen em no mo.</quote><lb/>
+            
+         </p>
+         <lb/>
+         <p style="indent">
+            <quote>We had church wid de white preachers an dey tole us to mine our<lb/>
+               masters and missus an we would be saved. Dey don never tole us nothin<lb/>
+               buot <name type="person">Jesus</name>.</quote><lb/>
+            
+         </p>
+         <lb/>
+         <p style="indent">
+            <quote>When de big gun fiahed <name type="person">Ole Man Carr</name> had six sacks uf <name type="person_group">Confederate</name><lb/>
+               money whut he wuz ca'ing wid him to <name type="place" subtype="city">Athens</name>, <name type="place" subtype="state">Georgia</name>, an all de time<lb/>
+               if any uf us gals whar he wuz done ax him, <name type="person">Marse</name>, please gi us some<lb/>
+               money</quote>—here she raised her voice to a high, pitiful tone—<quote>he say I<lb/>
+                  aint got a cent, an right den he would have a chis so full it would<lb/>
+                  take a whole passle uv slaves to move it. He had plenty co'n, taters,<lb/>
+                  pumpkins, hogs, cows, everything, but he didn gi us nothing but strong<lb/>
+                  plain close and plenty to eat; we slep in ole common beds an my pa<lb/>
+                  made up li'le cribs an put hay in dem fur de chillan.</quote><lb/>
+               
+            </p>
+         <p style="indent">
+            <quote>Now if you wanted to keep in wid <name type="person">Marse Carr</name> don drap you shoes<lb/>
+               in de fiel an leave em or he'd beat you. You mus tote you shoes in<lb/>
+               de fiel. He'd say, you gun-haided debbil, drappin you shoes an<lb/>
+               evything over de field.</quote><lb/>
+               
+         </p>
+         <p style="indent">
+            <quote>Now jes lissen, I wanna tell you all I kin, but I wants to tell<lb/>
+               it right. Wait now, I don wanna tell no mistakes an I don wanna lie<lb/>
+               on nobody. I ain mad now an I know taint no use to lie. I'se taking<lb/>
+               my time, I done prayed an got all de malice out o my heart an I ain<lb/>
+            
+         <pb n="5" facs="../images/ew_d5_1687_35-48_005.jpg"/>
+         
+            <choice><orig>39</orig><reg/></choice>
+               gwine tell no lie fer un, an I ain gwine tell no lie on um. I ain<lb/>
+               never seed no slaves sole by <name type="person">Marse Carr</name>; he wuz allus tellin me he<lb/>
+               wuz gwine sell me but he never did, he sole my pa's fust wife, though.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+         <quote>Dere wuz <name type="person">Uncle George Bull</name>, he could read an write. Chile, de<lb/>
+            white folks didn lak no nigger whut could read an write. <name type="person">Carr's</name><lb/>
+            wife, <name type="person">Miss Jane</name> useter teach us Sunday school but she didn low us<lb/>
+            to tech a book wid us hans. So dey useter jes take <name type="person">Uncle George Bull</name><lb/>
+            an beat him fur nuthin; dey would beat him an take hime to de lake an<lb/>
+            put him on a log an shuv him in de lake, but he allus swim out. When<lb/>
+            dey didn do dat dey would beat him tel de blood run outen him an den<lb/>
+            trow him in de ditch in de fiel an kivver him up wid dirt, haid an<lb/>
+            yeres, an den stick a stick up at his haid. I wuz a water toter<lb/>
+            an done stood an seen um do him dat a way more'n once, an I done stood<lb/>
+            an looked at um tel dey went way to de udder rows an den I grabbed de<lb/>
+            dirt offen him an he'd bresh de dirt off an say t'ank-you, git his<lb/>
+            hoe an go on back to work. Dey beat him lak dat an he didn do a t'ing to git dat sort of treatmen.</quote><lb/>
+         
+      </p>
+         <p style="indent">
+            <quote>
+               Some uv de slaves run away, lots uv em. Some done got caught<lb/>
+               an when dey ketched em dey put bells on em; fust dey would put a<lb/>
+               iron ban aroun dey neck an anudder one aroun dey wais an rivet em<lb/>
+               together down de back; de bell would hang around de ban around dey<lb/>
+               neck an it would ring when de slave walked an den dey wouldn git away.<lb/>
+               Some uv em wore dese bells three an four month, an when dey time wuz<lb/>
+               up dey would take em offn em. <name type="person">Jake Overstreet</name>, <name type="person">George Bull</name>, <name type="person">John Green</name>,<lb/>
+               <pb n="6" facs="../images/ew_d5_1687_35-48_006.jpg"/>
+               
+               <choice><orig>40</orig><reg/></choice><name type="person">Ruben Golder</name>, <name type="person">Jim Bradley</name> an a host uv others wore dem bells. Dis<lb/>
+               is whut I know, not whut someboddy else say. I done see dis mysel.<lb/>
+               En missus, when de big gun fiahed, de runaway slaves comed out de<lb/>
+               woods fum all d'rections. We wuz in de fiel when it fiahed, but I<lb/>
+               members dey wuz all glad.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Atter de <name type="event">war</name>, we work but we got pay fur it.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote><name type="person">Ole man Pierce</name> an some others would call some kine uv a perlitical<lb/>
+               meetin, but I couldn never understan whut dey wuz talkin bout. We<lb/>
+               didn had no kine uv schools an all I knows bout dem is I sent my<lb/>
+               chillens in <name type="place" subtype="county">Leon</name> an <name type="place" subtype="county">Gadsden County</name>.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <hi style="underline"><name type="person">Mama Duck</name></hi>. <quote>Who is the oldest settler, whits or colored, that<lb/> 
+              you know of in <name type="place" subtype="city">Tampa</name></quote> <quote>See <name type="person">Mama Duck</name>,</quote> the grinning elevator boy<lb/>
+            told us, <quote>she bout a hunnert year old.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            So down into the scrub we went and found the old woman hustling<lb/>
+            about from washpot to pump. <quote>I'se mighty busy now, cookin breakfas,</quote><lb/>
+            she said, <quote>but ef you come back in bout a hour I'll tell you what I<lb/>
+               kin bout ole times in <name type="place" subtype="city">Tampa</name>.</quote><lb/>
+             
+         </p>
+         <p style="indent">
+            Her dust-covered dog met us with elaborate demonstrations of<lb/>
+            welcome on the return visit.<lb/>
+         </p>
+         <p style="indent">
+            <quote>Owan away f'm here, Spot; dat Comman aint gwine feed you nuthin.<lb/>
+               You keep yo dirty paws offen his close.</quote><lb/>
+               
+         </p>
+         <pb n="7" facs="../images/ew_d5_1687_35-48_007.jpg"/>
+         <p style="indent">
+            <choice><orig>41</orig><reg/></choice>
+         <name type="person">Mama Duck</name> sat down on a rickety box, motioning us to another on<lb/>
+            the shaky old porch. <quote>Take care you don fall thoo dat ol flo,</quote> she<lb/>
+            cautioned. <quote>Hit bout ready to go to pieces, but I'se way behin on<lb/>
+               de rent, so I caint ask em to have hit fixed.</quote><lb/>
+         </p>
+         <p style="indent">
+            <quote>I see you have no glass in the windows—doesn't it get you wet when it rains?</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Not me, cause I gits ovah on de udder side o de room when hit<lb/>
+               rains. Didn't have no do, neither, when I moved in. Young folks<lb/>
+               round here used to use hit fo a co't house afo I come.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>A what?</quote>
+         </p>
+         <p style="indent">
+            <quote>Court house. Kep a-comin atter I dine move in, an I had to shoo<lb/>
+               em away. Dat young rascal comin yonda, he one of em. I claiah to<lb/>
+               goodness...</quote> and <name type="person">Mama Duck</name> raised her voice for the trespasser's<lb/>
+            benefit, <quote>I wisht I had me a fence to keep folks outa my yahd.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Qau-a-ck, quack, quack</quote> the dressed-up young <name type="person_group">Negro</name> mocked, as<lb/>
+            he passed on, grinning.<lb/>
+         </p>
+         <p  style="indent">
+            <quote>Dat don worry me none; I don let nutin worry me—worry makes<lb/>
+               folks gray-haided,</quote> the old woman said, as she scratched her thinly-<lb/>
+            covered head. Three braids, about the length and thickness of an<lb/>
+            eyebrow stuck out at odd angles, and there were not more than a dozen<lb/>
+            gray hairs streaking the rusty black.<lb/>
+         </p>
+         <pb n="8" facs="../images/ew_d5_1687_35-48_008.jpg"/>
+         <p style="indent">
+               <choice><orig>42</orig><reg/></choice>
+               <quote>I sho had plenty chance to worry effen I wanted to,</quote> she mused,<lb/>
+               as she sipped ice water from a fruit jar foul with dirty fingermarks.<lb/>
+               <quote>Relief folks got me on de black list. Dey give rations to young<lb/>
+                  folks what's wukkin and don give me narry a mouthful.</quote><lb/>
+            </p>
+         <p style="indent">
+            <quote>How's that?</quote>
+         </p>
+         <p style="indent">
+            <quote>Well, in de fust place, dey wanted me to go to de po house. I<lb/>
+               wanted to take mah trunk long, an dey wouldn let me. I got some t'ings<lb/>
+               in dere I be'n havin nigh onto a hunnert year. Got my ol blue-back<lb/>
+               <title level="m">Webster</title>, onlies book I evah had, scusin mah <title level="m">Bible</title>. T'ink I wanna throw<lb/>
+               dat stuff away? No-o suh!</quote> <name type="person">Mama Duck</name> pushed the dog away from a<lb/>
+            cracked pitcher on the floor and refilled her fruit jar. <quote>So dey<lb/>
+               black-list me, cause I won kiss dey feets. I aint kissin nobody's<lb/>
+               feets—wouldn't kiss my own mammy's.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Well, we'd all do lots of things for our mothers that we wouldn't<lb/>
+               do for anyone else.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Mebbe you would, but not me. My mammay put me in a hickry basket<lb/>
+               when I was a day an a half ole with nuttin on but my belly ban an a<lb/>
+               di'per. Took me down in de cotton patch an sot de basket on a stump<lb/>
+               in de bilin sun.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>What in the world did she do that for?</quote>
+         </p>
+         <p style="indent">
+            <quote>Cause I was black. All de othah young uns was bright. My<lb/>
+               granmammy done hear me bawlin an go fetch me to my mammy's house.</quote><lb/>
+               
+         </p>
+         <pb n="9" facs="../images/ew_d5_1687_35-48_009.jpg"/>
+         <p style="indent">
+            <choice><orig>43</orig><reg/></choice>
+            <quote>‘Dat you, Mammy?’ she say, sweet as pie, when granmammy poun<lb/>
+               on de do.</quote>
+         </p>
+         <p style="indent">
+            <quote>‘Don you nevah call me Mammy no mo,’ granmammy say. ‘Any wo<lb break="no"/>
+               man what'd leave a po li'le mite lak dis to perish to death aint<lb/>
+               fitten to be no datter o mine.’</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>So granmammy tuk me to raise. I aint nevah seen my mammy<lb/>
+               sence, an I nevah want to.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>What did your father think of the way she treated you?</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Nevah knew who mah daddy was, an I reckon she didn neither.<lb/>
+               I was bawned at <name type="place" subtype="city">Richard</name>, <name type="place" subtype="state">Virginia</name>; mah sister an brother be'n dead<lb/>
+               too many year to count—I de las o de fam'ly.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Do you remember anything about the <name type="event">War between the States</name>?<lb/></quote>
+            <quote>What dat?</quote><lb/>
+            <quote><name type="event">The Civil War</name>, when they set the slaves free.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Oh, <name type="event">de fust war</name>, you mean. I reckon I does—had three childen,<lb/>
+               boys, bawned befo de <name type="event">war</name>. Mah fust mastah didn make us wuk none<lb/>
+               when we was chillens. All I done was play. When I was ole enough<lb/>
+               to wuk, dey tuk us to <name type="place" subtype="city">Pelman</name>, <name type="place" subtype="state">Georgia</name>. I nevah wukked in de fiel's,<lb/>
+               not den, dey allus let me nuss de chillens. Den I got married in<lb/>
+               granmammy's kitchen an went to us own log house. By an by mah mastah<lb/>
+               sole me an mah baby to de man what had de plantation nex to ours—<lb/>
+               his name was <name type="person">John Lee</name>. He was good to me, an let me see mah chillens.</quote><lb/>
+            
+         </p>
+         <pb n="10" facs="../images/ew_d5_1687_35-48_010.jpg"/>
+         <p style="indent">
+            <choice><orig>44</orig><reg/></choice>
+            <quote>How would he punish his pets?</quote><lb/>
+            <quote>Sometimes he jes bop em 'erost de yere wid a battlin stick...</quote><lb/>
+            <quote>A what?</quote><lb/>
+            </p>
+         <p style="indent">
+               <quote>Battlin stick, lak dis. You don know what a battlin stick is?<lb/>
+                  Well, dis yere one. Use hit for washin close. You lif em outa de<lb/>
+                  wash pot wid de battlin stick, den you lay em on de battlin block, dis<lb/>
+                  yere stump. Den you beat de dirt out wid de battlin stick.</quote><lb/>
+               
+            </p>
+         <p style="indent">
+            <quote>Great guns, that stick would knock a horse down!</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Nossuh, wasn't nigh as bad as some o de othahs got. He had pets<lb/>
+               mongst de mens, too, but dey got hit a li'le wusser dan de wimmons.<lb/>
+               Effen dey wasn't too mean, he jes strap em 'crost de sharp side of a<lb/>
+               bar'l an give em a few right smaht licks wid a bull whip.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>H'm—they did get off light, didn't they; and what would he do<lb/>
+               to the bad ones?</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Well, sometimes dey try to run away; den he mek em cross de<lb/>
+               han's, lak dis. Den he tie a rope roun dey wrists an thow hit ovah<lb/>
+               a tree limb. Den he pull em up so dey toes jes touch de groun an<lb/>
+               smack em on de back an rump wid a heavy wooden paddle, fixed ful o<lb/>
+               holes. Know what dem holes was fur? Ev'y hole mak a blister. Den<lb/>
+               he mak em lay down on de groun whilst he bus all dem blisters wid a<lb/>
+               rawhide whip.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>I should think that would kill any man.</quote><lb/>
+            
+         </p>
+         <pb n="11" facs="../images/ew_d5_1687_35-48_011.jpg"/>
+         <p style="indent">
+            <choice><orig>45</orig><reg/></choice>
+            <quote>Nevah heard o nobody dyin f'm gittin a beatin. Some couldn wuk<lb/>
+               for a day or two. Sometimes dey thow salt brine on dey backs, or<lb/>
+               smear on turpentine to make it git well quicker.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Well, I suppose you're glad that those days are over.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>Not me. I was aheap bettah off den as I is now. Allus had<lb/>
+                  sumpin to eat an a place to stay. No sech t'ing as gittin on a black<lb/>
+                  list. Mighty hard on a pusson ol as me not to git no rations an not<lb/>
+               have no reg'lar job.</quote><lb/>
+           
+         </p>
+         <p style="indent">
+            <quote>How old are you?</quote><lb/>
+            
+         </p>
+         <p style="indent">
+            <quote>I don know, 'sackly. Mebbe—wait a minute, I didn show you my<lb/>
+                  pitcher what wuz in de paper, did I? I caint read, but somebody say<lb/>
+               dey put how ol I is under mah pitcher in dat paper.</quote><lb/>
+            
+         </p>
+         <p style="indent">
+               <name type="person">Mama Duck</name> rummaged through a cigar box and brought out a page of<lb/>
+               a <name type="place" subtype="city">Pittsburgh</name> newspaper, dated a year ago. It was so badly worn that<lb/>
+               it was almost illegible, but it showed a picture of the old woman and<lb/>
+               below it was given her age, 109.<lb/>
+         </p>
+         <p style="indent">
+            In answer to the question regarding the length of her residence<lb/>
+            in <name type="place" subtype="city">Tampa</name> she said that she didn't remember. <quote>Come here when dey was<lb/>
+            only one sto,</quote> she mused. <quote>Hit b'long to <name type="person">Ol Man Mugge</name>. Dey raised<lb/>
+            cotton where <name type="place" subtype="city">Plant City</name> is now.<lb/> I picked some cotton dere, den I<lb/>
+            come to <name type="person">Tampa</name> an atter a while I got a job nussin <name type="person">Mister Perry Wall</name>'s<lb/>
+            chillen. Cullud folks jes mek out de bes dey could. Some of em lived<lb/>
+            in tents tell dey could cut logs an build houses wid sticks an dirt<lb/>
+               chimbleys.</quote><lb/>
+               
+         </p>
+            <pb n="12" facs="../images/ew_d5_1687_35-48_012.jpg"/>
+         <p style="indent">
+               <choice><orig>46</orig><reg/></choice>
+               Judging only by the appearance of this wiry old woman, it is<lb/>
+               hard to realize that <name type="person">John Quincy Adams</name> was serving as the country's sixth<lb/>
+               president when <name type="person">Kate Bennett</name> left her unwanted black baby in a <name type="place" subtype="state">Virginia</name><lb/>
+               cotton patch. An interesting study, this patient old crone resigned<lb/>
+               to unpleasant circumstances over which she has no control, curbing<lb/>
+               her temper in the face of petty annoyances, sitting in a dusty alley<lb/>
+               with her cur dog, as she stolidly waits for the last curtain to fall<lb/>
+               on her long drama of life.<lb/>
+      </p>
+         <p style="indent">
+            <hi style="underline">A Slaveholder Speaks</hi>. Mention has previously been made of a<lb/>
+            slaveholder by no means unfavorably disposed towards the <name type="person_group">Negroes</name>,<lb/>
+            since he married a <name type="person_group">Negro</name> woman and left her his property. Perhaps<lb/>
+            his opinion of slavery is as impartial as any we can have, and it has<lb/>
+            the merit of being practical and not theoretical. The following ex<lb break="no"/>
+            cerpt is from <title level="m">the Patriarchal System of Society</title>, by <name type="person">Zephaniah Kingsley</name>,<lb/>
+            a book which ran through four editions.<lb/>
+         </p>
+         <p style="indent">
+            <quote>About 25 years ago, I settled a plantation of <name type="place" subtype="river">St. Johns River</name>,<lb/>
+               in <name type="place" subtype="state">Florida</name> with about 50 new <name type="person_group">African Negroes</name>, many of whom I brought<lb/>
+            from the coast myself. They were mostly fine young men and women, and<lb/>
+               nearly in equal numbers. I never interfered with their connubial<lb/>
+               concerns, nor domestic affairs, but let them regulate these after<lb/>
+               their own manner. I taught them nothing but what was useful, and<lb/>
+               what I thought would add to their physical and moral happiness. I<lb/>
+               encouraged as much as possible dancing, merriment and dress, for which<lb/>
+               Saturday afternoon and night, and Sunday morning were dedicated; and,<lb/>
+               <pb n="13" facs="../images/ew_d5_1687_35-48_013.jpg"/>
+                  <choice><orig>47</orig><reg/></choice>
+               after allowance, their time was usually employed in hoeing their<lb/>
+               corn, and getting a supply of fish for the week. Both men and women<lb/>
+               were very industrious. Many of them made 20 bushels of corn to sell,<lb/>
+               and they vied with each other in dress and dancing, and as to whose<lb/>
+               woman was the finest and prettiest. They were perfectly honest and<lb/>
+               obedient, and appeared quite happy, having no fear but that of offend<lb break="no"/>
+               ing me; and I hardly ever had occasion to apply other correction than<lb/>
+               shaming them. If I exceeded this, the punishment was quite light,<lb/>
+               for they hardly ever failed in doing their work well. My object was<lb/>
+               to excite their ambition and attachment by kindness; not to depress<lb/>
+               their spirits by fear and punishment. I never allowed them to visit,<lb/>
+               for fear of bad example, but encouraged the decent neighboring people<lb/>
+               to participate in their weekly festivity, for which they always pro<lb break="no"/>
+               vided an ample entertainment themselves, as they had an abundance of<lb/>
+               hogs, fowls, corn, and all kinds of vegetables and fruit. They had<lb/>
+               nothing to conceal from me, and I had no suspicion of any crime in<lb/>
+               them to guard against. Perfect confidence, friendship, and good<lb/>
+               understanding reigned between us: they increased rapidly. After a<lb/>
+               few years, this pleasant and profitable state of harmony was in<lb break="no"/>
+               terrupted by the <name type="event">revolution of 1812</name>. A war party of <name type="person_group">Seminole Indians</name><lb/>
+               attacked the plantation in my absence; caught, bound, and carried off,<lb/>
+               or killed 40 of them, whose reluctance in going with the invaders may<lb/>
+               be imagined from the following circumstance. The wife of a young<lb/>
+               man they had tied and were driving off, that her husband, who was too<lb/>
+               strong to be handled and who had his young child in his arms, might<lb/>
+               <pb n="14" facs="../images/ew_d5_1687_35-48_014.jpg"/>
+               <choice><orig>48</orig><reg/></choice>
+               follow; but this he absolutely refused, handing over the child to his<lb/>
+               wife, and saying that she knew best how to take care of it, but that<lb/>
+               his master should never say that he was a runaway <name type="person_group">negro</name>; upon which<lb/>
+               the <name type="person_group">Indian</name> shot him, and he died next day.</quote><lb/>
+            
+         </p>
+         
+      </body>
+  </text>
+</TEI>

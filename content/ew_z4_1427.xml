@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Advertisement for Christmas savings accounts for year 1932.</title>
+            <author>The Citizens Bank of Jacksonville</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Michael "Dean" Rice</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.
+            </p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder Z4, Item 1427</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Document is a pamphlet advertising savings accounts.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>
+                        Document is a pamphlet advertising savings accounts. Document contains 4 pages at approxiamately 3 inches by 8 inches each. Document is print. Document is in good condition.
+                     </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>
+              This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.
+           </p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+   <text>
+      <body>
+         <pb n="1" facs="../images/ew_z4_1427_001.jpg"/> 
+         <p>
+            <figure>
+               <desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder Z4, Item 1427.</desc><lb/><graphic url="../images/ew_z4_1427_001_001.jpg"></graphic>
+            </figure>
+         </p>
+          <p>      
+             <emph style="case(allcaps)"><hi style="xx-large"><hi style="center">you are invited</hi></hi></emph><lb/>  
+             <emph style="case(allcaps)"><hi style="xx-large"><hi style="center">to open a </hi> </hi></emph><lb/>
+               <lb/> 
+             <emph style="case(allcaps)"><hi style="xx-large"><hi style="bold"><hi style="center">charge</hi></hi></hi></emph><lb/>
+             <emph style="case(allcaps)"><hi style="xx-large"><hi style="bold"><hi style="center">account</hi></hi></hi></emph><lb/>
+               <lb/>
+             <emph style="case(allcaps)"><hi style="xx-large"><hi style="bold"><hi style="center">that</hi></hi></hi></emph><lb/>
+             <emph style="case(allcaps)"><hi style="xx-large"><hi style="bold"><hi style="center">builds</hi></hi></hi></emph><lb/>
+             <emph style="case(allcaps)"> <hi style="xx-large"><hi style="bold"><hi style="center">dollars</hi></hi></hi></emph><lb/> 
+          </p>
+         <p>
+            <figure>
+               <desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder Z4, Item 1427.</desc><lb/><graphic url="../images/ew_z4_1427_001_002.jpg"></graphic>
+            </figure>
+         </p>
+         <pb n="2" facs="../images/ew_z4_1427_002.jpg"/>
+         <p> 
+            <emph style="case(allcaps)">you are invited</emph> to open a<lb/>
+            charge account for one year with<lb/>
+            <name type="company">The Citizens Bank of Jacksonville</name>, and<lb/>
+            accumulate a definite sum by <date when="1932-12-01">the first<lb/>
+            of December, 1932</date>.<lb/>
+         </p>   
+         <p>
+            In our Christmas Savings Club Depart<lb break="no"/>
+            ment we have found so many of our<lb/>
+            regular savers, from year to year prefer<lb/>
+            to open a Christmas Savings Account<lb/>
+            and have <hi style="italic">us </hi>make the deposits for them<lb/>
+            each week, by charging their checking<lb/>
+            accounts.   In this way they are relieved<lb/>
+            of the trouble of coming to the bank<lb/>
+            every Monday.  They simply maintain<lb/>
+            their checking accounts and we transfer<lb/>
+            enough to the Christmas Savings Ac<lb break="no"/>
+            count to meet the weekly payments, and<lb/>
+            when they receive their bank statements<lb/>
+            and cancelled checks at the end of each<lb/>
+            month, the charge tickets show the<lb/>
+            amounts that have been deducted and<lb/>
+            deposited to their credit in the Christ<lb break="no"/>
+            mas Savings Account.<lb/>
+         </p>
+         <p>
+            This method is exceedingly simple and<lb/>
+            <hi style="italic">Satisfactory.</hi><lb/>
+         </p>
+         <p>
+            For the year <date when="1931">1931</date>, we had almost one<lb/>
+            hundred charge accounts in our Christ<lb break="no"/>
+            mas Savings Club Department. The<lb/>
+            $5.00 per week plan seemed the most<lb/> 
+            popular. By this method a large num<lb break="no"/>
+            ber of our depositors saved $5.00 each<lb/>
+        </p>
+         <p>
+            <figure>
+               <desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder Z4, Item 1427.</desc><lb/><graphic url="../images/ew_z4_1427_002_001.jpg"></graphic>
+            </figure>
+        </p>
+        
+         <pb n="3" facs="../images/ew_z4_1427_003.jpg"/>
+         <p>
+            week for fifty weeks, giving them<lb/>  
+            $250.00 plus interest at the end of the<lb/> 
+            year. Though a great many were also<lb/>  
+            saving in larger as well as smaller<lb/>  
+            amounts.<lb/>  
+         </p> 
+         <p>
+            This money is returned to the depositor<lb/>  
+            on the <choice><abbr>1st</abbr><expan>first</expan></choice> day of December of each year,<lb/>  
+            and is used to meet Christmas expenses,<lb/>  
+            pay Taxes, Insurance premiums, Sum<lb break="no"/>
+            mer trips and in a few instances to make<lb/>
+            payments on mortgages.<lb/>
+         </p>  
+         <p>
+            It is an ideal way to accumulate funds<lb/>
+            during the year.  The temptation is<lb/>
+            always strong to spend from your earn<lb break="no"/>
+            ings deposited in the checking account<lb/>
+            but by having us transfer small amounts<lb/>
+            to the Christmas Club Account, you are<lb/>
+            enabled to lay aside a certain amount<lb/>
+            each week with the assurance of having<lb/>
+            a fixed sum to your credit by the first<lb/>
+            of December.   This is also an excellent<lb/>
+            way to make every one live within one's<lb/>
+            budget.<lb/>
+         </p>
+         <p>
+            Charge accounts can be opened from 25<lb/>
+            cents per week to $20.00 per week, and<lb/>
+            we extend to each of our depositors an<lb/>
+            invitation to avail themselves of this<lb/>
+            opportunity to save a fixed amount by<lb/>
+            next December <choice><abbr>1st</abbr><expan>first</expan></choice>.<lb/>
+         </p>
+         <p>
+            Accounts may be opened at Window<lb/>
+            22, <name type="person">Miss Y.E. Sears</name> in charge.<lb/>
+         </p> 
+         <p>
+            <figure>
+               <desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder Z4, Item 1427.</desc><lb/><graphic url="../images/ew_z4_1427_003_001.jpg"></graphic>
+            </figure>
+         </p>
+         <p>
+            <emph style="case(allcaps)"><hi style="large">a simple easy plan to catch those </hi></emph><lb/> 
+            <emph style="case(allcaps)"><hi style="large">elusive dollars and have them when </hi></emph><lb/> 
+               <emph style="case(allcaps)"><hi style="large">you need them.</hi></emph><lb/>
+         </p>
+         <note type="transcription">The text "a simple easy plan to catch those elusive dollars and have them when you need them." begins on the bottom of page 3 and runs across the bottom of page 4.</note>
+         <pb n="4" facs="../images/ew_z4_1427_004.jpg"/>
+         <p>
+            <figure>
+               <desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder Z4, Item 1427.</desc><lb/><graphic url="../images/ew_z4_1427_004_001.jpg"></graphic>
+            </figure>
+         </p>
+         <p>
+            <emph style="case(allcaps)"><hi style="large"><hi style="center">the charge account</hi></hi></emph><lb/>
+            <emph style="case(allcaps)"><hi style="large"><hi style="center">that builds dollars</hi></hi></emph><lb/>
+         </p>
+         <p>
+            <list style="simple"><head><emph style="case(allcaps)"><hi style="x-large">a plan to pay</hi></emph></head><lb/>
+            <lb/>
+               <item><hi style="large">Taxes</hi></item><lb/>
+            <lb/>
+               <item><hi style="large">Insurance Premiums</hi></item><lb/>
+            <lb/>
+               <item><hi style="large">Vacation Expenses</hi></item><lb/>
+            <lb/>
+               <item><hi style="large">And to provide funds to</hi><lb/>
+            <lb/>
+               <hi style="large">meet the demands at</hi><lb/>
+            <lb/>
+               <hi style="large">Christmas time.</hi></item><lb/>
+            </list>
+         </p>
+         <p>
+            <emph style="case(allcaps)"><hi style="x-large"><hi style="bold"><hi style="center">the citizens bank</hi></hi></hi></emph><lb/>
+            <emph style="case(allcaps)"><hi style="large"><hi style="bold"><hi style="center">of jacksonville</hi></hi></hi></emph><lb/>
+            <emph style="case(allcaps)"><hi style="bold"><hi style="center"><name type="place" subtype="address">broad street near bay</name></hi></hi></emph><lb/>
+         </p>
+         <p>
+            <emph style="case(allcaps)"><hi style="large"><hi style="bold"><hi style="center">officers:</hi></hi></hi></emph><lb/>
+            <emph style="case(allcaps)"><hi style="center"><name type="person">chas. h. mann</name>,</hi></emph><lb/>
+            <emph style="case(allcaps)"><hi style="center">chairman of the board</hi></emph><lb/>
+            <emph style="case(allcaps)"><hi style="center"><name type="person">c. h. chesnut</name>, president</hi></emph><lb/>
+            <emph style="case(allcaps)"><hi style="center"><name type="person">f. g. yerkes</name>, vice president</hi></emph><lb/>
+            <emph style="case(allcaps)"><hi style="center"><name type="person">wm. h. johnson</name>, cashier</hi></emph><lb/>
+            <emph style="case(allcaps)"><hi style="center"><name type="person">r. c. tooke</name>, <choice><abbr>asst.</abbr><expan>assistant</expan></choice> cashier</hi></emph> <lb/>
+            <emph style="case(allcaps)"><hi style="center"><name type="person">miss y. e. sears</name>, <choice><abbr>asst.</abbr><expan>assistant</expan></choice> cashier</hi></emph> <lb/>
+         </p>
+      </body>
+  </text>
+</TEI>

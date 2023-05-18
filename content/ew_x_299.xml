@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader> 
+      <fileDesc>
+         <titleStmt>
+            <title>Poem "Break Thou the Bread of Life" by Mary A. Lathbury. No date given.</title> 
+            <author>Mary A. Lathbury</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Janaya Ferrer</name> <!-- person adds their name here-->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder X, Item 299</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes a poem dedication compliments of Eartha White in memory of her mother Mrs. Clara White.</summary> 
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p> A poem typewritten on a single sheet of paper with a torn upper and bottom right.</p> 
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_x_299_001.jpg"/> 
+         <div><head style="case(allcaps)"><hi style="center">Break Thou  <supplied reason="torn page" cert="high">the Bread</supplied><lb/>
+                of Life</hi></head></div>
+         <div>
+            <p style="center">--------</p>
+            <p> <!-- Hanging indent -->
+                Break Thou the Bread of life,<lb/>
+                Dear Lord to me,<lb/>
+                As Thou didst break the loaves<lb/>
+                Beside the sea ;<lb/>
+                Beyond the sacred page<lb/>
+                I seek Thee, Lord ;<lb/>
+                My spirit pants  <supplied reason="text smudged" cert="high">for</supplied> Thee,<lb/>
+                O living Word.<lb/>
+            </p>
+            <p> <!-- Hanging indent -->
+                Bless Thou the truth, dear Lord,<lb/>
+                To me— to me—<lb/>
+                As Thou didst bless the bread<lb/>
+                By Galilee ;<lb/>
+                Then shall all bondage cease,<lb/>
+                All fetters fall ;<lb/>
+                And I shall find my peace,<lb/>
+                My All in all.<lb/>
+            </p>
+            <p> <!-- Hanging indent -->
+                Thou art the bread of Life,<lb/>
+                O Lord, to me,<lb/>
+                Thy holy Word the truth<lb/>
+                That saveth me :<lb/>
+                Give me to eat and live<lb/>
+                With Thee above ;<lb/>
+                Teach me to love Thy truth,<lb/>
+                For Thou art love.<lb/>
+            </p>
+            <p> <!-- Hanging indent -->
+                O send Thy Spirit, Lord,<lb/>
+                Now unto me,<lb/>
+                That He may touch my eyes,<lb/>
+                And make me see :<lb/>
+                Show me the truth concealed<lb/> 
+                Within Thy Word,<lb/>
+                And in Thy book revealed<lb/>
+                I see the Lord.—Amen.<lb/>
+            </p>
+            <p style="center">
+                ----------------<lb/>
+                Compliments of<lb/>
+                Miss Eartha M. M. White<lb/>
+                In memory of her mother<lb/>
+                Mrs. Clara White<lb/>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

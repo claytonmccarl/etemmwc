@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Program from 82nd Annual Emancipation Proclamation Celebration. January 1, 1945. Jacksonville, Florida.</title>
+            <author>Emancipation Proclamation Committee of the City of Jacksonville</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Lauren Kelley Winters</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder n1, Item 377</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Item contains program from event held at Mt. Zion A.M.E. Church, including list of Committee officers and members, and lyrics to "Lift Every Voice and Sing."</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>This document is a typed program on a letter sized piece of paper. The document is typed in black ink and has a star border on the cover.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_n1_377_001.jpg"/>
+         <figure><graphic url="ew_n1_377_001_001.jpg"/></figure>
+        <div>
+           <head style="case(allcaps)"><hi style="center"><name type="person_group">The Emancipation Proclamation<lb/>
+           Co11mmittee<lb/>
+         of the<lb/>
+              City of <name type="place">Jacksonville</name>, Florida</name><lb/>
+           Presents<lb/>
+              82nd Annual Celebration<lb/>
+              January 1st, 1945 - 11:00 A.M.<lb/>
+              <name type="person_group">Mt. Zion A M E Church</name><lb/>
+              <name type="place">Newman and Beaver Streets</name><lb/>
+           </hi></head>
+        </div>
+         <div>
+         <p>
+            <hi style="center">
+               <name type="person">Joe H. James, Jr.</name>------------------------President<lb/> 
+               <name type="person">Attorney D. W. Perkins</name>---------------Vice-President<lb/>
+               <name type="person">Miss Eartha M. M. White</name>------Seceond Vice-President<lb/>
+               <name type="person">Mrs. E. T. Tutson</name>-------------Third Vice-President<lb/>
+               <name type="person">John H. Morris</name>---------------------------Secretary<lb/>
+               <name type="person">Mrs. A. B. Williams</name>----------------------Treasurer<lb/>
+               <name type="person">Rev. C. A. Gibbs</name>----------------Honorary President<lb/>
+            </hi>  
+         </p>
+            <cb/>
+            <p>
+               <name type="person">Prof. F. J. Anderson</name><lb/>
+               <name type="person">Mr. Arthur L. Payne</name><lb/>
+               <name type="person">Mrs. Lucile G. Coleman</name><lb/>
+               <name type="person">Mr. Anthony R. Dennis</name><lb/>
+               <name type="person">Miss Lucinda Stewart</name><lb/>
+               <name type="person">Rev. G. H. Hawkins</name><lb/>
+               <name type="person">Mr. Porcher L. Taylor</name><lb/>
+               <name type="person">Mrs. Matilda Stewart</name><lb/>
+               <name type="person">Mrs. M. C. P. Keene</name><lb/>
+               <name type="person">Rev.C.H.Williams</name><lb/>
+            </p>
+            <cb/>
+            <p>
+               <name type="person">Rev. W. F. Ball</name><lb/>
+               <name type="person">Mr. Charles Brooks</name><lb/>
+               <name type="person">Miss Beulah Wright</name><lb/>
+               <name type="person">Miss Sue Brown</name><lb/>
+               <name type="person">Mr. Clifford Davis</name><lb/>
+               <name type="person">Rev. Robert A. Jackson</name><lb/>
+               <name type="person">Rev. Cyrus A. Weaver</name><lb/>
+               <name type="person">Mr. E. D. Koelman</name><lb/>
+               <name type="person">Elder W. R. Nesbitt</name><lb/>
+               <name type="person">Mr. G. W. Powell</name><lb/>
+               <name type="person">Rev. G. W. Washington</name><lb/>
+            </p>
+            <p>
+               <name type="person">Mr. W. K. Harper</name><lb/>
+            </p>
+            <figure><graphic url="ew_n1_377_001_002.jpg"/></figure>
+         </div>
+         <pb n="2" facs="../images/ew_n1_377_002.jpg"/>
+         <figure><graphic url="ew_n1_377_002_001.jpg"/></figure>
+         <figure><graphic url="ew_n1_377_002_002.jpg"/></figure>
+         <div>
+            <head>
+               <hi style="all caps">
+                  "<title level="m">Faith of Our Fathers</title>"
+               </hi>
+            </head>
+            <p>
+               Faith of our fathers! living still in spite of dungeon, fire and sword<lb/>
+               O how our hearts beat high with joy, whenev'r we hear that<lb/>
+               <hi style="indent">glorious word;</hi><lb/>
+               Faith of our fathers; holy faith; we'll be true to thee til death.<lb/>
+               Our fathers, chained in prisons dark, were still in heart and con<lb break="no"/>
+               <hi style="indent">science free.</hi><lb/>  
+               How sweet would be their children's faith, we will be true to thee till death.<lb/>
+               Faith of our fathers; we'll love both friend and foe in all our<lb/>
+               <hi style="indent">
+                  strife:</hi><lb/>
+               And preach thee, too, as love knows how, by kindly words and<lb/>
+               <hi style="indent">
+                  virtuous life.</hi><lb/>
+               Faith of out father; holy faith, we will be true to thee till death.<lb/>
+               <hi style="indent">Amen.</hi><lb/>
+            </p>
+         </div>
+            <figure><graphic url="ew_n1_377_002_003.jpg"/></figure>
+         <div>
+            <head>
+               <hi style="center">
+                  <hi style="all caps">
+                     Ushers
+               </hi></hi>
+            </head>
+            <p>
+            <hi style="center">
+               <name type="person_group">Mt. Zion Usher Boards</name> to Serve
+            </hi>
+            </p>
+            <figure><graphic url="ew_n1_377_002_004.jpg"/></figure>
+         </div>
+         <pb n="3" facs="../images/ew_n1_377_003.jpg"/>
+         <figure><graphic url="ew_n1_377_003_001.jpg"/></figure>
+         <div>
+            <head>
+               <hi style="center">
+                  <hi style="all caps">
+                     Program
+                  </hi>
+               </hi>
+            </head>
+            <p>
+               Songfest-------<name type="person">Mrs. Mebel Olliphant</name>, Directress<lb/>
+               Call to Program---------<name type="person">Joe H. James</name>, President<lb/>
+               Scripture--------------<name type="person">Rev. J. B. Cooke</name>, Pastor<lb/>
+               <hi style="center"><name type="person_group">Simpson Methodist Church</name></hi><lb/>
+               Prayer---------------<name type="person">Elder F. H. Spence</name>, Pastor<lb/>
+               <hi style="center"><name type="person_group">Church of God</name></hi>
+               <title level="m">Faith of Our Fathers</title>-------------------Audience<lb/>
+               Occasion-------------------<name type="person">Prof. John H. Morris</name><lb/>
+               <hi style="center"><name type="place">Stanton High School</name></hi><lb/>
+               Selection----------------------Lyrical Locellae<lb/>
+               Reading of Emancipation<lb/>
+               Proclamation-------------<name type="person">Miss Vanchetta Mathews</name><lb/>
+               Solo---------------------------<name type="person">Mr. W. K. Harper</name><lb/>
+               Prayer for the Nation---<name type="person">Dr. C. A. Gibbs</name>, Pastor<lb/>
+               <hi style="center"><name type="person_group">Mt. Zion A M E Church</name></hi><lb/>
+               <title level="m">Lift Every Voice and Sing</title>--------------Audience<lb/>
+               Introduction of Speaker--<name type="person">Dr. R. A. King</name>, Pastor<lb/>
+               <hi style="center">
+                  <name type="person_group">St. Paul A M E Church</name>
+               </hi><lb/>
+               Address--<name type="person">Dr. Charles Satchell Morris II</name>, Pastor<lb/>
+               <hi style="center"><name type="person_group">Bethel Baptist Institutional Church</name></hi><lb/>
+               Selection------------------<name type="person_group">Mt. Zion A M E Chior</name><lb/>
+               Offering--------<name type="person">Mr. George W. Powell</name>, President<lb/>
+               <hi style="center"><name type="person_group">Jax Negro Business League</name></hi><lb/>
+               <name type="person">Mr. E. D. Koelman</name>, President,<lb/>
+               <hi style="center">
+                  <name type="person_group">Jax Negro Chamber of Commerce</name>
+               </hi><lb/>
+               Announcements<lb/>
+               Election of Officers<lb/>
+               Remarks<lb/>
+               <title level="m">Star Spangled Banner</title><lb/>
+               Benediction<lb/>
+               Master of Ceremonies--------------<name type="person">Mr. A. A. Day</name><lb/>
+               <hi style="center">Field Scout Executive</hi><lb/>
+            </p>
+            <figure><graphic url="ew_n1_377_003_002.jpg"/></figure>
+         </div>
+         <pb n="4" facs="../images/ew_n1_377_004.jpg"/>
+         <figure><graphic url="ew_n1_377_004_001.jpg"/></figure>
+         <div>
+            <p>
+               <title level="m">Lift every voice and sing</title><lb/>
+               Till earth and Heaven ring<lb/>
+               Ring with the harmonies of Liberty<lb/>
+               Let our rejoicing rise<lb/>
+               High as the list'ning skies,<lb/>
+               Let it resound high as the rolling sea.<lb/>
+               Sing a song full of the faith that the dark past has taugh us.<lb/>
+               Sing a song full of hope that present has brought us;<lb/>
+               Facing the rising sun of our new day begun,<lb/>
+               Let us march on till victory is won.<lb/>
+            </p>
+            <p>
+               Stony the road we trod,<lb/>
+               Bitter than the chast'ning rod,<lb/>
+               Felt in the days when hope unborn had died;<lb/>
+               Yet with a steady beat<lb/>
+               Have not our weary feet come to the place which our father sighted?<lb/>
+               We have come over a way that with tears has been watered.<lb/>
+               We have come treading our path thro' the blood of the slaughtered.<lb/>
+               Out from the gloomy past,<lb/>
+               Till now we stand at last where white gleam of our bright star is cast.<lb/>
+            </p>
+            <p>
+               God of our weary years,<lb/>
+               God of our silent tears,<lb/>
+               Thou who has brought us thus far on the way.<lb/>
+               Thou who has by Thy might<lb/>
+               Lead us into the light,<lb/>
+               Keep us forever in the path, we pray.<lb/>
+               Lest our feet stray from the places<lb/>
+               Our God, where we met Thee,<lb/>
+               Lest our hearts, drunk with the wine of the world we forget Thee:<lb/>
+               Shadowed beneath Thy hand<lb/>
+               May we forever stand<lb/>
+               True to out God, True to Our Native Land.<lb/>
+            </p>
+         </div>
+         <figure><graphic url="ew_n1_377_004_002.jpg"/></figure>
+      </body>
+  </text>
+</TEI>

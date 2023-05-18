@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from the Frederick Douglass Memorial and Historical Association</title>
+            <author>Mary Talbert</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Carol Lynne Hemmingway</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder O2, Item 549</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to members of the Frederick Douglass Memorial and Historical Association on the restoration of the Douglass Home and commemorative tables to be created.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A two page printed letter with the letterhead of the Frederick Douglass Memorial and Historical Association</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_o2_549_001.jpg"/>
+         <div><head><name type="organization">The Frederick Douglass Memorial and Historical Association</name></head></div>
+         <div><cb/>
+         <p><emph style="cast(allcaps)"><name type="person">Mrs. Mary B. Talbert</name><lb/>
+         President<lb/>
+         <name type="place" subtype="address">521 Michigan Avenue<lb/>
+         Buffalo, <choice><abbr>N.Y.</abbr><expan>New York</expan></choice></name></emph></p>
+         <p>
+            <emph style="cast(allcaps)">
+               <name type="person">Mrs. Nettie L. Napier</name>,<lb/>
+            Custodian of Funds<lb/>
+            <name type="place" subtype="address">120 15th Avenue North<lb/>
+            Nashville, <choice><abbr>Tenn.</abbr><expan>Tennessee</expan></choice></name></emph>
+         </p>
+         <cb/>
+         <p><emph style="cast(allcaps)">
+            <hi style="center">Trustees<choice><orig>:</orig><reg/></choice></hi><lb/>
+            <name type="person">Miss Hallie Q. Brown</name>, <name type="place">Ohio</name><lb/>
+            <name type="person">Miss Nannie H. Burroughs</name>, <name type="place"><choice><abbr>Dist. of Col.</abbr><expan>District of Columbia</expan></choice></name><lb/>
+            <name type="person">Miss Elizabeth C. Carter</name>, <name type="place">Massachusetts</name><lb/>
+            <name type="person">Miss Meta Pelham</name>, <name type="place">Michigan</name><lb/>
+            <name type="person">Mrs. Sallie W. Stewart</name>, <name type="place">Indiana</name><lb/>
+            <name type="person">Mrs. Maggie L. Walker</name>, <name type="place">Virginia</name><lb/>
+            <name type="person">Mrs. Booker T. Washington</name>, <name type="place">Alabama</name>
+         </emph>
+         </p>
+         <p>
+            <emph style="cast(allcaps)">
+               <hi style="center">Advisory Board<choice><orig>:</orig><reg/></choice></hi><lb/>
+               <name type="person">Mrs. Mary McLeod Bethune</name>, <name type="place">Florida</name><lb/>
+               <name type="person">Mrs. Laura A. Brown</name>, <name type="place">Pennsylvania</name><lb/>
+               <name type="person">Mrs. S. Joe Brown</name>, <name type="place">Iowa</name><lb/>
+               <name type="person">Mrs. Addie W. Dickerson</name>, <name type="place">Pennsylvania</name><lb/>
+               <name type="person">Miss Reberta Dunbar</name>, <name type="place">Rhode Island</name><lb/>
+               <name type="person">Mrs. M. E. Josenburger</name>, <name type="place">Arkansas</name><lb/>
+               <name type="person">Mrs. Alice Dunbar Nelson</name>, <name type="place">Delaware</name><lb/>
+               <name type="person">Miss Georgia Nugent</name>, <name type="place">Kentucky</name><lb/>
+               <name type="person">Mrs. Lelia Pendleton</name>, <name type="place"><choice><abbr>Dist. of Col.</abbr><expan>District of Columbia</expan></choice></name><lb/>
+               <name type="person">Mrs. Gertie Ross</name>, <name type="place">Colorado</name><lb/>
+               <name type="person">Mrs. Mary F. Waring</name>, <name type="place">Illinois</name><lb/>
+            </emph>
+         </p>
+         <p>
+            <emph style="cast(allcaps)">
+               <hi style="center">Honorary<choice><orig>:</orig><reg/></choice></hi><lb/>
+               <name type="person">Dr. Francis J. Grimke</name><lb/>
+               <name type="person"><choice><abbr>Hon.</abbr><expan>Honorable</expan></choice> Archibald Grimke</name><lb/>
+               <name type="person">Mr. Whitfield McKinlay</name><lb/>
+               <name type="person"><choice><abbr>Hon.</abbr><expan>Honorable</expan></choice> J. C. Napier</name>
+            </emph>
+         </p></div>
+         <div><opener>
+            <name type="place" subtype="address">Buffalo, <choice><abbr>N.Y.</abbr><expan>New York</expan></choice></name><lb/>
+            <date when="1922-03-15">March 15, 1922</date>.
+         </opener></div>
+         <div><opener>
+            <salute>My Dear <choice><orig>Co-Workers</orig><reg>Co-workers</reg></choice>, Friends<choice><orig></orig><reg>,</reg></choice> and Clubwomen:<choice><orig>-</orig><reg/></choice></salute>
+         </opener></div>
+         <div><p style="indent">
+            My heart is made to feel glad as I send out to you this message of<lb/>
+            <choice><orig>Faith</orig><reg>faith</reg></choice> and <choice><orig>Good Works</orig><reg>good works</reg></choice>. Thank God<choice><orig>,</orig><reg/></choice> that you have all stood by me<choice><orig>,</orig><reg/></choice> during these<lb/>
+            six years and you have said<choice><orig/><reg>,</reg></choice> "She shall not fail<choice><orig/><reg>.</reg></choice>"<choice><orig>.</orig><reg/></choice>
+         </p></div>
+         <div><p style="indent">
+            <name type="place">The Douglass Home</name>, <choice><orig>Our Home</orig><reg>our home</reg></choice><choice><orig/><reg>,</reg></choice> has been redeemed, is now being restored<choice><orig/><reg>,</reg></choice><lb/>
+            and will be dedicated <date when="1922-08-12">August 12, 1922</date>. With you being present to help show to<lb/>
+            the world that the <choice><orig>Colored Women</orig><reg>colored women</reg></choice> of <name type="place">America</name> stand united<choice><orig></orig><reg>,</reg></choice> and my dear women uni<lb break="no"/>ted, we can do whatever we wish. With a united womanhood, we can and will stamp<lb/>
+            out <choice><orig>Lynching</orig><reg>lynching</reg></choice>, <choice><orig>Mob</orig><reg>mob</reg></choice> violence, Jim Crow <choice><orig>Cars</orig><reg>cars</reg></choice><choice><orig/><reg>,</reg></choice> and <choice><orig>Segregation</orig><reg>segregation</reg></choice>, and we can and will<lb/>
+            stand for a better, higher American <choice><orig>Citizenship</orig><reg>citizenship</reg></choice> of which we are a big factor and<lb/>
+            play an important part. Not only the home, but the grounds are being graded,<lb/>
+            replanted with cedar trees, new steps and cement drain, new cement walks, rose<lb/>
+            beds and others, just like <name type="person">Mr. Douglass</name> has when he lived there. You and I are<lb/>
+            going to catch the inspiration as we go from room to room<choice><orig>,</orig><reg/></choice> and as we wander<lb/>
+            over the lawn and through the forest. Yes<choice><orig></orig><reg>,</reg></choice> we will pledge ourselves anew to the<lb/>
+            principles for which <name type="person">Douglass</name> lived.
+         </p></div>
+         <div><p style="indent">
+            Three memorial tablets will be erected and unveiled <date when="1922-08-12">August 12th</date>,<lb/>
+            one in honor of the late <name type="person">Madam C. J. Walker</name>, who gave the largest amount to<lb/>
+            redeem the home, and two in honor of the loyal men and women and organizations<lb/>
+            who gave $25.00 and upwards to help in the restoration and redemption of this<lb/>
+            spot. Another statue of <name type="person">Douglass</name> will also be unveiled at that time. Neither<lb/>
+            do we forget the loyal men and women and clubs who gave as largely as they<lb/>
+            could, even the mite helped us to accomplish the work.
+         </p></div>
+         <div><p style="indent">
+            Now that we own this wonderful "Inspiration Point<choice><orig></orig><reg>,</reg></choice>"<choice><orig>,</orig><reg/></choice> we must keep<lb/>
+            it always as beautiful as <name type="place">Mt. Vernon</name>. To do this<choice><orig></orig><reg>,</reg></choice> a law was passed in <name type="place">Denver</name><choice><orig>,</orig><reg/></choice><lb/>
+            <hi style="underline">"<choice><orig>That Every Club Woman</orig><reg>that every clubwoman</reg></choice> must give 5¢ per year for the upkeep of the home<choice><orig/><reg>.</reg></choice>"<choice><orig>.</orig><reg/></choice></hi> This<lb/>
+            means that every <choice><orig>Club Woman</orig><reg>clubwoman</reg></choice> owes 10¢ biennially to <name type="person">Mrs. N. L. Napier</name> our <choice><orig>Custodian</orig><reg>cus<lb break="no"/>todian</reg></choice> of funds, as her part in the keeping up of our home. Let us not stop<lb/>
+            with <choice><orig>club women</orig><reg>clubwomen</reg></choice>, let every <choice><orig>Colored</orig><reg>colored</reg></choice> woman in <name type="place"><choice><sic>American</sic><corr>America</corr></choice></name> give 5¢ per year for this,<lb/>
+            it will not be a heavy tax and you will feel a pride in so doing. This <gap reason="sticker covering text"/><lb/>
+            belongs to you. Send your tax to <name type="person">Mrs. Napier</name> direct before <date when="1922-05-30">May 30th</date>.
+         </p></div>
+         <pb n="2" facs= "../images/ew_o2_549_002.jpg"/>
+         <div><p style="center"><choice><orig>2</orig><reg/></choice></p></div>
+         <div><p style="indent">
+            <emph style="case(allcaps)">Do not send to trustee!</emph>
+         </p></div>
+         <div><p style="indent">
+            <emph style="case(allcaps)">Do not send to your state president!</emph>
+         </p></div>
+         <div><p style="indent">
+            <emph style="case(allcaps)">Send direct to <name type="person">Mrs. Napier</name></emph> and she will send you receipt upon re<lb break="no"/>turn mail, this receipt your delegate must show to the <name type="organization">Credential Committee</name> in<lb/>
+            <name type="place">Richmond</name> to be seated at the <name type="event">Convention</name>.
+         </p></div>
+         <div><p style="indent">
+            One thousand medals will be struck off in honor of this dedication<lb/>
+            and these can be bought by any woman who has paid her 5¢ per capita. We will<lb/>
+            sell them at cost, which will probably be 25¢ each. Orders filled as rapidly<lb/>
+            as money is sent, none will be sent without <hi style="underline">cash</hi>. <name type="person">Mrs. Napier</name> will handle the<lb/>
+            medals.
+         </p></div>
+         <div><p style="indent">
+            Remember to celebrate <name type="event">Douglass Day</name> every year <date when="9999-02-14">February 14th</date>, just<lb/>
+            as religiously as you have been taught to celebrate <name type="person">Washinton's</name> birthday and<lb/> 
+            <name type="person">Lincoln's</name> birthday.
+         </p></div>
+         <div><p style="indent">
+            Twenty thousand (20,000) letters have been sent out during these<lb/>
+            six years. The work has been tremendous but I am glad that we did not <supplied cert="high">f</supplied>ail.<lb/>
+            If any mistake has been made in the name on tablet, send corrections direct to<lb/>
+            me. <date when="1922-04-10">April 10th</date> is the last date <choice><orig>Sculptor</orig><reg>sculptor</reg></choice> <name type="person">Ellerhusen</name> will receive names.
+         </p></div>
+         <div><p style="indent">Do you know any name that should be there? If so<choice><orig></orig><reg>,</reg></choice> send $25.00 to<lb/>
+         <name type="person">Mrs. Napier</name> and she will see that the name is placed.
+         </p></div>
+         <div><p style="indent">This tablet represents Colored America's thoughtfull men and women<lb/>
+         with true race pride. Their children can point to the names of their parents<lb/>
+         inscribed there as proudly as do the <name type="person_group"><choice><orig>Anglo Saxons</orig><reg>Anglo-Saxons</reg></choice></name> to the signatures of the<lb/>
+         Declaration of Independence.</p></div>
+         <div><p style="indent">The <choice><orig>Bronze</orig><reg>bronze</reg></choice> <choice><orig>Tablets</orig><reg>tablets</reg></choice> in addition to the names will picture the princi<lb break="no"/>pal scenes in the life of <name type="person">Douglass</name>, forever telling to the world what was done<lb/>
+         by this man whose life we will ever strike to emulate.</p></div>
+         <div><p style="indent">
+            With deep thanks for your loyalty to me and with a grateful heart,<lb/>
+            I remain
+         </p></div>
+         <closer>
+            <salute>Your <choice><orig>Co-worker</orig><reg>co-worker</reg></choice>,</salute>
+            <signed><name type="person">Mrs. Mary Talbert</name><choice><orig>.</orig><reg></reg></choice></signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

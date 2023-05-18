@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Invitation to conference for National League of Republican Colored Women </title>
+            <author>Nammie H. Burroughs</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Jonathan Mejia <!-- that person adds their name here--> </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder C4, Item 690</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author invites members of the National League of Republican Colored Women to a conference in Washington D. C..</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page typewritten letter from Namme H. Burroughs, written on 2/9/1929.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_c4_690_001.jpg"/>
+         <opener style= "right">
+            <name type= "place" subtype="address"> Lincoln Heights.<lb/>
+               D.	           C.</name><lb/>
+            <date when="1929-02-09">February 9, 1929</date> <lb/>
+         </opener>
+         <opener>
+            <salute>My dear <choice><orig>Associate</orig><reg>associate</reg></choice> in a <choice><orig>Great</orig><reg>great</reg></choice> <choice><orig>Cause</orig><reg>cause</reg></choice>:</salute></opener>  
+            <p style="indent">I am hereby calling a conference of all<lb/>
+               members of the <name type="organization">National League of Republican Colored Women</name><lb/>
+               to meet in conference at <name type="place" subtype="address">1115 Rhode Island Avenue, North<lb break="no"/>west, Washington, D. C.</name>, Tuesday, <date when="1929-03-05">March fifth</date>, at 11: A. M. <lb/></p>
+            <p style="indent">Matters of vital importance affecting our<lb/>
+               political interests for the next four years will be discuss<lb break="no"/>ed and a program of action mapped out.<lb/></p>
+            <p style="indent">I am sure you are planning to attend the<lb/>
+            <name type="event">Inauguration</name>. As your <name type="person"><choice><orig>President</orig><reg>president</reg></choice></name>, as a member of the <name type="committee">Inau<lb break="no"/>guration Committee</name>, and as your friend I shall be very glad<lb/>
+            to do anything that I can, officially or personally, that<lb/>
+            will add to your pleasure and comfort while you are in the<lb/>
+            city.<lb/></p>
+            <p style="indent">If you have not arranged for your stopping<lb/>
+            place<choice><orig/><reg>,</reg></choice> I shall be very glad to do what I can to secure comfort<lb break="no"/>able, convenient quarters for you and the friends who might<lb/>
+            be in your party.<lb/></p>
+         <closer style="center"><salute>Sincerly yours,</salute></closer>
+         <closer style="right"><hi style="underline">Nannie H. Burroughs</hi> m.<lb/>
+         President, <name type="organization">National League of<lb/>
+         Republican Colored Women</name></closer>
+         <closer>NHB/M</closer>
+      </body>
+  </text>
+</TEI>

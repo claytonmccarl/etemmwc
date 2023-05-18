@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Newspaper advertisment for round-trip travel, Jacksonville-Chigaco, for 1933 World's Fair</title>
+            <author>Florida Motor Lines</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Bethany Jerger</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder S4, Item 2872</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary></summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p> Date: 1933, before World's Fair. Full half page from a newspaper, high-quality scan on legal-size white paper.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_s4_2872_001.jpg"/><!-- Here is your first page break. You need to make the image name here match the name of your file -->
+        
+         <div>
+            <head><name type="event">Chicago World's Fair</name><lb/>
+               Excursion</head><lb/>
+            <p>
+               Round Trip <name type="place" subtype="city">Jacksonville</name> to <name type="place" subtype="city">Chicago</name><lb/>
+               (Bus Fare only) ..................... $30.40<lb/>
+               ALL-EXPENSE TOURS<lb/>
+               <name type="place" subtype="city">Jacksonville</name> to <name type="place" subtype="city">Chicago</name>, 4 Full Days in Chicago<lb/> 
+               (including round trip transportation)<lb/>
+               $45.00<lb/> 
+            </p>
+            <p>
+            Go any bus, return any time within 60-day limit.<lb/>
+            (Get your friends to join your party)<lb/>
+            </p>
+         </div>
+            <div>
+               <head style="align(center) case(allcaps)">Sample round trip rates</head>
+               <p>
+            
+              (Bus Fare only) TO <name type="place" subtype="city">CHICAGO</name><lb/>
+          
+               <table>
+                  <row>
+                     <cell><name type="place" subtype="city">Jacksonville</name> ............. $30.40 </cell>
+                     <cell><name type="place" subtype="city">ST. AUGUSTINE</name> ............. 32.05 </cell>
+                     <cell><name type="place" subtype="city">DAYTONA BEACH</name> ............. 34.20 </cell>
+                     <cell><name type="place" subtype="city">LAKELAND</name> .................. 38.05 </cell> 
+         
+                 </row>
+                  <row>
+                     <cell><name type="place" subtype="city">MIAMI</name> ............. $43.15 </cell>
+                     <cell><name type="place" subtype="city">WEST PALM BEACH</name> .... 41.25</cell>
+                     <cell><name type="place" subtype="city">ORLANDO</name> ............ 36.75<lb/></cell>
+                     <cell><name type="place" subtype="city">TAMPA</name> .............. 38.05</cell>
+                  </row>
+                  <row>
+                    <cell><hi style="center"><name type="place" subtype="city">ST. PETERSBURG</name> ............. 39.25</hi> </cell>
+                  </row>
+               </table>
+               </p>
+   
+            </div>
+         <div>
+            <p style="indent">
+               This rate is good for 60 days on the <name type="company"> Florida Motor Lines </name> or affili-<lb/>
+               ated lines going or coming from Chicago. To find out what 4 days in <lb/>
+                  <name type="place" subtype="city">Chicago</name> will cost you from any city, add $15.00 to the rate from city<lb/>
+               you desire to make the trip.<lb/>
+            </p>
+         </div>
+         <div>
+               <head style="align(center) case(allcaps)">What is included in </head><lb/>
+            <p style="indent"> Four nights' room rent, 4 admissions to the <name type="event">World's Fair</name>, 4 round<lb/>
+                  trips to the <name type= "place"> World's Fair Grounds</name>, 4 days' breakfasts and dinners, one <lb/>
+               two-hour sight-seeing trip <name type="place" subtype="city">City of Chicago</name>, one free sight-seeing trip<lb/>
+               inside the fair grounds. For those who wish to extend time of their <lb/>
+               stay in <name type="place" subtype="city">Chicago</name> up to or within the 60-day limit, the expense for the<lb/>
+               extended time on the all-expense tours will be figured on the same <lb/>
+               basis as the four days all-expense tour.<lb/> 
+            </p>
+            <p>
+               If you do not wish to take of the all-expense tour <lb/>
+               arrangement, simply buy your round-trip ticket from <lb/>
+               <name type="company">Florida Motor Line</name> and when you get to <name type="place" subtype="city">Chicago</name> go to <name type="address">Florida <lb/>
+               Normal Headquarters, 4322 South Michigan Avenue, Apartment No. 1, <lb/>
+                  <name type="place" subtype="city">Chicago</name><location><geo>41.815823 -87.623414</geo></location></name>, for assistance and information as to accomodations. <lb/>
+            </p>
+        </div>
+         <div>
+            
+            <head> HOW TOURS MAY BE PAID FOR:</head><lb/> 
+            <p>
+               It is hardly believable that anyone will be able that anyone will be able to attend the <lb/>
+               <name type="event">World's Fair Exposition</name> and be priviledged to enjoy the phenomenal <lb/>
+               sights offered; travel in comfort and safety en route, and all at the <lb/>
+               small costs for which we have worked out these Tours for you. <lb/> 
+            </p>
+       
+            <p style="indent">In addition to this, we have also arranged a plan whereby you <lb/>
+            may make your reservation on either of the Tours for a payment of <lb/>
+            Five Dollars, and pay the balance on weekly or monthly terms: Terms<lb/>
+            to be made to suit your convenience as long as all Tours are paid for <lb/>
+            in within two days of the day you select to leave. <lb/> 
+            </p>
+         </div>
+       
+         <div>
+            <head style="align(center) case(allcaps)">Save money by using our tours to the exposition</head><lb/>
+            <p>Under our plan you can be assured in advance of the COMPLETE COST OF <lb/>
+                YOUR VISIT TO <name type="place" subtype="city">CHICAGO</name> AND <name type="event">THE WORLD'S FAIR</name>; from the time you leave <lb/>
+             your home city and until you return, practically all expenses down to the smallest <lb/>
+             items are included, thus eliminating every worry that will mar your pleasure while <lb/>
+             visiting this great city during the greatest exposition ever held. This assures you <lb/>
+             of proper reservations during your entire trip without inconveniences to you or time <lb/>
+             wasted in efforts to make these for yourself. Seventy million people are expected <lb/>
+                to attend the <name type="event">World's Fair</name>. Sleeping and eating reservations are already being <lb/>
+                reserved or have been contracted for. Those planning a visit to <name type="place" subtype="city">Chicago</name> without <lb/>
+             reservation or accomidations run the risk of being imposed upon, of disappoint-<lb/>
+             ment and a great inconvenience as well as unnecessary costs. Any one of our <lb/>
+             Tours will assure you of comfort, convenience and economy and save you any trouble <lb/>
+             whatsoever in making reservations <lb/>
+            </p>
+            <p style="indent">
+            FOR THE CONVENIENCE OF OUR PATRONS WE INCLUDE IN THIS AN <lb/>
+            APPLICATION BLANK WHICH CAN BE USED IN MAKING YOUR APPLICA- <lb/>
+            TION AND RESERVATION FOR ONE OF THESE TOURS.<lb/> </p>
+      
+            <p style="indent"> Do not delay, but send in your application TODAY so that you <lb/>
+            can be assured of accommodations on this wonderful Tour and oppor- <lb/>
+               tunity to see the <name type="event"> World's Fair</name> at a bargain price. <lb/> 
+            </p>
+         </div>
+        
+            <div>
+               <head> A CLOSE STUDY OF THE MANY ADVANTAGES AND ACCOMMODATIONS</head> <lb/>
+               <p>
+            Our TOURS will disclose that the same accommodations and same entertain- <lb/>
+            ment would cost an individual or group of individuals quite a large sum over the <lb/>
+            costs charged for our TOURS. <lb/>
+            FOR ANY ADDITIONAL INFORMATION OR PARTICULARS DESIRED <lb/>
+            Wire or write to <name type= "company">The Florida Normal World Fair Tours</name>, <lb/>
+            <name type="place" subtype="city">ST. Augustine, Fla.</name> Phone 611 <lb/>
+            or <name type="place" subtype="address">Florida Nor. World Fair Headquarters, 4322 (Apartment 1) <lb/>
+               South Michigan Avenue, Chicago, Ill.<location><geo>41.815823 -87.623414</geo></location></name><lb/>
+               </p>
+            </div>
+            
+            
+            <div><p>
+               
+            (Cut off here and fill in this application form and send to <name type="place" subtype="city">St. Augustine</name>) <lb/>
+            </p>
+            </div>
+               <div> <head> Application Form </head><lb/>
+               <p>
+            Date................................................. <date when="1933">1933</date>
+           <name type="organization">To the Florida Nor, World Fair Tour Committee,</name> <lb/>
+              <name type="person">N.W. Collier</name>, <name role="administrator">Chairman</name>, <lb/>
+              <name type="place" subtype="city">St. Augusustine, Fla. </name><lb/>
+            Gentlemen: <lb/>
+            Enclosed please find my check, money order, or cash for Five Dollars, for <lb/>
+            which please make reservation for your ALL-EXPENSE TOUR........... Trip to <lb/>
+            the <name type="event"> Chicago Exposition</name>. It is understood that this cash payment is to apply on the <lb/>
+            purchase price of $.............. and that the balance of $............... I will pay <lb/>
+       
+            
+            
+            
+             
+            
+         </p>
+            </div>
+      </body>
+  </text>
+</TEI>

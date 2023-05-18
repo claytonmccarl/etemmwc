@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Leroy Daniel Singleton to Eartha M. M. White. September 11, 1930. </title>
+            <author>Leroy Daniel Singleton</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder G5, Item 1816</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to his godmother, White, about daily life.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A handwritten letter of 14 pages from Singleton to White, written on 11/11/1930 on lined notepad paper. It is accompanied by its envelope with White and the sender's addresses.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_g5_1816_001.jpg"/>
+         <div><head style="center">-1-</head>
+         <opener><name type="place">New York City</name><lb/>
+            <date when="1930-09-11">Thursday <choice><abbr>Sept</abbr><expan>September</expan></choice>, <choice><abbr>11<hi style="superscript">th</hi></abbr><expan>eleventh</expan></choice></date>
+         <salute>Dear <name type="person">God-mother</name>:</salute></opener>
+         <p style="indent">
+            I know that you<lb/>
+            will be surprised to receive a letter<lb/>
+            from me and I'm really ashamed of<lb/>
+            not having wrote before now only<lb/>
+            I did not know your address. <choice><orig>my</orig><reg>My</reg></choice><lb/>
+            <name type="person">Aunt Daisy</name> sent me your address.<lb/>
+            She told me that you were once<lb/>
+            in the real estate <choice><sic>buisness</sic><corr>business</corr></choice> so<lb/>
+            with your knowledge of the value of<lb/>
+            real estate and your <choice><sic>assoication</sic><corr>association</corr></choice><lb/>
+            with real estate firms. I'm writing<lb/>
+            and asking you, do you think that<lb/>
+            you can list my house and<lb/>
+            a lot <add type="caret">with</add> some of the firms there<lb/>
+            and sell them for me. <choice><orig>you</orig><reg>You</reg></choice>may<lb/>
+            sell it at any price that you<lb/>
+            can get just so <choice><sic>its</sic><corr>it's</corr></choice>sold and<lb/>
+            you may have any amount<lb/>
+            of the profit as your share.<lb/>
+         </p></div>
+         <pb n="2" facs= "../images/ew_g5_1816_002.jpg"/>
+         <div><head style="center">-2-</head>
+         <p style="indent">
+            Now I'm not wishing<lb/>
+            to cause you a lot of extra trouble<lb/>
+            but wish you to act as if you<lb/>
+            were dealing with a stranger, as<lb/>
+            <choice><sic>buisness</sic><corr>business</corr></choice> is <choice><sic>buisness</sic><corr>business</corr></choice>. <choice><orig>do</orig><reg>Do</reg></choice> not do<lb/>
+            any extra favors<choice><orig>.</orig><reg></reg></choice> <choice><orig>Just</orig><reg>just</reg></choice> because it<lb/>
+            is me. Were it <choice><sic>any thing</sic><corr>anything</corr></choice> else but<lb/>
+            real estate I could sell it myself<lb/>
+            but I need help as I don't fully<lb/>
+            understand selling land. My Uncle<lb/>
+            <name type="person">Conealius Robinson</name>, you would think<lb/>
+            should and could help me out in<lb/>
+            this matter, but <name type="person">God-mother</name> I don't<lb/>
+            like to talk about people, especially<lb/>
+            <choice><orig>Kin</orig><reg>kin</reg></choice> folks and don't get <choice><sic>an</sic><corr>a</corr></choice>bad<lb/>
+            idea of me for doing so, but all<lb/>
+            that I'm going to tell you is the<lb/>
+            truth. <choice><orig>my</orig><reg>My</reg></choice> uncle is a very lazy<lb/>
+            man. <choice><orig>he</orig><reg>He</reg></choice> never was, never will<lb/>
+            be the man that my <name type="person">Grand-father</name><lb/>
+         </p></div>
+         <pb n="3"/>
+         <div><head style="center">-3-</head>
+         <p>
+            was. I don't think that he has<lb/>
+            ever did any real hard work in<lb/>
+            his life, only once did he ever<lb/>
+            hold down a job and that was<lb/>
+            during war time and I guess he<lb/>
+            done it to keep from going to war<choice><orig>,</orig><reg>;</reg></choice><lb/>
+            he has never worked before that<lb/>
+            and never since. I guess you think<lb/>
+            that he's a big man in the church<lb/>
+            in <name type="place"><choice><orig>palatka</orig><reg>Palatka</reg></choice></name>? Well the only thing<lb/>
+            he ever done in church was hold<lb/>
+            down the sunday school <choice><abbr>supt.</abbr><expan>superintendent</expan></choice> job<lb/>
+            and <choice><sic>theres</sic><corr>there's</corr></choice> no money in that<choice><orig></orig><reg>,</reg></choice><lb/>
+            only an honorary job<choice><orig></orig><reg>,</reg></choice> and he<lb/>
+            was <choice><sic>suceeded</sic><corr>succeeded</corr></choice> by a young<lb/>
+            man half his age. I asked<lb/>
+            my <name type="person">auntie</name> why <choice><sic>did'nt</sic><corr>didn't</corr></choice> he get a<lb/>
+            <choice><orig>Church</orig><reg>church</reg></choice> like the other preachers<lb/>
+            that started out with him and<lb/>
+            she told me that the <choice><sic>Medothist</sic><corr>Methodist</corr></choice><lb/>
+         </p></div>
+         <pb n="4" facs= "../images/ew_g5_1816_003.jpg"/>
+         <div><head style="center">-4-</head>
+         <p>
+            people<choice><orig>.</orig><reg/></choice> <choice><orig>Was</orig><reg>was</reg></choice> going to send him<lb/>
+            to <name type="place"><choice><orig>palm beach</orig><reg>Palm Beach</reg></choice></name> to preach. <choice><orig>can</orig><reg>Can</reg></choice><lb/>
+            you beat that? My <name type="person">Aunt Daisy</name><lb/>
+            have got a mind like a child,<lb/>
+            he wouldn't do my mother like he<lb/>
+            do her- not <name type="person">Bon Singleton</name><choice><orig>,</orig><reg>.</reg></choice> <choice><orig>my</orig><reg>My</reg></choice><lb/>
+            <name type="person">Aunt Daisy</name> gets up early in the<lb/>
+            morning to cook for him and where's<lb/>
+            he going? <choice><orig>not</orig><reg>Not</reg></choice> a place in the<lb/>
+            <choice><orig>World</orig><reg>world</reg></choice>, he do the same kind of<lb/>
+            work that I used to do when<lb/>
+            I was ten years of age<choice><orig>,</orig><reg>.</reg></choice> <choice><orig>he</orig><reg>He</reg></choice><lb/>
+            makes fire in the mornings, fill<lb/>
+            up the wood lot, clean up the<lb/>
+            yard and dress up and go into<lb/>
+            his office to read. My <name type="person">Aunt Daisy</name><lb/>
+            keeps house and thinks that she<lb/>
+            is lucky to get room and board<lb/>
+            and he gives a little money now<lb/>
+            and then to get clothes. <choice><orig>she</orig><reg>She</reg></choice> ought<lb/>
+         </p></div>
+         <pb n="5"/>
+         <div><head style="center">-5-</head>
+         <p>
+            to know that <choice><orig>any-one</orig><reg>anyone</reg></choice> in the world<lb/>
+            would do the same in return for<lb/>
+            her work even more, his wife works<lb/>
+            out<choice><orig></orig><reg>.</reg></choice> <choice><orig>if</orig><reg>If</reg></choice> this happen to white people<choice><orig/><reg>,</reg></choice><lb/>
+            they would make him sell the<lb/>
+            property and divide the money<lb/>
+            among the heirs<choice><orig/><reg>.</reg></choice> <choice><orig>were</orig><reg>Were</reg></choice> he to do<lb/>
+            this<choice><orig/><reg>,</reg></choice> he would be <choice><sic>conpelled</sic><corr>compelled</corr></choice> to go to<lb/>
+            work. <choice><orig>he</orig><reg>He</reg></choice> know this and always<lb/>
+            refuse to talk of selling saying,<lb/>
+            that he can get more later on. I'm<lb/>
+            speaking of my <name type="place"><name type="person">grand-father's</name> property</name><lb/>
+            the only reason that I think he<lb/>
+            attend <choice><sic>chuch</sic><corr>church</corr></choice> so much is because<lb/>
+            they send him to different places<lb/>
+            as a delegate and he should<lb/>
+            get that job easy as he's the<lb/>
+            only man in the whole church<lb/>
+            who have the time to spare, the<lb/>
+            rest of them have to work.<lb/>
+         </p></div>
+         <pb n="6" facs= "../images/ew_g5_1816_004.jpg"/>
+         <div><head style="center">-6-</head>
+         <p style="indent">
+            Have you ever read that<lb/>
+            cartoon in the newspapers named<lb/>
+            <name type="title">"Our boarding house"</name>? With<lb/>
+            Mayor Hoople, Clyde, Mack, and<lb/>
+            Buster? Well Mayor Hoople and<lb/>
+            my <name type="person">uncle</name> are of the same make.<lb/>
+            I do <choice><sic>beleive</sic><corr>believe</corr></choice> that were you to give<lb/>
+            him a good job<choice><orig/><reg>,</reg></choice> he'd be mad<lb/>
+            at you for life<choice><orig/><reg>.</reg></choice> <choice><orig>he's</orig><reg>He's</reg></choice>he's only happy<lb/>
+            when he's eating. <choice><orig>if</orig><reg>If</reg></choice> preachers<lb/>
+            or people at church don't do<lb/>
+            anything like he want it done<choice><orig/><reg>,</reg></choice><lb/>
+            he comes home and say, "I don't<lb/>
+            like so and so<choice><orig/><reg>"</reg></choice> or<choice><orig/><reg>,</reg></choice> <choice><orig/><reg>"</reg></choice>I can't like<lb/>
+            that man." <choice><orig>he</orig><reg>He</reg></choice> still don't like<lb/>
+            <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> Anderson</name> for some reason or<lb/>
+            other, you wonder how he can<lb/>
+            get along? Well he's not getting<lb/>
+            along so good as every time the<lb/>
+            taxes come due or the notes<lb/>
+         </p></div>
+         <pb n="7"/>
+         <div><head style="center">-7-</head>
+         <p>
+            on the mortgages that he's got<lb/>
+            the property buried under, he<lb/>
+            always put up a <choice><orig>Calamity</orig><reg>calamity</reg></choice> howl<lb/>
+            and expects all of the <choice><orig>Kin</orig><reg>kin</reg></choice> people<lb/>
+            to help him always bear the<lb/>
+            burden because they are heirs. Why<lb/>
+            he borrowed so much money<lb/>
+            from cousins of ours until they<lb/>
+            are afraid to come to see them<lb/>
+            <choice><sic>expecially</sic><corr>especially</corr></choice> so during tax time.<lb/>
+            <choice><orig>as</orig><reg>As</reg></choice> you know every one in <supplied reason="omitted from original text" cert="high">the</supplied> <choice><orig>World</orig><reg>world</reg></choice><lb/>
+            has a racket to earn his daily<lb/>
+            bread. Well thats my <name type="person">uncle's</name> racket<choice><orig/><reg>:</reg></choice><lb/>
+            borrowing money. <choice><orig>he</orig><reg>He</reg></choice> owes all<lb/>
+            of the banks in town with the<lb/>
+            property put up as security<choice><orig/><reg>;</reg></choice> he<lb/>
+            never pays back. <choice><orig>he</orig><reg>He</reg></choice> owed my<lb/>
+            <name type="person">mother</name> when she died and he started<lb/>
+            borrowing from my <name type="person">dad</name> and owed<lb/>
+            him when he died then he started<lb/>
+         </p></div>
+         <pb n="8" facs= "../images/ew_g5_1816_005.jpg"/>
+         <div><head style="center">-8-</head>
+         <p>
+            borrowing from me. <choice><orig>you</orig><reg>You</reg></choice> see I<lb/>
+            always was working and he<lb/>
+            would borrow money from me with<lb/>
+            the <choice><sic>beleif</sic><corr>belief</corr></choice> that if I <choice><sic>did'nt</sic><corr>didn't</corr></choice> loan<lb/>
+            him we would lose the property<choice><orig/><reg>.</reg></choice><lb/>
+            <choice><orig>he</orig><reg>He</reg></choice> borrowed twenty and thirty<lb/>
+            dollars at a time until he owes<lb/>
+            and still owes me over two -<lb/>
+            hundred dollars<choice><orig/><reg>;</reg></choice> <choice><sic>its</sic><corr>it's</corr></choice> a fact. I'm<lb/>
+            not stretching it he really owes<lb/>
+            me over two hundred dollars<choice><orig/><reg>.</reg></choice><lb/>
+            <choice><orig>every</orig><reg>Every</reg></choice> time that he borrow he would<lb/>
+            say that he would pay it all back<lb/>
+            as the money that I loan him<lb/>
+            would help him to get more. I<lb/>
+            used to feel sorry for him but now<lb/>
+            I see that he has a poor <choice><sic>buisness</sic><corr>business</corr></choice><lb/>
+            head and <choice><orig/><reg>,</reg></choice>the way he's piling up<lb/>
+            the debt<choice><orig/><reg>,</reg></choice> I pity <choice><orig>who-ever</orig><reg>whoever</reg></choice> gets the land<lb/>
+            that is if he don't lose it.<lb/>
+         </p></div>
+         <pb n="9"/>
+         <div><head style="center">-9-</head>
+         <p style="indent">
+            Well you know I was saving<lb/>
+            my money for a future but with<lb/>
+            him borrowing like he did<choice><orig/><reg>,</reg></choice> I couldn't<lb/>
+            save a dime<choice><orig>,</orig><reg>.</reg></choice> <choice><orig>and</orig><reg>And</reg></choice> sometimes he<lb/>
+            kind of made it plain that if it<lb/>
+            was not for him I <choice><orig>Couldn't</orig><reg>couldn't</reg></choice> get<lb/>
+            along as good being an <choice><orig>Orphan</orig><reg>orphan</reg></choice><lb/>
+            but I fooled him, one day I<lb/>
+            pulled out and have been gone<lb/>
+            for a year and a half, he once<lb/>
+            tried to borrow money from<lb/>
+            me up here but with no success<lb/>
+            so he have been asking me to<lb/>
+            come home but <choice><sic>thats</sic><corr>that's</corr></choice> what I do<lb/>
+            not wish to do. I'd come to visit maybe<lb/>
+            but to live never, but if<lb/>
+            I don't sell my house I would<lb/>
+            be compelled to come there. <choice><orig>he</orig><reg>He</reg></choice><lb/>
+            <choice><sic>would'nt</sic><corr>wouldn't</corr></choice> have to do much to make<lb/>
+            the property pay for itself. My<lb/>
+         </p></div>
+         <pb n="10" facs= "../images/ew_g5_1816_006.jpg"/>
+         <div><head style="center">-10-</head>
+         <p>
+            <name type="person">Grand-father</name> planted the vacant<lb/>
+            lots with <choice><orig>Gardens</orig><reg>gardens</reg></choice> and what<lb/>
+            he <choice><sic>did'nt</sic><corr>didn't</corr></choice> sell he ate and thus<lb/>
+            saved the rent money for taxes<choice><orig/><reg>.</reg></choice><lb/>
+            <choice><orig>he</orig><reg>He</reg></choice> could do like my <name type="person">Grand-pa</name><lb/>
+            but he's just too lazy. I've been<lb/>
+            asking him ever since my<lb/>
+            <name type="person">Dad</name> died to sell my place<lb/>
+            for me as <choice><sic>its</sic><corr>it's</corr></choice> hard for me to<lb/>
+            meet taxes on a place of that<lb/>
+            size. <choice><orig>but</orig><reg>But</reg></choice> he only say that I <lb/>
+            cannot sell it for much right<lb/>
+            now but to hold it until later and<lb/>
+            almost everyone around town have<lb/>
+            sold their places out. I'm willing<lb/>
+            to take <choice><orig>any-thing</orig><reg>anything</reg></choice> for it as I<lb/>
+            would rather have the cash. <choice><orig>and</orig><reg>And</reg></choice><lb/>
+            any information that you would<lb/>
+            like to have concerning it you<lb/>
+            can obtain from my Aunt<lb/>
+         </p></div>
+         <pb n="11"/>
+         <div><head style="center">-11-</head>
+         <p><name type="person">Daisy</name>. <choice><orig>address</orig><reg>Address</reg></choice> - <name type="place" subtype="address">114 <choice><abbr>N.</abbr><expan>North</expan></choice><choice><abbr>9th</abbr><expan>ninth</expan></choice> street<lb/>
+            Palatka, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name>. <choice><orig>she's</orig><reg>She's</reg></choice> caring for it<lb/>
+            for me but she don't know anything<lb/>
+            about selling. <choice><orig>and</orig><reg>And</reg></choice> anything that she<lb/>
+            tells you please let me know<lb/>
+            about it and it shall be kept<lb/>
+            strictly confidently but I would<lb/>
+            like to know what she would<lb/>
+            tell you as maybe she would<lb/>
+            only be saying what my<lb/>
+            uncle tell her and he can't<lb/>
+            keep me from selling my own<lb/>
+            stuff. I'm of age, I should<lb/>
+            know what I'm doing. <choice><orig>he</orig><reg>He</reg></choice><lb/>
+            said<choice><orig>,</orig><reg></reg></choice> that I <choice><sic>could'nt</sic><corr>couldn't</corr></choice> sell it.<lb/>
+            <choice><orig>he</orig><reg>He</reg></choice> <choice><sic>maybe</sic><corr>may be</corr></choice> right and he <choice><sic>maybe</sic><corr>may be</corr></choice><lb/>
+            fooling. I can't <choice><sic>beleive</sic><corr>believe</corr></choice> <del type="strikeout">don't</del> it<lb/>
+            don't you see until I get it<lb/>
+            straight from some one like<lb/>
+            you, if you say that I<lb/>
+         </p></div>
+         <pb n="12" facs= "../images/ew_g5_1816_007.jpg"/>
+         <div><head style="center">-12-</head>
+         <p>
+            cannot sell it<choice><orig>.</orig><reg>,</reg></choice> then I'll know<lb/>
+            that <choice><orig>its</orig><reg>it's</reg></choice> on the level<choice><orig>,</orig><reg>.</reg></choice> I do not<lb/>
+            wish to cause you any <choice><sic>unessisary</sic><corr>unneccesary</corr></choice><lb/>
+            trouble but only wish you to<lb/>
+            look into the matter for me. <choice><orig>and</orig><reg>And</reg></choice><lb/>
+            if it can be sold, sell it or list<lb/>
+            it and take any amount of the<lb/>
+            money that you may think fair<lb/>
+            and <choice><orig/><reg>,</reg></choice>if my uncle tries to borrow<lb/>
+            <choice><orig>any-thing</orig><reg>anything</reg></choice> from you<choice><orig/><reg>,</reg></choice> don't loan<lb/>
+            him one cent<choice><orig>,</orig><reg>.</reg></choice> <choice><orig>if</orig><reg>If</reg></choice> you do, you'll<lb/>
+            never see it again. <choice><orig>don't</orig><reg>Don't</reg></choice> tell<lb/>
+            my <name type="person">Aunt Daisy</name> anything in your<lb/>
+            letters that you <choice><sic>would'nt</sic><corr>wouldn't</corr></choice> wish<lb/>
+            repeated. I'm well in health<lb/>
+            and getting along pretty good<lb/>
+            I went to <name type="place" subtype="state">California</name> last<lb/>
+            winter<choice><orig/><reg>.</reg></choice> I get my mail here<lb/>
+            general <choice><orig>Delivery</orig><reg>delivery</reg></choice> because<lb/>
+            if you don't rent a<lb/>
+         </p></div>
+         <pb n="13"/>
+         <div><head style="center">-13-</head>
+         <p>
+            private mail box up<lb/>
+            here the people that lives<lb/>
+            in the same house with you,<lb/>
+            there are from twenty-five<lb/>
+            to fifty families under one<lb/>
+            roof, will steal your mail<lb/>
+            as they puts all the mail<lb/>
+            in a <choice><sic>piegon</sic><corr>pigeon</corr></choice> holed box<lb/>
+            by the front desk and<lb/>
+            anyone that lives in the<lb/>
+            house can come right<lb/>
+            along and pick up your<lb/>
+            letter along with his so<lb/>
+            since I works near the<lb/>
+            post office I think that<lb/>
+            <choice><sic>its</sic><corr>it's</corr></choice> much safer to have<lb/>
+            my mail delivered this<lb/>
+            way and it don't cost<lb/>
+            anything extra. <choice><orig>so</orig><reg>So</reg></choice> I'm<lb/>
+            expecting an very early<lb/>
+         </p></div>
+         <pb n="14" facs= "../images/ew_g5_1816_008.jpg"/>
+         <div><head style="center">-14-</head>
+         <p>
+            reply to this letter<choice><orig/><reg>.</reg></choice> <choice><orig>please</orig><reg>Please</reg></choice><lb/>
+            excuse bad writing<choice><orig>,</orig><reg/></choice> paper and<lb/>
+            if you dislike slang, please<lb/>
+            excuse the slang words that<lb/>
+            I used I guess. I just cannot<lb/>
+            help using them.<lb/>
+         </p>
+         <closer style="center"><salute>Goodbye.<lb/>
+            <choice><orig>your</orig><reg>Your</reg></choice> God-son<lb/>
+         <name type="person">Leroy P. Singleton</name><lb/>
+         <choice><abbr>O/R</abbr><expan>On request</expan></choice>general Delivery<lb/>
+         <name type="place" subtype="city">New York City, <choice><abbr>N. Y.</abbr><expan>New York</expan></choice></name></salute></closer></div>
+         <pb n="15"/>
+         <div>
+            <p>
+            from-<lb/>
+            <name type="person">Leroy P. Singleton</name><lb/>
+            <choice><abbr>O/R</abbr><expan>On request</expan></choice>General Delivery<lb/>
+            <hi style="right"><name type="place" subtype="city">New York City</name><lb/>
+            <name type="person">Miss Eartha M. White</name><lb/>
+            <name type="place" subtype="address">233 Eagle street<lb/>
+            Jacksonville, Florida.</name></hi><lb/>
+         </p></div>
+      </body>
+  </text>
+</TEI>

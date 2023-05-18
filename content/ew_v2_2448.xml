@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Flyer for War Work Campaign Mass Meeting</title>
+            <author>Unknown</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Marisa Pechillo</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder V2, Item 2448 <!-- this should be filled in --></idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A flyer advertising a meeting for African Americans in support of the War Work Campaign during World War I.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A printed flyer.  <!-- describe material , number of pages, print or handwritten, condition, dimensions etc.--> </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_v2_2448_001.jpg"/>
+         <head style="center"><emph style="case(allcaps)">War Work</emph></head>
+         
+     
+         <p style="center"><emph style="case(allcaps)">Campaign Mass Meeting</emph></p>
+         
+         
+         <p style="center">Monday <choice><orig>Night</orig><reg>night</reg></choice>, November 4<hi style="superscript">th</hi></p>
+         
+         
+         <p style="center">&#8212;<emph style="case(allcaps)">At</emph>&#8212;</p>
+         
+         
+         <p style="center"><emph style="case(allcaps)"><name type="place">Big Zion Tabernacle</name></emph></p>
+         
+         
+         <p style="center"><emph style="case(allcaps)">Speakers</emph></p>
+         
+         <p><name type="person"><choice><abbr>Dr.</abbr><expan>Doctor</expan></choice> C. H. Summers</name>, <name type="place"><choice><abbr>U. S. A.</abbr><expan>United States of America</expan></choice></name>, Executive<lb/> <choice><abbr>Sec'y</abbr><expan>Secretary</expan></choice>, <name type="organization">Colored People's United War Work<lb/> Campaign</name>.</p>
+         
+         
+         <p><name type="person">D. W. Perkins</name>, Grand Attorney of <name type="organization">Ma<lb break="no"/>sonic</name><lb/> and <name type="organization">Odd Fellows </name> Orders of <name type="place"><choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name> and<lb/> attorney for <name type="company">Anderson's Bank</name>, <name type="organization">State Col<lb break="no"/>ored<lb/> Council of National Defense</name>, Volun<lb break="no"/>teer<lb/> speaker for war activites.</p>
+         
+         <p><name type="person">Mrs. Eartha M. M. White</name>, State Chair<lb break="no"/>man <lb/> of colored <choice><orig>Women's</orig><reg>women's</reg></choice> <choice><orig>Section</orig><reg>section</reg></choice> of the <name type="organization">Council of National Defense</name> and <choice><orig>Organizer</orig><reg>organizer</reg></choice><lb/> for <name type="organization">United War Work Campaign</name>.</p>
+         
+         <p>Program begins at 8 o'clock.</p>
+         
+         <p>Every colored man and woman urged to<lb/> be present <choice><orig>to-night</orig><reg>tonight</reg></choice>.</p>
+         
+         <p>This meeting authorized to be called by<lb/> <name type="person"><choice><abbr>Dr.</abbr><expan>Doctor</expan></choice> Summers</name>.</p>
+         
+         <p style="indent"><name type="person">C. T. Dorroh</name>, County Chairman<lb/> <name type="person">M. B. Jackson</name>, Chairman Wom<lb break="no"/>en's Department.<lb/> <name type="person">J. H. Hall</name>, Pastor</p>
+         
+         
+      </body>
+  </text>
+</TEI>

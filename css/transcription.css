@@ -1,0 +1,66 @@
+/* Transcription CSS file */
+/* This should be included via the custom.css file, since we want this displayed before the edited text. */
+
+html {
+  width: 40%;
+}
+/* Suppress all editorial annotations; type="transcription" and "authorial" will still display */
+note[type="editorial"] {
+    display: none;
+}
+
+/* Suppress the modernized materials */
+choice reg,
+choice expan,
+choice corr {
+    display: none;
+    color: red;
+}
+*[style="italics"] {
+         font-style: italic;
+}
+*[style="bold"] {
+        font-weight: bold;
+}
+*[style="underline"] {
+        text-decoration: underline; 
+}
+supplied {
+    color: blue;    
+}
+*[style="left"]{
+    text-align:left;
+}
+*[style="right"]{
+    text-align:right;
+}
+*[style="center"]{
+    text-align:center;
+}
+*[style="justify"]{
+    text-align:justify;
+}
+*[style="mid-page"]{
+    margin-left: 50%;
+}
+*[style="one-fourth"]{
+    margin-left: 25%;
+}
+*[style="three-fourths"]{
+    margin-left: 75%;
+}
+subst add {
+    color: gray;
+    vertical-align: baseline;
+}
+closer {
+    display: block;
+}
+opener {
+    display: block;
+}
+
+
+
+
+

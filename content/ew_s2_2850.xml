@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Obituary of Reverend J. Milton Waldron. November 20, 1931</title>
+            <author>Unknown</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding by</resp>
+               <name>K. Anagnostou and Marisa Pechillo</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document was produced as part of the project "Northeast Florida Editing Workshop" at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>
+                  <settlement>Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection>Eartha M. M. White Collection</collection>
+                  <idno>Folder S2 Item 2850</idno>
+                  <altIdentifier>
+                     <collection><!-- If you have accessed a digital copy of the item through an online collection, indicate the name and URL of the online collection here.--></collection>
+                     <idno><!-- Indicate the item number or whatever is used to designate the item within that online collection here.--></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>The obituary of Reverend J. Milton Waldron, pastor at Shiloh Baptist Church in Washington D.C. in the Evening Star newspaper</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>One newspaper clipping with handwritten notes, some darkening and one section contains a small stain.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Northeast Florida Editing Workshop" (nfew.org) at the University of North Florida. Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+     <pb n="1" facs= "../images/ew_s2_2850_001.jpg"/><!-- If you have permission to use document images in your edition, you will make the filename here match the name of your first image file. If the image is already digitized and on the web, this can also be an absolute path to that image file, with the full URL given as the value of the "facs" attribute. -->
+      <body> 
+         <note type="editorial">This news clipping was included in Annie A. Gray's letter to Eartha White on November 21, 1931. See: Annie Gray, “Letter from Annie A. Gray to Eartha M. M. White. November 21, 1931,” North Florida Editorial Workshop, accessed July 19, 2020, https://nfew.claytonmccarl.domains.unf.edu/admin/items/show/33</note>
+         <p><note type="authorial" place="marginTop">Evening Star<lb/>
+            Friday <date when="1931-11-20">Nov. 20, 1931</date>.</note> <note type="transcription">A handwritten note by Annie names the newspaper and date.</note></p>
+         <p><choice><orig></orig><reg>NOV</reg></choice>EMBER 20, 1931<lb/></p>
+         <p><note type="transcription">The following text is transcribed in all capital letters to represent the title of the article as it is depicted in the obituary.</note> COLORED PASTOR HERE 22 YEARS SUCCUMBS<lb/></p>
+         <p style="center"><name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> J. Milton Waldron</name> of Shiloh<lb/> Church Was Active in Wel<choice><orig>-</orig><reg></reg></choice><lb break="no"/>fare  Movements.
+         </p>      
+         <p style= "indent">
+            <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> J. Milton Waldron</name>, one of the<lb/>
+            best known colored clergymen in this<lb/>
+            city, for 22 years pastor of <name type="organization">Shiloh Bap<choice><orig>-</orig><reg></reg></choice><lb break="no"/>tist
+               Church</name>, Ninth and T<note type="editorial">Possible typographical error. Location is recorded at "9th &amp; P Streets". See "Biographical/Historical Information." Shiloh Baptist Church (Washington, D.C.) records, Schomburg Center for Research in Black Culture, Manuscripts, Archives and Rare Books Division, The New York Public Library.</note> streets, died
+         <cb></cb>
+            at his home, <name type="place" subtype="address">1334 V street</name>, today after<lb/>
+            a long illness. He retired from the<lb/>
+            active ministry about two years ago.
+         </p>
+         <p style= "indent">
+            Born in <name type="place" subtype="city">Lynchburg</name>, <name type="place" subtype="state"><choice><abbr>Va.</abbr><expan>Virginia</expan></choice></name>, <date when="1863-05-19">May 19, 1863</date>,<lb/>
+            <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice>  Waldron</name> was educated at <name type="organization">Lincoln<lb/>
+            University</name> in <name type="place" subtype="state">Pennsylvania</name> and at the<lb/>
+            <name type="organization">Newton Theological Seminary</name> in <name type="place" subtype="state">Massa-<lb/>chusetts.</name>
+         </p>
+         <p style= "indent">
+            His first pastorate was at the <name type="organization">Berean<lb/>
+               Baptist Church</name> here, where he served<lb/>
+            nearly two years. Subsequently he was<lb/>
+            in <name type="place" subtype="city">Jacksonville</name>, <name type="place" subtype="state"><choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name>, 15 years as pastor,<lb/>
+            and while there was instrumental in<lb/>
+            building two larges churches. <note type="editorial">During his time in Jacksonville, Waldron was pastor at Bethel Baptist Institutional Church. See “Opening Exercises of the Bethel Baptist Institutional Church: Jacksonville, Florida April 23-30 A.D. 1905,” Eartha M.M. White Collection, University of North Florida, Thomas G. Carpenter Library Special Collections and Archives. UNF Digital Commons, https://digitalcommons.unf.edu/eartha_materials/22/. Accessed 19 July 2020.</note> Leaving<lb/>
+            <name type="place" subtype="city">Jacksonville</name>, he came back to this city<lb/>
+            to become pastor of <name type="organization">Shiloh Baptist<lb/>
+            Church</name>, serving there continuously un-<lb/>til
+            his retirement.
+         </p>
+         <p style= "indent">
+            Interested for many years in the
+         <cb n="3"></cb>
+         betterment of the living conditions of<lb/>
+            his race as well as general improve-<lb/>ments
+            to the National Capital, <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> Mr.<lb/>
+            Waldron</name> was for a number of years<lb/>
+            president of the old <name type="organization">Alley Improvement<lb/>
+            Association</name> and in more recent years<lb/>
+            had been a member of <name type="organization">Housing Im-<lb/>provement
+            Association</name>. Through him<lb/>
+            the colored day nursery, formerly locat-<lb/>ed
+            at New Jersey avenue and Pierce<lb/>
+            street, was established.
+         </p>
+         <p style= "indent">
+            He is survived by his widow,<lb/>
+            <name type="name">Mrs. Martha M. Waldron</name>; his father, <name type="name">Isaac<lb/>
+            Waldron</name>, and several brothers and<lb/>
+            sisters.
+         </p>
+         <p style= "indent">
+            The funeral will be held in the <name type="organization">Shiloh<lb/>
+               Baptist Church</name> Monday afternoon at<lb/>
+            <choice><orig>1</orig><reg>one</reg></choice> o'clock. Internment will be in <name type="place">Harmony<lb/>
+               Cemetery</name>.
+         </p>
+      </body>
+  </text>
+</TEI>

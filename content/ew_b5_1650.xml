@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Mrs. F.V. Williams to Eartha M.M. White. July 9, 1934. Hampton, Virginia.</title>
+            <author>Mrs. F.V. Williams</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly and Carol Lynne Hemmingway</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1650</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes on behalf of elderly soldier James Renley, requesting that White reply to his communications to her.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Handwritten letter from Mrs. F. V. Williams to Eartha M. M. White on 7/9/1934, written on behalf of James Renley, who requests a reply from White.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <pb n="1" facs="../images/ew_b5_1650_001.jpg"/>
+        <div>
+        <head>
+           <hi style="right">
+              <name type="place" subtype="address">341 North King St<location><geo>37.030589 -76.345623</geo></location></name><lb/>
+              <name type="place" subtype="city">Hampton, <choice><abbr>Va</abbr><expan>Virginia</expan></choice></name><lb/>
+              <date when="1934-07-09">July 9. 1934.</date><lb/>
+           </hi>
+        </head>
+        <opener>
+           Dear <name type="person">miss White</name><lb/>
+        </opener>
+        <p style="indent">
+           I am only Writing<lb/>
+           to let you know that<lb/>
+           <name type="person">James Renley</name> is <choice><sic>sill</sic><corr>still</corr></choice> alive<lb/>
+           and is Visiting the <name type="place">com<lb break="no"/>
+              munity <choice><sic>sinter</sic><corr>center</corr></choice></name><choice><orig/><reg>,</reg></choice> Which I<lb/>
+           am the <add type="no_caret">house</add> keeper<choice><orig/><reg>.</reg></choice> <name type="person">miss White</name><choice><orig/><reg>,</reg></choice><lb/>
+           he is so anxious to <choice><sic>here</sic><corr>hear</corr></choice><lb/>
+           from you. he is yet in<lb/>
+           the <name type="place">soldiers home</name>.<lb/>
+           he <choice><sic>come</sic><corr>comes</corr></choice> over every day<lb/>
+           and play the piano he<lb/>
+           is very <choice><sic>fawn</sic><corr>fond</corr></choice> of playing<lb/> 
+           music. Anxious to <choice><sic>here</sic><corr>hear</corr></choice><lb/>
+           from you as he is expecting<lb/>
+           to draw a <choice><sic>pincion</sic><corr>pension</corr></choice> 
+           soon.<lb/>
+           he say he has Written<lb/>
+           so many Times and<lb/>
+           <choice><sic>cant</sic><corr>can't</corr></choice> get any answer<lb/>
+        </p>
+        </div>
+        <pb n="2" facs="../images/ew_b5_1650_002.jpg"/>
+        <div>
+        <head>
+           <hi style="center">(2)</hi>
+        </head>
+           <p>
+              so he ask me to<lb/>
+              Write <supplied reason="omitted-in-original">to</supplied> see if I could<lb/>
+              get one. he say that<lb/>
+              you was so nice to<lb/>
+              him that he really<lb/>
+              Want to <choice><sic>here</sic><corr>hear</corr></choice> from<lb/>
+              you<choice><orig/><reg>.</reg></choice> From<lb/>
+           </p>
+           <closer>
+              <signed>
+                 <hi style="right">
+                 <name type="person">Mrs F. V. Williams</name><lb/>
+                 </hi>
+              </signed>
+              hope to <choice><sic>here</sic><corr>hear</corr></choice> from<lb/>
+              you soon<choice><orig/><reg>.</reg></choice><lb/>
+           </closer>
+        </div>
+      </body>
+  </text>
+</TEI>

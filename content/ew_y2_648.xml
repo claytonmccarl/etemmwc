@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Mary B. Talbert to Eartha M.M. White. July 14, 1922. Buffalo, New York.</title>
+            <author><name type="person">Mary B. Talbert</name></author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Chad Germany</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder Y2, Item 648</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author asks White to serve as Florida state director for new N.A.A.C.P campaign against lynching.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>The document is a 2 page, 1922 letter, from Mary B. Talbert to Eartha M.M. White printed on a 10" x 8" sheet of paper. Type has faded in several places, both pages appear to have been folded and there is a 1/2 cm tear on the top edge of the first page.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_y2_648_001.jpg"/>
+         <opener> Dear Friend and Co-worker :- </opener>
+         <p style="indent">At the <name type="place">Newark </name>Conference of the <orgName type="acronym"><choice><abbr>N.A.C.P.</abbr><expan>National Association For The Advancement Of Colored People</expan></choice></orgName>, re-<lb/>
+         cently, <name role="politician"> Congressman </name><name type="person"> Dyer </name> said, that if one million colored<lb/>
+         people and white people got together and decide Lynching would<lb/>
+         go, as well as other <choice><sic> undemocratin </sic><corr> undemocratic </corr></choice> things against the negro.<lb/></p>
+         <p style="indent">Following this Convention, sixteen colored<lb/>
+         women from five states formed themselves into a voluntary<lb/>
+         <orgName type="committee"> Executive Committee-Anti-Lynching-Crusaders </orgName> and decided to put on<lb/>
+         an intense campaign for the purpose of uniting one million women<lb/>
+         white and black to end lynching, mob violence and other undemo-<lb/>
+         cratic practices against ourselves.<lb/></p>
+         <p style="indent">This Committee met again <date when="1922-07-08"> Saturday </date>,<lb/>
+         and entered into an organization and decided to begin work. They<lb/>
+         believed that one million women could be united, and they also,<lb/>
+         believed that one million dollars could be raised.</p>
+         <p style="indent">By unanimous vote, I was elected <name role="administrator"> National Director </name> of this Campaign. I am writing you to see if you will<lb/>
+         join in with us. I want you to be <name role="administrator"> State Director </name> of your State.<lb/>
+         As <name role="administrator">State Director</name>, your duties will be outlined.</p>
+         <p style="indent">We have decided upon the month of <date when="1922-08"> August </date>for<lb/>
+         organization-- <date when="1922-09"> September </date> for instruction and <date when="1922-10"> October for a reali- <lb/>
+         zation of our intensive work.</date> </p>
+         <p style="indent">The million dollars is not the big thing, but<lb/>
+         the prayers of a million women united to do God's work. This<lb/>
+         is to be a Campaign of prayer and self sacrifice. <choice><orig> Wont </orig><corr> Won't </corr></choice> you join <lb/>
+         in with us?</p>
+         <p style="indent">If you will act as <name role="administrator"> State Director </name>, please <lb/>
+         communicate with me at once. Your first duty will be to send<lb/>
+         me the name and address of a Key Woman in every city and town<lb/>
+         in your State. If there are factions, - appoint two Key Women--<lb/>
+         for once, let us get together. This Campaign means to unite<lb/>
+         every fraternal and church woman--every one of us must be united<lb/>
+         into one big sisterhood.</p>
+         <p style="indent">Letters of instruction will follow your ac-<lb/>
+         ceptance. This is to be the biggest campaign ever untaken by <lb/>
+         colored women. Our object is to place money into the legistla-<lb/>
+         tion now being carried on by the <orgName type="acronym"><choice><abbr> N.A.A.C.P.</abbr><expan> National Association For The Advancement Of Colored People </expan></choice></orgName>, to end lynching <lb/><pb/>
+         <pb n="2" facs="../images/ew_y2_648_002.jpg"/> and mob violence. We want to get out our stationary with your<lb/>
+         name as <name role="administrator">State Director.</name></p>
+         <closer> Lose no time in answering this letter.<lb/>
+         <salute> Yours for a <emph style="allcaps"> United Sisterhood </emph>, </salute><lb/>
+         <signed> <handShift medium="pen" script="cursive"></handShift> Mary Talbert </signed><lb/></closer>  
+     </body>
+  </text>
+</TEI>

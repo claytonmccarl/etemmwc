@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>City Federation of Colored Women's Clubs event program. June 28, 1916.</title>
+            <author>City Federation of Colored Women's Clubs</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Carol Lynne Hemmingway <!-- that person adds their name here--> </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder: Z2, Item: 673</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A program of the Florida State Federation of Colored Women's Clubs' visit to the Jacksonville City Federation of Colored Women's Clubs containing the list of group members, an order of events, and photographs of some members.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A 12 page booklet that was originally stapled together</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_z2_673_001.jpg"/>
+         <div><head style="center"><emph style="case(allcaps)">State Federation<lb/>
+         Guest</emph> of</head></div>
+         <div><div><head style="center"><name type="organization">City Federation of Colored Women's<lb/>
+         Clubs</name>, <date when="1916-06-28">June 28</date>, to <date when="1916-06-30">30, 1916</date>,</head></div></div>
+         <div><div><div><head style="center"><name type="place" subtype="city">Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name><lb/>
+         <choice><orig>Head Quarters</orig><reg>Headquarters</reg></choice></head></div></div></div>
+         <div><div><div><head style="center"><name type="place">Bethel Baptist Institutional Church</name></head></div></div></div>
+         <div><div><div><div><head style="center">(<name type="place" subtype="address"><choice><abbr>Cor.</abbr><expan>Corner</expan></choice> Hogan and Caroline <choice><abbr>Sts.</abbr><expan>Streets</expan></choice></name>)</head></div></div></div></div>
+         <div><p>Wednesday <choice><orig>Night</orig><reg>night</reg></choice> - Program and <choice><orig>Banquett</orig><reg>banquet</reg></choice>, <name type="place">Bethel</name><lb/>
+            Thursday <choice><orig>Night</orig><reg>night</reg></choice> - <name type="place">Mt. Zion</name><lb/>
+            Friday <choice><orig>Night</orig><reg>night</reg></choice> - <name type="place">Central</name><lb/>
+         All the day meetings will be at <name type="place">Bethel</name>.<lb/>
+         Organized <date when="1912-01-22"><choice><abbr>Jan.</abbr><expan>January</expan></choice> 22, 1912</date>.</p></div>
+         <div><p><hi style="italic">Motto: Not <choice><orig>For</orig><reg>for</reg></choice> <choice><orig>Ourselves</orig><reg>ourselves</reg></choice> <choice><orig>But</orig><reg>but</reg></choice> <choice><orig>For</orig><reg>for</reg></choice> <choice><orig>Others</orig><reg>others</reg></choice><choice><orig>.</orig><reg/></choice><lb/>
+         Colors: <choice><orig>White</orig><reg>white</reg></choice> and <choice><orig>Gold</orig><reg>gold</reg></choice><choice><orig>.</orig><reg></reg></choice><lb/>
+            Slogan <choice><orig>—</orig><reg>:</reg></choice> Preparedness<choice><orig>.</orig><reg></reg></choice></hi></p></div>
+         <div><p><name type="company"><choice><abbr>Fla.</abbr><expan>Florida</expan></choice> Printing <choice><abbr>Co.</abbr><expan>Company</expan></choice></name>, <name type="place" subtype="address">40 <choice><abbr>E.</abbr><expan>East</expan></choice> Union <choice><abbr>St.</abbr><expan>Street</expan></choice></name></p></div>
+         <pb n="2" facs= "../images/ew_z2_673_002.jpg"/>
+         <div><p style="center"><choice><orig>2</orig><reg></reg></choice></p></div>
+         <div><div><head style="center"><emph style="case(allcaps)">Clubs</emph><choice><orig>.</orig><reg></reg></choice></head></div></div>
+         <div><div><div><head style="center">1. <emph style="case(allcaps)"><name type="organization">M. E. C. Smith</name></emph></head></div></div></div>
+         <div><p><name type="person">Mrs. C. G. Heard</name>, President, <name type="place" subtype="address">318 North <choice><abbr>St.</abbr><expan>Street</expan></choice></name><lb/>
+         <name type="person">Mrs. J. W. Ward</name>, <name type="person">Mrs. Julia Keith</name>, <name type="person">Mrs. Bell Anderson</name>, <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+         <name type="person">Mrs. M. G. Mills</name>, <choice><abbr>Sec'y</abbr><expan>Secretary</expan></choice><lb/>
+         <name type="person">Mrs. Priscilla Scott</name>, <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>
+         <div><div><div><head style="center">2. <name type="organization">Old Folks Home Association</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Miss Eartha M. M. White</name>, President<lb/>
+         <name type="person">Mrs. J. W. Ward</name>, <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+         <name type="person">Mrs. C. S. Tucker</name>, <name type="person">Mrs. E. Braker</name>, <name type="place" subtype="address">1820 Durkeys <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice></name>, Secretaries<choice><orig>.</orig><reg></reg></choice><lb/>
+         <name type="person">Mrs. Amanda Jackson</name>, <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>
+         <div><div><div><head style="center">3. <name type="organization">Brooklyn Improvement Club</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. C. B. Forester</name>, <choice><orig>president</orig><reg>President</reg></choice><lb/>
+         <name type="person">Mrs. A. L. Harrison</name>, <choice><orig>vice-president</orig><reg>Vice President</reg></choice><lb/>
+         <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> M. G. Mills</name>, <choice><abbr>Sec'y.</abbr><expan>Secretary</expan></choice><lb/>
+         <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> E. J. Williams</name>, <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>
+         <div><div><div><head style="center">4. <name type="organization">J. H. Blodgett Club</name> — Healing Hand to <name type="organization">Old Folks Home</name></head></div></div></div>
+         <div><p><name type="person">Mrs. Effie Dix Breaker</name>, <choice><abbr>Pres.</abbr><expan>President</expan></choice>, <name type="place" subtype="address">2117 Grand</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> W. M. Lowe</name>, <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+         <name type="person">Miss Maggie Carnell</name>, <choice><abbr>Sec'y.</abbr><expan>Secretary</expan></choice><lb/>
+         <name type="person"><choice><abbr>"</abbr><expan>Miss</expan></choice> Viola Oliphant</name><choice><orig></orig><reg>,</reg></choice> <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>
+         <div><div><div><head style="center">5. <name type="organization">Royal Terrace Improvement Club</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. Bell Roymans</name>, <choice><orig>president</orig><reg>President</reg></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Ada S. Jackson</name>, <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Dukes</name>, <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>
+         <div><div><div><head style="center">6. <name type="organization">Moncrief Improvement Club</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. C. L. Kennedy</name>, <choice><orig>president</orig><reg>President</reg></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Ivery Poter</name>, <choice><orig>secretary</orig><expan>Secretary</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Mitchell</name>, <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>
+         <div><div><div><head style="center">7. <name type="organization">Rescue Industrial Home for Girls</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. D. B. Williams</name>, <choice><orig>president</orig><reg>President</reg></choice>; <name type="place" subtype="address">808 Market <choice><abbr>St.</abbr><expan>Street</expan></choice></name></p></div>
+         <div><div><div><head style="center">8. <name type="organization">L. C. Flemming Missionary Club</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. Bell Anderson</name>, <choice><orig>president</orig><reg>President</reg></choice></p></div>
+         <div><div><div><head style="center">9. <name type="organization">The Amy Decoursey Mothers Club</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. Gilly Horn</name>, <choice><orig>president</orig><reg>President</reg></choice></p></div>
+         <pb n="3"/>
+         <div><p style="center"><choice><orig>3</orig><reg/></choice></p></div>
+         <div><div><div><head style="center">10. <name type="organization">Springfield Civic Club</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><div><div><head style="center">11. <name type="organization">Triumph Lodge Civic Club</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. Cora Walker</name>, <choice><orig>president</orig><reg>President</reg></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Laura Dupont</name>, <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Ada Braddock</name>, <choice><abbr>Sec'y.</abbr><expan>Secretary</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Minnie J. Story</name>, <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>
+         <div><div><div><head style="center">12. <name type="organization">C. C. P. League</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Miss E. M. M. White</name>, <choice><orig>president</orig><reg>President</reg></choice></p></div>
+         <div><div><div><head style="center">13. <name type="organization">Y. W. C. Association Work</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. Viola Owens</name>, <choice><orig>president</orig><reg>President</reg></choice>, <name type="place" subtype="address">223 <choice><abbr>E.</abbr><expan>East</expan></choice> State <choice><abbr>St.</abbr><expan>Street</expan></choice></name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Lena G. Lampkin</name>, <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> J. A. Bird</name>, <choice><abbr>Sec'y.</abbr><expan>Secretary</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Ellen Johnson</name>, <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>
+         <div><div><div><head style="center">14. <name type="organization">St. Stephens Allen C. E. League</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. Effie D. Breaker</name>, <choice><orig>president</orig><reg>President</reg></choice></p></div>
+         <div><div><div><head style="center">15. <name type="organization">Clarksville Improvement Club</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. Alice Jackson</name>, <choice><orig>president</orig><reg>President</reg></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Mamie Hawkins</name>, <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> L. C. Panell</name>, <choice><abbr>Sec'y.</abbr><expan>Secretary</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Pauline Daneley</name>, <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>
+         <div><div><head style="right">Organized <date when="1916-04-14">April 14, 1916</date>.</head></div></div>
+         <div><div><div><head style="center">16. <name type="organization">The Queen Esther Club</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. Hattie Latimore</name>, <choice><orig>president</orig><reg>President</reg></choice>, <name type="place" subtype="address"><choice><abbr>25th</abbr><expan>Twenty-fifth</expan></choice> and Davis <choice><abbr>Sts.</abbr><expan>Streets</expan></choice></name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Jannie Darlord</name>, <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice>, <name type="place" subtype="address"><choice><abbr>23rd</abbr><expan>Twenty-third</expan></choice> <choice><abbr>St.</abbr><expan>Street</expan></choice> and Springley <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice></name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Lucy King</name>, <choice><abbr>Sec'y.</abbr><expan>Secretary</expan></choice>, <name type="place" subtype="address"><choice><abbr>23rd</abbr><expan>Twenty-third</expan></choice> <choice><abbr>St.</abbr><expan>Street</expan></choice> and Springley <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice></name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Maria Brown</name>, <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>
+         <div><div><div><head style="center">17. <name type="organization">Christian Workers Club</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person">Mrs. Anna Tucker</name>, <choice><orig>president</orig><reg>President</reg></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Jane Taylor</name>, <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Francis Higdon</name>, <choice><abbr>Sec'y.</abbr><expan>Secretary</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Tallie Forester</name>, <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>
+         <div><div><div><head style="center">18. <name type="organization">St. Paul A.M.E. Improvement Club</name><choice><orig>.</orig><reg/></choice></head></div></div></div>
+         <div><p><name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Sena Blake</name>, <choice><orig>president</orig><reg>President</reg></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Lilly Tooms</name>, <choice><abbr>Sec'y.</abbr><expan>Secretary</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Elivia Nixon</name>, <choice><abbr>Tres.</abbr><expan>Treasurer</expan></choice></p></div>    
+         <pb n="4" facs= "../images/ew_z2_673_003.jpg"/>
+         <div><p><choice><orig>4</orig><reg/></choice></p></div>
+         <div><div><head style="center">Head of Departments</head></div></div>
+         <div><p>
+            Mothers Clubs — <name type="person">Mrs. J. W. Ward</name><lb/>
+            Children — <name type="person">Mrs. Florence Thompson</name><lb/>
+            Young Woman — <name type="person">Julia Keith</name><lb/>
+            Health and Hygiene — <name type="person">Miss M. Allen</name><lb/>
+            Humane — <name type="person">Mrs. M. G. Mills</name><lb/>
+            Domestic Science — <name type="person">Mrs. Barington</name><lb/>
+            Social Science — <name type="person">Mrs. L. C. Fisher</name><lb/>
+            Business — <name type="person">Mrs. Clarisa G. Heard</name><lb/>
+            Suffrage — <name type="person">Mrs. I. J. Williams</name><lb/>
+            Civic — <name type="person">Mrs. Cora Walker</name><lb/>
+            Forestry — <name type="person">Mrs. C. B. Foster</name><lb/>
+            Rescue Work — <name type="person">Mrs. D. B. Williams</name><lb/>
+            Educational Work — <name type="person">Mrs. F. C. Duncan</name><lb/>
+            Kindergarten — <name type="person">Mrs. Edna French</name><lb/>
+            Music — <name type="person">Mrs. Rosa Butler</name><lb/>
+            Art — <name type="person">Mrs. Rosa Holmes</name><lb/>
+            Religion — <name type="person">Mrs. M. E. Gray</name><lb/>
+            Literature — <name type="person">Mrs. Baker</name><lb/>
+            Agriculture — <name type="person">Mrs. G. R. Reynolds</name><lb/>
+            Temperance — <name type="person">Mrs. Ada Braddock</name><lb/>
+            Juvenile — <name type="person">Mrs. J. C. McDonald</name><lb/>
+            Prison and <choice><orig>Slumbs</orig><reg>Slums</reg></choice> — <name type="person">Miss Eartha M. M. White</name><lb/>
+            Good Roads — <name type="person">Mrs. C. S. Tucker</name><lb/>
+         </p></div>
+         <div><div><head style="center">Officers and Members</head></div></div>
+         <div><p>
+            <name type="person">Miss Eartha M. M. White</name>, President, <name type="plase" subtype="address">223 Eagle <choice><abbr>St.</abbr><expan>Street</expan></choice>, Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name><lb/>
+            <name type="person">Mrs. Alice Anderson</name>, <choice><abbr>1st</abbr><expan>First</expan></choice> Vice, <name type="place" subtype="address">949 Odessa <choice><abbr>St.</abbr><expan>Street</expan></choice>, Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name><lb/>
+            <name type="person">Mrs. Julia Keith</name>, <choice><abbr>2nd</abbr><expan>Second</expan></choice> Vice, <name type="place" subtype="address">1650 Florida <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name><lb/>
+            <name type="person">Miss J. T. Mark</name>, Chair. Executive Board, <name type="place" subtype="address">Durkee <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, Jacksonville</name><lb/>
+            <name type="person">Mrs. Laura Haywood</name>, <choice><abbr>Cor. Sec.</abbr><expan>Corresponding Secretary</expan></choice>, <name type="place" subtype="address">1435 Adelia <choice><abbr>St.</abbr><expan>Street</expan></choice>, Jacksonville</name><lb/>
+            <name type="person">Mrs. Annie L. Sightler</name>, <choice><abbr>Rec. Sec.</abbr><expan>Recording Secretary</expan></choice>, <name type="place" subtype="address">Grover <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, Jacksonville</name><lb/>
+            <name type="person">Mrs. C. S. Tucker</name>, <choice><abbr>Fin. Sec.</abbr><expan>Financial Secretary</expan></choice>, <name type="place" subtype="address">Durkee <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, Jacksonville</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Federick C. Duncan</name>, Chair<choice><orig>.</orig><reg>,</reg></choice> Education<choice><orig/><reg>.</reg></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> J. W. Ward</name>, Treasurer, <name type="place" subtype="address">2064 Pierce <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, Jacksonville</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> J. C. Heard</name>, Organizer, <name type="place" subtype="address">302 State <choice><abbr>St.</abbr><expan>Street</expan></choice>, Jacksonville</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> G. C. Reynolds</name>, <choice><abbr>Ass't</abbr><expan>Assistant</expan></choice> Organizer<lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Mattie G. Mills</name>, Auditor, <name type="place" subtype="address">Price <choice><abbr>St.</abbr><expan>Street</expan></choice>, Jacksonville</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Annie Gray</name>, Statistician, <name type="place" subtype="address">Center <choice><abbr>St.</abbr><expan>Street</expan></choice>, Jacksonville</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Bell Anderson</name>, <choice><abbr>Ch.</abbr><expan>Chair</expan></choice><choice><orig></orig><reg>,</reg></choice> Ways and Means Committee<choice><orig/><reg>,</reg></choice> <name type="place" subtype="address">Florida <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice></name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> D. B. Williams</name>, <choice><abbr>Ch.</abbr><expan>Chair</expan></choice><choice><orig></orig><reg>,</reg></choice> Committee on <choice><orig>time</orig><reg>Time</reg></choice> and <choice><orig>place</orig><reg>Place</reg></choice><choice><orig>.</orig><reg>,</reg> </choice><name type="place" subtype="address">Market <choice><abbr>St.</abbr><expan>Street</expan></choice></name><lb/>
+            Honorary Presidents: <name type="person">Mrs. J. W. Ward</name> and <name type="person">Mrs. C. T. Dorrah</name>
+         </p></div>
+         <pb n="5"/>
+         <div><p><choice><orig>5</orig><reg/></choice></p></div>
+         <div><div><head style="center">Committees<choice><orig>.</orig><reg/></choice></head></div></div>
+         <div><div><head style="center">Chairmen of Committees to Entertain State Federation<choice><orig>.</orig><reg/></choice></head></div></div>
+         <div><p>
+            <name type="person">Mrs. E. D. Breaker</name>, Publicity Committee<lb/>
+            <name type="person">Mrs. C. G. Heard</name>, Reception Committee<lb/>
+            <name type="person">Mrs. Jane Taylor</name>, Entertainment Committee<lb/>
+            <name type="person">Mrs. Carrie Smith</name>, Banquet <choice><abbr>Com.</abbr><expan>Committee</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Julia Keith</name>, Outing <choice><abbr>Com.</abbr><expan>Committee</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Bell Anderson</name>, Decorating <choice><abbr>Com.</abbr><expan>Committee</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Anna Tucker</name>, Ushers' <choice><abbr>Com.</abbr><expan>Committee</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Alice Jackson</name>, Waitress <choice><abbr>Com.</abbr><expan>Committee</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> I. J. Williams</name>, Press <choice><abbr>Com.</abbr><expan>Committee</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> M. G. Mills</name>, Legislative <choice><abbr>Com.</abbr><expan>Committee</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Ada Braddock</name>, Finance<choice><orig>,</orig><reg></reg></choice> <choice><abbr>Com.</abbr><expan>Committee</expan></choice><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> C. S. Tucker</name>, Program <choice><abbr>Com.</abbr><expan>Committee</expan></choice>
+         </p></div>
+         <div><div><head style="center"><emph style="case(allcaps)">Programme</emph><choice><orig>:</orig><reg/></choice></head></div></div>
+         <div><p>
+            Singing..................<lb/>
+            Prayer..................<name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> J. A. Long</name> of <name type="place">Mt. Zion</name><lb/>
+            Address of Welcome in Behalf of City Clubs..................<lb/>
+            <hi style="center"><name type="person">Miss E. M. M. White</name></hi><lb/>
+            Solo..................<name type="person">Miss V. Lewis</name><lb/>
+            Address of Welcome in Behalf of City Churches..................<lb/>
+            <hi style="center"><name type="person">Miss Clarissa Heard</name></hi><lb/>
+            Solo..................<name type="person">Miss Maggie Anderson</name><lb/>
+            Address of Welcome in Behalf of City Schools..................<lb/>
+            <hi style="center"><name type="person">Mrs. Effie Dix Breaker</name></hi><lb/>
+            Solo..................<name type="person">Mrs. Cora Heard</name><lb/>
+            Address of Welcome in Behalf of the City, <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> J. E. Ford</name><lb/>
+            Solo..................<name type="person">Miss Louise Jones</name><lb/>
+            Annual Address and Response..................<lb/>
+            <hi style="center">The State President, <name type="person">Mrs. F. R. Keyser</name></hi><lb/>
+            Duet..................<name type="person">Mrs. Rosa Butler</name> and Son<lb/>
+            Announcements..................<lb/>
+            Thursday night program at <name type="place">Mt. Zion A.M.E. Church</name><lb/>
+            Friday night program at <name type="place">Central Baptist Church</name><lb/>
+            All Day Meeting at <name type="place">Bethel</name><lb/>
+            Outing to <name type="place">Manhattan Beach</name>, Saturday, <date when="1916-07-01">July <choice><abbr>1st.</abbr><expan>First</expan></choice></date><lb/>
+            <name type="person">Miss Eartha M. M. White</name>, President.
+         </p></div>
+         <pb n="6" facs= "../images/ew_z2_673_004.jpg"/>
+         <div><p><choice><orig>6</orig><reg/></choice></p></div>
+         <div><p>
+            Mesdames <name type="person">Laura Haywood</name>, <name type="person">C. S. Tucker</name>, <name type="person">Annie L.<lb/>
+               Sightler</name>, Secretaries; <name type="person">Mrs. J. W. Ward</name>, Treasurer.
+         </p></div>
+         <div><div><head style="center">Delegates <choice><orig>Elected</orig><reg>elected</reg></choice> to the <name type="organization">National Association</name> at <name type="place">Baltimore</name></head></div></div>
+         <div><div><head style="center"><date when="1916-08-06">August 6th</date><choice><orig>,</orig><reg/></choice> to the <date when="1916-08-11">11th</date><choice><orig>.</orig><reg/></choice></head></div></div>
+         <div><p>
+            <cb/>
+            <name type="person">Miss E. M. M. White</name><lb/>
+            <name type="person">Mrs. Walker</name><lb/>
+            <name type="person">C. Tricker</name><lb/>
+            <name type="person">Mrs. Reynolds</name><lb/>
+            <name type="person">Mrs. L. E. Powell</name><lb/>
+            <cb/>
+            <name type="person">A. L. Sighter</name><lb/>
+            <name type="person">E. Braker</name><lb/>
+            <name type="person">D. Williams</name><lb/>
+            <name type="person">S. F. King</name><lb/>
+            <name type="person">Mrs. Alice Jackson</name><lb/>
+            <cb/>
+            <name type="person">A. Braddock</name><lb/>
+            <name type="person">Mrs. Mills</name><lb/>
+            <name type="person">Mrs. Heard</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Keith</name><lb/>
+            <name type="person">Mrs. Tucker</name><lb/>
+         </p></div>
+         <div><div><head style="center"><emph style="case(allcaps)">Alternates</emph><choice><orig>.</orig><reg/></choice></head></div></div>
+         <div><p>
+            <cb/>
+            <name type="person">J. E. Parker</name><lb/>
+            <name type="person">A. Lattimore</name><lb/>
+            <name type="person">A. Jackson</name><lb/>
+            <name type="person">S. J. Sanford</name><lb/>
+            <cb/>
+            <name type="person">V. Owens</name><lb/>
+            <name type="person">M. E. Jones</name><lb/>
+            <name type="person">M. O. Taylor</name><lb/>
+            <cb/>
+            <name type="person">Mrs. Robinson</name><lb/>
+            <name type="person">H. Williams</name><lb/>
+            <name type="person">C. Smith</name><lb/>
+         </p></div>
+         <div><div><head style="center"><emph style="case(allcaps)">State Meeting Delegates</emph></head></div></div>
+         <div><p>
+            <cb/>
+            <name type="person">Mrs. L<choice><orig/><reg>.</reg></choice> C<choice><orig/><reg>.</reg></choice> Fisher</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Prudance Moore</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Janie Dollard</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Florence Thompson</name><lb/>
+            <cb/>
+            <name type="person">Mrs. Julia Keith</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Ada Braddock</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Rebecca Raynold</name><lb/>
+            <cb/>
+            <name type="person">Mrs. I<choice><orig/><reg>.</reg></choice> J<choice><orig/><reg>.</reg></choice> Williams</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> L<choice><orig/><reg>.</reg></choice> Haynard</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> I<choice><orig/><reg>.</reg></choice> J<choice><orig/><reg>.</reg></choice> Robinson</name><lb/>
+         </p></div>
+         <div><div><head style="center">Distinguished Visitors<choice><orig>.</orig><reg></reg></choice></head></div></div>
+         <div><p>
+            <name type="person">Mrs. B<choice><orig/><reg>.</reg></choice> T<choice><orig/><reg>.</reg></choice> Washington</name>, National President<lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> E<choice><orig/><reg>.</reg></choice> L<choice><orig/><reg>.</reg></choice> Davis</name>, National Organizer<lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> M<choice><orig/><reg>.</reg></choice> C<choice><orig/><reg>.</reg></choice> B<choice><orig/><reg>.</reg></choice> Mason</name>, National<lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Lillian Turner</name>, <name type="place" subtype="city">St. Paul</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Lillie B. Willianson</name>, <name type="place" subtype="city">Mobile, Ohio<choice><orig>.</orig><reg/></choice></name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Victoria Clay Haley</name>, <name type="place" subtype="city"> St. Paul<choice><orig></orig><reg>,</reg></choice> <choice><abbr>M.</abbr><expan>Missouri</expan></choice></name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> W<choice><orig/><reg>.</reg></choice> S<choice><orig/><reg>.</reg></choice> Jennings</name>, State President <choice><abbr>W. C.</abbr><expan>Women's Clubs</expan></choice> (white)<lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Frank Jennings, City President <choice><abbr>W. C.</abbr><expan>Women's Clubs</expan></choice></name> (white)<lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> John Greather (white)</name><lb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> O<choice><orig/><reg>.</reg></choice> Brownwell (white)</name><lb/>
+            <cb/>
+            <name type="person"><choice><abbr>"</abbr><expan>Mrs.</expan></choice> Dr. Bradley</name><lb/>
+            <name type="person">Mr. Eugene K<choice><orig/><reg>.</reg></choice> Jones</name>, <name type="place">New York</name><lb/>
+            <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> J<choice><orig/><reg>.</reg></choice> E<choice><orig/><reg>.</reg></choice> Ford</name><lb/>
+            <name type="person">Dr. J<choice><orig/><reg>.</reg></choice> W<choice><orig/><reg>.</reg></choice> Bailey</name><lb/>
+            <cb/>
+            <name type="person">Mrs. F<choice><orig/><reg>.</reg></choice> R<choice><orig/><reg>.</reg></choice> Keyser, State President</name><lb/>
+            <name type="person">Miss Grace Townsend</name><lb/>
+            <name type="person">Mr. Smiley</name><lb/>
+            <name type="person">Mrs. M<choice><orig/><reg>.</reg></choice> F<choice><orig/><reg>.</reg></choice> Robinson</name>, State Organizer<lb/>
+         </p></div>
+         <div><div><head style="center">Accomplishments<choice><orig>.</orig><reg></reg></choice></head></div></div>
+         <div><p>
+            1. The president, <choice><orig>(</orig><reg/></choice><name type="person">Miss E. M. M. White</name><choice><orig>)</orig><reg>,</reg></choice> went to <name type="person"><choice><abbr>Governor</abbr><expan></expan></choice><lb/>
+            Trammell</name> in behalf of securing better provisions<lb/>
+            for women prisoners.
+         </p></div>
+         <pb n="7"/>
+         <div><p><choice><orig>7</orig><reg/></choice></p></div>
+         <div><p>
+            2. Assisted <name type="person">Dr. Stevens</name> in taking U.S. Vital Statistics<lb/>
+            for the <name type="organization">Infant <choice><orig>welfare</orig><reg>Welfare</reg></choice> Bureau</name>.<lb/>
+            3. "Clean up week" was celebrated<choice><orig/><reg>.</reg></choice><lb/>
+            4. <date when="1916-03-04">March 4th</date> to <date when="1916-03-04">12th</date>, held a baby show at <name type="place">Bethel <choice><abbr>Bapt.</abbr><expan>Baptist</expan></choice><lb/>
+            Church</name>, awarding the most perfect babies with<lb/>
+            prizes.<lb/>
+            5. "Baby week" celebrated <date when="1916-03-04">March 4th</date>-<date when="1916-03-11">11th</date>.<lb/>
+            Cooperated with <name type="organization">White Woman's Club</name><choice><orig></orig><reg>.</reg></choice><lb/>
+            Free Clinic held at their club building on <name type="place"><choice><abbr>E.</abbr><expan>East</expan></choice> Duval<lb/>
+            <choice><abbr>St.</abbr><expan>Street</expan></choice></name>, <name type="person">Dr. Brandley</name> in charge.<lb/>
+            6. Placed slides in public places appealing to men<lb/>
+            to pay their <choice><sic>pole</sic><corr>poll</corr></choice> taxes and register so as to be<lb/>
+            qualified to vote.<lb/>
+            7. Gave prizes to the <name type="place">Stanton school</name> to the pupil who<lb/>
+            wrote the best essay on the house fly; the same<lb/>
+            was won by Master <name type="person">John Thompson</name><choice><orig></orig><reg>.</reg></choice><lb/>
+            8. <choice><sic>Interceeded</sic><corr>Interceded</corr></choice> about proper and better drainage and<lb/>
+            good roads in colored sections.<lb/>
+            9. Established a Social Study Class, <name type="person">Dr. J. E. Ford</name>,<lb/>
+            Teacher.<lb/>
+            10. Held a number of public mass meetings<choice><orig></orig><reg>.</reg></choice><lb/>
+            11. Held memorial services and sent floral pieces and<lb/>
+            telegrams to the late <name type="person">Dr. Booker T. Washington</name><lb/>
+            and the late <name type="person">Dr. M. C. B. Mason</name><choice><orig></orig><reg>.</reg></choice><lb/>
+            12. A committee and convention address Duval County<lb/>
+            Commissioners in behalf of securing prisoners out<lb/>
+            in stockade, better ventilation<choice><orig></orig><reg>,</reg></choice> and a chapel where<lb/>
+            religious services can be held.<lb/>
+            13. Secured the <choice><sic>indorsement</sic><corr>endorsement</corr></choice> of the <choice><orig>play ground</orig><reg>playground</reg></choice> com<lb break="no"/>mittee of the city for colored <choice><orig>play ground</orig><reg>playground</reg></choice>. <choice><sic>Sight</sic><corr>Site</corr></choice><lb/>
+            was selected<choice><orig>;</orig><reg>,</reg></choice> and the city has an appropriation for<lb/>
+            the same.<lb/>
+            14. Laid <choice><sic>cornor stone</sic><corr>cornerstone</corr></choice> for the new building of <name type="place">Edward<lb/>
+               Waters College</name> in memory of the late <name type="person">Bishop</name><lb/>
+            Moore, <date when="1916-04-27">April 27th<choice><orig></orig><reg>,</reg></choice> 1916</date>.<lb/>
+            15. Will entertain <name type="organization">State Federation of Women's Clubs</name>,<lb/>
+            <date when="1916-06-28">June 28th</date> to <date when="1916-06-30">30th</date><choice><orig></orig><reg>,</reg></choice> 1916, <name type="place" subtype="city">Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name>
+         </p></div>
+         <pb n="8" facs= "../images/ew_z2_673_005.jpg"/>
+         <div><p>
+            <name type="person"><emph style="case(allcaps)">Mrs. C. S. Tucker</emph></name><lb/>
+            Chairman of Programme Committee<lb/>
+            Secretary of <name type="organization">Old Folks Home</name>
+         </p></div>
+         <div><p>
+            <name type="person"><emph style="case(allcaps)">Mrs. Alice Jackson</emph></name><lb/>
+               President of <name type="organization">Clarksville Club</name>
+         </p></div>
+         <div><p>
+            <name type="person"><emph style="case(allcaps)">Mrs. Bell Roymans</emph></name><lb/>
+              President of <name type="organization">Royal Terrace Improvement Club</name>
+         </p></div>
+         <div><p>
+            <name type="person"><emph style="case(allcaps)">Mrs. Annie L. Sightler</emph></name><lb/>
+              Recording Secretary of <name type="organization"><choice><abbr>C. F. C. W. C.</abbr><expan>City Federation of Colored Women's Clubs</expan></choice></name>
+         </p></div>
+         <pb n="9"/>
+         <div><p>
+            <name type="person"><emph style="case(allcaps)">Mrs. Amanda Jackson</emph></name><lb/>
+              Treasurer of <name type="organization">Old Folks Home <choice><abbr>Ass'n.</abbr><expan>Association</expan></choice></name>
+         </p></div>
+         <div><p>
+            <name type="person"><emph style="case(allcaps)">Mrs. Latimore</emph></name><lb/>
+              President <name type="organization">Queen Esther Club</name>
+         </p></div>
+         <div><p>
+            <name type="person"><emph style="case(allcaps)">Mrs. Clarisa G. Heard</emph></name><lb/>
+              President of <name type="organization">M. E. C. Smith Club</name>
+         </p></div>
+         <div><p>
+            <name type="person"><emph style="case(allcaps)">Mrs. Ada Braddock</emph></name><lb/>
+              Chairmen of Finance Committee
+         </p></div>
+         <pb n="10" facs= "../images/ew_z2_673_006.jpg"/>
+         <div><p>
+            <name type="person"><emph style="case(allcaps)">Miss Eartha M. M. White</emph></name><lb/>
+              President of <name type="organization"><choice><abbr>City Federation Colored W. C.</abbr><expan>City Federation of Colored Women's Clubs</expan></choice></name><lb/>
+                 State Treasurer, <choice><abbr>Pres.</abbr><expan>President</expan></choice> of <name type="organization">Old Folks Home</name>
+         </p></div>
+         <div><p>
+            City Federation Delegates
+         </p></div>
+         <pb n="11"/>
+         <div><p>
+            <name type="person"><emph style="case(allcaps)">Mrs. G. L. Reynolds</emph></name><lb/>
+              Organizer of <name type="organization"><choice><abbr>C. F. C. W. C.</abbr><expan>City Federation of Colored Women's Clubs</expan></choice></name>
+         </p></div>
+         <pb n="12"/>
+         <div><p style="indent">
+            Thursday at 3:00 <choice><orig>p.m.</orig><reg>P.M.</reg></choice><choice><orig></orig><reg>,</reg></choice> <name type="person">Mrs. John Simmons</name>, chair<lb break="no"/>man of the Legislative committee of the <name type="organization">Women's Club</name><lb/>
+            (white)<choice><orig>,</orig><reg></reg></choice> and a member of the Advisory Board of the<lb/>
+            <name type="organization">Young Women's Christian Association</name>, a representative<lb/>
+            of the <name type="organization">Woman's Club</name> of the city, will deliver an address.
+         </p></div>
+      </body>
+  </text>
+</TEI>

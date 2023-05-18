@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Poem "Mother" Printed On A Contribution Form for the Old Folks Home. No date given.</title>
+            <author>C.M.</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Antonia Grant Bryant and Janaya Ferrer</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder I5, Item 2011</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes poem "Mother" to show gratitude to a mother.</summary> 
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>One-page typewritten poem.</p> 
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_i5_2011_001.jpg"/>
+         <div></div>
+         <div><head style="case(allcaps)"><hi style="center">Mother</hi></head></div>
+         <div><head><hi style="center"></hi>------</head></div>
+         <div>
+            <p><emph style="case(allcaps)">
+                I am grateful to God<lb/>
+                For blessings He sent<lb/>
+                For peace and good tiding<lb/>
+                For success and content<lb/>
+                I am thankful for health<lb/>
+                And for beautiful skies<lb/>
+                Bright and blue<lb/>
+                But most grateful to all<lb/>
+                For a dear sweet mother<lb/>
+                Like you.<lb/>
+            </emph></p>
+            <closer><signed>C.M.<lb/></signed></closer>
+        </div>
+      </body>
+  </text>
+</TEI>

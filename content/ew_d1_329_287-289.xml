@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Introductory article to photo series "First Ladies of Colored America," from September, 1942 issue of The Crisis Magazine, with photo and profile of Eartha M.M. White</title>
+            <author><!--Roy Wilkins, editor, on behalf of -->The Crisis Magazine</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Michael "Dean" Rice</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder D1, Item 329, p. 287 and 289</idno>                  
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>The following documents are two pages out of the September, 1942 publication of The Crisis magazine. Documents are in good condition. Documents are print and approximately 9 inches by 12 inches.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_d1_329_287-289_001.jpg"/>
+         <p>September, 1942 <hi style="right"><choice><orig>287</orig><reg/></choice></hi>
+         </p>
+         <div>
+         <head style="center"><hi style="xx-large">First Ladies</hi><lb/>
+            <hi style="xx-large">of Colored America</hi><lb/></head>
+         </div>
+      <div>
+            
+               <p style="indent">
+                  Throughout <name type="person_group">American</name> history <name type="person_group">colored women</name> have played a most<lb/>
+                significant role in the development of our civilization. Because their<lb/>
+                early ties with <name type="place" subtype="continent">Africa</name> were abruptly severed (unlike those of their<lb/>
+                  <name type="person_group">white sisters</name> with <name type="place" subtype="continent">Europe</name>) and because their greater struggle for<lb/>
+               survival compelled a speedier adaptation to the new life here, they<lb/>
+               have placed their imprint indelibly on our national life. They are the<lb/>
+               chief repository of <name type="person_group">Anglo-Saxon</name> culture. Some students even hold<lb/>
+                  that if every <name type="person_group">white person</name> were to disappear from the <name type="place" subtype="country">United States</name>,<lb/>
+               it would continue culturally to be <name type="person_group">Anglo-Saxon</name> with, of course, the<lb/>
+               softening and sophisticated touch of <name type="place" subtype="continent">Africa</name>.<lb/>
+         </p>
+      
+         <p style="indent">
+            The <name type="person_group">colored woman</name> is responsible to a large degree for the rapid<lb/>
+            adaptation of <name type="person_group">black folk</name> to <name type="person_group">American</name> life, for she conveyed to the less<lb/>
+         favored male what she learned by closer association with the best that<lb/>
+            the civilized white minority had to offer. Indeed, the <name type="person_group">colored woman</name><lb/>
+         has been a more potent factor in shaping <name type="person_group">Negro</name> society than the<lb/>
+            <name type="person_group">white woman</name> has been in shaping <name type="person_group">white</name> society because the sexual<lb/>
+         caste system has been much more fluid and ill-defined than among<lb/>
+            <name type="person_group">whites</name>. <name type="person_group">Colored women</name> have worked <hi style="italics">with</hi> their men and helped<lb/>
+         build and maintain every institution we have. Without their<lb/>
+         economic aid and counsel we would have made little if any progress.<lb/>
+         Equality of the sexes is an old story in <name type="person_group">Negro</name> life. Aframerica is<lb/>
+         even a matriarchy.
+      </p>
+         
+            <p style="indent">
+               Through the church, fraternal organizations, parent-teacher asso<lb break="no"/>
+            ciations, <name type="organization"><choice><abbr>NAACP</abbr><expan>National Association for the Advancement of Colored People</expan></choice></name> branches and various social groups, our women<lb/>
+            have welded a weak and divided people into a more compact, har<lb break="no"/>
+            monious and increasingly powerful group. They rank high in indi<lb break="no"/>
+            vidual achievement in all fields, but so persistent is the early pattern<lb/>
+            of male precedence in <name type="person_group">American</name> thinking that too often the recogni<lb break="no"/>
+            tion due women has been withheld or given grudgingly and<lb/>
+            patronizingly.<lb/>
+         </p>
+         
+            <p style="indent">
+               It is the purpose of the photographic series which begins on the<lb/>
+            following pages and will continue indefinitely, to correct this imbal<lb break="no"/>
+            ance by presenting each month four colored women of recognized<lb/>
+            ability and accomplishment who have contributed much to the<lb/>
+            progress of civilization in <name type="place" subtype="country">America</name>. <title level="m">The Crisis</title> must perforce make<lb/>
+            the appraisal and selection. Space imposes a severe limitation upon<lb/>
+            us, so failure of anyone to be recognized here does not imply that<lb/>
+               her achievements have not been outstanding.<lb/>
+         </p>
+         <p style="indent">
+            Again, it is obvious that there will be more selections from the city<lb/>
+            than from the country and more from the <name type="place" subtype="region">North</name>, <name type="place" subtype="region">East</name> and <name type="place" subtype="region">West</name> than<lb/>
+            from the <name type="place" subtype="region">South</name>. Many outstanding women have migrated from the<lb/>
+            <name type="place" subtype="region">South</name> to other parts of the nation where greater opportunities have<lb/>
+            heretofore existed. However, we plan to leave no state unrecognized.<lb/>
+            Our choice will be catholic, our criteria national or sectional fame.<lb/>
+         </p>
+         <pb n="2" facs="../images/ew_d1_329_287-289_002.jpg"/>
+         <p>September, 1942 <hi style="right"><choice><orig>289</orig><reg/></choice></hi>
+         </p>
+         <figure>
+            <desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder D1, Item 329.</desc><lb/><graphic url="../images/ew_d1_329_287-289_002_001.jpg"></graphic>
+         </figure>
+         <p>
+            <emph style="case(allcaps)"><name type="person">miss eartha m.m. white</name></emph> is a native and resident of <name type="place" subtype="city">Jacksonville</name>, <name type="place" subtype="state">Florida</name>, a graduate of <name type="organization">Florida Normal Institute</name> and holds the degree<lb/>
+            <hi style="center">of doctor of humanity</hi><lb/>
+         </p>
+         <p style="indent"><name type="person">Miss White</name> is a pioneer social worker into whose care, <name type="organization">the Federal government</name>, at the close of the last war, entrusted outstanding <name type="organization">Federal</name><lb/>
+            projects for social betterment among <name type="person_group">Negroes</name>.
+         </p>
+         <p style="indent">Among the institutions which <name type="person">Miss White</name> has promoted and heads are the<name type="organization">Clara White Mission</name> (named for her mother who worked with<lb/>
+            her), an agency for the care of orphans and child placement where the needy are fed, clothed, sheltered, and trained for useful employment, and<lb/>
+            the <quote>Old Folks' Home,</quote> where fifty aged persons are given residence.<lb/>
+         </p>
+         <p style="indent"><name type="person">Miss White</name> is a member of the <name type="organization">Bethel Baptist Church</name>, a pioneer <name type="organization">Federated Club</name> woman, having served as treasurer of the state federation for<lb/>
+         years. She is one of the founders of the <name type="organization">National Association of Colored Women</name> and is a member of the <name type="organization">National Council of Negro women</name>.
+         </p>
+      </div>
+      </body>
+  </text>
+</TEI>

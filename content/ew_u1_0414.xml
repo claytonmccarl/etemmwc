@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Annie A. Gray to Eartha M. M. White. November 21, 1931</title>
+            <author>Annie A. Gray</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding by</resp>
+               <name>K. Anagnostou and Marisa Pechillo</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document was produced as part of the project "Northeast Florida Editing Workshop" at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>
+                  <settlement>Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection>Eartha M. M. White Collection</collection>
+                  <idno>Folder U1 Item 0414</idno>
+                  <altIdentifier>
+                     <collection><!-- If you have accessed a digital copy of the item through an online collection, indicate the name and URL of the online collection here.--></collection>
+                     <idno><!-- Indicate the item number or whatever is used to designate the item within that online collection here.--></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                    A letter from Annie A. Gray written to Eartha M.M. White informing her of the death and upcoming funeral of a mutual acquaintance.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Two handwritten pages and envelope with considerable discoloration and some stains. </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Northeast Florida Editing Workshop" (nfew.org) at the University of North Florida. Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_u1_414_001.jpg"/>
+         <note type="editorial">The following is the envelope included with the letter.</note>
+         <p style="right-align">
+            <stamp type="postage_stamp">
+            <figure>
+               <figDesc>
+                  Red 2-cent stamp with George Washington's profile underneath the words "United States Postage"
+               </figDesc>
+            </figure>
+         </stamp>
+         </p>
+         <p style="right-align">
+            <stamp type="postage_stamp">
+               <hi style="allcaps">Mail Early For Christmas</hi>
+               <name type="place">Washington, D.C. 4</name> 
+               <date when="1931-11-21">Nov. 21, 1931</date> 9 - PM
+            </stamp>
+         </p>
+         <p>
+            <name type="place" subtype="address">913 R. <unclear cert="medium" reason="Character is hard to discern">S</unclear> Ave N.W.</name><lb/>
+            <name type="place" subtype="city">Washington, D.C.</name><lb/>
+         </p>
+         <p>
+            <name type="person">Miss Eartha M. White<choice><orig>,</orig><reg></reg></choice></name><lb/>
+            <name type="place" subtype="address">233 West First Street<choice><orig>,</orig><reg></reg></choice></name><lb/>
+            <name type="place" subtype="city">Jacksonville,</name><lb/>
+            <name type="place" subtype="state">Fla.</name><lb/>
+         </p>
+         <pb n="2" facs= "../images/ew_u1_414_001.jpg"/>
+         <div>
+         <opener>
+            <dateline style="mid-page"><name type="place" subtype="address">913 <unclear cert="high" reason="Stain covers characters">R. S Ave.</unclear> N.W.</name><lb/></dateline>
+            <dateline style="mid-page"><name type="place" subtype="city">Washington<choice><orig></orig><reg>,</reg></choice> D.C.</name><lb/></dateline>
+            <dateline style="mid-page"><date when="1931-11-21">Nov. 21, 1931<choice><orig>.</orig><reg></reg></choice></date></dateline>            
+            <salute>
+               Dear <name type="person">Eartha</name><choice><orig>:</orig><reg>,</reg></choice>
+            </salute>
+         </opener>
+            <p>
+               Just a line to let you know<lb/>
+               that when you get this note,<lb/>
+               <hi style="underline">if you are at home</hi>, the funeral<lb/>
+               of your friend <name type="person">John M. Waldron</name><lb/>
+               will be going on.
+            </p>
+            <p style="indent">
+               It is real sad, for they<lb/>
+               <hi style="underline">have</hi> nothing and the house<lb/>
+               is <hi style="underline">mortgaged</hi> up to the top of<lb/>
+               the <hi style="underline">chimney</hi>. The <hi style="underline">church</hi> is<lb/>
+               standing for the expenses. A<lb/>
+               very grand thing after the way<lb/>
+               he acted toward them.
+            </p>
+            <p>
+               They say he is so swollen.<lb/>
+               This clipping will tell you a little<lb/>
+               account of them. Should the papers 
+            </p>         
+         </div>
+         <pb n="3" facs= "../images/ew_u1_414_002.jpg"/>
+         <div>
+         <p>
+            have anything about the funeral<lb/>
+            in them, I'll send you a copy.<lb/>
+            Did they notify <name type="person">J.E.</name> of his death?<lb/>
+            I was there this P<choice><orig>.</orig><reg></reg></choice>M<choice><orig>.</orig><reg>,</reg></choice> <choice><orig><unclear cert="medium" reason="Script unclear">Just</unclear></orig><reg>just</reg></choice> Mrs.<lb/>
+            Waldron is so broken up over<lb/>
+            the death of J.M. that I <unclear cert="high" reason="Individual characters in script are difficult to discern">could</unclear><lb/>
+            not go in.
+         </p>
+         <p>
+            I tell you, it does not pay<lb/>
+            to live <hi style="underline">so</hi> far <hi style="underline">above</hi> our neigh-<lb/>bors<choice><orig></orig><reg>,</reg></choice>
+            for we never know to what<lb/>
+            we are coming. Hope all are<lb/>
+            well.
+         </p>
+         <p>
+            I shall try to get to the tail<lb/>
+            end of the funeral on my way<lb/>
+            home from school, Monday.
+         </p>
+         <p>
+            <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> Walter Brooks</name> buried his wife<lb/>
+            that Sunday. Love to everybody in<lb/>
+            <name type="place" subtype="city"><choice><abbr>Jax</abbr><expan>Jacksonville</expan></choice> </name>.<lb/> Write soon.
+         </p>
+         </div>
+         <closer style= "mid-page">
+            <salute>
+               I am <choice><orig>L</orig><reg>l</reg></choice>ovingly,
+            </salute>
+            <signed>
+               <name type="person">
+                  Annie <choice><orig>.</orig><reg></reg></choice>
+               </name>
+            </signed>
+         </closer><note type="transcription">The closing salutation of the letter appears to say "I am lovingly, Annie" and has been transcribed this way.</note>
+          
+         <note type="editorial">A non-contemporaneous note reads "newsclipping mentioned in letter can be found in folder titled - Bethel Baptist Institutional Church". See: “Obituary of Reverend J. Milton Waldron. November 20, 1931,” North Florida Editorial Workshop, accessed July 19, 2020, https://nfew.claytonmccarl.domains.unf.edu/items/show/40</note>
+      </body>
+  </text>
+</TEI>

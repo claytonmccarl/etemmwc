@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Announcement of Fifteenth Annual Meeting and Conference, February 3-5, 1926, in New York City.</title>
+            <author>National Urban League</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>John Pello-Wasko</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder C3, Item 699</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Announcement and invitation to attend Fifteenth Annual Meeting and Conference, February 3-5, 1926, in New York City.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>An invitation to The National Urban League 2 pages</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_c3_699_001.jpg"/>
+         <p>
+            THE NATIONAL<lb/>
+            URBAN LEAGUE<lb/>
+            
+            announces its<lb/>
+            
+            Fifteenth Annual Meeting<lb/>
+            and Conference<lb/>
+            
+            to be held in<lb/>
+            NEW YORK CITY<lb/>
+            
+            FEBRUARY 3 to 5, 1926
+         </p>
+         
+         <pb n="1" facs="../images/ew_c3_699_002.jpg"/>
+         
+         <p>All members of the League,<lb/>
+            Social workers and other inter-<lb break="no"/>
+            ested friends are invited.</p>
+         
+         <p>Subjects for discussion include<lb/>
+            "Industry", "Health and Hous-<lb break="no"/>
+            ing" and "Inter-Racial  Co-oper-<lb break="no"/>
+            ation."</p>
+         
+         <p>Special Feature : Report on<lb/>
+            the experiences of Negroes with<lb/>
+            Trade Unions in the United<lb/>
+            States and a discussion of training<lb/>
+            for industrial opportunities.</p>
+         
+         <p>Address all communications of inquiry<lb/>
+            concerning speakers and topics for dis-<lb break="no"/>
+            cussion to</p>
+         
+         <p>Eugene Kinckle Jones, Executive Secretary<lb/>
+                 National Urban League
+                 127 East 23rd Street
+                 New York City</p>
+         
+         <p>Accomodations may be secured through</p>
+         
+         <p>James H. Huburt, Executive Secretary<lb/>
+            The New York Urban League<lb/>
+            202 West 136th Street<lb/>
+                  New York City</p>
+       
+         
+      </body>
+  </text>
+</TEI>

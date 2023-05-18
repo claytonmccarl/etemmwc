@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"The Negroes' Making In America" Program </title>
+            <author>Unknown</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Ethan Leavitt and Carol Hemmingway</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder A1, Item 2693</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A program of an exposition sponsored by the Florida Sentinel and held on June 14th at 8:00 PM.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A printed program for the event on 6/14. The back of the single sheet has a handwritten note.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_a1_2693_001.jpg"/>
+         <head><emph style="case(allcaps)">An Exposition</emph></head>
+         <div><div><head><emph style="case(allcaps)">Entitled</emph></head></div></div>
+         <div><head><name type="evemt">“The Negroes’ Making in America”</name></head></div>
+         <div><div><div><head>Under the Auspices of</head></div></div></div>
+         <div><div><head><name type="person_group">The Choir of Laura Street Presbyterian Church</name></head></div></div>
+         <div><div><div><head>Sponsored By</head></div></div></div>
+         <div><div><div><head><emph style="case(allcaps)"><name type="company" subtype="newspaper">The Florida Sentinel</name></emph></head></div></div></div>
+         <div><div><div><head><emph style="case(allcaps)">Sunday, <date when="9999-06-14">June 14th</date>, 8 O’Clock</emph></head></div></div></div>
+         <div><p>
+            <hi style="center"><emph style="case(allcaps)">Programme</emph></hi><lb/>
+            1.	Hymn--<title level="a">“Lift Every Voice and Sing”</title>--(Johnson)…<name type="person_group">Congregation</name><lb/>
+            2.	Invocation…<name type="person">Dr. E. J. Gregg</name>, Pastor<lb/>
+            3.	Foreword…<name type="person">Attorney Geo. G. DeVaughn</name>.<lb/>
+            4.	Soprano Solo--<title level="a">“We’ve Fought Every Race’s Battle But Our Own”</title>…<lb/>
+            <hi style="center"><name type="person">Mrs. R. Andrews Austin</name></hi><lb/>
+            5.	Observations--“Contributions by The Press Generally”…<lb/>
+            <hi style="center"><name type="person">Mrs. Audrey L. Jones</name></hi><lb/>
+            6.	Duet--<title level="a">“O Sole Mio”</title>--(E. di Capua)--…--<name type="person">Alvin</name> and <name type="person">Gustavo Nairn</name>.<lb/>
+            7.	Address--“Contributions Made Toward the Progress of American<lb/>
+            Negroes Through the Negro Press and Through the <name type="company" subtype="newspaper">Flori<lb break="no"/>da Sentinel</name>”…Mr. <name type="person">Joe H. James</name>, Jr.<lb/>
+            8.	Piano Solo--<title level="a">“Murmuring Zephrs</title>--(<name type="person">Jensen Nieman</name>)…<lb/>
+            <hi style="center"><name type="person">Mrs. J. B. Andrews</name></hi><lb/>
+            9.	Dramatic Reading--Murder Scene from <title level="m">Macbeth</title>, Act II, Scene I…<lb/>
+            <hi style="center">Mr. <name type="person">John A. Simms</name>.</hi><lb/>
+            10.	Soprano Solo--(Selected)…Mrs. <name type="person">Alice Wise Gorden</name>.<lb/>
+            11.	Remarks…<name type="person">Dr. E. J. Gregg</name><lb/>
+            12.	Offering.<lb/>
+            13.	Hymn--(closing)--<title type="a">“Day Is Dying In The West”</title>…<name type="person_group">Congregation</name>.<lb/>
+            Benediction.</p>
+            
+            <p>Note.--The next program will relate the profession of law<choice><orig>,</orig><reg/></choice> and will be<lb/> 
+               sponsored by the <name type="organization">Colored Bar Association of Jacksonville</name>, Sunday evening,<lb/>
+               <date when="9999-06-28">June 28</date>. Attorney <name type="person">S. D. McGill</name>, president of the Association, will deliver<lb/>
+               the address.<lb/></p></div>
+         <pb n="2" facs= "../images/ew_a1_2693_002.jpg"/>
+            <div><p>is that a<lb/>
+               new piano<lb/>
+            <unclear cert="low" reason="Handwriting is difficlt to read.">Uld &amp; ery</unclear></p>
+         </div>
+      </body>
+  </text>
+</TEI>

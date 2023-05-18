@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florida A and M University - Letter of Reply</title>
+            <author>Unknown Author</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding</resp>
+               <name>Joseph Fricks</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder P1, Item 405</idno>                  
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>This document is a one-page, printed paper letter, sent by an official at Florida A and M University and addressed to Eartha M. M. White. The letter contains a short description of Thomas Van Gibbs, a former vice president at the university.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_p1_405_001.jpg"/><!-- Here is your first page break. You need to make the image name here match the name of your file -->         
+            <div>               
+               <head style="center">                  
+                  <label style="case(allcaps)"><name type="institution">Florida A and M University</name></label><lb/>
+                  <name type="place" subtype="city">Tallahassee</name>, <name type="place" subtype="state">Florida</name><lb/>
+                  <date when="1954-05-01" style="indent">May 3, 1954</date>
+               </head>
+            </div>
+         <div>
+            <p>
+               Miss <name type="person">Eartha M. M. White</name><lb/>
+               <name type="place" subtype="address">615 West Ashley Street</name><lb/>
+               <name type="place" subtype="city">Jacksonville</name>, <name type="place" subtype="state">Florida</name><lb/>
+            </p>
+            <p>
+               Dear Miss <name type="person">White</name>:
+            </p>
+            <p>
+               Enclosed is the photograph that you have long since asked for.<lb/>
+               Please excuse the delay in sending it to you sooner.<lb/>
+            </p>
+            <p>
+               <name type="person">Thomas Van Gibbs</name>, Vice-President, 1887 - 1900, was educated at<lb/>
+               <name type="institution">Oberlin</name> and <name type="institution">West Point Military Academy</name>. As a member of the<lb/>
+               Florida Legislature, he introduced the bill that provided for the<lb/>
+               establishment of <name type="institution">Florida A and M College</name>. He was appointed Vice-<lb/>
+               President by <name type="person">A. J. Russell</name>, Superintendent of Public Instruction.<lb/>
+            </p>
+            <p>
+               If we can be of further assistance to you please do not<lb/>
+               hesitate to write.<lb/>
+            </p>
+         </div>
+         <closer>
+            <salute style="center">
+               Yours truly,
+            </salute>
+            <signed style="center">
+               <handShift medium="blue pen"/>
+               <unclear cert="low" reason="Handwritten signature is difficult to read.">J. Henderson</unclear>
+               <handShift medium="black type"/>
+               Head--Business Education and<lb/>
+               Administration<lb/>
+            </signed>
+            JVA/dmj<lb/>
+            Enclosure<lb/>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Job Notice </title>
+            <author>George P Glenn </author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Carol Lynne Hemmingway</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "editing the Earth M.M. White Archive"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder L4 , Item 1328  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>  Handwritten note on County Superintendent of schools, p2 typed transcription,
+                         p 3-4 front and back of mailing envelope </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs= "../images/ew_l4_1328_001.jpg"/>
+         <cb/>
+         <div><div><head style="center"><emph style="case(allcaps)">Board Public Instruction</emph></head></div></div>
+         <div><div><div><head style="center"><name type="person"><emph style="case(allcaps)">D. U. Fletcher</emph></name>, Jacksonville, Chairman<choice><orig>.</orig><reg></reg></choice></head></div></div></div>
+         <div><div><div><head style="center"><name type="person"><emph style="case(allcaps)">B. H. Chadwick</emph></name>, Jacksonville<choice><orig>.</orig><reg></reg></choice></head></div></div></div>
+         <div><div><div><head style="center"><name type="person"><emph style="case(allcaps)">E. P. Holmes</emph></name>, Jacksonville<choice><orig>.</orig><reg></reg></choice></head></div></div></div>
+         <div><div><div><head style="center"><name type="person"><emph style="case(allcaps)"><choice><abbr>Geo.</abbr><expan>George</expan></choice> P. Glenn</emph></name>, Jacksonville,</head></div></div></div>
+         <div><div><div><head style="center">Secretary and County Superintendent<choice><orig>.</orig><reg></reg></choice></head></div></div></div>
+         <cb/>
+         <div><div><head style="center">Office of</head></div></div>
+         <div><head style="center">County Superintendent of Schools,</head></div>
+         <div><div><div><head style="center"><name type="place">Duval County, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name></head></div></div></div>
+         <div><opener style="right"><name type="place" subtype="address">Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name>, <date when="1902-01-30"><choice><abbr>Jan</abbr><expan>January</expan></choice> 30<choice><orig/><reg>,</reg></choice> 1902</date></opener></div>
+         <div><opener><salute><name type="person">Miss E. M. White</name></salute>
+            <name type="place" subtype="address">Bayard<choice><orig/><reg>,</reg></choice> <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name></opener></div>
+         <div><p style="indent">
+            At the last meeting<lb/>
+            of the Board<choice><orig/><reg>,</reg></choice> you were chosen to<lb/>
+            take a vacancy in the <name type="place">Stanton</name><lb/>
+            to begin next Monday<choice><orig/><reg>,</reg></choice> <date when="1902-02-03"><choice><abbr>Feb.</abbr><expan>February</expan></choice> 3<choice><orig>"</orig><reg>,</reg></choice> 1902</date><choice><orig></orig><reg>.</reg></choice>            
+         </p>
+         <p style="indent">
+            You may turn your whole<lb/>
+            school over to <name type="person">Miss Johnson</name> and<lb/>
+            report your average attendance<lb/>
+            in both departments at this office<lb/>
+            next <choice><abbr>Sat.</abbr><expan>Saturday</expan></choice> or sooner and prepare<lb/>
+            for your new work.
+         </p>
+         <closer style="right">
+            <salute><choice><abbr>Respy</abbr><reg>Respectfully</reg></choice><choice><orig></orig><reg>,</reg></choice></salute><lb/>
+            <signed><name type="person"><choice><abbr>Geo.</abbr><expan>George</expan></choice> P. Glenn</name></signed>
+         </closer></div>
+         <pb n="2" facs= "../images/ew_l4_1328_002.jpg"/>
+         <cb/>
+         <div><p>
+            <emph style="case(allcaps)">Board Public Instruction</emph>.<lb/>
+            <name type="person">D. U. Fletcher</name>, <name type="place" subtype="city">Jacksonville</name>, Chairman<lb/>
+            <name type="person">B. H. Chadwick</name>, <name type="place" subtype="city">Jacksonville</name><lb/>
+            <name type="person"><emph style="case(allcaps)">E. P. Holmes</emph></name>, <name type="place" subtype="city">Jacksonville</name><lb/>
+            <name type="person"><choice><abbr>Geo.</abbr><expan>George</expan></choice> P. Glenn</name>, <name type="place" subtype="city">Jacksonville</name>,<lb/>
+            Secretary <choice><orig>&amp;</orig><reg>and</reg></choice> County Superintendent<choice><orig>.</orig><reg/></choice><lb/>
+         </p></div>
+         <cb/>
+         <div><p>
+            Office of<lb/>
+            <emph style="case(allcaps)">County Superintendent of Schools</emph>, Duval County<lb/> 
+            Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice>, <date when="1902-01-30"><emph style="case(allcaps)">January</emph> 30, 1902</date>.<lb/>
+         </p></div>
+         <div><opener>
+            <salute><name type="person">Miss E. M. White</name></salute>
+            <name type="place" subtype="address">Bayard<choice><orig/><reg>,</reg></choice> <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name>
+         </opener>
+            <p style="indent">At the last meeting of the Board you were chosen to take a vacancy in the <name type="place"><emph style="case(allcaps)">Stanton</emph></name>,<lb/>
+               to begin next Monday, <date when="1902-02-03"><choice><abbr>Feb.</abbr><expan>February</expan></choice>3, 1902</date>.<lb/> </p>
+            <p style="indent">You may turn your whole school over to <name type="person">Miss Johnson</name> and report your average<lb/> 
+               attendance in both departments at this office next <choice><abbr>Sat.</abbr><expan>Saturday</expan></choice> or sooner and prepare for your<lb/>
+               new work.<lb/></p>
+            <closer style="right"><choice><abbr>Respy</abbr><expan>Respectfully</expan></choice>,<lb/>
+            <name type="person"><choice><abbr>Geo.</abbr><expan>George</expan></choice> P. Glenn</name></closer>
+            <closer>
+            (This copy of the original document was typed on <date when="1983-06-29">June 29, 1983</date> when this information<lb/>
+            was reclassified from <emph style="case(allcaps)">White, Eartha M. M.-Business Correspondence</emph> (Folder Y4) to<lb/>
+            <emph style="case(allcaps)">Stanton High School</emph> (Folder L4), with accompanying card <choice><abbr>no.</abbr><expan>number</expan></choice> 1328.</closer>
+            <closer style="right"><name type="person">Doris Shiver</name><lb/>
+            Media Center<lb/></closer>
+      </div>
+         <pb n="3" facs= "../images/ew_l4_1328_003.jpg"/>
+         <div><p>Board <choice><abbr>Pub.</abbr><expan>Public</expan></choice> <choice><abbr>Inst.</abbr><expan>Instruction</expan></choice><lb/>
+         Jacksonville,<lb/>
+         Florida</p></div>
+         <pb n="4" facs= "../images/ew_l4_1328_004.jpg"/>
+         <div><p>Teaching Appointments<lb/>
+         Letters of recommendation<lb/>
+         Permit to visit prisons<lb/>
+         as missionary</p></div>
+      </body>
+  </text>
+</TEI>

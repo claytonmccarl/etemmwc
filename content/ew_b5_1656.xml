@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Edward Jones to Eartha M.M. White. April 11, 1967. Tallahassee, Florida.</title>
+            <author>Edward Jones</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1656</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author requests help in promoting an initiative related to documenting Florida's African American history.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Typed letter with handwritten signature from Edward Jones to Eartha M. M. White on 4/11/1967 regarding an effort to find and document black communities' history in and contribution to Florida; letter accompanied by envelope.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1656_001.jpg"/>
+         <div>
+         <head>
+            <hi style="center">
+            <name type="place" subtype="address"><name type="place">Florida Agricultural and Mechanical University</name><lb/>
+            <name type="place" subtype="city">Tallahassee, Florida</name><lb/>
+               32307</name><lb/>
+               <hi style="case(allcaps)"><name type="person">George W. Gore. Jr.</name>, President</hi><lb/>
+               <date when="1967-04-11">April 11, 1967</date><lb/>
+            </hi>
+               <hi style="case(allcaps)">Vocational-Technical Institute</hi><lb/>
+         </head>
+         <head>
+            <name type="person">Miss <choice><sic>Ertha</sic><corr>Eartha</corr></choice> White</name><lb/>
+            <name type="place" subtype="address">1449 Milnor Avenue</name><lb/>
+            <name type="place" subtype="city">Jacksonville, Florida</name><lb/>
+         </head>
+         <opener>
+         <salute>
+            Dear <name type="person">Miss White</name>:<lb/>
+         </salute>
+         </opener>
+         <p>
+            I am soliciting your help in spreading an idea concerning the Negro of every<lb/>
+            community in <name type="place">Florida</name>.<lb/>
+         </p>
+         <p>
+            The problem is, "What can we do to acquaint ourselves with the past and<lb/>
+            present history of our foreparents and present generation?" You might call<lb/>
+            this effort research. Personally, I think the time is far pass for us to<lb/>
+            rely on other groups to realize what they have found out about the <choice><sic>Negor</sic><corr>Negro</corr></choice>, and<lb/>
+            hold back pertinent information concerning us. In every county in this state,<lb/>
+            Negroes have made a contribution as a slave or free "folks." All that is<lb/>
+            needed is for us to organize a procedure to dig up information, sort, sift,<lb/>
+            and document.
+         </p>
+         <p>
+            To attack the overall problem of <choice><sic>reserach</sic><corr>research</corr></choice>, I suggest that every high school<lb/>
+            or college within a county form groups in order to find information. Asking<lb/>
+            older citizens about yesteryears may bring back memories to them, which will<lb/>
+            be a help to them as well as giving you a sense of responsibility. Newspapers<lb/>
+            and magazines give a good bit of past and present history. Clippings from<lb/>
+            all sources, although they are happening now, will be history in years to<lb/>
+            come.<lb/>
+         </p>
+         <p>
+            I do hope you will find favor in the above suggestions, whereby young men<lb/>
+            and women will begin preparing, no matter what field of life they are in<lb break="no"/>
+            terested in.
+         </p>
+         <closer>
+            <salute>
+               Yours truly,
+            </salute>
+            <signed>
+               <handShift script="cursive" medium="blue pen"/><name type="person">Edward Jones</name><lb/>
+               <handShift script="typed" medium="black ink"/><name type="person">Edward Jones</name><lb/>
+               Department of Painting and Decorating<lb/>
+            </signed>
+            EJ:as<lb/>
+            P. S. I command you to read <hi style="underline">Carpetbag Rule in Florida</hi>, by <name type="person">John Wallace</name>,<lb/>
+            (Negro, 1888). You will have a better idea of the part Negro played in <name type="place">Florida</name>.<lb/>
+         </closer>
+      </div>
+         <pb n="2" facs="../images/ew_b5_1656_002.jpg"/>
+         <div>
+         <head>
+            <name type="place" subtype="address">
+               Florida A. &amp; M. University<lb/>
+               <hi style="case(allcaps)">Vocational-Technical Institute</hi><lb/>
+               Tallahassee, Florida 32307<lb/>
+               <location><geo>30.425673 -84.287195</geo></location>
+            </name>
+         </head>
+            <p>
+               <name type="person">Miss <choice><sic>Ertha</sic><corr>Eartha</corr></choice> White</name><lb/>
+               <name type="place" subtype="address"><del type="strikeout">1449 Milnor Avenue</del><location><geo>30.342118 -81.638860</geo></location></name><lb/>
+               <name type="place" subtype="city">Jacksonville, Florida</name><lb/>
+               <add type="no_caret"><handShift script="cursive" medium="pencil"/><name type="place" subtype="address">613 W. Ashley<lb/>
+                  32202<location><geo>30.332646 -81.664248</geo></location></name></add><lb/>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

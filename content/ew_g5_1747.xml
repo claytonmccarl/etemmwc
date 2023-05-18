@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humane Society Letter to Eartha M. M. White. May 1, 1929.</title>
+            <author>Mary C. Yarrow</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name> sierra jones-frishman and Carol Hemmingway <!-- that person adds their name here--> </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder G5, Item 1747</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to White about American Humane Education Society literature.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page handwritten letter from Yarrow to White dated 5/1/1929 with writing on both sides of the paper. The letter has Yarrow's personal haeding and is stamped with the dates of American Humane Education society events in 1929. It is accompanied by a handwritten list of literature being sent to White and the letter's envelope with White's street address and American Humane Education Society stamps.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_g5_1747_001.jpg"/>
+            <div><opener style="center">
+               <name type="person">Miss Mary C. Yarrow</name><lb/>
+               <name type="place">The Lincoln</name>,<lb/>
+               <name type="place" subtype="address">Locust below 13th <choice><abbr>St.</abbr><expan>Street</expan></choice>, <lb/>Philadelphia, <choice><abbr>Pa.</abbr><expan>Pennsylvania</expan></choice></name></opener> 
+            <opener style="right"><date when="1929-05-01">May 1/29</date>,</opener>
+            <opener><salute>
+               Dear <name type="person">Miss White</name>: <lb/>
+            </salute>
+            </opener>
+               <p>Have been intending <lb/>
+                  sending you some <name type="organization"><choice><abbr>A.H.E.S.</abbr><expan>American Humane and Equestrian Society</expan></choice></name> literature<lb/>
+               feeling it would do much good in the <lb/>
+               schools etc. <add type="caret">you visit, and</add> enclosed is a copy of what <lb/> 
+               I trust will reach you safely before <lb/>
+               very long. If anything <lb/>
+               on the list is over-<lb/></p>               
+               <p><emph style="case(allcaps)">Humane Sunday,<date when="1929-04-14">April 14, 1929</date>. <lb/>
+                  <name type="event">Be Kind to Animals Week</name>, <date when="1929-04-20">April 15-20, 1929</date>.</emph>
+               Every beast of the forest is Mine: and the cattle upon a thousand hills –- <title level="m">Bible</title> <lb/>
+                  <emph style="case(allcaps)">Open thy mouth for the dumb.-- <title level="m">Bible</title></emph> <lb/>
+         </p>
+               
+         <pb n="2" facs= "../images/ew_g5_1747_002.jpg"/>
+         <p>looked <add type="caret">when</add> making up the package<choice><orig/><reg>,</reg></choice><lb/>
+               could you drop a line to <name type="organization">Boston Society</name> <lb/>
+            and say what was forgotten<choice><orig>.</orig><reg>?</reg></choice> I trust <lb/>
+            The Gospels<choice><orig>,</orig><reg/></choice> and <add type="caret">the</add> package of tracts <lb/>
+               arrived safely. With kind regards and hoping you are well,<lb/></p>
+               <closer style="right">
+                  <salute>Sincerely,</salute>
+                  <signed>
+                     <name type="person">M.F. Yarrow</name><lb/>
+                  </signed>
+               </closer></div>
+         
+         <pb n="3"/>
+         <div><p>
+           copy<lb/>
+            1 Set of Humane Posters <lb/>
+            15 Horse’s Prayer card <lb/>
+            110 Try Kindness – Mule <lb/>
+            110 B.K.A. pins <lb/>
+            5 Outlines of Study <lb/>
+            5 Twelve Lessons in Kindness <lb/>
+            5 Angell Address to Schools <lb/>
+            1 Songs Happy Life with music <lb/>
+            15 small “  “  “ <lb/>
+            15 Barry <lb/>
+            1 set of Humane <choice><abbr>Ed.</abbr><expan>Education</expan></choice> leaflets <lb/>
+            1 Angell Recitation book <lb/>
+            15 Wise Fish<lb/>
+            “ chained Dog <lb/>
+         </p></div>
+         
+         <pb n="4"/>
+        <div>
+           <p>25 <choice><sic>Horors</sic><corr>Horrors</corr></choice> of Trapping <lb/> 
+            15 Professor Frog <lb/>
+            “ Molly Whitefoot <lb/>
+            “ Beggar Cat card <lb/>
+            100 Simon's Grub <lb/>
+            15 Proud Mother <lb/>
+            “ Eulogy on Dog <lb/>
+            25 Advice to Horsemen <lb/>
+            100 Horse’s Point of View <lb break="no"/> In Summer
+            1 Strike at Shane’s (book <add type="caret">stiff over</add><lb/>
+            1 Hollyhurst (book “ <lb/>
+         </p></div>
+         
+         <pb n="5" facs= "../images/ew_g5_1747_003.jpg"/>
+         <div>
+            <p><name type="person">Miss Mary C. Yarrow</name><lb/>
+               <name type="place">The Lincoln</name>,<lb/>
+               <name type="place" subtype="address">Locust below 13th <choice><abbr>St.</abbr><expan>Street</expan></choice>,<lb/>Philadelphia, <choice><abbr>Pa.</abbr><expan>Pennsylvania</expan></choice></name></p>
+         <p><name type="person">Miss E. M. M. White</name><lb/>
+            <name type="place" subtype="address">233 West First <choice><abbr>St.</abbr><expan>Street</expan></choice><lb/>
+            Jacksonville<lb/>
+            <choice><abbr>Fla</abbr><expan>Florida</expan></choice></name>
+         </p>
+            <p><emph style="case(allcaps)">Please do a kind act <name type="event">Animals Humane Sunday</name> <date when="1929-04-14">April 14, 1929</date><lb/>
+            and every day <name type="event">Be Kind to Animals Week</name>; <date when="1929-04-20">April 15-20, 1929</date><lb/>
+            Blessed are the merciful - <title type="m">Bible</title></emph></p>
+         </div>
+         <pb n="6" facs= "../images/ew_g5_1747_004.jpg"/>
+         <div><p><emph style="case(allcaps)">A Plea for the Horse</emph><lb/>
+            Every horse will work better and longer if<lb/>
+            given three ample meals daily; plenty of<lb/>
+            clean, fresh water; proper shoes, sharpened<lb/> 
+            in slippery weather; a blanket in cold<lb/>
+            weather; a stall 6 x 9, or enough room to<lb/>
+            lie down; a fly net in summer; two weeks'<lb/>
+            vacation each year. Do not use the cruel,<lb/>
+            tight-check rein, or closely-fitting blinders,<lb/>
+            which cause blindness.<lb/>
+            <emph style="case(allcaps)">Spare the Whip</emph>
+         </p>
+         <p>
+            Empty milk bottles should be cleansed promptly as kittens crawl into<lb/>
+            them for a few drops of milk, cannot get out<choice><orig></orig><reg>,</reg></choice> and die of suffocation.
+         </p></div>
+      </body>
+  </text>
+</TEI>

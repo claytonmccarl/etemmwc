@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from H.B. Perkins to Eartha M.M. White. August 19, 1930. Jacksonville, FL.</title>
+            <author>H.B. Perkins</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1583</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author asks for employment.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Handwritten letter from H. B. Perkins to Eartha M. M. White on 8/19/1930, regarding employment. It is accompanied by an envelope hand-addressed to Miss. White, but without a street address.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1583_001.jpg"/>
+         <div>
+         <head>
+            <name type="place" subtype="city">Jacksonville</name> <date when="1930-08-19"><choice><abbr>8 19. 1930.</abbr><expan>August 19, 1930</expan></choice></date><lb/>
+         </head>
+         <p>
+            Dear <name type="person">miss White</name><choice><orig/><reg>.</reg></choice> i was over<lb/>
+            to see you again about work<choice><orig/><reg>.</reg></choice><lb/>
+            <choice><sic>im</sic><corr>I'm</corr></choice> the one that was here last<lb/>
+            monday one week ago monday<lb/>
+            gone<choice><orig/><reg>.</reg></choice> if you have any jobs<lb/>
+            please let me know at<lb/>
+            once. i will <choice><sic>apprashate</sic><corr>appreciate</corr></choice> it<choice><orig/><reg>.</reg></choice><lb/>
+         </p>
+         <closer>
+            <name type="place" subtype="address">1723. W. Beaver<choice><abbr>St</abbr><expan>Street</expan></choice>
+               <location><geo>30.335235 -81.686038</geo></location></name><lb/>
+            <signed><name type="person">H. B. Perkins</name></signed><lb/>
+         </closer>
+         </div>
+         <pb/>
+         <div>
+            <p>
+            <name type="person">Miss. White</name><lb/>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

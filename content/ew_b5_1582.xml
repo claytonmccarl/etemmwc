@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from G.D. Rogers to Eartha M.M. White. November 12, 1930. Bradenton, FL.</title>
+            <author>G.D. Rogers</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1582</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author requests information regarding the address of the mother of a deceased WWI veteran, for purposes of insurance disbursement.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Typed letter using both black and red ink from G. D. Rogers to Eartha M. M. White on 11/12/1930 regarding the location of a woman who used to live at 2001 Davis Street.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <pb n="1" facs="../images/ew_b5_1582_001.jpg"/>
+         <opener>
+            <name type="person">G. D. Rogers</name><choice><orig>. .</orig><reg/></choice><lb/>
+            <!-- name has to be inside address for centering to work (?) -->
+            <address>
+               
+               <name type="place" subtype="address">207<choice><orig>.</orig><reg/></choice> <choice><abbr>9th</abbr><expan>Ninth</expan></choice> <choice><abbr>Ave.</abbr><expan>Avenue<choice><orig>.</orig><reg/></choice></expan></choice></name><lb/>
+            </address>
+         </opener>
+         
+                
+
+         <opener style="right">
+            <address>
+               <name type="place" subtype="city">Bradenton. <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name><lb/>
+            </address>
+            <date when="1930-11-12"><choice><abbr>Nov. 12th 1930</abbr><expan>November 12, 1930</expan></choice></date>.<lb/>
+         </opener>
+           
+         <opener style="left">
+            <name type="person">Mrs. Eartha. M.M.White</name>.<lb/>
+            <address>
+               <name type="place" subtype="city"><choice><abbr>Jax.</abbr><expan>Jacksonville</expan></choice> <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name><lb/>
+            </address>
+            
+            <salute>
+               Dear <name type="person">Mrs. White.</name>
+            </salute>
+         </opener>
+    
+         <p style="indent">
+            I am told by <name type="person">Mr. C.E.Todd.</name> that you might give me some infor<lb break="no"/> 
+            mation concerning a woman that lived sometime ago at <name type="place" subtype="address">2001 Davis <choice><abbr>St.</abbr><expan>Street.</expan></choice></name><lb/>
+            she had a <hi style="italicize">nephew</hi> that died here last Aug and he was a veteran of the<lb/>
+            last <handShift medium="red-ink"/><emph style="case(allcaps)">war</emph>,<note type="editorial"><mentioned>"Last War"</mentioned> refers to the First World War because that is the war that precedes this letter's date of 1929</note><handShift medium="black-ink"/> and left her his insurance and I <choice><sic>cannit</sic><corr>cannot</corr></choice> locate her<choice><orig>,</orig><reg>.</reg></choice> If you<lb/>
+            know her and know anything about her whereabouts kindly let me<lb/>
+            know and Oblige yours very Truly.<lb/>
+         </p>
+         <closer style="three-fourths">
+            <signed>
+               <handShift script="cursive" medium="pencil"/><name type="person">G. D. Rogers</name><note type="transcription">There is a dotted line where Rogers signed.</note><lb/>
+            </signed>
+         </closer>
+         <closer style="center">
+            Notary Public<note type="transcription">this phrase is written in a different hand and different pencil to the one above</note><lb/>
+         </closer>
+      </body>
+  </text>
+</TEI>

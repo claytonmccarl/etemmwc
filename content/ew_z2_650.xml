@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>National Association of Colored Women Health Department Pamphlet. C. 1933-1937.</title>
+            <author>National Association of Colored Women Health Department</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder Z2, Item 650 <!-- this should be filled in --></idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A pamphlet with public health information prepared for the National Association of Colored Women.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A printed folded pamphlet of one sheet of paper.  <!-- describe material , number of pages, print or handwritten, condition, dimensions etc.--> </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+	<body>         
+		<pb n="1" facs= "../images/ew_z2_650_001.jpg"/>
+		<div>
+			<head style="center">
+				Health Department
+			</head>
+		</div>
+		<div>
+			<div>
+				<head style="center">
+					<name type="organization"><choice><abbr>N. A. C. W.</abbr><expan>National Association of Colored Women</expan></choice></name><lb/>
+					Prepared especially for<lb/>
+					... Clubs ...<lb/>
+				</head>
+			</div>
+		</div>
+		<div>
+			<head style="center">
+				<name type="organization">National Association<lb/>
+				of<lb/>
+				Colored Women</name><lb/>
+			</head>
+		</div>
+		<div>
+			<div>
+				<div>
+					<head style="center">
+						<name type="person">Mary Fitzbutler Waring, M. D.</name><lb/>
+						National Chairman<lb/>
+					</head>
+				</div>
+			</div>
+		</div>
+		<pb n="2" facs= "../images/ew_z2_650_002.jpg"/>
+		<div>
+			<p style="indent">
+				If with intelligence and skill the<lb/>
+				homemakers can learn to do the work<lb/>
+				of dietitian, welfare worker and sani<lb break="no"/>tary inspector, much will be done to im<lb break="no"/>prove the world. We are not working<lb/>
+				for our particular group, but through<lb/>
+				improving our own we may set an ex<lb break="no"/>ample in right living that will make the<lb/>
+				world a better place to live.<lb/>
+			</p>
+			<p style="indent">
+				The progressive age in which we live<lb/>
+				has made it necessary to give you, even<lb/>
+				though briefly, a constructive program.<lb/>
+				We realize that the child's intellectual<lb/>
+				development is dependent on the physi<lb break="no"/>cal structure and moral attitude. There<lb break="no"/>for we are opening out yearly work<lb/>
+				herafter with a program for <choice><orig>Better</orig><reg>better</reg></choice><lb/>
+				<choice><orig>Homes</orig><reg>homes</reg></choice>.<lb/>
+			</p>
+			<p style="indent">
+				You are requested to hold meeting<lb/>
+				and have concerted action the twenty-<lb break="no"/>second of September in a campaign for<lb/>
+				this purpose.<lb/>
+			</p>
+		</div>
+		<div>
+			<div>
+				<div>
+					<head>September<choice><orig>:</orig><reg></reg></choice></head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p>
+				"Westward the <choice><orig>Star</orig><reg>star</reg></choice> of <choice><orig>Empire</orig><reg>empire</reg></choice> takes<lb/>
+				its way."<lb/>
+				Was said by someone of a by-gone<lb/>
+				day.<lb/>
+				But <choice><orig>Look</orig><reg>look</reg></choice>! The <choice><orig>Star</orig><reg>star</reg></choice> of <choice><orig>Better</orig><reg>better</reg></choice> <choice><orig>Health</orig><reg>health</reg></choice><lb/>
+				is near,<lb/>
+				To shed its light upon you home,<lb/>
+				right here.<lb/>
+			</p>
+			<p style="indent">
+				Give more time, to the living condi<lb break="no"/>tions of the home. Use properly all the<lb/>
+				things you possess. Train the children<lb/>
+				to use their knife, fork, and spoon prop<lb break="no"/>erly. How to arrange flowers for beau<lb break="no"/>tiful<lb/>
+				effect. What colors harmonize in<lb/>
+				interior decoration. These all help to<lb/>
+				mould character. This idea has been<lb/>
+				splendidly outlined by <name type="person">Mrs. Sallie<lb/>
+				Stewart</name>, National President.<lb/>
+			</p>
+		</div>
+		<pb n="3"/>
+		<div>
+			<div>
+				<div>
+					<head>Topics for Consideration</head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p style="indent">
+				Shall we save the best silver for com<lb break="no"/>pany? Make the home a happy place<lb/>
+				to live. Does it pay to always eat in<lb/>
+				the kitchen? Should children have defi<lb break="no"/>nite duties to perform? Do mothers<lb/>
+				need recreation? Should a father be<lb/>
+				acquainted with his own children?<lb/>
+			</p>
+			<p style="indent">
+				Is the moral attitude being kept up to<lb/>
+				the high standard?
+			</p>
+			<p style="indent">
+				Emphasize - <choice><orig>Environment</orig><reg>environment</reg></choice>, <choice><orig>Habits</orig><reg>habits</reg></choice>,<lb/>
+				<choice><orig>Morals</orig><reg>morals</reg></choice> and <choice><orig>Religion</orig><reg>religion</reg></choice>.<lb/>
+			</p>
+		</div>
+		<div>
+			<div>
+				<div>
+					<head>October<choice><orig>:</orig><reg/></choice></head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p>
+				Slogan: Aid suffering humanity be<lb break="no"/>fore it suffers<lb/>
+			</p>
+			<p style="indent">
+				Preventive medicine has revolution<lb break="no"/>ized methods of practice. <choice><abbr>'Tis</abbr><expan>It is</expan></choice> better to<lb/>
+				remain well than to attempt to cure<lb/>
+				the ills that may invade the body. You<lb/>
+				are urged to give attention to preven<lb break="no"/>tive medicine and prophylactic princi<lb break="no"/>ples.
+			</p>
+			<p style="indent">
+				To circulate literature on the care of<lb/>
+				waste, ventilation, body protection, care<lb/>
+				of mothers and children, and the need<lb/>
+				of a knowledge of preventive medicine.<lb/>
+			</p>
+			<p style="indent">
+				Vaccination and inoculation to pro<lb break="no"/>tect children from childhood diseases<lb/>
+				and epidemics.<lb/>
+			</p>
+			<p style="indent">
+				Vaccination prevent smallpox. Dick<lb/>
+				test protects against scarlet fever.<lb/>
+				Shick test protects against diphtheria<lb/>
+				possibility. Toxin-antitoxin prevents<lb/>
+				diphtheria. Antitoxin <choice><sic>combarts</sic><corr>combats</corr></choice> diph<lb break="no"/>theria.<lb/>
+				Tetanus antitoxin prevents lock<lb break="no"/>jaw. The above facts may be taken to<lb/>
+				the humblest home and the knowledge<lb/>
+				will prevent needless suffering and loss<lb/>
+				of life. This is the work you can do and<lb/>
+				do well.<lb/>
+			</p>
+		</div>
+		<pb n="4"/>
+		<div>
+			<p style="indent">
+				Teeth-examine periodically.<lb/>
+			</p>
+			<p style="indent">
+				Tonsils-Needed, but when diseased,<lb/>
+				should be removed. Secondary infec<lb break="no"/>tion<lb/>
+				and toxic conditions directrly trace<lb break="no"/>able to deseased teeth and tonsils.<lb/>
+			</p>
+		</div>
+		<div>
+			<div>
+				<div>
+					<head>November<choice><orig>:</orig><reg/></choice></head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p style="indent">
+				Specific diseases.<lb/>
+			</p>
+			<p style="indent">
+				Syphilis is a curable disease if taken<lb/>
+				in time and persistently treated. It is<lb/>
+				one of the few <choice><sic>deseases</sic><corr>diseases</corr></choice> that a child<lb/>
+				may be born with. The symptoms are<lb/>
+				very easily percieved and should be<lb/>
+				treated early.<lb/>
+			</p>
+			<p style="indent">
+				It is no offense to be told you have<lb/>
+				the disease but it is not only and offense<lb/>
+				but a calamity to hide it and refuse to<lb/>
+				take treatment for your own sake and<lb/>
+				protection of others.<lb/>
+			</p>
+		</div>
+		<div>
+			<div>
+				<div>
+					<head>Gomorrhea<choice><orig>:</orig><reg></reg></choice></head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p style="indent">
+				A communicable social disease which<lb/>
+				is being better understood and yielding<lb/>
+				to treatment. More common than you<lb/>
+				would believe and more destructive to<lb/>
+				happiness or health than most diseases.<lb/>
+				The prophylactic protection of the<lb/>
+				sight of new-born babies by legislation<lb/>
+				in most states has greatly decreased the<lb/>
+				number of blind children. Consult your<lb/>
+				physician or the public clinic.<lb/>
+			</p>
+		</div>
+		<div>
+			<div>
+				<div>
+					<head>December<choice><orig>:</orig><reg></reg></choice></head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p style="indent">
+				Tuberculosis.<lb/>
+			</p>
+			<p style="indent">
+				Tuberculosis is a curable disease.<lb/>
+			</p>
+			<p style="indent">
+				In many large cities Tuberculosis In<lb break="no"/>stitutes or Hospitals have been esta<lb break="no"/>blished<choice><orig>;</orig><reg>,</reg></choice> in smaller places "Clinics" in<lb/>
+				local hospitals. Literature may be had<lb/>
+				for the asking at the local Health<lb/>
+				Office.<lb/>
+			</p>
+		</div>
+		<pb n="5"/>
+		<div>
+			<p style="indent">
+				Early diganosis in important. Hos<lb break="no"/>pitalization helpful and persistend teat<lb break="no"/>ment is necessary. Actinic, Ultra-violet<lb/>
+				rays, diathermy, static electricity, and<lb/>
+				sunshine are wonderful curative agents.<lb/>
+			</p>
+			<p style="indent">
+				Open air sleeping apartments, work<lb break="no"/>shops and school rooms, where a num<lb break="no"/>ber of people are partients have been<lb/>
+				very beneficial. Proper food, exercise<lb/>
+				and clothing are helful preventives.<lb/>
+				Collect information and broadcast<lb/>
+			</p>
+		</div>
+		<div>
+			<div>
+				<div>
+					<head>Important<choice><orig>:</orig><reg/></choice></head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p style="indent">
+				Negroes are no more susceptible to<lb/>
+				"<choice><abbr>T. B.</abbr><expan>tuberculosis</expan></choice>" than other people under similar<lb/>
+				conditions<lb/>
+			</p>
+			<p style="indent">
+				Splendid results have been obtained<lb/>
+				from routine rest, dietetic and hygenic<lb/>
+				measures in the early staged. Artifical<lb/>
+				pneumothorax gives a hopeful and suc<lb break="no"/>cessful solution to cases formerly con<lb break="no"/>sidered incurable.<lb/>
+			</p>
+		</div>
+		<div>
+			<div>
+				<div>
+					<head>January<choice><orig>:</orig><reg/></choice></head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p style="indent">
+				Better homes, happiness and pro<lb break="no"/>gress will all be aided by the club wo<lb break="no"/>men just after the holidays in their per<lb break="no"/>sonal contact work with the "Fellow in<lb/>
+				need." There are millions of people<lb/>
+				who would go on doing and living if<lb/>
+				only given a chance to know. the cli<lb break="no"/>nic, the public welfare station, the visit<lb break="no"/>ing nurse, the big hearted doctor, each<lb/>
+				is reaching out a helping hand. The<lb/>
+				club woman can by personal contact<lb/>
+				bring the helpers and the people to<lb break="no"/>gether. Much good will work may be<lb/>
+				done by public lecture, teas, and get-<lb break="no"/>together meetings. The highest is not<lb/>
+				very far above the lowest. The rich is<lb/>
+				just next yard to the poor. The bad are<lb/>
+				not very much worse than those we<lb/>
+				deem good.<lb/> It is all relational value<lb/>
+				and viewpoint<lb/>
+			</p>
+		</div>
+		<pb n="6"/>
+		<div>
+			<div>
+				<div>
+					<head>February<choice><orig>:</orig><reg/></choice></head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p style="indent">
+				Psychiatry.<lb/>
+			</p>
+			<p style="indent">
+				See to the birth registration of all<lb/>
+				babies.<lb/>
+			</p>
+			<p style="indent">
+				The health and care of children is so<lb/>
+				important that most communities today<lb/>
+				have systematic service of registration,<lb/>
+				investigation and plans for the relief of<lb/>
+				conditions that impair the healthy de<lb break="no"/>velopment of children. Centers, clinics<lb/>
+				and welfare stations afford helpful in<lb break="no"/>structions and aid.<lb/>
+			</p>
+			<p style="indent">
+				It is known that childhood diseases<lb/>
+				are not necessary and immunity to<lb/>
+				many contagious diseases may be es<lb break="no"/>tabilished by injections or vaccinations.<lb/>
+			</p>
+		</div>
+		<div>
+			<div>
+				<div>
+					<head>March<choice><orig>:</orig><reg/></choice></head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p style="indent">
+				Heart affections are of great impor<lb break="no"/>tance from birth to old age. Contrib<lb break="no"/>uting causes are many and the subject<lb/>
+				is now being helpfully considered by<lb/>
+				specially organized agencies in large<lb/>
+				cities<lb/>
+			</p>
+			<p style="indent">
+				"Is life worth living"?<lb/>
+			</p>
+			<p style="indent">
+				"It depends on the liver."<lb/>
+			</p>
+			<p style="indent">
+				You see the liver eats food to nour<lb break="no"/>ish and enable the liver of the liver who<lb/>
+				has the liver to form liver secretions<lb/>
+				and if the liver does its work properly,<lb/>
+				the liver is a joyful liver.<lb/>
+			</p>
+		</div>
+		<pb n="7"/>
+		<div>
+			<p>
+				The appendix is very queer.<lb/>
+				It does not know just why <choice><abbr>'tis</abbr><expan>it is</expan></choice> here.<lb/>
+			</p>
+			<p>
+				All that it makes is stomach aches.<lb/>
+				Surgeons though, hold it dear.<lb/>
+			</p>
+		</div>
+		<div>
+			<div>
+				<div>
+					<head>April<choice><orig>:</orig><reg/></choice></head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p style="indent">
+				In the spring there are many agencies<lb/>
+				that send out plans for helpful con<lb break="no"/>structive programs for "Better Health"<lb/>
+				and the <name type="organization"><choice><abbr>N. A. C. W.</abbr><expan>National Association of Colored Women</expan></choice></name> should co-operate<lb/>
+				in every possible way. Among the best<lb/>
+				programs are those of the <name type="organization">Medical<lb/>
+				Association</name> and <name type="place">Tuskegee</name>.<lb/>
+			</p>
+			<p style="indent">
+				Campaigns for cleaning up and ar<lb break="no"/>ranging for out door sports and recre<lb break="no"/>ation will give wonderful results.<lb/>
+			</p>
+		</div>
+		<div>
+			<div>
+				<div>
+					<head>May<choice><orig>:</orig><reg/></choice></head>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p style="indent">
+				Make summary of work, report to<lb/>
+				this office, please.<lb/>
+			</p>
+			<p style="indent">
+				Suggestions gratefully received.<lb/>
+			</p>
+			<p>
+				My Friends:<lb/>
+			</p>
+			<p style="indent">
+				For many years I have endeavored<lb/>
+				to bring my people to a realization of<lb/>
+				the importance of the work women in<lb/>
+				the home and women in club work<lb/>
+				may do Health Campaigns. Others<lb/>
+				who shall come after me will have<lb/>
+				easier work with the great <choice><orig>improve</orig><reg>improvement</reg></choice><lb/>
+			</p>
+		</div>
+		<pb n="8"/>
+		<div>
+			<p>
+				<choice><orig>ment</orig><reg></reg></choice> in hospital facilites and the<lb/>
+				scientific discoveries which are con<lb break="no"/>stantly lessening the suffering oc<lb break="no"/>casioned by disease.<lb/>
+			</p>
+			<p style="indent">
+				Kindly preserce this folder and pass<lb/>
+				it on to some one who may find some><lb/>
+				helpful thought herein.<lb/>
+			</p>
+			<p style="indent">
+				As a final reminder we urge peri<lb break="no"/>odical examinations to keep well in<lb break="no"/>stead of the old way of exposire to<lb/>
+				disease<lb/>
+			</p>
+		</div>
+	</body>
+  </text>
+</TEI>

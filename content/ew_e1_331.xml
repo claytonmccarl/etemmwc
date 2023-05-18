@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Business Card of Mrs. N, Violette Cunningham</title>
+            <author>Nancy Violette Cunningham</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Carol Lynne Hemmingway <!-- that person adds their name here--> </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder E1, Item 331 <!-- this should be filled in --></idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>The business card of "Mrs. N. [Nancy] Violette Cunningham," a leader of Chicago's Federation of Colored Women's Clubs.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A small printed business card.  <!-- describe material , number of pages, print or handwritten, condition, dimensions etc.--> </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_e1_331_001.jpg"/>
+		  <p><hi style="bold"><name type="person">Mrs. N. Violette Cunningham</name></hi><lb/>
+		     <emph style="case(allcaps)"><hi style="bold">Chairman Social Service <choice><abbr>Dept.</abbr><expan>Department</expan></choice></hi></emph><lb/>
+		  <emph style="case(allcaps)"><name type="place" subtype="city">Chicago</name> and <name type="place" subtype="city"><choice><sic>Nothern</sic><corr>Northern</corr></choice></name></emph><lb/>
+		  <emph style="case(allcaps)"><hi style="bold"><name type="organization">Federation of Colored Women's Clubs</name></hi></emph><lb/>
+		  <cb/><emph style="case(allcaps)">Atlantic 2965</emph><lb/>
+		  <cb/><emph style="case(allcaps)">4525 Prairie <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice></emph><lb/>
+		  <emph style="case(allcaps)">Chicago</emph></p>
+         <pb n="2" facs= "../images/ew_e1_331_002.jpg"/>
+         <p>Letter follows</p>
+      </body>
+  </text>
+</TEI>

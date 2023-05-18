@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Program for Baby Week by City Federation of Colored Women's Clubs. March 5-11, 1916. Jacksonville, Florida.</title>
+            <author>City Federation of Colored Women's Clubs</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Stephanie Brown and Janaya Ferrer</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder Z2, Item 2687</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A program for Baby Week held from March 5 to 11, 1916 that is sponsored by the City Federation of Colored Women's Clubs.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A typewritten program on a single sheet of paper.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_z2_2687_001.jpg"/> <!-- create instances in accordance to number of images -->
+         <div><head><choice><orig>Proǵramme</orig><reg>Program</reg></choice></head></div>
+         <div><div><head>For </head><head style="case(allcaps)"><name type="event">Baby Week</name><lb/>
+            <date when="1916-03-05">March 5th</date><choice><orig>,</orig><reg/></choice> to the <date when="1916-03-11">11th</date>.</head></div></div>
+         <div><div><div><head>Under Auspices of the <name type="organization">City Federa-<lb/>
+            tion of Women's Clubs</name>.</head></div></div></div>
+        
+         <div>
+            <p><!--Lines in this paragraph has a hanging indent-->
+                <emph style="case(allcaps)">Sunday</emph>, <emph style="case(allcaps)"><date when="1916-03-05">March 5th</date></emph>––Sermons on the Baby by <name type="person">Pastors of various<lb/>
+                Churches</name>.<lb/>
+                <emph style="case(allcaps)">Monday</emph> beginning at 2 P. M. and all day <emph style="case(allcaps)">Tuesday</emph>––Visiting the<lb/>  
+                State Educational Health Exhibit Car. (<name type="place" subtype="address"><choice><abbr>Cor.</abbr><expan>Corner</expan></choice> Lee and Forsyth <choice><abbr>Sts.</abbr><expan>Streets</expan></choice></name>)<lb/> 
+                <emph style="case(allcaps)">Wednesday</emph>  from 2 to 5 P. M.—Baby Show. At the <name type="organization">Bethel Baptist<lb/>
+                Institutional church</name> (<name type="place" subtype="addres">corner Caroline and Hogan <choice><abbr>Sts.</abbr><expan>Streets</expan></choice></name>) 6 <choice><orig>Prizes</orig><reg>prizes</reg></choice> will be<lb/>
+                awarded for the finest <choice><orig>Baby</orig><reg>baby</reg></choice> from 1 month to 5 years old.<lb/>
+                <emph style="case(allcaps)">Wednesday</emph> at 8 P. M.––Health Meeting, at same place. <lb/>
+                Thursday––Special Pictures at the <name type="place">Strand Theatre</name> to assist Infint Wel-<lb/>
+                fare Fund. <choice><abbr>5c.</abbr><expan>5 cents</expan></choice> <emph style="case(allcaps)">to all</emph>.<lb/>
+                <emph style="case(allcaps)">Friday</emph> and <emph style="case(allcaps)">Saturday</emph> from 9 to 2 P. M.––Free Clinic at <name type="organization">Woman’s<lb/>
+                Club</name> (<name type="place" subtype="address">East Duval <choice><abbr>St.</abbr><expan>Street</expan></choice></name>) Bring <choice><orig>Babies</orig><reg>babies</reg></choice> from 1 months to 2 years old<lb/>  
+                during the hours from 9 to 1 both days.<lb/>
+            </p>
+            <p style="indent">
+                Tags will be sold during the entire week. Proceeds for the Infint Wel-<lb/> 
+                fare Fund.<lb/>
+            </p>
+         </div>
+         <div>
+            <p style="indent">
+                Miss <emph style="case(allcaps)"><name type="person">Ertha M. M. White</name></emph>, <name type="person">President</name>.<lb/>
+                Miss <emph style="case(allcaps)"><name type="person">C. S. Tucker</name></emph> and Mrs. <emph style="case(allcaps)"><name type="person">Anna Sightler</name></emph>, <name type="person"><choice><abbr>Sec'ys</abbr><expan>Secretaries</expan></choice></name>.<lb/>
+                Mrs. <emph style="case(allcaps)"><name type="person">J. W. Ward</name></emph>, <emph style="case(allcaps)"><name type="person"><choice><abbr>Treas</abbr><expan>Treasurer</expan></choice></name></emph>.<lb/>
+                Miss <emph style="case(allcaps)"><name type="person">M. Allen</name></emph>, <name type="person">City Nurse</name>.<lb/>
+            </p>
+         </div>
+         <div>
+            <p>
+                <name type="company">Florida Printing Co.</name>, <name type="place" subtype="address">40 <choice><abbr>E.</abbr><expan>East</expan></choice> Union <choice><abbr>St.</abbr><expan>Street</expan></choice></name><lb/>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Membership roster</title>
+            <author>Emancipation Proclamation Association of the City of Jacksonville</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Lauren Kelley Winters</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder n1, Item 378</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Item lists members and officers of Association, including Eartha M.M. White as president emeritus.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>This document is typed in black ink on a standard letter sized piece of paper. The top contains a letterhead and there are notes written next to many names handwritten in blue ink. </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_n1_378_001.jpg"/>
+         <figure><graphic url="ew_n1_378_001_001.jpg"/></figure>
+         <p>
+            <hi style="all caps">Officers:</hi>
+            <hi style="center"><name type="person">Dr. Eartha M. M. White</name>, President Emeritus</hi><lb/>
+            <name type="person">J. S. Genwright</name>, President<lb/>
+            <name type="person">Rev. Cyrun A. Weaver</name>, 1st Vice President<handShift medium="blue-ink"/>&#2713; <name type="person_group">Day spring. B. Church</name>- <name type="place">Jefferson St.</name><lb/>
+            <handShift medium="black-ink"/><name type="person">Rev. Dr. J. C. Sams</name>, 2nd Vice President<handShift medium="blue-ink"/>&#2713;<lb/>
+            <handShift medium="black-ink"/><name type="person">Charles Simmons</name>, Secretary <handShift medium="blue-ink"/>Afro- Am. Life. 2nd Missionary B- <name type="place">King- Rd</name>. (mother)<lb/>
+            <handShift medium="black-ink"/><name type="person">Mrs. Debora Norman</name>, Asst. Secretary <lb/>
+            <name type="person">Mrs. Hattie I. James</name>, Honorary President <handShift medium="blue-ink"/>(<name type="person">Joe James</name>) X Pres. widow<lb/>
+            <handShift medium="black-ink"/><name type="person">Dr. James H. Lewis</name>, Honorary President <handShift medium="blue-ink"/>&#2190;arrange through <name type="person">Mrs. Betch</name> (daughter)<lb/>
+            <handShift medium="black-ink"/>*<name type="person">Bishop C.A. Gibbs</name>, President<lb/>
+            *<name type="person">Attorney D. W Perkins</name>, President<lb/>
+            *<name type="person">Joe H. James. President</name><lb/>
+            *<name type="person">Rev. J. S. Johnson</name>, President<lb/>
+            *<name type="person">Rev. D. B. Barnes</name>, 1st Vice President<lb/>
+            *<name type="person">Rev. R. A. King</name>, 2nd Vice President<lb/>
+               <lb/>
+            <name type="person">Rev. E. Jones</name>, Chairman, Program Committee<lb/>
+            <name type="person">Rev. A. J. Hughes</name>, Chairman, Music Committee<lb/>
+            <name type="person">Freddie Brayboy</name>. Public Relations<lb/>
+               <lb/>
+            <handShift medium="blue-ink"/>*<handShift medium="black-ink"/><hi style="underline"><name type="person">Uriah Portee</name></hi> <handShift medium="blue-ink"/>Last editor of last Black sheet. Eleby, Richard Def, <name type="person">Spike Washington</name><lb/>
+            *<handShift medium="black-ink"/><hi style="underline"><name type="person">Mrs. Beulah McClellan</name> </hi><handShift medium="blue-ink"/> womans section<lb/>
+            *<handShift medium="black-ink"/><name type="person">Eric R. Simpson</name>, Editor<lb/>
+            <handShift medium="blue-ink"/>*<handShift medium="black-ink"/><hi style="underline"><name type="person">Mrs. Vivian Hicks</name>. </hi><handShift medium="blue-ink"/> call box<lb/>
+            *<handShift medium="black-ink"/><hi style="underline"><name type="person">Cecil Fisher</name> </hi><handShift medium="blue-ink"/><name type="place">Carthage Funeral</name>- <name type="place">Beaver St.</name><lb/>
+            <handShift medium="black-ink"/><name type="person">Art William</name>, Photographer<lb/>
+            <name type="person">Elcee R. Lucus</name> <handShift medium="blue-ink"/><name type="organization">Telegraph Press</name>- <name type="place">Moncreif Rd.</name> (1st track at 13th St. 2nd railroad track- about 17th _ Mone.)<lb/>
+            <handShift medium="black-ink"/><name type="person">Rev. C. S. H. Hunter</name>, President IMA<lb/>
+            <name type="person">Rev. R. V. Webster</name>, President, AME MA<lb/>
+            <name type="person">Rev. R. L. Jones</name>, President, BBA<lb/>
+            <name type="person">Rev. A. C Chandler</name><lb/>
+            <name type="person">Rev. B. J. Lane</name><lb/>
+            <handShift medium="blue-ink"/>*<handShift medium="black-ink"/><name type="person">Honorable Sallye B. Mathis</name><lb/>
+            <name type="person">Honorable Mary Singleton</name><lb/>
+            <name type="person">Honorable Earl Johnson</name><lb/>
+            <name type="person">Honorable Frank Hampton</name><lb/>
+            <name type="person">Honorable Wendle P. Holmes</name><handShift medium="blue-ink"/>&#2713;<lb/>
+            <handShift medium="black-ink"/><name type="person">Dr. Andrew A. Robinson</name><lb/>
+            <name type="person">Miss Lucinda Stewart</name> <handShift medium="blue-ink"/><name type="place">22nd st.</name><lb/>
+            <handShift medium="black-ink"/><name type="person">Rev. A. B. Coleman</name><handShift medium="blue-ink"/> Church on <name type="place">Beaver</name> (Shilo)met. B.)<lb/>
+            <handShift medium="black-ink"/><name type="person">Oscar I. Hillman</name> <handShift medium="blue-ink"/>&#2713;funeral director on <name type="place">Beaver</name><lb/>
+            <handShift medium="black-ink"/><name type="person">Rev. Charles C. King</name><lb/>
+            <name type="person">Charles D. Brooks</name>, Principal<handShift medium="blue-ink"/>ref. Princ, of <name type="place">Stanton</name><lb/>
+            <handShift medium="black-ink"/><name type="person">Chester Cowart</name>, Principal <handShift medium="blue-ink"/>&#2713; administrator school system<lb/>
+            <handShift medium="black-ink"/><name type="person">Rev. W. F. Foster</name><lb/>
+            *<name type="person">Rev. E. R. Simpson</name><lb/>
+            <name type="person">Rev. H.H. Robinson</name><lb/>
+            *<name type="person">Dr.Lincoln B. Childs</name><lb/>
+            <name type="person">Rev. Rudolph McKissick</name><lb/>
+            <handShift medium="blue-ink"/>*<handShift medium="black-ink"/><name type="person">Rev. Dallas J. Graham</name><handShift medium="blue-ink"/> <name type="place">Mt. A. Baptist Church</name>- ledsuit for Negro to note in both parties <hi style="underline">in Primaries</hi>?<lb/>
+            <handShift medium="black-ink"/>*<name type="person">Rev. Issiah McPherson</name> <handShift medium="blue-ink"/><name type="place">Dallas Graham Funeral Home</name> <name type="place">21st + Moncrief</name><lb/>
+            <handShift medium="black-ink"/><name type="person">Rev. T. E. Shehee</name><lb/>
+            *<name type="person">Bishop W. R. Nesbitt</name><lb/>
+            *<name type="person">Rev. J. B. F. Williams</name> <handShift medium="blue-ink"/>Mon+Tues evening <name type="person">Ms. Banks</name> might admin. adult Program<lb/>
+            <handShift medium="black-ink"/><name type="person">Capers G. Bradham</name> <handShift medium="blue-ink"/>Call <name type="place">Butler school</name> to reach of main school<lb/>
+            <handShift medium="black-ink"/><name type="person">Leon Gonzalez</name> <handShift medium="blue-ink"/>might be in <name type="place">Lake City Hosp.</name> Veteran<lb/>
+            <handShift medium="black-ink"/><name type="person">John Henry Morris</name> <handShift medium="blue-ink"/>former R Kings road<lb/>
+            <handShift medium="black-ink"/><name type="person">Rev. E. McWoodson</name><lb/>
+            *<name type="person">Porcher L. Taylor</name>, Editor <handShift medium="blue-ink"/>Fla. Tattler<lb/>
+            <handShift medium="black-ink"/><name type="person">Mr. W. K. Harper</name> <handShift medium="blue-ink"/><name type="place">Peace Street</name>. retired postman <name type="place">5120 Socksley</name><lb/>
+            <handShift medium="black-ink"/><name type="person">Dr. W. B. Stewart</name>, President, EWC<lb/>
+            <name type="person">Rev. J. A. Robetts</name><lb/>
+            <name type="person">Rev. R. H. Wilson</name><lb/>
+            <name type="person">W. R. Davis</name> <handShift medium="blue-ink"/><name type="place">Serinen St.</name><lb/>
+            <handShift medium="black-ink"/><name type="person">Attorney E. D. Jackson</name><lb/>
+            <name type="person">Attorney Jennings H. Best</name><lb/>
+            <name type="person">Rev. Eddie R. Rivers</name><lb/>
+            <name type="person">Dr. Arnett Girardeau</name><lb/>
+            <name type="person">Miss Nancy P. Blossom</name><lb/>
+            <name type="person">Robert L. Singleton</name><handShift medium="blue-ink"/>- Construction Co. (<name type="person">Graci Singleton</name>) M??eth Ave.<lb/>
+            <handShift medium="black-ink"/><name type="person">Bishop Hubert N. Robinson</name><lb/>
+            <name type="person">Rev. Kenneth White</name><lb/>
+            <handShift medium="blue-ink"/>*<handShift medium="black-ink"/><name type="person">Mrs. Estell Lovingood</name> <handShift medium="blue-ink"/>former Princ. of <name type="place">S. P. Livingston school</name><lb/>
+            *<handShift medium="black-ink"/><name type="person">Rev. S. E. Felder</name><lb/>
+            <name type="person">Walter G. Boyd</name><lb/>
+            <name type="person">Robert Gordon</name><lb/>
+               <lb/>
+               *Deceased<lb/>
+               <handShift medium="blue-ink"/>Susan+ Graham<lb/>
+               <hi style="underline">set up at same time</hi>
+         </p>
+      </body>
+  </text>
+</TEI>

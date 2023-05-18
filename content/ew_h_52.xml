@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Program for An Exposition entitled "The Negroes' Making in America".</title> <!-- create title, include semantic elements such as name, place, and date -->
+            <author>Bethune-Cookman College</author> <!-- author (person, organization, etc.) of material -->
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Dr. Jametoria Burton and Janaya Ferrer</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder H, Item 52</idno> <!-- this should be filled in accordance to material's location -->
+               </msIdentifier>
+               <msContents>
+                  <summary>A program for an exposition entitled "The Negroes' Making in America" under the auspices of the Choir of Laura Street Presbyterian Church and sponsored by Bethune-Cookman College.</summary> <!-- one-sentence summary of material's content -->
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A program typewritten on a single sheet of paper.</p> <!-- one-sentence physical description of material (number of pages, print or handwritten, condition, dimensions, etc.) -->
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_h_52_001.jpg"/> <!-- create instances in accordance to number of images -->
+         <div><head style="case(allcaps)"><hi style="center">An Exposition</hi></head></div>
+         <div><div><div><head><hi style="center">Entitled</hi></head></div></div></div>
+         <div><div><head><hi style="center">"The Negroes' Making in America"</hi></head></div></div>
+         <div><div><div><head><hi style="center"><name type="person_group">The Choir Of Laura Street Presbyterian Church</name></hi></head></div></div></div>
+         <div><div><div><head style="case(allcaps)"><hi style="center">Sunday Evening, <date when="9999-10-12">October 12</date>, 7:30 O'Clock</hi></head></div></div></div>
+         <div><div><div><head><hi style="center">Sponsored by <name type="organization">Bethune-Cookman College</name></hi></head></div></div></div>
+         <div><div><div><head style="case(allcaps)"><hi style="center"><choice><orig>Programme</orig><reg>Program</reg></choice></hi></head></div></div></div>
+
+         <div>
+            <p>
+                1. Hymn—“Lift Every Voice And Sing”............Congregation<lb/>
+                2. Invocation .......................................<name type="person">Dr. E. J. Gregg</name>, Pastor<lb/>
+                3. Foreword.................................<name type="person">Attorney Geo. G. DeVaughn</name><lb/>
+                4. (a) “Jesus Lover of My Soul” (Arranged) )<lb/>
+                (b) “Come Out The Wilderness,” (A Jubilee)<lb/>
+                <name type="person_group">Bethune-Cookman Glee Club</name><lb/>
+                5. (a) “Go Mary and Toll De Bell” )<lb/>
+                (b) “Sit Down! Lord, I Can’t Sit Down” )<lb/>
+                <name type="person_group">Bethune-Cookman Quartette</name>.<lb/>
+                6. Chorale Spiritual, “The Four and Twenty Elders—Sykes<lb/>
+                —<name type="person_group">Bethune-Cookman Glee Club</name> and <name type="person_group">Chanson Circle</name>.<lb/>
+                7. Address—“Contributions Toward The Progress Of The<lb/>
+                American Negroes Through) Education and Bethune-Cookman College”—<name type="person">Mrs. Mary McLeod Bethune</name>, <name type="person">President</name><lb/>
+                <name type="organization">Bethune-Cookman College</name>.<lb/>
+                8. “Lindy Lou” (Arranged)..........<name type="person_group">Bethune-Cookman Female<lb/>
+                Quartette</name>.<lb/>
+                9. Cornet Solo, “The Rosary”—<name type="person">Ethelbert Nevin</name>—Rosary”—<name type="person">Mr. Kirby<lb/>
+                Minott</name>, <name type="organization">Bethune-Cookman College</name>.<lb/>
+                10. “Crossing The Bar”—(Musical Setting)—Sykes—<name type="person_group">Bethune-Cookman Glee Club</name> (<name type="person">Soprano Obligato</name>, <name type="person">Mrs. Olivia<lb/>
+                Adams</name>.)<lb/>
+                11. Remarks...........................<name type="person">Dr. E. J. Gregg</name><lb/>
+                12. Offering.<lb/>
+                13. Hymn.<lb/>
+                Benediction.<lb/>
+            </p>
+            <p style="indent">
+                Note:—The next <choice><orig>Program</orig><reg>program</reg></choice> will be sponsored by <name type="organization">Florida<lb/>
+                Agricultural &amp; Mechanical College</name>, Sunday <choice><orig>Evening</orig><reg>evening</reg></choice>, <date when="9999-10-26">October<lb/>
+                26th</date>.<lb/>
+            </p>
+            <p style="indent">
+                <name type="person">Dean R. O’Hara Lanier</name> will deliver the address.<lb/>
+            </p>
+            <p><!-- Handing indent-->
+                Committee: <name type="person">Mrs. F. M. Morton</name>, <name type="person">Mrs. Gussie Randall Williams</name><lb/>
+                and <name type="person">Mrs. Mamie Mays Smith</name>.<lb/>
+                <name type="person">Attorney<choice><orig>,</orig><reg/></choice> Geo. G. DeVaughn</name>, <name type="person">Director of Exposition</name>.<lb/>
+            </p>
+        </div>
+      </body>
+  </text>
+</TEI>

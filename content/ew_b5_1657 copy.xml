@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letters of Appeal</title>
+            <author>Name of author of document goes here</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1657</idno>                  
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>A description of the object, including its material (type of paper, etc.), dimensions, number of pages, print or handwritten, etc., and some mention of its condition, if relevant.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1657_001.jpg"/>
+         <head>
+            <name type="place" subtype="city">Jacksonville <choice><abbr>Fla</abbr><expan>Florida</expan></choice></name><lb/>
+            <date when="1930-04-13">April the 4-13-1930</date><lb/>
+         </head>
+         <p>
+            <name type="person">Miss <choice><sic>Birth</sic><corr>Eartha</corr></choice> White</name> i am askin<lb/>
+            ya to please help me in my<lb/>
+            Rally <choice><sic>af</sic><corr>of</corr></choice> <choice><sic>seckan</sic><corr>second</corr></choice> Bethel<lb/>
+            Baptist <choice><sic>CHhurch</sic><corr>Church</corr></choice><choice><orig/><reg>.</reg></choice> we are in<lb/>
+            a $100.00 dollar Rally<choice><orig/><reg>.</reg></choice> Each district ar to Report $2.50<lb/>
+            dollars<choice><orig/><reg>.</reg></choice> we are a few in number<lb/>
+            please vote for district no 2<lb/>
+            <!--this whole following section is rough-->
+            i Know ya dont mo one<lb/>
+            By my name we are all waring<lb/>
+            For the Land i am sending<lb/>
+            ya this card decan W<lb/>
+            James sister Gracie Armstrong<lb/>
+            <choice><sic>chearman</sic><corr>chairman</corr></choice><!--missing words, hard/impossible to read--><lb/>
+            <name type="place" subtype="address">1812 Prince St</name> please doe all ya can miss White<lb/>
+         </p>
+      </body>
+  </text>
+</TEI>

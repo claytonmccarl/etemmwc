@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Get In Line Report of City Federation of Colored Women's Clubs of Jacksonville, Florida</title>
+            <author>City Federation of Colored Women's Clubs of Jacksonville, Florida</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder Z2, Item 683 <!-- this should be filled in --></idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Report on the activities of the Jacksonville City Federation of Colored Women's Clubs.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A printed document of four pages made from a folded single page of paper.  <!-- describe material , number of pages, print or handwritten, condition, dimensions etc.--> </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+        <pb n="1" facs= "../images/ew_z2_683_001.jpg"/>
+		  <div>
+			  <head style="center">
+				  <emph style="case(allcaps)">
+					  Get in line<lb/>
+					  Report<lb/>
+				  </emph>
+			  </head>
+		  </div>
+			  <div><div><div><head style="center">of</head></div></div></div>
+			  <div><head style="center"><name type="organization">City Federation of Colored<lb/> Women's Clubs</name></head></div>
+			  <div><div><head style="center">of <name type="place" subtype="city">Jacksonville</name>, <name type="place">Florida</name><lb/></head></div></div>
+			  <div><div><div><head style="center"><date when="1917-06"><emph style="case(allcaps)">June</emph> 1917</date>.</head></div></div></div>
+		  <div>
+		  <p>
+			  Motto: Not for ourselves, but for others.<lb/>
+			  Colors: White-Gold<lb/>
+			  <name type="place">Lightsy &amp; Cain Print</name>, <name type="place" subtype="address">520 Broad <choice><abbr>St.</abbr><expan>Street</expan></choice></name><lb/>
+		  </p>
+		</div>
+		<pb n="2" facs= "../images/ew_z2_683_002.jpg"/>
+		  <div>
+			  <div>
+				  <head style="center">
+					  <emph style="case(allcaps)">
+						  Accomplishments<choice><orig>.</orig><reg/></choice>
+					  </emph>
+				  </head>
+			  </div>
+		</div>
+		  <div>
+			  <p style="indent">
+				  The first Colored Society in the <name type="place" subtype="country">United States</name> to recieve<lb/>
+				  admission as a department of the <name type="organization">American Red Cross</name>.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  Permanent arrangement for a <choice><orig>Colored</orig><reg>colored</reg></choice> <choice><orig>Playground</orig><reg>playground</reg></choice>,<lb/>
+				  <name type="person">Miss Eartha White</name>'s name on Commitee.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  The first to organize <name type="organization">Canning Club</name> among Colored in<lb/>
+				  city. Have over 46.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  Participated in <name type="event">Patriotic Parade</name> given by <name type="organization"> Safety Com<lb break="no"/>mittee.</name><lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  Celebrated as usual: <name type="event">Good Health Week</name>, <name type="event">Clean-Up <lb/>
+				  Week</name>, <name type="event">Baby Week</name>, co-operating with White Woman's Clubs.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  Participated in celebrations: <name type="event">Emancipation Day</name>, <name type="event">Lin<lb break="no"/>coln, Douglas and Washington Day</name>, <name type="event">Memorial Day</name>.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  Held public platform meetings to get men to pay poll<lb/>
+				  taxes and vote.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  <name type="person">President</name> and white friends secured a <name type="organization">Colored County<lb/>
+				  Canning</name> Demonstrator.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  The request in our last report relative to the <name type="place">Duval <lb/>
+				  county</name> stockade was granted, and too much praise cannot<lb/>
+				  be given the <name type="person_group">County Commissioners</name> for the wonderful im<lb break="no"/>provement. Everything is now up-to-date, in a perfectly<lb/>
+				  sanitary condition, with even a pool for bathing and a place for religious services.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  Applied to City for a <choice><orig>Social</orig><reg>social</reg></choice> <choice><orig>Worker</orig><reg>worker</reg></choice>. The same was<lb/>
+				  granted.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  Asked for a School Medical Inspector. Two nurses were<lb/>
+				  given instead.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  Have a loving cup for best-dilled company of boy<lb/>
+				  cadets.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  <date when="1917-06-14">June 14th</date>, escorted <choice><orig>Prospected</orig><reg>prospected</reg></choice> officers of <name type="place">United States<lb/>
+				  Training Camp</name> to depot.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  <date when="1917-06-17">June 17th</date> <name type="event">Red Cross Night</name> at <name type="place">Bethel Baptist Institu<lb break="no"/>tional Church</name>.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="indent">
+				  Educating a young girl who is now in boarding school<lb/>
+				  and will finish next year.<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <div>
+				  <head style="center">
+					  <emph style="case(allcaps)">
+						  Our Needs<choice><orig>.</orig><reg/></choice>
+					  </emph>
+				  </head>
+			  </div>
+		  </div>
+			<div>  <p style="indent">A Detention Home.<lb/></p>
+			  <p style="indent">A City Hospital.<lb/></p>
+			  <p style="indent">A Club Building for our general headquarters.<lb/></p>
+			  <p style="indent">Want Domestic Science Department of Stanton to excel<lb/>
+			  any in the <name type="place">United States</name>.<lb/></p>
+			  <p style="indent">Compulsory Education.</p>
+			  <p style="indent">Total Prohibition.</p></div>
+	  <pb n="3"/>
+		  <div>
+			  <div>
+				  <head style="center">
+					  <emph style="case(allcaps)">Officers<choice><orig>.</orig><reg/></choice></emph>
+				  </head>
+			  </div>
+		  </div>
+		  <div>
+			  <p>
+				  <name type="person">Mrs. H. L. Dorroh</name> and <name type="person">Mrs. J. W. Ward</name>.......<choice><abbr>Hon.</abbr><expan>Honorary</expan></choice> Presidents<lb/>
+				  <name type="person">Miss. Eartha M. M. White</name>.........................................President<lb/>
+				  <name type="person">Mrs. L. C. Fisher</name>.....................................First Vice-President<lb/>
+				  <name type="person">Mrs. C. G. Heard</name>.....................................Second Vice-President<lb/>
+				  <name type="person">Mrs. S. G. Baker</name>...................................Corresponding Secretary<lb/>
+				  <name type="person">Mrs. E. D. Breaker</name>.....................................Recording Secretary<lb/>
+				  <name type="person">Mrs. M. G. Mills</name>.......................................Financial Secretary<lb/>
+				  <name type="person">Mrs. Ada Braddock</name>................................................Treasurer<lb/>
+				  <name type="person">Mrs. S. C. Tucker</name>...........................................City Organizer<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p style="right">
+				  Chairman Committe Ways and Means<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <p>
+				  <name type="person">Mrs. Mable Webb</name>.................................Chairman Program Committee<lb/>
+				  <name type="person">Mrs. R. A. Grant</name>..............................Chairman Publicity Committee<lb/>
+				  <name type="person">Mrs. Rosa Chisholm</name>........................Chairman Entertainmnet Committee<lb/>
+				  <name type="person">Mrs. Belle Anderson</name>.........................Chairman Decorations Committee<lb/>
+				  <name type="person">Mrs. Robinson</name>.....................................Chairman Press Committee<lb/>
+				  <name type="person">Mrs. Florence Thompson</name>............................Chairman Press Committee<lb/>
+				  <name type="person">Mrs. Mrs. M. J. Stewart</name>.....................Chairman Legislative Committee<lb/>
+				  <name type="person">Mrs. Carrie Sweet</name>...............................Chairman Finance Committee<lb/>
+				  <name type="person">Mrs. A. Butts</name>....................................Chairman Floral Committee<lb/>
+			  </p>
+		  </div>
+		  <div>
+			  <div>
+				  <head style="center"><emph style="case(allcaps)">Distinguished Visitors<choice><orig>.</orig><reg/></choice></emph></head>
+			  </div>
+		  </div>
+		  <div>
+			  <p>
+				  <name type="person">Mrs. M. B. <choice><sic>Talbet</sic><corr>Talber</corr></choice></name>, National President <name type="organization"><choice><abbr>C. W. C.</abbr><expan>Colored Women's Clubs</expan></choice></name><lb/>
+				  <name type="person">Mrs. Victoria Mathews</name>, National Organizer <name type="organization"><choice><abbr>C. W. C.</abbr><expan>Colored Women's Clubs</expan></choice></name><lb/>
+				  <name type="person">Mrs. <choice><abbr>Geo.</abbr><expan>George</expan></choice> Bacon</name> (white), First Vice-<choice><abbr>Pres</abbr><expan>President</expan></choice><name type="organization"><choice><abbr>Gen. F. of W. C.</abbr><expan>General Federation of Women's Clubs</expan></choice></name><lb/>
+				  <name type="person">Mrs. W. B. Young</name> (white), Treasurer <name type="organization"><choice><abbr>Gen. F. of W. C.</abbr><expan>General Federation of Women's Clubs</expan></choice></name><lb/>
+				  <name type="person">Mrs. Frank Jennings</name> (white), President <name type="organization">Women's Club</name>.<lb/>
+				  <name type="person">Mrs. Martha Livingston</name> (white), <name type="organization">Woman's Club</name>.<lb/>
+				  <name type="person">Mrs. John Simmons</name> (white), <name type="organization">Woman's Club</name>.<lb/>
+				  <name type="person">Mrs. Brown</name> (white), <name type="organization">Woman's Club</name>.<lb/>
+				  <name type="person">Mrs. Frances Preston</name>, <name type="organization"><choice><abbr>W. C. T. U</abbr><expan>Women's Christian Temperance Union</expan></choice></name><lb/>
+				  <name type="person">Mrs. L. A. Newsom</name>, <name type="organization"><choice><abbr>W. C. T. U</abbr><expan>Women's Christian Temperance Union</expan></choice></name><lb/>
+			  </p>
+		  </div>
+	  <pb n="4" facs= "../images/ew_z2_683_003.jpg"/>
+		  <div>
+			  <div>
+				  <head style="center"><emph style="case=allcaps"> Heads Of Departments<choice><orig>.</orig><reg/></choice></emph></head>
+			  </div>
+		  </div>
+		  <div>
+			  <p>
+				  <name type="organization">American Red Cross</name>............<name type="person">Dr. J. E. Ford</name><lb/>
+				  Mothers' Clubs........................<name type="person">Mrs. J. W. Ward</name><lb/>
+				  Young Women..........................<name type="person">Miss Jerena Dial</name><lb/>
+				  Children.............................<name type="person">Mrs. M. G. Mills</name><lb/>
+				  Health and Hygiene...................<name type="person">Mrs. R. L. Brown</name><lb/>
+				  Domestic Science..................<name type="person">Miss Pauline Lloyde</name><lb/>
+				  Social Science......................<name type="person">Mrs. L. C. Fisher</name><lb/>
+				  Business..................................<name type="person">C. G. Heard</name><lb/>
+				  Suffreage.........................<name type="person">Mrs. I. J. Williams</name><lb/>
+				  Civic.................................<name type="person">Mrs. Cora Black</name><lb/>
+				  Forestry..........................<name type="person">Mrs. C. B. Forester</name><lb/>
+				  Education...........................<name type="person">Mrs. F. C. Duncan</name><lb/>
+				  Kindergarten.....................<name type="person">Miss. Florida Cutton</name><lb/>
+				  Music................................<name type="person">Mrs. Rosa Butler</name><lb/>
+				  Religion...........................<name type="person">Mrs. A. J. Jackson</name><lb/>
+				  Literature...........................<name type="person">Mrs. E. B. Baker</name><lb/>
+				  Juvenile Court......................<name type="person">Mrs. C. S. Tucker</name><lb/>
+				  Art................................<name type="person">Mrs. Amy DeCoursey</name><lb/>
+				  Good Roads........................<name type="person">Mrs. Gertrude Jones</name><lb/>
+				  Agriculture..........................<name type="person">Mrs. Natty Allen</name><lb/>
+				  Rescue...........................<name type="person">Mrs. Martha Browning</name><lb/>
+				  Temperance-<name type="organization"><choice><abbr>W. C. T. U.</abbr><expan>Women's Christian Temperance Union</expan></choice></name> Work............<name type="person">Mrs. Ada Braddock</name><lb/>
+				  Relief...............................<name type="person">Mrs. A. E. Owens</name><lb/>
+			  </p>
+		  </div>
+      </body>
+  </text>
+</TEI>

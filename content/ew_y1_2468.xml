@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Indigent Hospital Patients Admitted for Treatment in Duval County during Year Ending June 30th, 1915" and "Standing Committees--City Council, June 1932"</title>
+            <author>Jacksonville City Council (?)</author>
+            <respStmt>
+               <resp>Letter to Eartha M.M. White</resp>
+               <name>Joseph Fricks</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder Y1, Item 2468</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Item contains two apparently unrelated documents: 1) a statistical table of indigent hospital patients admitted in Duval County in 1915, with a narrative regarding inefficiencies and inadequate hospital funding at the county level; and 2) a list of standing committee members for the Jacksonville City Council and their administrative functions, dated June 1932.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>This is a paper document which consists of two pages of printed text. The first page contains both a statistical table of indigent hospital patients admitted in Duval County and a letter expressing concern with the county’s inadequate hospital funds. The second page contains a list of standing committee members for the Jacksonville city council, as well as the administrative functions assigned to these individuals.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_y1_2468_001.jpg"/><!-- Here is your first page break. You need to make the image name here match the name of your file -->
+         <table rows="4" cols="4">
+            <row>               
+               <cell/>               
+               <cell>                  
+                  From City                  
+               </cell>               
+               <cell>                  
+                  From <choice><sic>Country</sic><corr>County</corr></choice>                  
+               </cell>               
+               <cell>                 
+                  From Outside County.                  
+               </cell>               
+            </row>            
+            <row>               
+               <cell>          
+                  At County Hospital:                  
+               </cell>               
+               <cell>                 
+                  452                  
+               </cell>               
+               <cell>              
+                  153                  
+               </cell>               
+               <cell>
+                  54                                 
+               </cell>               
+            </row>            
+            <row>               
+               <cell>
+                  At St. Luke's Hospital:                                    
+               </cell>               
+               <cell>
+                  645                                                    
+               </cell>               
+               <cell>
+                  52                                    
+               </cell>               
+               <cell>
+                  36                                    
+               </cell>               
+            </row>            
+            <row>               
+               <cell>                                   
+               </cell>               
+               <cell>                  
+                  1097                  
+               </cell>               
+               <cell>                  
+                  205                  
+               </cell>               
+               <cell>                  
+                  90                  
+               </cell>               
+            </row>
+         </table>
+         <table rows="3" cols="4">
+            <row>
+               <cell>
+                  Total number admitted:
+               </cell>
+               <cell>
+                  1392.
+               </cell>
+               <cell>
+                  From City
+               </cell>
+               <cell>
+                  79%
+               </cell>
+            </row>
+            <row>
+               <cell>                  
+               </cell>
+               <cell>                  
+               </cell>
+               <cell>
+                  From Country
+               </cell>
+               <cell>
+                  15%
+               </cell>
+            </row>
+            <row>
+               <cell>                  
+               </cell>
+               <cell>                  
+               </cell>
+               <cell>
+                  From Outside County
+               </cell>
+               <cell>
+                  6%
+               </cell>
+            </row>
+         </table>
+         <table rows="2" cols="2">
+            <row>
+               <cell>
+                  Percentage of County Realty Taxes Derived from City Realty
+               </cell>
+               <cell>
+                  80%
+               </cell>
+            </row>
+            <row>
+               <cell>
+                  Percentage of County Realty Taxes Derived from Country Realty
+               </cell>
+               <cell>
+                  20%
+               </cell>
+            </row>
+         </table>
+         <table rows="2" cols="2">
+            <row>
+               <cell>
+                  Percentage of Number Admitted for Treatment at expense of City
+               </cell>
+               <cell>
+                  52%
+               </cell>
+            </row>
+            <row>
+               <cell>
+                  Percentage of Number Admitted for Treatment at expense of County
+               </cell>
+               <cell>
+                  48%
+               </cell>
+            </row>
+         </table>
+         <p style="indent">
+            During the year ending <date when="1915-06-30">June 30th, 1915</date>, <name type="place" subtype="county">Duval County</name>, and <name type="place" subtype="city">City<lb/>
+            of Jacksonville</name>, spent $46,393.58 for the care of indigent hospital<lb/>
+            patients. If all these cases could have been cared for at the County<lb/>
+            hospital, the total expense would have been not over $33,000.00, estima<lb break="no"/>
+            ting upon the basis of the expense incurred by the county for care of<lb/>
+            cases handled at the county hospital. In other words, if the county<lb/>
+            hospital facilities had been adequate to handle all the indigent hospit<lb break="no"/>
+            al cases that devolved upon the public during that period, a saving of<lb/>
+            at least $13,000.00 of the tax payers' money would have been effected.<lb/>
+         </p>
+         <p style="indent">
+            Not only was this extra expenditure necessitated by lack of<lb/>
+            adequate facilities but the county authorities were prevented from ef<lb break="no"/>
+            fecting many economies that might have been possible with a better<lb/>
+            equipment, and from furnishing the public the emergency hospital service<lb/>
+            that is so urgently needed. In short, the enforced neglect of many de<lb break="no"/>
+            serving cases in this county that has resulted in probably preventable<lb/>
+            deaths because of the lack of adequate public hospital facilities, is<lb/>
+            so disgraceful a matter as to be no longer tolerated by a civilized<lb/>
+            community.<lb/>
+         </p>
+         <p style="indent">
+            To carry a bond issue of $120,000.00 - the amount needed for<lb/>
+            the erection and equipment of an up-to-date hospital building of approx<lb break="no"/>
+            imately two hundred bed capacity - would necessitate the assessment of<lb/>
+            $10,000.00 annually or one-quarter mill on a dollar valuation, for in<lb break="no"/>
+            terest and sinking fund, an amount $3,000.00 less than the possible sav<lb break="no"/>
+            ing in the indigent hospital expenses incurred within the county last<lb/>
+            year. This possible saving would be augmented by the returns from in<lb break="no"/>
+            terest on the sinking fund accumulations and by the increased economies<lb/>
+            that could be effected if indigent cases, and pay cases at cost, could<lb/>
+            be handled in one properly designed and adequately equipped institution.<lb/>
+            The expense for caring for indigent patients at St. Luke's hospital last<lb/>
+            year was approximately, $2.00 per day's treatment; at the county hospit<lb break="no"/>
+            al, approximately, 80 cents per day's treatment.<lb/>
+         </p>
+         <pb n="2" facs="../images/ew_y1_2468_002.jpg"/>
+         <div>
+         <p><!-- let's re-do this using <list> (see http://unfdhi.org/editing-the-eartha-m-m-white-archives-element-reference/)-->
+            <list style="simple">
+               <head style="case(allcaps)">City Commissioners:</head>
+               <item><name type="person">T. I. Imeson</name>, Chairman,</item>
+               <item><name type="person">Ernest Anders</name>,</item>
+               <item><name type="person">Dr. M. B. Herlong</name>,</item>
+               <item><name type="person">Fred Valz</name>,</item>
+               <item><name type="person">St. Elmo W. Acosta</name>.</item>
+            </list>
+         </p>
+         </div>
+         <div>         
+            <head style="center">
+               Standing Committees - City Council<lb/>            
+               June 1932.
+            </head>            
+               <p><!-- let's re-do the rest of this list to look like these first two entries. (each category in a <p> of its own -->
+                  <label style="case(allcaps)">
+                     Laws and Rules:
+                  </label><lb/>
+                  <name type="person">John M. King</name>, <name type="person">M. D. Gooding</name>, <name type="person">John F. Hall</name>, <name type="person">T. G. Hordon</name>,<lb/>
+                  <name type="person">Inman P. Crutchfield</name>.<lb/>                  
+               </p>
+               <p>
+                  <label style="case(allcaps)">
+                     Budget:
+                  </label>
+                  <name type="person">Julian E. Fant</name>, <name type="person">Paul C. Marion</name>, <name type="person">E. H. Price</name>, <name type="person">Geo. W. Milam</name>,<lb/>
+                  <name type="person">W. C. Pilcher</name>,<lb/>                     
+               </p>
+               <p>
+                  <label style="case(allcaps)">
+                     Paving, Drainage, and Sewerage:
+                  </label>
+                  <name type="person">V. T. Reynolds</name>, <name type="person">L. B. McCullough</name>,<lb/>
+                  <name type="person">H. H. Burns</name>, <name type="person">E. H. Price</name>, <name type="person">W. F. Rogers</name>,<lb/>
+               </p>
+            <p>
+               <label style="case(allcaps)">
+                  Officers and Police:
+               </label>
+               <name type="person">W. H. Rowton</name>, <name type="person">V. T. Reynolds</name>, <name type="person">L. B. McCullough</name>,<lb/>
+               <name type="person">J. R. Permenter</name>, <name type="person">H. H. Burns</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Public Service:
+               </label>
+               <name type="person">M. D. Gooding</name>, <name type="person">W. H. Rowton</name>, <name type="person">V. T. Reynolds</name>,<lb/>
+               <name type="person">W. F. Rogers</name>, <name type="person">R. T. Gray</name>,<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Taxation:
+               </label>
+               <name type="person">Inman P. Crutchfield</name>, <name type="person">J. Y. Marr</name>, <name type="person">V. T. Reynolds</name>, <name type="person">W. H. Rowton</name>,<lb/>
+               <name type="person">R. T. Gray</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Fire:
+               </label>
+               <name type="person">L. B. McCullough</name>, <name type="person">W. H. Rowton</name>, <name type="person">H. H. Burns</name>, <name type="person">M. E. Hunt</name>, <name type="person">R. T. Gray</name><lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Parks and Boulevards:
+               </label>
+               <name type="person">Paul C. Marion</name>, <name type="person">T. S. Adams</name>, <name type="person">E. H. Price</name>,<lb/>
+               <name type="person">Fuller Warren</name>, <name type="person">M. D. Selph</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Docks and Terminals:
+               </label>
+               <name type="person">J. R. Permenter</name>, <name type="person">W. F. Rogers</name>, <name type="person">J. Y. Marr</name>,<lb/>
+               <name type="person">L. B. McCullough</name>, <name type="person">Geo. W. Milam</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Claims:
+               </label>
+               <name type="person">M. E. Hunt</name>, <name type="person">Fuller Warren</name>, <name type="person">Inman P. Crutchfield</name>, <name type="person">W. C. Pilcher</name>,<lb/>
+               <name type="person">Paul C. Marion</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  New Territory:
+               </label>
+               <name type="person">T. G. Gordon</name>, <name type="person">M. D. Gooding</name>, <name type="person">Geo. G. Robinson</name>,<lb/>
+               <name type="person">M. D. Selph</name>, <name type="person">M. E. Hunt</name>,<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Advertising:
+               </label>
+               <name type="person">Geo. W. Milam</name>, <name type="person">Inman P. Crutchfield</name>, <name type="person">W. F. Rogers</name>,<lb/>
+               <name type="person">John F. Hall</name>, <name type="person">Fuller Warren</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Health and Sanitation:
+               </label>
+               <name type="person">T. S. Adams</name>, <name type="person">R. T. Gray</name>, <name type="person">E. H. Price</name>,<lb/>
+               <name type="person">J. R. Permenter</name>, <name type="person">V. T. Reynolds</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Finance:
+               </label>
+               <name type="person">John F. Hall</name>, <name type="person">T. S. Adams</name>, <name type="person">Paul C. Marion</name>, <name type="person">M. D. Gooding</name>,<lb/>
+               <name type="person">Geo. W. Milam</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Bridges and Viaducts:
+               </label>
+               <name type="person">R. T. Gray</name>, <name type="person">J. R. Permenter</name>, <name type="person">Geo. G. Robinson</name>,<lb/>
+               <name type="person">Fuller Warren</name>, <name type="person">M. D. Selph</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Printing:
+               </label>
+               <name type="person">John F. Hall</name>, <name type="person">T. S. Adams</name>, <name type="person">M. E. Hunt</name>, <name type="person">J. Y. Marr</name>,<lb/>
+               <name type="person">W. C. Pilcher</name>,<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Commerce and Manufacturing:
+               </label>
+               <name type="person">W. C. Pilcher</name>, <name type="person">Gordon</name>, <name type="person">W. H. Rowton</name>,<lb/>
+               <name type="person">H. H. Burns</name>, <name type="person">L. B. McCullough</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  City Property:
+               </label>
+               <name type="person">T. G. Gordon</name>, <name type="person">Paul C. Marion</name>, <name type="person">Geo. G. Robinson</name>,<lb/>
+               <name type="person">John F. Hall</name>, <name type="person">T. S. Adams</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Water and Electricity:
+               </label>
+               <name type="person">H. H. Burns</name>, <name type="person">W. C. Pilcher</name>, <name type="person">M. D. Gooding</name>,<lb/>
+               <name type="person">Julian E. Fant</name>, <name type="person">John F. Hall</name>,<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Prison Farm:
+               </label>
+               <name type="person">Geo. G. Robinson</name>, <name type="person">M. D. Selph</name>, <name type="person">M. E. Hunt</name>, <name type="person">J. Y. Marr</name>,<lb/>
+               <name type="person">Inman P. Crutchfield</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Appraisal:
+               </label>
+               <name type="person">W. F. Rogers</name>, <name type="person">Fulian E. Fant</name>, <name type="person">T. G. Gordon</name>, <name type="person">John F. Hall</name>,<lb/>
+               <name type="person">Geo. W. Milam</name>,<lb/>
+            </p>
+            <p>
+               <label>
+                  Statistics:
+               </label>
+               <name type="person">M. D. Selph</name>, <name type="person">R. T. Gray</name>, <name type="person">Geo. G. Robinson</name>, <name type="person">Fuller Warren</name>,<lb/>
+               <name type="person">J. R. Permenter</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Motor Transportation:
+               </label>
+               <name type="person">Fuller Warren</name>, <name type="person">Julian E. Fant</name>, <name type="person">J. Y. Marr</name>,<lb/>
+               <name type="person">Paul C. Marion</name>, <name type="person">M. E. Hunt</name>,<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Aviation:
+               </label>
+               <name type="person">J. Y. Marr</name>, <name type="person">Julian E. Fant</name>, <name type="person">T. G. Gordon</name>, <name type="person">T. S. Adams</name>,<lb/>
+               <name type="person">M. D. Selph</name>.<lb/>
+            </p>
+            <p>
+               <label style="person">
+                  Auditing:
+               </label>
+               <name type="person">E. H. Price</name>, <name type="person">L. B. McCullough</name>, <name type="person">H. H. Burns</name>, <name type="person">W. H. Rowton</name>,<lb/>
+               <name type="person">W. F. Rogers</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  License:
+               </label>
+               <name type="person">R. T. Gray</name>, <name type="person">John F. Hall</name>, <name type="person">Geo. W. Milam</name>, <name type="person">Julian E. Fant</name>,<lb/>
+               <name type="person">J. R. Permenter</name>.<lb/>
+            </p>
+            <p>
+               <label style="case(allcaps)">
+                  Insurance Investigation;
+               </label>
+               <name type="person">Geo. W. Milam</name>, <name type="person">W. F. Rogers</name>, <name type="person">Julian E. Fant</name>.<lb/>
+            </p>            
+         </div>
+      </body>
+  </text>
+</TEI>

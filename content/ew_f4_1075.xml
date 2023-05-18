@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Graduation program Class of 1893  </title>
+            <author>Author </author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Your name here </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "editing the Earth M.M. White Archive"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder:F-4 , Item: 1075  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>  Graduation program of Class 1893 for Emerson Burnham
+                        two sided with each half a seperate page has tape in places
+                        with hand written note on side of back cover </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+         <pb n="1" facs= "../images/ew_f4_1075_001.jpg"/>
+         <p>Some text here.</p>
+         <pb n="2" facs= "../images/ew_f4_1075_002.jpg"/>
+         <p>Some text here.</p>
+         <pb n="3" facs= "../images/ew_f4_1075_003.jpg"/>
+         <p>Some text here.</p>
+         <pb n="4" facs= "../images/ew_f4_1075_004.jpg"/>
+      </body>
+  </text>
+</TEI>

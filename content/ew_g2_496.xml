@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Remembrance of James Weldon Johnson. 1938 or later.</title>
+            <author>Author unknown (possibly Eartha M.M. White)</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Lauren Kelley Winters</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder g2, Item 496</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Item presents a brief reminiscence of James Weldon Johnson at some point after his death.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>This two-page document is typed in blue ink on letter size paper.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_g2_496_001.jpg"/>
+         <p style="indent">
+            <name type="person">James Weldon Johnson</name>, born in <name type="place">Jacksonville, Florida</name> in <date when="1871">1871</date> and died in <name type="place">Maine</name>,<lb/>
+            <date when="1939-06-26">June 26, 1938</date>. His father was <name type="person">Rev. James Johnson</name> of <name type="place">Virginia</name>. His mother <name type="person">Ellen<lb/>
+               Louise Johnson</name> of <name type="place">Nassau</name>. His grandmother, <name type="person">Mary Barton</name>. He was the second child<lb/>
+            of a family of three. A sister died in infancy before he was born. His brother<lb/>
+            <name type="person">Rosemond</name> who still lives, residing in <name type="place">N. Y.</name> He attended <name type="place">Stanton High School<location><geo>30.352255 -81.673036</geo></location></name> in<lb/>
+            this City under <name type="person">Dr. D. W. Culp</name> and later <name type="person">Mr. Authe<del type="overwritten">r</del>l</name>. After finishing <name type="place">Stanton<location><geo>30.352255 -81.673036</geo></location></name> he<lb/>
+            attended school in <name type="place">Atlanta</name> , returning to <name type="place">Jacksonville</name>, he bacame a teacher in the<lb/>
+            <name type="place">Stanton School<location><geo>30.352255 -81.673036</geo></location></name> as assistant to <name type="person">Mr. Authel</name>. The school being an elementary school<lb/>
+            at the time. It was during his administration as principal of the school that he<lb/>
+            <del type="strikeout">hr</del> he made it a high school which was the first and only high school for Negroes in<lb/>
+            the city. He liked the profession of teaching but owing to the fact at that time all<lb/>
+            this county would pay a principal was $125 dollars. He felt that he might seek something<lb/>
+            better do he took the practice of law and later was appointed <name type="nation">United States</name> Council<lb/>
+            of <name type="nation">Nicarauga</name>, <name type="nation">Venezuela</name> and the <name type="place">Azores</name>.<lb/>
+         </p>
+         <p style="indent">
+            The <name type="person">Lincoln Douglas</name> Memorial Association had organized to carry out a three fold<lb/>
+            purpose to see that Emancipation Day, Memorial <del type="overwritten">B</del>Day and <name type="person">Lincoln</name> Birthday are celebrated.<lb/>
+            I invited <name type="person">Mr. Johnson</name> to speak on this Lincoln Birthday program. He said it was at<lb/>
+            this participating in this program that gave him the inspiration to write the Negro<lb/>
+            National <choice><sic>Athemn</sic><corr>Anthem</corr></choice>.<lb/>
+         </p>
+         <p>
+            I like to think of some of his friends and associates that I know <choice><sic>ob</sic><corr>of</corr></choice> beginning<lb/>
+            with <name type="person">Samuel Grant</name>, <name type="person">Estelle Love</name>, <name type="person">Mamie Stewart</name>, <name type="person">Carrie Llloyd</name>, <name type="person">J.W. Wetmore</name>, <name type="person">Dr.<lb/>
+               Arthur Wall Smith</name> and of the dearest, <name type="person">J. Settiers</name>. I like to think of the girl that<lb/>
+            everyone thought he would marry, <name type="person">Jannie Grant</name> who went to <name type="place">Tallahassee</name> while he was in<lb/>
+            <name type="place">Atlanta</name> and before he was the Godfather of one of her girls. I like to think of him<lb/>
+            singing in the choir of <name type="place">Ebenez er Church<location><geo>30.404934 -81.721208</geo></location></name> with his mother. I like to think of him as<lb/>
+            President of the <name type="place">Duval</name> County Teachers and now<lb/>
+            <pb n="2" facs="../images/ew_g2_496_002.jpg"/>
+            a s a little financial hint, these brothers thought they moved from <name type="place">Jacksonville</name><lb/>
+            to the <add type="caret">n</add> North sent their earning to their father to bank and invest. This he did<lb/>
+            by putting most of it in the <name type="organization"><name type="place">Jacksonville</name> Development Company</name> and during extreme illness<lb/>
+            of <name type="person">Rev. Johnson</name> this company went into bankruptcy and very near 50,000 dollars of<lb/>
+            their earnings were lost. <name type="person">Rev. James Johnson</name> passes not knowing the company had<lb/>
+            failed and he had lost nearly 50,000 dollars. This was one of the things that caused<lb/>
+            both brothers to dislike <name type="place">Florida</name>.<lb/>
+         </p>
+         <p style="indent">
+            His brother <name type="person">Rosmond</name> of course was the one I was most interested in because during<lb/>
+            those days there was no one like <name type="person">Rosmond</name>. All the girls used to tease him about his<lb/>
+            name, Rosey. This was given because he was expected to be a girl, but he took it<lb/>
+            very good naturally.<lb/>
+         </p>
+         <p style="indent">
+            I like to think of his brother by the last letter that I received from his with<lb/>
+            this poem enclosed.
+         </p>
+         <p>
+            <hi style="center">There is a word on every tongue,<lb/>
+            That speaks of friends most dear;<lb/>
+               In <name type="person_group">English</name> tis "Forget me not",<lb/>
+               In <name type="person_group">French</name> La Souvenier.<lb/>
+            </hi>
+         </p>
+         <note place="marginBottom"><handShift medium="pencil"/>(Is it possible that a page is missing from this MS? Margin of page 1<lb/>
+         was to far right on original but reads like page missing)</note>
+      </body>
+  </text>
+</TEI>

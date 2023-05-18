@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>News Clipping About Eartha White's Honorary Degree of Doctor of Humanity at Florida Normal Industrial School. </title> 
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Antonia Grant Bryant and Janaya Ferrer</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder U4, Item 1234</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>News clipping about Eartha White being awarded honorary degree of Doctor of Humanities at Florida Normal Industrial School.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A one-page newspaper clipping.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_u4_1234_001.jpg"/>
+         <div><div><head style="case(allcaps)">Wednesday, <date when="1936-06-03">June 3, 1936</date>.</head></div></div>
+         <div><head><supplied reason="page torn" cert="medium">Colored P</supplied></head></div>
+         <div><div><head>Receives Degree</head></div></div>
+         <div>
+         <p style="indent">
+            Miss <name type="person">Ertha M. M. White</name>, shown<lb/>
+            above, crowned as the <name type="person">"Angel of<lb/>
+            Mercy"</name> was awarded the honorary<lb/>
+            degree of Doctor of Humanity at the<lb/>
+            <name type="organization">Florida Normal Industrial School</name><lb/>
+            <name type="event">commencement exercises</name> held recent-<lb/>
+            ly at the <name type="place" subtype="city">Ancient City</name> (<name type="place" subtype="city">St. Augus-<lb/>
+            tine</name>).<lb/>
+        </p> 
+        <p style="indent">
+            The degree signifies great honor<lb/>
+            and esteem. Only two of its kind<lb/>
+            and known to the public in the<lb/>
+            <name type="place">United States</name>. Miss <name type="person">White</name> also re-<lb/>
+            ceived a similar degree from Presi-<lb/>
+            dent <name type="person">Franklin D. Roosevelt</name>. She is<lb/>
+            the <name type="person">head</name> of the famous <name type="organization">Clara White<lb/>
+            Mission</name> on <name type="place" subtype="address">Ashley Street</name>.<lb/>
+        </p>
+        <p style="indent">
+            Miss <name type="person">White</name> is recognized as one<lb/>
+            of the State's leading characters and<lb/>
+            her many friends and acquaintances<lb/>
+            wish for her continued success.<lb/>
+        </p>
+        </div>
+      </body>
+  </text>
+</TEI>

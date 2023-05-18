@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Dr. J. Seth Hills to Eartha M. M. White. December 9th, 1929.</title>
+            <author>Dr. J. Seth Hills</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name> sierra jones-frishman <!-- that person adds their name here--> </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder A, Item 10</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author asks White for help in finding a orphaned girl to house and to educate.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A typed letter from Dr. J. Seth Hills to Eartha M. M. White on 12/9/1929. The single page letter has Hills' business heading on it.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_a_10_001.jpg"/>
+         <div><div><head style="center"><name type="person">Dr. J. Seth Hills</name><lb/>
+            <name type="place">McLedo Hospital</name><lb/>
+            <name type="place">Daytona Beach, Florida</name><lb/></head></div></div>
+         <div><opener style="right"><date when="1929-12-09">December 9th 1929</date>.</opener></div>
+            <div><opener> Miss Eartha M. White<lb/>
+            Jacksonville, Fla.<lb/>
+            <salute>
+               My dear <name type="person">Miss Eartha:</name><lb/>
+            </salute>
+            </opener></div>
+         <div><p>I am in search of a girl about sixteen or<lb/>
+            seventeen years of age who is dependent and<lb/>
+            wants a good home and an education.  We have<lb/>
+            such a place in our home for the right kind<lb/>
+            of girl.  We will school her, provide her with<lb/>
+            clothing, a home and spending money.<lb/>
+         </p></div>
+         <div><p style="indent">I would rather have an orphan or some one<lb/>
+            who really has no one to care for them.  She<lb/>
+            must be neat and industrious and willing to go<lb/>
+            to school. I do <add type="caret">know</add> not who has charge of the or<lb break="no"/>phanage now or if there is such a girl in the<lb/>
+            orphans home.  I am writing to you because you<lb/>
+            know almost every body and also know of many de<lb break="no"/>pendent persons. Please give the matter some<lb/>
+            consideration and be prepared, if possible, to talk<lb/>
+            with me when I come to <name type="place"><choice><abbr>Jax.</abbr><expan>Jacksonville</expan></choice></name> next <date when="1929-12-18">Thursday the<lb/>
+               18th</date> <choice><abbr>Inst.</abbr><expan>instead.</expan></choice><lb/></p></div>
+           <div><p style="right"> I trust you are well and prosperous.</p></div>
+         <closer style="center">
+            <salute>
+               Very truly,<lb/>
+            </salute>
+            <signed>
+               <name type="person">Seth Hills</name>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Nancy Violette Cunningham to Eartha M. M. White. June 1, 1928.</title>
+            <author>Nancy Violette Cunningham</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder E1, Item 332</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to White discussing recent affairs at Christian conferences.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page typewritten letter from Nancy to White about church affairs, written on 6/1/1928. The letter has St. Benedict the Moor Mission's heading. It also has handwritten corrections throughout and the street address of a hospital in Milwaukee, Wisconsin written at the bottom.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs="../images/ew_e1_332_001.jpg"/>
+         <opener style="center"><name type="place" subtype="address"><choice><abbr>St.</abbr><expan>Saint</expan></choice> Benedict the Moor Mission<lb/>
+            288-290 Tenth Street<lb/>
+            <choice><abbr>Cor.</abbr><expan>Corner</expan></choice> of State Street<lb/>
+            Milwaukee, <choice><abbr>Wis.</abbr><expan>Wisconsin</expan></choice></name><lb/>
+            <date when="1928-06-01">June 1, 1928.</date><lb/></opener>
+            <opener><salute>Dear <name type="person">Eartha</name>:</salute><lb/>
+         </opener>
+         <p style="indent">
+            Honest to goodness I am <choice><sic>ashame</sic><corr>ashamed</corr></choice> to write you again<lb/>
+            because you <choice><sic>wont</sic><corr>won't</corr></choice> answer my letters and I feel that<lb/>
+            I am imposing on you to keep<choice><sic>;</sic><corr> </corr></choice>on writing you, but I<lb/>
+            will take a chance and write you again and trust to<lb/>
+            the gods to get from you an answer for me.<lb/>
+         </p>
+         <p style="indent">
+            I am hoping that you are well and getting along<lb/>
+            alright in your <choice><sic>buisiness</sic><corr>business</corr></choice>. Are you coming up here to<lb/>
+            the <name type="event">National <choice><sic>Babptist</sic><corr>Baptist</corr></choice> Young Peoples' Convention</name> the<lb/>
+            last of this month?<lb/>
+         </p>
+         <p style="indent">
+            Half way looked for you at the <name type="event">General Confer<lb break="no"/>ence</name> although I know that you are no <name type="person_group">Methodist</name>.<lb/>
+            <choice><sic>Every body</sic><corr>Everybody</corr></choice> was here and they did raise some sand as<lb/>
+            is customary at such meetings.<lb/>
+         </p>
+         <p style="indent">
+            One of the lawyers of this <add type="caret">city no, <name type="place">Chicago</name> I mean</add> is suing <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend </expan></choice>Tooks</name><lb/>
+            for $25,000.00 for slander. Poor <name type="person">Tooks</name> thinks that<lb/>
+            he is home there where he can talk about people and<lb/>
+            bully it out with them but he will find out different.<lb/>
+         </p>
+         <p style="indent">
+            With a new <name type="person">Bishop</name> <add type="caret">there</add> I was thinking that I would<lb/>
+            like to come down there and work this winter if I<lb/>
+            could get a position there in <name type="place">Edward Waters College</name><lb/>
+            similar to the one that I have here<choice><orig>.</orig><reg>,</reg></choice> <choice><sic>Or</sic><corr>or</corr></choice> even Dean<lb/>
+            of women<choice><orig>,</orig><reg>.</reg></choice> Guess <name type="person">Grace</name> will go with <name type="person">Bishop Hurst</name>.<lb/>
+            Have you heard whether she is going or not?<lb/>
+         </p>
+         <p style="indent">
+            Find out what the possibilities are for getting<lb/>
+            something like the above mentioned work and let me<lb/>
+            know will you?<lb/>
+         </p>
+         <p style="indent">
+            You are right on the ground there and can find<lb/>
+            out in a day what I would be weeks finding out by writ<lb break="no"/>
+            ing because they may be like you not inclined to writ<lb break="no"/>
+            ing. Hope that you are O.K. and please<add type="no_caret">write</add> me soon.<lb/>
+            Speak to <name type="person">D.D. Powell</name> for me<choice><orig>,</orig><reg></reg></choice> about the work.<lb/>
+         </p>
+         <closer style="center"><salute>Lovingly,</salute><lb/>
+            <signed><name type="person">Nancy</name></signed></closer><lb/>
+         <note place="marginBottom">
+            <cb n="1"/><name type="place" subtype="address">320 - <choice><abbr>10<hi style="superscript">th</hi></abbr><expan>tenth</expan></choice> <choice><abbr>st.</abbr><expan>street</expan></choice><lb/>
+               Milwaukee <choice><abbr>Wis.</abbr><expan>Wisconsin</expan></choice></name><lb/>
+            <cb n="2"/>This is the hospital <choice><abbr>no.</abbr><expan>number</expan></choice><lb/>
+            and will come di<lb break="no"/>
+            rectly to one.<lb/>
+         </note>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letters on Renaming Colored Schools.</title>
+            <author>Eartha M. M. White and unknown</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Melinda Peacock and Carol Lynne Hemmingway</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "editing the Earth M.M. White Archive"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder F5 , Item 1697 </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>  Handwritten notes and drafts of letter related to 
+                     colored schools naming and care part of committee</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs= "../images/ew_f5_1697_001.jpg"/>
+         <p style="right"><name type="place" subtype="city">Jacksonville<choice><orig></orig><reg>,</reg></choice> <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name><lb/>
+         <choice><abbr>Nov</abbr><expan>November</expan></choice> 26</p>
+         <div><p>
+            A National Park.<lb/>
+            The following names be<lb/>
+            given <choice><orig>The</orig><reg>the</reg></choice> <choice><orig>Colored</orig><reg>colored</reg></choice> schools<lb/>
+            The <name type="place">Stanton</name> (Stanton)<lb/>
+            <choice><abbr>"</abbr><expan>The</expan></choice> Darnell (Cookman)<lb/>
+            <choice><abbr>"</abbr><expan>The</expan></choice> Dunbar<lb/>
+            <choice><abbr>"</abbr><expan>The</expan></choice> Crispus <choice><sic>Attox</sic><corr>Attucks</corr></choice><lb/>
+            <choice><abbr>"</abbr><expan>The</expan></choice> Washington<lb/>
+            <choice><abbr>"</abbr><expan>The</expan></choice> Douglas<lb/>
+            <choice><abbr>"</abbr><expan>The</expan></choice> Lincoln<lb/>
+            <choice><abbr>"</abbr><expan>The</expan></choice> M. W. Gilbert <note place="marginRight">New school in <unclear cert="low" reason="Ink blurred making the note barely readable">Canb</unclear></note><lb/>
+            <choice><abbr>"</abbr><expan>The</expan></choice> Toussaint <choice><orig>L'Overture</orig><reg>Louverture</reg></choice>
+         </p></div>
+         <pb n="2" facs= "../images/ew_f5_1697_002.jpg"/>
+         <div><p>
+            That <choice><orig>Memorial</orig><reg>memorial</reg></choice> trees be planted<lb/>
+            on school grounds.<lb/>
+            That the city offer prizes to the<lb/>
+            various <choice><sic>commities</sic><corr>committees</corr></choice> for the yard<lb/>
+            best kept and most flowers yearly shows<lb/>
+            <unclear cert="low">Become</unclear> <choice><sic>Sead</sic><corr>seed</corr></choice> scatters.<lb/>
+            <del type="strikethrough">y</del> encouragement of all<lb/>
+            pupils who will specialize.<lb/>
+            <name type="organization">Y. M. and Y. W.</name> associates<lb/>
+            <choice><orig>Truant</orig><reg>truant</reg></choice> <choice><orig>Probation</orig><reg>probation</reg></choice> officers colored<lb/>
+            <choice><orig>Police</orig><reg>police</reg></choice> women.<lb/>
+            A <choice><orig>Court</orig><reg>court</reg></choice> of Domestic Relations<lb/>
+            <choice><abbr>"</abbr><expan>A</expan></choice> <choice><abbr>"</abbr><expan>Court</expan></choice> <choice><abbr>"</abbr><expan>of</expan></choice> Adult Probation<lb/>
+            An open air <choice><sic>theather</sic><corr>theater</corr></choice><lb/>
+            Good <choice><orig>Citizenship</orig><reg>citizenship</reg></choice> classes
+         </p></div>
+         <pb n="3" facs= "../images/ew_f5_1697_003.jpg"/>
+         <div><head style="center"><emph style="case(allcaps)">Hotel Richmond</emph></head></div>
+         <div><div><div><head><name type="person">Mrs. <choice><abbr>Geo.</abbr><expan>George</expan></choice> Kirkpatrick</name>, <choice><abbr>Prop.</abbr><expan>Proprietor</expan></choice></head></div></div></div>
+         <div><div><div><head><emph style="case(allcaps)">Rooms Day and Week, Small <choice><abbr>Apt.</abbr><expan>Apartment</expan></choice></emph></head></div></div></div>
+         <div><div><div><head><emph style="case(allcaps)">Modern, convenient</emph></head></div></div></div>
+            <div><div><div><head><emph style="case(allcaps)"><name type="place" subtype="city">Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name></emph></head></div></div></div>
+         <div><p style="indent">
+            Whereas, <choice><orig>It</orig><reg>it</reg></choice> seems to be the custom<lb/>
+            prevailing in the other larger cities<lb/>
+            of <name type="place">Florida</name> and the more pop<lb break="no"/>ulous cities of the South to designate their<lb/>
+            public schools by names instead<lb/>
+            of numbers; and
+         </p></div>
+         <div><p style="indent">
+            Whereas, <choice><orig>We</orig><reg>we</reg></choice> share the com<lb break="no"/>mon desire with other citizens to<lb/>
+            all <name type="person">Jacksonville</name> maintain its<lb/>
+            place in the front lines with<lb/>
+            other cities in the march of prgress; therefore,
+         </p></div>
+         <div><p style="indent">
+            Resolved, <choice><orig>That</orig><reg>that</reg></choice> we approve<lb/>
+            the suggestion of <name type="person">Miss Eartha M. M. White</name><lb/>
+            on the future designations of<lb/>
+            the colored public schools in the city of<lb/>
+            <name type="place">Jacksonville</name> as follows:
+         </p></div>
+         <div><p style="indent">
+            <name type="place">Oakland Graded School</name> to be<lb/>
+            -- etc.
+         </p></div>
+         <div><p>
+            Respectfully submitted,<lb/>
+            __________<lb/>
+            __________}Committee<lb/>
+            __________
+         </p></div>
+         <pb n="4" facs= "../images/ew_f5_1697_004.jpg"/>   
+         <div><p><choice><orig>1</orig><reg></reg></choice></p></div>
+         <div><p style="indent">
+            Whereas, <choice><orig>We</orig><reg>we</reg></choice> have been<lb/>
+            Whereas, We have been<lb/>            
+            approached by <name type="person">Miss Eartha M. M.<lb/>  
+            White</name> suggesting the advisability<lb/> 
+            of designating our colored<lb/> 
+            public schools in <name type="place" subtype="city">Jacksonville</name><lb/> 
+            by more significant and ap<lb break="no"/>pealing names; and  
+         </p></div>
+         <div><p style="indent">
+            Whereas, <choice><orig>We</orig><reg>we</reg></choice> feel, too, that<lb/> 
+            some bit of history should<lb/>
+            be associated with the name<lb/>
+            of each school as a matter of<lb/>
+            sentiment so well as inspiration;<lb/> 
+            therefore,                                   
+         </p></div>
+         <div><p style="indent">
+            Resolved, That we hereby <add type="caret">humbl<supplied reason="writer apparently ran out of space">y</supplied></add>
+            petition our <name type="organization">Honorable Board<lb/>            
+            of Public Instruction</name> to grant with<lb/> 
+            us the following changes in the<lb/>
+            names of our colored public<lb/>  
+            schools in this county:
+         </p></div>
+            <div><p>
+            <name type="place">Oakland Graded School</name> to be<lb/>
+            known as, etc.</p></div> 
+            <div><p>
+            Respectfully submitted:<lb/>  
+            -------------- <lb/>
+            --------------} Committee<lb/>
+            -------------- <lb/>
+         </p></div>
+      </body>
+  </text>
+</TEI>

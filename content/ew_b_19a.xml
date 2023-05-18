@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A History of the Afro-American Life Insurance Company</title>
+            <author>Afro-American Life Insurance Company</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding</resp>
+               <name>Bethany Jerger</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B, Item 19a</idno>                  
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>A brochure for the Afro-American Insurance Company. Good condition. Some white stickers on some of the pages. No date.  </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b_19a_001.jpg"/><!-- Here is your first page break. You need to make the image name here match the name of your file -->
+         <cb/>
+        <div>
+        
+            <figure><graphic url="ew_b_19a_001_001.jpg"/></figure>
+            <figure><desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder W2, Item 648.</desc><graphic url="../images/ew_b_19a_001_001.jpg"></graphic></figure>
+         
+            <p>
+           AFRO-AMERICAN<lb/>
+           </p>
+            <p>
+               LIFE INSURANCE COMPANY<lb/>
+            </p>
+         <p>
+           <name type="place" subtype="address">101 East Union Street <lb/>
+           
+           Jacksonville, Florida 32202<location><geo>30.331966 -81.654918</geo></location></name><lb/>
+          
+         </p>
+            <figure><graphic url="ew_b_19a_001_002.jpg"/></figure>
+            <figure><desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder W2, Item 648.</desc><graphic url="../images/ew_b_19a_001_002.jpg"></graphic></figure>
+       
+        </div>
+         <cb/>
+         <div>
+            <p>
+               
+               <figure><graphic url="ew_b_19a_001_003.jpg"/></figure>
+               <figure><desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder W2, Item 648.</desc><graphic url="../images/ew_b_19a_001_003.jpg"></graphic></figure>
+               
+            A<lb/>
+            HISTORY<lb/>
+            OF<lb/>
+            AFRO-AMERICAN<lb/>
+            LIFE INSURANCE<lb/>
+            COMPANY<lb/>
+            
+         </p>
+        </div>
+         
+         <pb n="2" facs="../images/ew_b_19a_002.jpg"/>
+       
+              <div>
+                 
+                 <head><hi style="bold">Seven Samaritans...</hi></head>
+                 
+                     <p>
+                        On the <date when="1901-01-15">15th day of January, in the year 1901</date>,<lb/>
+                        seven members of <name type="place" subtype="city">Jacksonville's</name> black community <lb/>
+                  effected the organization of what would become the <lb/>
+                  <name type="company">Afro-American Life Insurance Company</name>. The names <lb/>
+                  of these men, forever engraved upon the memory of<lb/>
+                  those to follow in their footsteps, were <name type="person">Reverend E.J. <lb/>
+                  Gregg</name>, <name type="person">Mr. E.W. Latson</name>, <name type="person">Mr. A.L. Lewis</name>, <name type="person">Mr. A.W. <lb/>
+                  Price</name>, <name type="person">Dr. A. W. Smith</name>,<name type="person"> Mr. J.W. Valentine</name>, and <lb/>
+                  <name type="person">Reverend J. Milton Waldron</name>. <lb/>
+                     </p>
+                     
+                     <p>
+                        These men each invested $100 of their hard-<lb/>
+                  earned income in the simple premise that a group of <lb/>
+                  people, impoverished in spirit and living in a sub-<lb/>
+                  standard existence because of the circumstances of their <lb/>
+                  color, badly needed help. Two obvious truths moti- <lb/>
+                  vated the action of the seven founders: the sick and <lb/>
+                  injured required ministration and medication; the dead <lb/>
+                  rightfully deserved to be given a dignified burial. <lb/>      
+                     </p>
+                 </div>
+         <div>
+                  
+            <head><hi style="bold">A Beginning...</hi></head>
+               <p>
+                     On the <date when="1901-03-01">1st day of March, in the year 1901</date>, the <lb/>
+                     State of <name type="place" subtype="state">Florida</name> granted a charter to this fledgling <lb/>
+                   enterprise, then-named the <name type="company">Afro-American Industrial <lb/>
+                   and Benefit Association</name>. The following men were in-<lb/>
+                   stalled as the <name type="company">Company's</name> first executive officers: <lb/>
+                  <name type="person">Reverend E.J. Gregg</name>,<name role="administrator">  President</name>; <name type="person">Dr. A.W. Smith</name>,<name role="administrator">  <lb/>
+                      Vice President</name>; <name type="person">Mr. A.L. Lewis</name>,<name role="administrator">Treasurer</name>; and <lb/>
+                  <name type="person">Reverend J. Milton Waldron</name>,<name role="administrator">  Secretary</name>. The first <lb/>
+                     home office was quartered in a modest dwelling at <name type="place" subtype="address">14<lb/>
+                   Ocean Street, Jacksonville, Florida</name>. It was staffed by<lb/>
+                  <name type="person">Mr. G.W. Holloway</name>,<name role="administrator">  District Supervisor</name>;<name type="person"> Mr. Louis <lb/>
+                     D. Ervin</name>,<name role="administrator">  First Agent</name>, and <hi style="underline"><name type="person">Miss Eartha M.M. White</name></hi>, <lb/>
+                  <name role="administrator"> Clerk</name>. <lb/>
+               </p>
+            </div>
+         <figure><graphic url="ew_b_19a_002_001.jpg"/></figure>
+         <figure><desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder W2, Item 648.</desc><graphic url="../images/ew_b_19a_002_001.jpg"></graphic></figure>
+         
+            
+           <cb/>
+               <div>
+                  
+                  <head><hi style="bold">Disaster Strikes...</hi></head>
+                  
+                <p>
+                       Hardly had the order of business gotten under way <lb/>
+                   when disaster struck the young organization, in the <lb/>
+                   form of the terrible <name type="event">Jacksonville fire of 1901</name>. Every- <lb/>
+                   thing but a few records was destroyed by the flames <lb/>
+                   and gutted most of the city's business area. However, <lb/>
+                   undaunted and possessed of indomitable willpower <lb/>
+                   and tenacity, the organizers set out to rebuild the <lb/>
+                  <name type="company">Company</name>- like a Phoenix arising from the still- <lb/>
+                   smoldering ashes. One individual- <name type="person">Miss Eartha M. <lb/>
+                   M. White</name>- was mainly responsible for the rebirth of <lb/>
+                   the <name type="company">Company</name>. As best she could, she salvaged what <lb/>
+                   remained of invaluable books and records, making it <lb/>
+                   possible for the <name type="company">Company</name> to stay in business and to<lb/>
+                   continue its growth.<lb/>
+                </p>
+                  <p>
+                     It should be especially noted here that <name type="person">Miss White</name><lb/>
+                     later became active in civic and social work; and<lb/>
+                     during the following years she became nationally-<lb/>
+                     recognized as an outstanding humanitarian. In <date when="1970">1970,</date><lb/>
+                     sponsored by <name type="person">Congressman Charles E. Bennett</name> of<lb/>
+                     Florida, <name type="person">Miss White</name> was awarded, in <name type="place" subtype="city">New York City</name>, <lb/>
+                     the "National Lane Bryant Award," plus a $5,000<lb/>
+                     honorarium, in competition with over 500 candidates<lb/>
+                     from all over the United States. 
+                  </p>
+               </div>
+         <div>
+            <head><hi style="bold">A New Start...</hi></head>
+                   <p>
+                      Pulling itself together after the <name type="event">fire</name>, the <name type="company">Company</name><lb/>
+                     occupied space volunteered by <name type="person">Mr. A.L. Lewis</name>, then<lb/>
+                     Business Manager-Treasurer, in his home. Not long<lb/>     
+                     thereafter, increased business activity forced the <name type="company">Com-<lb/>    
+                     pany</name> to rent considerably larger office space at <name type="place" subtype="address">609<lb/>     
+                        Main Street</name> in <name type="place" subtype="city">Jacksonville</name>. In the year <date when="1908">1908</date>,the<lb/>
+                    <name type="company">Company's</name> capital stock at increased to $10,000.<lb/>
+                    <name type="person">Mr. John P. Spearing</name> had joined the executive staff as<lb/>
+                     Vice President, and the <name type="company">Company</name> negotiated the pur-<lb/>
+                     chase of the <name type="company">Mutual Benefit Association of Jackson-<lb/>
+                     ville</name>, adding its assets to that of the Company.<lb/>
+                   </p>
+         </div>
+         <div>
+                  
+                 <head><hi style="bold">Confounding The Skeptics...</hi></head>
+            <p>
+                     While the <name type="company">Company</name> and its people were devoting<lb/> 
+                     their time and efforts in the direction of strong and<lb/>
+                     steady growth, there were, in the city's business com-<lb/>
+                     munity, those who had their doubts as to the eventual<lb/>
+                     success of a "black-owned, black-operated" insurance<lb/>
+                     firm. The doubters were completely confounded when, <lb/>
+                     in the year <date when="1910">1910</date>, the <name type="company">Company</name> built its own Home<lb/>
+                     Office- a two-story brick and stone structure located<lb/>
+                     at <name type="place" subtype="address">101 E. Union Street</name> in <name type="place" subtype="city">Jacksonville</name>. During that<lb/>
+                     year, the <name type="company">Company</name> changed its name to <name type="company">the Afro-<lb/>
+                     American Industrial Insurance Company</name>, and, in <date when="1970">1911</date>,<lb/>
+            </p>
+               </div>
+            
+            <pb n="3" facs="../images/ew_b_19a_003.jpg"/>
+          <cb/>
+               <div>
+                     <p>
+                     purchased the thriving <name type="company">Miami Mutual Insurance Com-<lb/>
+                        pany</name>, of <name type="place" subtype="city">Miami</name> <name type="place" subtype="state">Florida</name>. 
+                     </p>
+               </div>
+                <div>
+                   <head><hi style="bold">The Years March On...</hi></head>
+         <p>
+                      And the <name type="company">Company's</name> growth becomes stronger and<lb/>
+                      more evident. It wrote its first ordinary policy in <lb/>  
+                        <date when="1922">1922</date> and in <date when="1926">1926</date> entered the State of <name type="place" subtype="state">Georgia</name> through<lb/>
+                      he purchase of the <name type="company">Chatham Life and Health In-<lb/> 
+                      surance Company</name> of <name type="place" subtype= "city">Savannah</name>. During that period<lb/>  
+                      of <date when="1931">1931</date> through <date when="1935">1935</date>, the <name type="company">Company</name> purchased three<lb/>
+                        insurance companies operating in <name type="place" subtype="state">Florida</name>, and listed <lb/>
+                      its own capital stock at $200,000. In <date when="1947">1947</date>, death<lb/> 
+                      took the only remaining one of the original seven<lb/>
+                      founders, <name type="person">Dr. A.L. Lewis</name>, then <name role= "administrator">Chairman-Treasurer</name>.<lb/>
+                      The spirit of his strong religious beliefs, business<lb/>  
+                      integrity and blessed benevolence lives today within<lb/>  
+                      the workings of the <name type="company">Company</name> he helped build.<lb/> 
+         </p>
+      </div>
+         <div>
+                     <p>
+                        In <date when="1949">1949</date>, the <name type="company">Company</name> extended its operations into<lb/>
+                        <name type="place" subtype="state">Alabama</name>, opening offices in <name type="place" subtype="city">Birmingham</name> and <name type="place" subtype="city">Mobile</name>. <lb/>
+                        And <date when="1959">ten years later</date> the <name type="company">Company</name> entered the State of<lb/>
+                        <name type="place" subtype="state">Texas</name> with the purchase of <name type="place" subtype="state">the Watchtower Life In-<lb/>
+                        surance Company</name>, and increased <name type="place" subtype="state">Company</name> assets to<lb/>
+                        over ten million dollars of insurance and capital stock<lb/>
+                        listed at one half million dollars. <lb/>
+                     </p>
+                     <p>
+                            The new, modern home office building was con-<lb/>
+                        structed in <date when="1956">1956</date> on the same historical site as the<lb/>
+                        original. <name type="person">Dr. James H. Lewis</name> served as President<lb/>
+                        from 1936-1967 and as Chairman of the Board from <lb/>
+                        <date when="1970">1947</date> to the present day. <name type="person">Mr. I. H. Burney II</name> was <lb/>
+                        elected President in <date when="1967">1967</date>. In <date when="1969">1969</date> the <name type="company">Company</name> was<lb/>
+                        listed among the first three in the National Insurance<lb/>
+                        Association to write "Major" group insurance. <lb/>
+                     </p>
+         </div>
+         <div>
+            <head><hi style="bold">Great Oaks From Little Acorns...</hi></head>
+                      <p>
+                         Founded by seven dedicated <name type="person_group">black</name> men- in an ob-<lb/>
+                         scure, back-street church- the Company has, through <lb/>
+                         the years, tinctured its business philosophies with the<lb/>
+                         religious and humanitarian influences instilled by its<lb/>
+                         originators. Witness the caliber of some of the men<lb/>
+                         and women responsible for the <name type="company">Company's</name> position to-<lb/>
+                      </p>
+               </div>
+            
+            <cb/>
+         <figure><graphic url="ew_b_19a_003_001.jpg"/></figure>
+         <figure><desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder W2, Item 648.</desc><graphic url="../images/ew_b_19a_003_001.jpg"></graphic></figure>
+         
+               <div>
+                  <p>
+                          day: eight Bishops of the church; five College Presi-<lb/>
+                          dents; numerous other successful business and profes- <lb/>
+                          sional individuals. To cite an outstanding example:<lb/>
+                     <name type="person">Dr. Mary McLeod Bethune</name>, illustrious founder of<lb/>
+                     Bethune-Cookman College, worked for the <name type="company">Company</name><lb/>
+                          as an Agent; later served an inspiring twenty-four<lb/>
+                          years on its Board of Directors.<lb/>
+                  </p>
+               </div>
+      <div>
+                  
+         <head><hi style="bold">We Also Contribute...</hi></head>
+                  <p>
+                                To be successful- and respected - a company must<lb/>
+                           contribute to the community in which it does its business.<lb/>
+                           We are no exception to that rule. The <name type="company">Company</name> is <lb/>
+                           known for its "equal opportunity" employment poli-<lb/>
+                           cies, offering job opportunities in a multitude of fields,<lb/>
+                           to a larger number of qualifed applicants, without <lb/>
+                           regard to race, color or religious beliefs. The grant- <lb/>
+                           ing of mortgage loans has assisted many of our clients<lb/>
+                           in their business and domestic endeavors. And the<lb/>
+                           living benefits provided to our policyholders include<lb/>
+                           endowments, cash values, loan benefits, hospitalization<lb/>
+                           benefits, income protection- to name a few. 
+                           
+                  </p>
+         <p>
+                          <name type="company">Our</name> Company-wide payroll contributes, too, in the<lb/>
+                           many communities in which our people are employed. <lb/>
+                           Well over a million an a half dollars are paid an-<lb/>
+                           nually to <name type="company">Company</name> employees who, in turn, distribute<lb/>
+                           the money in their community in everyday living ex-<lb/>
+         </p>
+               </div>
+            
+            
+            <pb n="4" facs="../images/ew_b_19a_004.jpg"/>
+     <cb/>
+              <div>
+                     <p>
+                           penditure. We realize that our first responsibility is<lb/>
+                           to the people whose welfare we insure. Our second is<lb/>
+                           to the communities in which they live and in which we work.<lb/>
+                     </p>
+              </div>
+                  
+                     <div>
+                        <head><hi style="bold">And We Give More...</hi></head>
+                   <p>
+                                 There is more than money, employment and assis-<lb/>
+                           tance involved in the Company's contribution to the<lb/>
+                           communities it serves. Personal involvement can<lb/>
+                           carry no price tage, but its effects can be recognized in<lb/>
+                           its many facets. Company personnel get involved<lb/>
+                     with the community-oriented projects such as the <name type="organization">Boy<lb/>
+                        Scouts</name>, <name type="organization">United Funds</name>, <name type="organization">Chambers of Commerce</name>, <name type="organization">The <lb/>
+                     <name type="organization">National Association for the Advancement of Colored<lb/>
+                           People</name>, valid Civil Rights movements, Safety Councils,<lb/>
+                      and others. And the <name type="company">Company</name> contributes financially<lb/>
+                           as an entity, to worthy civic organizations, churches<lb/>
+                           and educational institutions. <lb/>
+                  
+                    
+                        </name> <!-- Not sure why it needed the name endcap there, I checked the paragraph and didn't catch where I had missed one -->
+                   </p>
+                     </div>
+                        <div>
+                           <head><hi style="bold">This Is Our "Stock In Trade"...</hi></head>
+                        <p>    
+                     
+                     From its small beginning, back in <date when="1901">1901</date>, the <name type="company">Com-<lb/>
+                            pany</name> has constantly added to the insurance coverages<lb/>
+                            available to its clients. It presently offers the follow-<lb/>
+                            ing protection, in three different categories:<lb/>
+                        </p>
+                           <p>
+                        I. Weekly Premium: Life and Endowment,<lb/>
+                           </p>
+                           <p>
+                        Sickness and Accident, Hospitalization
+                           </p>
+                           <p>
+                        II. Oridinary Life: Life Endowment and Term<lb/>
+                           </p>
+                           <p>
+                        Plans, Mortgage Protection, Income Protection<lb/>
+                           </p>
+                        <p>
+                        III. Group: Life, Hospitalization, Major Medi<lb/>
+                      
+                        cal, Weekly Income Benefits<lb/>
+                        </p>
+                        </div>
+           <cb/>
+         <figure><graphic url="ew_b_19a_004_001.jpg"/></figure>
+         <figure><desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder W2, Item 648.</desc><graphic url="../images/ew_b_19a_004_001.jpg"></graphic></figure>
+         
+           <div>
+              <head><hi style="bold"> With Whom Do We Work?</hi></head>
+              <p>
+                 As stated earlier, our founders organized the <name type="company">Com<lb/>
+              pany</name> to give much-needed assistance to a minority<lb/>
+              whose only distinction, so considered at the time, was<lb/>
+              the color of their skin. Times and attitudes have <lb/>
+              changed since <date when="1901">1901</date>. And, by the Grace of God, will <lb/>
+              continue to change even more. <lb/>
+              </p>
+              <p>
+                   There are countless people, the color of whose skin <lb/>
+                 is <name type="person_group">other-than-black</name> who recognize in the <name type="company">Company</name> an <lb/>
+              opportunity to help their fellow man better his posi<lb/>
+              tion and his way of life. The <name type="company">Company</name> has a deep <lb/>
+              appreciation for this sentiment; it openly solicits busi<lb/>
+                 ness and development of relationships with <name type="person_group">other-than-<lb/>
+              black</name> persons who, like the originating "Seven Samari<lb/>
+              tans," wish to join with us to our mutual benefit. <lb/>
+              </p>        
+           </div>
+              
+           
+           <!-- I chose to encode "black" and "other-than-black" as person-groups because someone may search these documents for evidence of race relations at that time -->
+      
+      
+      </body>
+  </text>
+</TEI>

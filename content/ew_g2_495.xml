@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Facts About James Weldon Johnson"</title>
+            <author>Eartha M.M. White</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Lauren Kelley Winters</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder G2, Item 495</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Item provides brief biographical sketch of James Weldon Johnson. Item presents a brief reminiscence of James Weldon Johnson at some point after his death. (Lauren Kelley Winters)</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>This document is a typed 2 page piece. The paper is standard letter sized and typed in black ink.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_g2_495_001.jpg"/>
+         <head><label style="case(allcaps)">Facts About <name type="person">James Weldon Johnson</name><lb/>
+         By<lb/>
+            <name type="person">Eartha M.M. White</name><lb/>
+         </label></head>
+         <p style="indent">
+            As I knew Mr. <name type="person">James Weldon Johnson</name>, his father, <name type="person">Rev. James W. Johnson</name> who<lb/>
+            was a headwaiter at the <name type="place">St James Hotel, Jacksonville, Florida</name>. <name type="person">Rev. James W.<lb/>
+               Johnson</name> was on vacation in <name type="place">New York City</name> where he met <name type="person">Mrs. Barton</name> and her daughter<lb/>
+            who were also visiting in <name type="place">New York</name>. He became very much interested in the daughter.<lb/>
+            The Bartons extended an invitation to <name type="person">Reverend Johnson</name> to visit their home in <name type="place">Nassau</name>.<lb/>
+            Here, he married the daughter and they were blessed with a girl baby who died in in<lb break="no"/>
+            fancy.<lb/>
+            </p>
+         <p style="indent">
+            <name type="person">Reverend Johnson</name> purchased in <name type="place">Jacksonville, Florida</name> the northeast corner of<lb/>
+            <name type="place">Ward and Lee Streets</name> (where the <name type="place">Firestone building</name> is today). On the north end of<lb/>
+            this property he erected a framed two story building, when completed he had his wife<lb/>
+            and her mother, <name type="person">Mrs. Barton</name> to come to <name type="place">Jacksonvile</name>.<lb/>
+         </p>
+         <p style="indent">
+            <name type="person">Mrs. Johnson</name> formed a friendship with <name type="person">Miss Agnes Edwards</name> who was like a sister<lb/>
+            to her and was known as a foster sister. Both <name type="person">Mrs. Johnson</name> and <name type="person">Miss. Edwards</name> taught<lb/>
+            in <name type="place">Stanton School<location><geo>30.352292 -81.673004</geo></location></name>.<lb/>
+         </p>
+         <p style="indent">
+            Later there was born to them two sons, <name type="person">James Weldon</name> and <name type="person">Rosemond</name>. Both boys<lb/>
+            attending <name type="place">Stanton</name> under <name type="person">Dr. Culp</name>. <name type="person">James Weldon</name> finished Stanton under <del type="overwritten">B</del><name type="person">Principal<lb/>
+               Artrell</name>. He became assistant to <name type="person">Mr. Artrell</name> and when <name type="person">Mr. Artrell</name> left the school he<lb/>
+            became principal. It was during his administration <name type="place">Stanton<location><geo>30.352292 -81.673004</geo></location></name> became the first Negro<lb/>
+            high school in the country. He asked the school board for a raise of $75.00 in salary.<lb/>
+            This was not granted, so he left <name type="place">Stanton<location><geo>30.352292 -81.673004</geo></location></name>.<lb/></p>
+         <p style="indent">
+            He went to <name type="place">Atlanta</name> to do further study. Here, he bacame interested in the<lb/>
+            <name type="person_group">National Advancement of Colored People</name>. He recieved many degrees and appointments.<lb/>
+         </p>
+         <p style="indent">
+            Later he made his home in <name type="place">New York</name> where he met Miss. <name type="person">Grace Nails</name>, daughter<lb/>
+            of <name type="person">Jack Nails</name> and a friend of <name type="person">Eartha M. M. White</name>. <name type="person">Grace</name> not only became a wife but<lb/>
+            a companion to <name type="person">Mr. Johnson</name>. They traveled always together. They had no children.<lb/>
+            She was ideal and loved everyone who was fortunate enough to meet her.<lb/>
+         </p>
+         <pb n="2" facs="../images/ew_g2_495_002.jpg"/>
+         <div>
+            <head><label style="case(allcaps)"> <hi style="underline">Facts About <name type="person">James Weldon Johnson</name></hi></label></head>
+         </div>
+         <div>
+         <p>
+            <name type="person">Eartha M. M. White</name> who was in school in <name type="place">New York City</name> and Miss. <name type="person">Grace Nails</name> were<lb/>
+            girl friends long before she met <name type="person">Mr. Johnson</name>. She had a wonderful disposition and<lb/>
+            everyone admired her. It was upon the return home from a trip on a foggy morning<lb/>
+            while <name type="person">Grace</name> was a driving the car, she unfortunately ran into a train. <name type="person">Mr. Johnson</name><lb/>
+            was killed. She never recovered from this shock.<lb/>
+         </p>
+            <p style="indent">
+               <name type="person">Mr. Johnson</name> was a wonderful writer and composer. One of the most outstanding<lb/>
+               compositions was: "<title level="m">Lift Every Voice and Sing</title>," known as the Negro National Anthem.<lb/>
+               <name type="person">Mr. Johnson</name> wrote the words while his brother wrote the music.<lb/>
+            </p>
+            <p style="indent">
+               <name type="person">Mr. Graft</name>, a millionaire of <name type="place">Syracuse, New York</name>, who wanted to prove to the<lb/>
+               world that Negroes could sing opera music as well as folk songs, financed for one<lb/>
+               year a company known as the <name type="person_group">Oriental-America Opera Company</name>. <name type="person">Madam Plato</name> and <name type="person">Sidney<lb/>
+                  Woodard</name> were the star singers. <name type="person">Mr. J. Rosemond Johnson</name> was in charge of music. Two<lb/>
+               <name type="person_groups">Jacksonvillians</name> were also selected: <name type="person">Earth M. M. White</name>, a lyric saprano from the<lb/>
+               <name type="person_group">National Conservatory of Music</name>, <name type="person">Harry T. Burleigh</name>, instructor and <name type="person">Estella Dorsey</name>,<lb/>
+               who had a wonderful contralto voice.<lb/>
+            </p>
+            <p style="indent">
+               They opened at <name type="place">Palm Theatre</name> on <name type="place">Broadway</name> in <name type="place">New York City</name>. This was the first<lb/>
+               appearance of Negroes in that theatre. They traveled most of the cities in the<lb/>
+               <name type="place">United States</name> and abroad. This proved to be an over-whelming success. It was from<lb/>
+               the <name type="person_group">Oriental-American Opera Company</name> many other musical groups started. Millionaire<lb/>
+               <name type="person">Graft</name> was well pleased.<lb/>
+            </p>
+            <p style="indent">
+               Lest we forget, his father was a Baptist preacher and a member of <name type="person_group">Bethal Baptist<lb/>
+                  Institutional Church</name>. His mother, brother and <name type="person">James Weldon</name> were members of <name type="person_group">Ebanezer<lb/>
+               Methodist Episcopal Church</name> and sang in the chior.
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

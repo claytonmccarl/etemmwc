@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Request for real estate help. C. Robinson to Eartha M. M. White. November 3, 1925. </title>
+            <author> C. Robinson </author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "editing the Earth M.M. White Archive"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder: G5, Item:2868</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>Hand written note on paper about 3*5 dated November 3, 1925</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs= "../images/ew_g5_2868_001.jpg"/>
+            <opener style="center">
+               <name type="place" subtype="address">114 N. <choice><abbr>9<hi style="superscript">th</hi></abbr><expan>Ninth</expan></choice>. <choice><abbr>St.</abbr><expan>Street</expan></choice><lb/>
+                  Palatka, <choice><abbr>Fla.</abbr><expan>Florida.</expan></choice></name> <date when="1925-11-03">11/3/25</date>       
+            </opener>
+            <opener>
+               <name type="person">Miss EM White</name><lb/>               
+               <name type="place" subtype="address">223 Eagle <choice><abbr>St.</abbr><expan>Street</expan></choice><lb/>
+                  <choice><abbr>Jaxville</abbr><expan>Jacksonville</expan></choice>, <choice><abbr>Fla.</abbr><expan>Florida.</expan></choice></name>
+               <salute><hi style="center">Dear Miss Eartha; -</hi></salute>
+            </opener>
+         <p>
+            We have three (3) lots in Murray Hill<choice><orig></orig><reg>.</reg></choice><lb/>
+            1, 2, 3; I am told the lots in Murray Hill<lb/>
+            are valued very high<choice><orig>;</orig><reg>.</reg></choice> I am <choice><sic>writting</sic><corr>writing</corr></choice><choice><orig>,</orig><reg/></choice> you<lb/>
+            to find out if you would intercede about<lb/>
+            <choice><orig>Selling</orig><reg>selling</reg></choice> the lot for us. Now if you <choice><orig>Can</orig><reg>can</reg></choice><lb/>
+            handle the lots<choice><orig>.</orig><reg>,</reg></choice> please let me know by<lb/>
+            return mail and I would list them with<lb/>
+            you<choice><orig>;</orig><reg>.</reg></choice> Sister is <choice><sic>stele</sic><corr>still</corr></choice> sick, and send love also<lb/>
+            the rest of the family<lb/>
+         </p>
+         <closer style="center"><salute>Yours,</salute>
+         <signed><name type="person">C.L. Robinson</name></signed></closer>
+      </body>
+  </text>
+</TEI>

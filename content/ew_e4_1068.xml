@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Love Letter. Albert Sims to Eartha M. M. White. March 4, 1929.  </title>
+            <author>Albert Sims </author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name> Carol Lynne Hemmingway </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "editing the Earth M.M. White Archive"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder:E-4 , Item:1068  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>  Hand written note on stationary from Atlantic Coast Line Railway Company dated March 4,1929 </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_e4_1068.jpg"/>
+         <head style="center"><name type="company">Atlantic Coast Line Railroad Company</name></head>
+         <opener style="right"><name type="place" subtype="city">Port Tampa City</name>, <name type="place" subtype="state"><choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name>
+         <date when="1929-03-04">3-4-29</date>
+         <salute>Dear Sweetheart,</salute></opener>
+         <p><choice><orig>your</orig><reg>Your</reg></choice> letter <choice><sic>recived</sic><corr>received</corr></choice><choice><orig></orig><reg>.</reg></choice></p>
+         <p><supplied cert="high" reason="omitted in original">I</supplied> were indeed glad to <choice><orig>here</orig><reg>hear</reg></choice> from<lb/>
+            you and to know you are<lb/> 
+            well <choice><orig></orig><reg>.</reg></choice> <choice><orig>inclose</orig><reg>Inclose</reg></choice> you will <choice><sic>finde</sic><corr>find</corr></choice><lb/> 
+            the letter <choice><orig>i</orig><reg>I</reg></choice> were to send to you<lb/> 
+            when <choice><orig>i</orig><reg>I</reg></choice> wrote last.</p>
+         <p><choice><orig>you</orig><reg>You</reg></choice> mention a deed<choice><orig></orig><reg>.</reg></choice> <choice><orig>it</orig><reg>It</reg></choice> <choice><orig>havent</orig><reg>haven't</reg></choice> <choice><orig>arrive</orig><reg>arrived</reg></choice> yet.</p>
+         <p><choice><orig>i</orig><reg>I</reg></choice> have the blues<choice><orig></orig><reg>.</reg></choice> <choice><orig>i</orig><reg>I</reg></choice> have <choice><orig>ben</orig><reg>been</reg></choice> home<lb/> 
+            alone all <choice><orig>after noon</orig><reg>afternoon</reg></choice>. Thinking of you<lb/> 
+            the world <choice><sic>seams</sic><corr>seems</corr></choice> so lonely <choice><orig>with out</orig><reg>without</reg></choice><choice><orig></orig><reg>.</reg></choice><lb/> 
+            <choice><orig>you</orig><reg>You</reg></choice> are everything to me. <choice><orig>with</orig><reg>With</reg></choice><add type="caret">out</add> you<lb/> 
+            life is not worth living. <choice><orig>i</orig><reg>I</reg></choice> think of you<lb/> 
+            all the time and when <choice><orig>i</orig><reg>I</reg></choice> get home<lb/> 
+            <choice><orig>its</orig><reg>it's</reg></choice> <supplied cert="high" reason="omitted in original">the</supplied> worst<choice><orig></orig><reg>.</reg></choice> <choice><orig>i</orig><reg>I</reg></choice> wonder what is the matter<choice><orig></orig><reg>.</reg></choice><lb/> 
+            <choice><orig>i</orig><reg>I</reg></choice> could not love you <choice><orig>anymore</orig><reg>any more</reg></choice>.<lb/> 
+            <choice><orig>o</orig><reg>Oh</reg></choice> <choice><orig>i</orig><reg>I</reg></choice> hope we <choice><orig>wont</orig><reg>won't</reg></choice> have to live away<lb/> 
+            from each other always<choice><orig></orig><reg>.</reg></choice></p>
+         <p><choice><orig>i</orig><reg>I</reg></choice> truly hope you got your <choice><orig>buisness</orig><reg>business</reg></choice><lb/>
+            all straight if that Jew will take the<lb/>
+            lot for what you owe him<choice><orig></orig><reg>.</reg></choice> <choice><orig>let</orig><reg>Let</reg></choice> him have<lb/>
+            it<choice><orig></orig><reg>.</reg></choice> <choice><orig>we</orig><reg>We</reg></choice> will <choice><orig>loos</orig><reg>lose</reg></choice> money on it<choice><orig></orig><reg>,</reg></choice> but we can<lb/>
+            make it back on <choice><orig>some thing</orig><reg>something</reg></choice> else. That is<lb/>
+            <choice><orig>buisness</orig><reg>business</reg></choice>.</p>
+            <closer style="right"><choice><orig>be</orig><reg>Be</reg></choice> sweet<choice><orig></orig><reg>.</reg></choice> Love &amp; Kisses
+         <signed>A.</signed> </closer>         
+      </body>
+  </text>
+</TEI>

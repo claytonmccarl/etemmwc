@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Lucile Boston to Eartha M.M. White. September 28, 1900. Bayard, Florida.</title>
+            <author>H.B. Barnes</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1654</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author appeals for help after losing home in fire.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Handwritten letter from H. B. Barnes to Eartha M. M. White on 9/28/1900 requesting assistance after his house burnt down and his family lost everything.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1654_001.jpg"/>
+         <head>
+            <date when="1900-09-28"><choice><abbr>9-28-19<hi style="superscript"><hi style="underline">00</hi></hi></abbr><expan>September 28, 1900</expan></choice></date><lb/>
+            <name type="place"><supplied reason="illegible" cert="medium">Bayard</supplied> <choice><abbr>Fla</abbr><expan>Florida</expan></choice></name><lb/>
+            <name type="person">Miss <choice><abbr>E.</abbr><expan>Eartha</expan></choice> M. White</name><lb/>
+         </head>
+         <p>
+            <hi style="right">Dear madam</hi><lb/>
+            I <supplied reason="illegible" cert="low">seat</supplied> <del type="strikeout">l</del> my deft<choice><orig/><reg>.</reg></choice> Write you<lb/>
+            to Let you <supplied reason="omitted-in-original" cert="medium">know</supplied> that I <supplied reason="illegible" cert="medium"><choice><sic>Truble</sic><corr>trouble</corr></choice></supplied><lb/>
+            my House got <supplied reason="illegible" cert="medium"><choice><sic>brurnt</sic><corr>burnt</corr></choice></supplied><lb/>
+            up Last <choice><sic>Nitght</sic><corr>Night</corr></choice><choice><orig/><reg>.</reg></choice> Lost <supplied reason="text-smudged" cert="low">all</supplied><lb/>
+            that we have <supplied reason="illegible" cert="low">and</supplied> what<lb/>
+            you give Mrs barnes<choice><orig/><reg>.</reg></choice><lb/>
+            Please take this <choice><sic>Pertision</sic><corr>petition</corr></choice>
+            and <supplied reason="illegible" cert="medium"><choice><sic>Da</sic><corr>do</corr></choice></supplied> what you can<lb/>
+            for me<choice><orig/><reg>.</reg></choice><lb/>
+         </p>
+         <closer>
+            <signed>
+               <name type="person">H. b. barnes</name><!-- The <mentioned>b.</mentioned> could be a capital "C".--><lb/>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

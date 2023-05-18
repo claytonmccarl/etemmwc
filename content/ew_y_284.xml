@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Clara White Mission. 1961.</title>
+            <author>Clara White Mission</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding</resp>
+               <name>Janaya Ferrer</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>
+                  <settlement>Jacksonville</settlement>
+                  <repository>University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection>Eartha M. M. White Collection</collection>
+                  <idno>Folder: Y, Item: 284</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Description of the status and functions of the Clara White Mission.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single typed letter with the Clara White Mission letterhead</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_y_284_001.jpg"/>
+         <div>
+            <cb/>
+            <p><emph style="case(allcaps)"><name type="person">Eartha M. M. White</name><lb/>
+               President<lb/></emph></p>
+            <cb/>
+            <p><emph style="case(allcaps)"><name type="person">Amy S. Currie</name><lb/>
+               Secretary<lb/></emph></p>
+            <cb/>
+            <p><emph style="case(allcaps)"><name type="person">Ed Vaughn</name><lb/>
+               Treasurer<lb/></emph></p>
+         </div>
+         <div><head style="case(allcaps)"><name type="organization">Clara White Mission, Inc.</name></head></div>
+         <div><div><head style="case(allcaps)">Telephone el 4-4162</head></div></div>
+         <div><div><head style="case(allcaps)"><name type="place">613 West Ashley Street<lb/>
+         Jacksonville, Florida</name></head></div></div>
+         
+         <div>
+            <p>
+               The <name type="organization"><emph style="case(allcaps)">Clara White Mission</emph></name> and its many branches help mankind daily <lb/>
+               giving food, shelter and clothing to those unfortunate souls who<lb/>
+               for one reason or another are unable to furnish for themselves<lb/>
+               the bare necessities.<lb/>
+            </p>
+         </div>
+         
+         <div>
+            <p>
+               The <name type="organization"><emph style="case(allcaps)">Old Folks Home</emph></name> furnishes a home for the elderly, where they<lb/>
+               may enjoy the comforts of life during the <choice><orig>"evening of their life".</orig><reg>"evening of their life."</reg></choice><lb/> <!-- follow grammar rule for period inside the ""? -->
+            </p>
+         </div>
+
+         <div>
+            <p>
+               We have started a home for underprivileged and orphaned children.<lb/>
+               This home will be in units supervised by a house mother, making<lb/>
+               it more of a home than an institution. It will house children<lb/>
+               needing this type of service.<lb/>
+            </p>
+         </div>
+
+         <div>
+            <p>
+               The <name type="organization"><emph style="case(allcaps)">Historic Museum</emph></name> is of educational value. We need at least a<lb/>
+               part-time worker for this branch.
+            </p>
+         </div>
+
+         <div>
+            <p>
+               Another of our most recent branches, the USO, located at<lb/>
+               <name type="place" subtype="address">741 West Ashley Street</name>, is furnishing wholesome recreation for<lb/>
+               young men of the <name type="organization">Armed Services</name>. This type of recreation was<lb/>
+               not a part of our local community. Seeing the need for such<lb/>
+               a place, we went forwad to fill the need. The facilities in<lb/>
+               this building include public showers where individuals can take<lb/>
+               a bath. We here need your help as we do not receive funds from<lb/>
+               any source except what <name type="person">Miss Eartha M. M. White</name> has contributed.<lb/>
+            </p>
+         </div>
+
+         <div>
+            <p>
+               We have organized a <name type="organization">boys' club</name> to try curb some of the<lb/>
+               deliquency among youth in this area. We need your help here.<lb/>
+            </p>
+         </div>
+
+         <div>
+            <p>
+               In fact, the agency and its many branches are in dire need of<lb/>
+               financial assistance to help carry on this great work.<lb/>
+            </p>
+         </div>
+
+         <div>
+            <p>
+               The <name type="organization"><emph style="case(allcaps)">Clara White Mission</emph></name> does not get any help for the Mission.<lb/> <!-- change Mission to mission? -->
+               The appropriation from the City is for the Nursery and <name type="organization">Old Folks<lb/>
+               Home</name>. This appropriation is deposited to the account of the<lb/>
+               designated agency and spent through that account. The appropriation for these two agencies has been cut and this <add type="caret">is</add> causing an extreme<lb/>
+               hardship on the agencies.<lb/>
+            </p>
+         </div>
+
+         <div>
+            <p>
+               Enclosed you will find a post card, showing pictures of some of our<lb/>
+               branches. Any appropriation you many give will be sincerely<lb/>
+               appreciated and at the same time help us to help humanity.<lb/>
+            </p>
+         </div>
+
+         <div>
+            <cb/>
+            <p>
+               Note: Attached is 1961<lb/>
+               Financial Report<lb/>
+            </p>
+            <p>
+               <choice><abbr>Encls.</abbr><expan>Enclosed.</expan></choice><lb/>
+               <emph style="case(allcaps)">emmw</emph>/b<lb/>
+            </p>
+            <cb/>
+            <closer><salute>Yours for service,</salute></closer>
+            <signed><emph style="cast(allcaps)"><name type="organization">Clara White Mission, Inc.</name></emph></signed>
+            <signed>(Miss) <name type="person">Eartha M. M. White</name>, President</signed>
+         </div>
+
+      </body>
+  </text>
+</TEI>

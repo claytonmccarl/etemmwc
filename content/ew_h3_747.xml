@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Alberta Deal to Eartha M. M. White. August 27, 1930.</title>
+            <author>Alberta Deal</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder H3, Item 747</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to White to apply her mother for admission into the Old Folk's Home..</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page handwritten from Deal to White, written on 8/27/1930, on her mother's admittence into the Old Folk's Home.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_h3_747_001.jpg"/>
+         <opener><name type="place" subtype="address">1106 <choice><abbr>W.</abbr><expan>West </expan></choice><choice><abbr>8<hi style="superscript">th</hi></abbr><expan>eighth</expan></choice> <choice><abbr>St</abbr><expan>street</expan></choice><lb/>
+            Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name><lb/>
+            <date when="1930-08-27">8-27-30</date>
+         <salute><name type="person">Miss Eartha M. M. White</name></salute></opener>
+         <p>
+            I am making this application<lb/>
+            asking permission to enter<lb/>
+            my <name type="person">mother</name> in the <name type="place">Old Folks Home</name><choice><orig/><reg>.</reg></choice><lb/>
+            I promise, as long as I am able<lb/>
+            to pay (Fifteen dollars)$15.00<choice><orig>.</orig><reg/></choice><lb/>
+            per month, also furnish her<lb/>
+            room bed linen, and other<lb/>
+            apparel. I trust you will<lb/>
+            accept these terms<choice><orig>,</orig><reg/></choice> and<lb/>
+            give the matter your<lb/>
+            immediate consideration<lb/>
+            and let me hear from<lb/>
+            you at once, as I will only<lb/>
+            be here a few days<choice><orig>.</orig><reg>,</reg></choice> <choice><orig>And</orig><reg>and</reg></choice><lb/>
+            will <supplied reason="omitted-in-original" cert="high">be</supplied> compelled to get my<lb/>
+            <name type="person">mother</name> located before leaving<choice><orig/><reg>.</reg></choice><lb/>
+         </p>
+		  <closer style="center"><salute>Respectfully</salute>
+			  <signed><name type="person">Alberta Deal</name></signed></closer>
+      </body>
+  </text>
+</TEI>

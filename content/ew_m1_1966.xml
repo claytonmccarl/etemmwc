@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader> 
+      <fileDesc>
+         <titleStmt>
+            <title>Check From Robert A. Grant to Eartha M. M. White. Jacksonville, FL. November 25, 1927. -</title> <!-- create title, include semantic elements such as name, place, and date -->
+            <author>Robert A. Grant</author> <!-- author (person, organization, etc.) of material -->
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Frances Yvonne Hicks and Janaya Ferrer</name> <!-- person adds their name here-->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>
+                  <settlement>Jacksonville</settlement>
+                  <repository>University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection>Eartha M. M. White Collection</collection>
+                  <idno>Folder M1, Item 1966</idno> <!-- this should be filled in accordance to material's location -->
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes a check to Eartha M. M. White on November 25, 1927.</summary> <!-- one-sentence summary of material's content -->
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single sheet of check accompanied with a back-to-back envelope.</p> <!-- one-sentence physical description of material (number of pages, print or handwritten, condition, dimensions, etc.) -->
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_m1_1966_001.jpg"/>
+         <cb/> 
+         <p>
+            <name type="place" subtype="address"><emph style="case(allcaps)">Office of The President</emph>
+            Edward Waters College
+            <emph style="case(allcaps)">Jacksonville, <choice><orig>Fla.</orig><reg>FL</reg></choice></emph></name>
+         </p>
+         <cb/>
+         <p>
+          <stamp type="postage_stamp">
+            <figure>
+               <figDesc>
+                  An ink stamp that says: <emph style="case(allcaps)"><name type="place">Jacksonville, <choice><orig>Fla.</orig><reg>FL</reg></choice></name>
+                  <date when="1927-11-25"><choice><orig>Nov 25 630 AM 1927</orig><reg>November 25 6:30 AM 1927</reg></choice></date> 
+                  2 Sta. A. </emph> 
+               </figDesc>
+            </figure>
+         </stamp>
+         </p>
+         <cb/>
+         <p>      
+            <stamp type="postage_stamp">
+               <figure>
+                     <figDesc>
+                        An ink stamp that says: <emph style="case(allcaps)">Red Cross Roll Call Join</emph>
+                     </figDesc>
+               </figure>
+         </stamp>
+         </p>
+         <note type="editorial">A postage stamp is seen underneath the ink stamp: </note>
+         <p>      
+            <stamp type="postage_stamp">
+               <figure>
+                     <figDesc>
+                        A postage stamp with an image of George Washington that says: <emph style="case(allcaps)">United States Postage Washington 2 cents 2</emph>
+                     </figDesc>
+               </figure>
+         </stamp>
+         </p>
+         <p>
+            Miss <name type="person">E. M. M. White</name>,<lb/>
+            <name type="place" subtype="address">233 Eagle <choice><orig>st.</orig><reg>St.</reg></choice>,
+            Jacksonville, <choice><orig>Fla,</orig><reg>FL</reg></choice></name>
+         </p>
+
+         <pb n="1" facs= "../images/ew_m1_1996_002.jpg"/> 
+         <p>
+            <choice><orig>Stove Black</orig><reg>stove black</reg></choice>
+            <choice><orig>White Paint Crosby</orig><reg>white paint crosby</reg></choice> 
+            spread
+            mattress
+            <choice><orig>Rugs</orig><reg>rugs</reg></choice>
+            groceries
+            -----------------------------------------
+         </p> 
+         
+         <pb n="1" facs= "../images/ew_m1_1996_003.jpg"/> 
+         <cb/>
+         <note type="editorial">The following is a text enclosed in a triangle:</note>
+         <p><emph style="case(allcaps)"><name type="organization">City<lb/>County<lb/>And State<lb/>Depository<lb/></name></emph></p>
+         <p>
+            <name type="place">Jacksonville, <choice><orig>Fla.</orig><reg>FL</reg></choice>.,</name>
+            <hi style="underline"><date when="1927-11-25"><choice><orig>Nov 25th</orig><reg>November 25th</reg></choice></date></hi>
+            <date when="1927">192<hi style="underline">7</hi></date> No.__________
+
+            <emph style="case(allcaps)"><name type="company">The Citizens Bank of Jacksonville</name>63-10</emph><lb/>
+            Pay to the order of <hi style="underline">Miss<name type="person">E. M. M. White</name></hi> $ <hi style="underline">1<hi style="superscript">00</hi></hi><lb/>
+            <hi style="underline">One <unclear cert="low" reason="Handwriting is difficult to read.">/100</unclear></hi>Dollars<lb/>
+         </p> 
+         <p style="indent">6 <name type="person">R. A. Grant</name></p>
+         <note type="editorial">The folloiwing is written in small text at the bottom of the check: </note>
+         <p><emph style="case(allcaps)"><name type="company">Protectu Bank-Note Corp. Chicago</name></emph></p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jacksonville Patriot League Materials</title>
+            <author>Unknown</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder E2, Item 471 <!-- this should be filled in --></idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>The documents contain information on the members and activities of the Jacksonville Patriot League supporting the United States during World War I.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Four typed pages of information of the Jacksonville Patriot Legue accompanied by a page with handwritten arithmetic.  <!-- describe material , number of pages, print or handwritten, condition, dimensions etc.--> </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+	<text>
+		<body>         
+			<pb n="1" facs= "../images/ew_e2_471_001.jpg"/>
+			<div>
+				<p>
+					Now that <choice><orig>War</orig><reg>war</reg></choice> times are over the Patriotic Leagues that were organi<gap reason="page torn"/><supplied cert="high">zed</supplied><lb/>
+					in all the <choice><sic>schoo;s</sic><corr>schools</corr></choice> last year by <name type="person">Miss White</name> are requested to do communi<gap reason="page torn"/><supplied cert="high">ty</supplied><lb/>
+					<choice><orig>work.All</orig><reg>work. All</reg></choice> who have been visited so far expressed their willingness<lb/>
+					to <choice><sic>cooprate</sic><corr>cooperate</corr></choice> in doing all they can for this much needed work.<lb/>
+				</p>
+				<p>
+					The <name type="organization"><choice><sic>La.Villa</sic><corr>La Villa</corr></choice> <choice><sic>Schoo;</sic><corr>School</corr></choice> Community League</name><lb/>
+					<name type="person">Professor James Wilson</name> Principal <choice><orig>.</orig><reg>,</reg></choice> <name type="person"><choice><orig>MissEdna</orig><reg>Miss Edna</reg></choice> Richardson</name> President<choice><orig>.</orig><reg>,</reg></choice><lb/>
+					<name type="person">Miss Delphia Willaims</name> <choice><abbr>Vice</abbr><expan>Vice President</expan></choice><choice><orig>.</orig><reg>,</reg></choice> <name type="person">Miss Thelma Livingston</name> <choice><abbr>Secty</abbr><expan>Secretary</expan></choice><choice><orig>.</orig><reg>, </reg></choice> <name type="person">Miss Ruth Gee<gap reason="page torn"/></name><lb/>
+					<choice><abbr>Asst. Secty.</abbr><expan>Assistant Secretary</expan></choice><choice><orig/><reg>,</reg></choice> <name type="person">Miss Mary King</name> <choice><orig>Treasurer.<name type="person">Professor Avant</name></orig><reg>Treasurer. <name type="person">Professor Avant</name></reg></choice> and <name type="person">Miss White</name><lb/>
+					made addresses that were much enjoyed.<lb/>
+				</p>
+				<p>
+					The <name type="organization">Stanton High School Patriotic League</name> was visited by <name type="person">Miss White</name><lb/>
+					on Monday. They are to have election for the new <choice><orig>yearworkand</orig><reg>year work and</reg></choice> <choice><orig>is</orig><reg>are</reg></choice><lb/>
+					planning <choice><orig>A</orig><reg>a</reg></choice> number of things that will be helpful to the <choice><orig>Community</orig><reg>community</reg></choice>.<lb/>
+					The <name type="place">Star Village School</name> with <name type="person">Mrs<choice><orig/><reg>.</reg></choice> Ida Burton</name> at its head organized<lb/>
+					<choice><orig>A</orig><reg>a</reg></choice> Community League<choice><orig/><reg>.</reg></choice> This school is in a splendid condition with more<lb/>
+					than 136 <choice><sic>puplils</sic><corr>pupils</corr></choice> <choice><orig>enrolled.They</orig><reg>enrolled. They</reg></choice> are <choice><orig>goingto</orig><reg>going to</reg></choice> make a <choice><sic>specilty</sic><corr>speciality</corr></choice> <choice><sic>fo</sic><corr>for</corr></choice> singing<lb/>
+					<choice><orig>The</orig><reg>the</reg></choice> Negro Jubilee Songs and when any community <choice><orig>desire</orig><reg>desires</reg></choice> them to sing<lb/>
+					call <name type="person">Mrs<choice><orig/><reg>.</reg></choice> Burton</name> <choice><abbr>cor.</abbr><expan>corner of</expan></choice> <name type="address">Johnson and Griffin <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice></name>. <add type="no_caret">(Private School<gap reason="page torn"/><supplied cert="high">)</supplied></add><lb/>
+				</p>
+				<p>
+					<choice><orig>Theyhad</orig><reg>They had</reg></choice> a special <choice><orig>programme</orig><reg>program</reg></choice> <choice><sic>om</sic><corr>on</corr></choice> Friday and it would have done your<lb/>
+					very <choice><sic>soulsgooto</sic><corr>souls good to</corr></choice> have heard these children recite and sing.<lb/>
+				</p>
+				<p>
+					On Wednesday the <name type="organization">Davis Street School <choice><sic>Paprotic</sic><corr>Patriotic</corr></choice> League</name> held a fine<lb/>
+					<choice><orig>meetingThis</orig><reg>meeting. This</reg></choice> school is doing <choice><orig>a</orig><reg/></choice> splendid work and on next Wednesday and<lb/>
+					Thursday when special excercises will be there you can see the <choice><orig>resultof</orig><reg>result of</reg></choice><lb/>
+					their work. <name type="person"><choice><abbr>Prof.</abbr><expan>Professor Avant</expan></choice></name> the community worker of the <name type="organization"><choice><abbr>Y.M.C.A.</abbr><expan>Young Men's Christian Association</expan></choice></name> <choice><orig>And</orig><reg>and</reg></choice> <name type="person">Miss <lb/>
+					White</name> delivered addresses and invited to come again.<lb/>
+				</p>
+				<p>
+					The officers are <name type="person">Mr. James Lewis</name> President<choice><orig>.</orig><reg>,</reg></choice> <name type="person">Miss M. Jackson</name> <choice><abbr>Vice</abbr><expan>Vice President</expan></choice><choice><orig>.</orig><reg>,</reg></choice><lb/>
+					<name type="person">Miss Lillie Dawkins</name> <choice><abbr>Secty</abbr><expan>Secretary</expan></choice><choice><orig>?</orig><reg> </reg></choice><name type="person">Miss I Williams</name> <choice><abbr>asst</abbr><expan>assistant</expan></choice><choice><orig>.</orig><reg>,</reg></choice> <name type="person">Mr. Lewis Canty</name> Treasu<gap reason="page torn"/><supplied>rer.</supplied><lb/>
+					<add type="no_caret"><choice><orig>+</orig><reg>and</reg></choice> <name type="person"><choice><abbr>Prof.</abbr><expan>Professor</expan></choice><unclear cert="medium" reason="handwriting difficult to read">Jr. Blueker puine</unclear></name></add><lb/>
+					Several schools are <choice><sic>arrangeing</sic><corr>arranging</corr></choice> to have their picnics on the <choice><orig>play Grou</orig><reg>playgrou</reg></choice><gap reason="page torn"/><supplied cert="high">nd.</supplied><lb/>
+				</p>
+			</div>
+			<pb n="2" facs= "../images/ew_e2_471_002.jpg"/>
+			<div>
+				<p>
+					<hi style="center">
+						<emph style="case(allcaps)">
+							<gap reason="page folded and torn"/><name type="company">United States Shipping Board Emergency Fleet Corporation</name><lb/>
+							Auditing Division<lb/>
+						</emph>
+					</hi>
+				</p>
+				<p>
+					<note type="authorial" place="marginTop">
+						<!--Note is rotated 90 degrees on the page (landscape)-->
+						2800<lb/>
+						2800<lb/>
+						2800<lb/>
+						2593<lb/>
+						1846<lb/>
+						----------<lb/>
+						12<del type="overwritten">7</del>8.38<lb/>
+					</note>
+				</p>
+			</div>
+			<pb n="3" facs= "../images/ew_e2_471_003.jpg"/>
+			<div>
+				<p>
+					<choice><orig>the</orig><reg>The</reg></choice> <name type="organization">Davis <choice><abbr>St.</abbr><expan>Street</expan></choice> School Patriotic League</name>.<lb/>
+				</p>
+				<p style="indent">
+					The splendid address of <name type="person">Mrs<choice><orig/><reg>.</reg></choice> Jennings</name> was very much<lb/>
+					enjoyed, after which the following persons were elected to<lb/>
+					office:<lb/>
+				</p>
+				<p>
+					<name type="person">Master Charles Blocker</name>,	<choice><abbr>Pres.</abbr><expan>President</expan></choice><lb/>
+					<name type="person">Miss Bunice Thomas</name>,		Vice <choice><abbr>Pres.</abbr><expan>President</expan></choice><lb/>
+					<name type="person">Miss Annie Richardson</name>,	<choice><abbr>Sec.</abbr><expan>Secretary</expan></choice><lb/>
+					<name type="person">Mrs. Louis Canty</name>,		<choice><abbr>Treas.</abbr><expan>Treasurer</expan></choice><lb/>
+					<lb/>
+					<name type="person"><choice><abbr>Prof.</abbr><expan>Professor</expan></choice> Isiah Blocker</name>)<lb/>
+					<name type="person">Mrs<choice><orig/><reg>.</reg></choice> Jennings</name>		)		Supervisors<lb/>
+				</p>
+				<p>
+					<hi style="center">
+						--------------------------<lb/>
+					</hi>
+				</p>
+				<p>
+					<hi style="center">
+						<emph style="case(allcaps)">
+							<name type="organization">Cookman Institute Patriotic League.</name>
+						</emph>
+						Officers Elected.
+					</hi>
+				</p>
+				<p>
+					<choice><abbr>Pres.</abbr><expan>President</expan></choice>		<name type="person">Mr. Garret Wiggins</name>.<lb/>
+					Vice <choice><abbr>Pres.</abbr><expan>President</expan></choice>		<name type="person">Miss Erolfine Chisholm</name><lb/>
+					<choice><abbr>Sec.</abbr><expan>Secretary</expan></choice>		<name type="person">Mr. William Haynes</name><lb/>
+					<choice><abbr>Treas.</abbr><expan>Treasurer</expan></choice>		<name type="person">Mr. Theodore Owens</name>.<lb/>
+				</p>
+				<p style="indent">
+					<name type="person">Mrs. Frank Jennings</name> gave a most inspiring talk<choice><orig>,</orig><reg/></choice><lb/>
+					to this school which was greatly enjoyed.<lb/>
+				</p>
+			</div>
+			<pb n="4" facs= "../images/ew_e2_471_004.jpg"/>
+			<div>
+				<p style="indent">
+					The <name type="organization">Jacksonville Patriotic League Committee</name>, who<lb/>
+					visited the various schools of this city on Thursday has<lb/>
+					succeeded in perfecting an organization at the <name type="place">Stanton High<lb/>
+					School</name>. The officers elected were:<lb/>
+				</p>
+				<p>
+					<hi style="right">
+						<choice><abbr>Pres.</abbr><expan>President</expan></choice>------<name type="person">Mr. Ralph Bright</name>.<lb/>
+						Vice <choice><abbr>Pres.</abbr><expan>President</expan></choice>-----<name type="person">Miss Rossie French</name>.<lb/>
+						<choice><abbr>Sec.</abbr><expan>Secretary</expan></choice>-------<name type="person">Miss Althea Hayes</name>.<lb/>
+						<choice><abbr>Treas.</abbr><expan>Treasurer</expan></choice>--------<name type="person">Mr. Lemund Bolton</name>.<lb/>
+						(<name type="person">Mrs. Edith Gray</name><lb/>
+						Supervisors----(<name type="person"><choice><abbr>Prof.</abbr><expan>Professor</expan></choice> George Sampson</name><lb/>
+					</hi>
+				</p>
+				<p style="indent">
+					The speakers were introduced by <name type="person">Miss Eartha White</name>.<lb/>
+				</p>
+				<p style="indent">
+					<name type="person">Miss Edith Geay</name>, Secretary of the <name type="organization">Jacksonville Red<lb/>
+					Cross</name>, gave a spendid address, which was indeed inspiring,<lb/>
+					impressing the importance of six important things to be remem<lb break="no"/>bered. Obedience, Economy, Respect, Prudence, Work, Loyalty.<lb/>
+				</p>
+				<p style="indent">
+					<name type="person">Mrs. English</name> spoke on the conservation of fuel.<lb/>
+					<name type="person"><choice><abbr>Serg't</abbr><expan>Seargent</expan></choice> Martin</name> of <name type="place">Camp Johnston</name>, from <name type="place" subtype="city">Boston, <choice><abbr>Mass.</abbr><expan>Massachusetts</expan></choice></name>, gave a<lb/>
+					short talk which was greatly enjoyed. Other white friends<lb/>
+					present were <name type="person">Mrs. Warren Harris</name><lb/> and <name type="person">Miss Genevia Redding</name>.<lb/>
+				</p>
+				<p style="indent">
+					<name type="person"><choice><abbr>Prof.</abbr><expan>Professor</expan></choice> Sampson</name>, his teachers and scholares are al<lb break="no"/>ready doing spendid work. Eighty-two or more have bought<lb/>
+					War-Saving Stamps and a boy, <name type="person">Josh Hurst</name> had bought a Liberty<lb/>
+					Bond.
+				</p>
+				<p>
+					<hi style="center">
+						-----------------------<lb/>
+					</hi>
+				</p>
+				<p style="indent">
+					Miss Hatch, of the <name type="organization"><choice><abbr>Y.W.C.A.</abbr><expan>Young Women's Christian Association</expan></choice></name> (white) of this city<lb/>
+					gave an excellent address at the <name type="place">Boylan Industrial School</name>.<lb/>
+					<name type="person">Miss <unclear cert="medium" reason="smudged letters">Lasee</unclear></name>, the President, and <name type="person">Mrs. Dr. J. Harvey Smith</name><lb/>
+					who has charge of the girls who are always on the alert to<lb/>
+					secure the very best for their girls, as well as the other<lb/>
+				</p>
+			</div>
+			<pb n="5" facs= "../images/ew_e2_471_005.jpg"/>
+			<div>
+				<p>
+					teachers and pupils expressed their delight in organizing a<lb/>
+					Patriotic League in that school.<lb/>
+				</p>
+				<p>
+					<hi style="center">
+						----------------------<lb/>
+					</hi>
+				</p>
+				<p style="indent">
+					<name type="person">Mrs. Frank Jennings</name> and <name type="person">Mrs<choice><orig/><reg>.</reg></choice> Dobbin</name> were delighted<lb/>
+					with the <name type="place">Edward Waters College</name>. They were welcomed by <name type="person"><choice><abbr>Prof.</abbr><expan>Professor</expan></choice><lb/>
+					Gregg</name>, his teachers and <name type="person">Mrs. Eisher</name>, of the <name type="organization">City Federation<lb/>
+					of Colored Women's Clubs</name>. Owing to holding their week of<lb/>
+					prayer a permanent organization will take place on next Tues<lb break="no"/>day.<lb/>
+				</p>
+				<p>
+					<hi style="center">
+						----------------------<lb/>
+					</hi>
+				</p>
+				<p style="indent">
+					<name type="person">Mrs. Bion Barnett</name> and <name type="person">Mrs. Hobart Hare</name> visited the<lb/>
+					<name type="place">La Villa</name> school and gave splendid addresses. This organiza<lb break="no"/>tion has planned to start work at <choice><orig>once.Money</orig><reg>once. Money</reg></choice> was furnished<lb/>
+					by these ladies to buy knitting materials. <name type="person">Miss Lloyd</name>, her<lb/>
+					teachers and scholars are delighted with this idea.<lb/>
+				</p>
+				<p>
+					<hi style="center">
+						----------------------<lb/>
+					</hi>
+				</p>
+				<p style="indent">
+					<name type="person">Mrs. H. W. Dexter</name> and <name type="person">Mr<choice><orig/><reg>.</reg></choice> Dexter</name> visited the <name type="place"><choice><abbr>Fla.</abbr><expan>Florida</expan></choice><lb/>
+					<choice><orig>baptist</orig><reg>Baptist</reg></choice> College</name>, where exercises were held, and this proved <choice><orig>t</orig><reg></reg></choice><lb/>
+					to be a great success. The visitors gave addresses, and ex<lb break="no"/>pressed themselves as being greatly pleased with their visit.<lb/>
+				</p>
+				<p>
+					<hi style="center">
+						- - ------------------<lb/>
+					</hi>
+				</p>
+				<p style="indend">
+					<name type="person">Mrs. Henry Clark</name> and <name type="person">Mrs<choice><orig/><reg>.</reg></choice> W. B. Young</name> gave splendid<lb/>
+					addresses. They were recieved very courteously by <name type="person"><choice><abbr>Prof.</abbr><expan>Professor</expan></choice><lb/>
+					Williams</name> and his teachers.<lb/>
+				</p>
+				<p>
+					<hi style="center">
+						----------------------<lb/>
+					</hi>
+				</p>
+				<p style="indent">
+					<name type="place">Davis <choice><abbr>St.</abbr><expan>Street</expan></choice> Public School</name> was visited by <name type="person">Mrs. Frank<lb/>
+					Jennings</name>, accompanied by <name type="person">Miss White</name>. <name type="person"><choice><abbr>Prof.</abbr><expan>Professor</expan></choice> Isiah Blocker</name><lb/>
+					and his fine set of teachers assembled in their auditorium<lb/>
+					where the children rendered a Patriotic Program, oganizing<lb/>
+				</p>
+			</div>
+      </body>
+	</text>
+</TEI>

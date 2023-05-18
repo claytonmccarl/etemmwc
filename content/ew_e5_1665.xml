@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Press release regarding trip to California  </title>
+            <author>Eartha M M White </author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding by</resp>
+               <name>Janaya Ferrer</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "editing the Earth M.M. White Archive"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder:E-5 , Item:1665  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>  Hand written note regarding trip to California for the Colored Women's Club  roughly 5 pages </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs= "../images/ew_e5_1665_001.jpg"/>
+         <p>
+            <name type="person_group">Citizens of Jacksonville</name><lb/>
+            Both <name type="person_group">White</name> and <name type="person_group">Colored</name>
+            honored <choice><orig>Social Worker</orig><reg>social worker</reg></choice><lb/> 
+            with a <choice><orig>Complimentary</orig><reg>complimentary</reg></choice><lb/>
+            trip to California <add type="no_caret">to attend</add> <unclear cert="low" reason="Placement of words is difficult to read."><choice><orig>nat</orig><reg>national</reg></choice> meeting of <name type="organization">C.W.C.</name> at <name type="place">Oakland</name>.</unclear><lb/>
+            <name type="person">Miss Eartha Mary <choice><orig>Magdeline</orig><reg>Magdalene</reg></choice><lb/>
+            White</name> <del type="strikeout">State Treasuser of the</del><lb/>
+            <del type="strikeout"><name type="organization"><choice><orig>Colored Womens Clubs of Fla.</orig><reg>Colored Women's Clubs of Florida</reg></choice></name></del><lb/>
+            Will leave on Tuesday<choice><orig/><reg>,</reg></choice> <date when="9999-07-20">July 20th</date><lb/> <!-- Might be 1946 -->
+            <choice><sic>stoping</sic><corr>stopping</corr></choice> at all the <del type="strikeout">leading</del><lb/>
+            places of interest. <name type="person">Miss White</name><lb/>
+            and <add type="no_caret">the late</add> <name type="person">Mrs<choice><orig/><reg>.</reg></choice> Clara White</name> her<lb/>
+            mother <add type="no_caret">(born at <name type="place">Fernandina, <choice><orig>Fla</orig><reg>FL</reg></choice></name>)</add> has given their<lb/>
+            <note place="marginRight">Jacksonville, Fla.</note>
+            entire lives for others.<lb/>
+            The <del type="strikeout">Old</del> <name type="organization">Home for the<lb/>
+            <choice><orig>aged colored people</orig><reg>Aged Colored People</reg></choice></name> is<lb/>        
+            one of the many things<lb/>
+            she established 26 <choice><abbr>ys</abbr><expan>years</expan></choice> ago<lb/>
+            and is being successfully
+            <add type="no_caret">operated.</add><lb/>
+         </p>
+         <pb n="2" facs= "../images/ew_e5_1665_002.jpg"/>
+         <p>
+            during the late <name type="event">World War</name><lb/>
+            she served as <name type="person">State Chairman</name><lb/>
+            of the <name type="organization">Council of Defense</name><lb/>
+            and will never be forgotten<lb/>
+            for her excellent work.<lb/>
+            Many of the splendid<lb/>
+            things that the colored<lb/>
+            people are now enjoying<lb/>
+            have come through <unclear cert="low" reason="Handwriting is difficult to read.">her</unclear>
+            <lb/>
+            untiring efforts. The<lb/>
+            first <name type="place"><choice><orig>play ground</orig><reg>playground</reg></choice> for colored<lb/> 
+            children</name> came through an appeal<lb/>
+            she made to the City Council<lb/>
+            and receiving an appropriation<lb/>
+            for the same<choice><orig></orig><reg>.</reg></choice> It was her<lb/>
+            personal appeal to a<lb/>
+            white friend who was an<lb/>
+            early employer of her<lb/>
+            <choice><orig>mothers</orig><reg>mother's</reg></choice> the late Mr<lb/>
+            <name type="person">Wilder</name> that he bequeathed<lb/>
+            to this city the large<lb/>
+            track of land which will <lb/>
+            be used for a beautiful colored<lb/>
+            <add type="no_caret">park.</add><lb/>
+         </p>
+         <pb n="3" facs= "../images/ew_e5_1665_003.jpg"/>
+         <p>
+            <choice><orig>on</orig><reg>On</reg></choice> <date when="9999-07-16">Friday the <choice><orig>16</orig><reg>16th</reg></choice> of July</date><lb/>
+            <del type="strikeout">she</del> before leaving she<lb/>
+            will as usual see what<lb/>
+            the aged <unclear cert="medium" reason="Handriwiting is difficult to read.">poor the blind</unclear> of the city
+            <lb/>
+            and the orphan children<lb/>
+            <note place="marginRight">Jacksonville, Fla.</note>
+            have their <name type="event">Annual Beach<lb/>
+            Outing</name> and free dinner.<lb/>
+            Courtesy through the <name type="person">Vice <choice><orig>Pres</orig><reg>President</reg></choice></name><lb/>
+            of the <choice><orig>Fla</orig><reg>Florida</reg></choice> East Coast <unclear cert="low" reason="Handriwing is difficult to read.">Q R. G.</unclear><lb/>
+            She has in <date when="1910">1910</date> <add type="no_caret">U.S.</add> <choice><orig>Cencus</orig><reg>Census</reg></choice> Enumeration<lb/>
+            and in <date when="1926">1926</date> city enumerator<lb/>
+            and knows the condition of her<lb/>
+            people well and is now<lb/>
+            one of the directors of<lb/>
+            the <name type="organization">Negro Welfare League</name><lb/>
+            and the only <unclear cert="low" reason="Handriwriting is difficult to read.">negra</unclear> member<lb/>
+            of the <name type="organization">Negro <choice><orig>business</orig><reg>Business</reg></choice> League</name><lb/>
+            and <unclear cert="low" reason="Handriwriting is difficult to read.">that</unclear> only woman member<lb/>
+            of <name type="event">B. Ministries Confference</name><lb/>
+            of which she is assistant<lb/>
+            <choice><orig>Secretary</orig><reg>secretary</reg></choice> <name type="person">Miss White</name> was<lb/>
+            born in this city near the<lb/>
+            <choice><orig>Corner</orig><reg>corner</reg></choice> of <name type="place">Clay and Orange <choice><orig>Sts</orig><reg>Streets</reg></choice></name><lb/>
+            the only living child out of 13<lb/>
+            children and though<lb/>
+         </p>
+         <pb n="4" facs= "../images/ew_e5_1665_004.jpg"/>
+         <p>
+            She received special<lb/>
+            training at <name type="place"><choice><orig>Hampton Va</orig><reg>Hampton, VA</reg></choice></name><lb/>
+            and <name type="place"><choice><orig>Atlanta Ga</orig><reg>Atlanta, GA</reg></choice></name> for War<lb/>
+            Camp Community Service Work<lb/>
+            and served for more than<lb/>
+            two years <unclear cert="low" reason="Handwriting is difficult to read.">as director of the<lb/>
+            colored women and of colored</unclear><lb/>
+            work at <name type="place"><choice><orig>Savannah Ga</orig><reg>Savannah, GA</reg></choice></name>.<lb/>
+            Meeting with splendid<lb/>
+            cooperation and success<lb/>
+            returning to <name type="place">Jacksonville</name> she<lb/>
+            was employed by the county<lb/>
+            as a Social Worker. <choice><orig>after</orig><reg>After</reg></choice><lb/>
+            the death of her <name type="person">mother</name><lb/>
+            <date when="1921-07-20">July 20<choice><orig/><reg>,</reg></choice> 1921</date> <add type="no_caret">age 75.</add> She for three<lb/>
+            years was <name type="person">president and<lb/> 
+            manager</name> of a steam laundry<lb/>
+            giving employment to a<lb/>
+            great  <unclear cert="low" reason="Handwriting is difficult to read.">of</unclear> people. <choice><orig>after</orig><reg>After</reg></choice> selling<lb/>
+            out <name type="person">Miss White</name> became<lb/>
+            a licensed <choice><orig>Realestate Broker</orig><reg>real estate broker</reg></choice><lb/>
+            and has put over some<lb/>
+            splendid deals was she<lb/>
+         </p>
+         <pb n="5" facs= "../images/ew_e5_1665_005.jpg"/>
+         <div>
+            <p>
+               she has <unclear cert="low" reason="Handwriting is difficult to read.">treaded</unclear> <del type="strikeout">for</del> the length<lb/>
+               of the <name type="place">Atlantic</name> and washed her<lb/>
+               hands in the <name type="place">Gulf of Mexico</name>:<lb/>
+               and on her way to the <name type="place">Pacific</name><lb/>
+               there is no place on earth<lb/>
+               like dear of <choice><orig>Fla</orig><reg>Florida</reg></choice>.<lb/>
+            </p>
+         </div>
+        
+         <note type="editorial">The following is a card included with the letter.</note>
+         <div>
+            <p>
+               <hi style="center"><emph style="case(allcaps)">Institute on Race Relations</emph></hi><lb/>
+               <hi style="right"><name type="place">Washington, D.C.</name>. <date when="1946-03-05"> <hi style="underline">March 5</hi>1946</date></hi><lb/>
+               Received from: <!-- left indent -->
+               <name type="person">Eartha M. M. White, President</name><lb/>
+               <name type="organization">Clara White Mission</name><lb/>
+               <name type="place">614 Ashley St.<lb/>
+                  Jacksonville, FLorida</name><lb/>
+               [ ] Contribution Amt. $_____<lb/>
+               [x] General Membership $1.00<lb/>
+               [ ] Contributing Membership Amt. $_____<lb/>
+               Purchased by <name type="person">Prophet Joseph Rogers Lyon, M.S.</name><lb/>
+               <hi style="center">Thank you,</hi><lb/>
+               <hi style="right"><name type="person"><emph style="case(allcaps)">Lillian Hayman Kanegis</emph>, Treasurer</name><lb/></hi>
+            </p>
+         </div>
+         
+         <note type="editorial">The following is a card included with the letter.</note>
+         <div>
+            <p>
+               Miss and Mrs. <name type="person"><hi style="underline">Eartha M. M. White</hi></name><lb/>
+               <hi style="center">You Will Stop With</hi>
+               Mr. and Mrs. <name type="person"><hi style="underline">White</hi></name><lb/>
+               <hi style="underline">1010 <unclear cert="low" reason="Handwriting is difficult to read.">457</unclear>
+               </hi> Street, Oklahoma City<lb/>
+               Phone <hi style="underline">25991</hi><lb/>
+               Take __________ Bus and transfer<lb/>
+               To __________ Bus<lb/>
+               <hi style="center">Committee: <name type="person">Mrs. M. J. Brockway, General Chairman</name>;<lb/>
+               <name type="person">Mrs. O.J. Abby, Chairman of Housing</name></hi><lb/>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

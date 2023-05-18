@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Eartha M. M. White. November 23, 1928. </title>
+            <author>William E. Murray</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Preston Manwell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder C4, Item 1053</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author thanks White for her letter on President-elect Herbert Hoover's victory.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page typewritten letter from Murray to White, written on 11/23/1928. It has the Republican National Committee's heading.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_c4_1053_001.jpg"/>
+         <div><head style="center"><emph style="case(allcaps)"><name type="organization">The Republican National Committee</name></emph></head></div> 
+         <div><div><div><head style="center"><emph style="case(allcaps)">Chairman</emph></head><lb/></div></div></div>
+         <div><div><div><head style="center"><emph style="case(allcaps)"><name type="person">Hubert Work</name></emph></head><lb/></div></div></div>
+         <div><div><div> <head style="center"><emph style="case(allcaps)">Vice Chairmen</emph></head><lb/></div></div></div> 
+         <div><div><div><head style="center"><emph style="case(allcaps)"><name type="person">Ralph E. Williams</name></emph>  <emph style="case(allcaps)"><name type="person">Mrs. Alvin T. Hert</name></emph>  <emph style="case(allcaps)"><name type="person">Daniel E. Pomeroy</name></emph></head><lb/></div></div></div> 
+         <div><div><div><head style="center"><emph style="case(allcaps)">(Women's Division)</emph></head><lb/></div></div></div> 
+         <div><div><div><head style="center"><emph style="case(allcaps)"><name type="person">Franklin W. Fort</name>, Secretary</emph></head><lb/></div></div></div> 
+         <div><div><div><head style="center"><emph style="case(allcaps)"><name type="person">J. R. Nutt</name>, Treasurer</emph></head><lb/></div></div></div> 
+         <div><opener style="right"><name type="place" subtype="address">
+            <emph style="case(allcaps)">Barr Building</emph><lb/> 
+            <emph style="case(allcaps)">Washington, D. C.</emph><lb/>  
+         </name>
+         <date when="1928-11-23">November 23, 1928</date>.<lb/></opener></div>  
+         <div><opener style='left'>
+            <name type="person">Miss Earth M. M. White</name>,<lb/> 
+            State Chairman,<lb/> 
+            <name type="organization">National League of Republican<lb/> 
+               Colored Women of Florida</name>,<lb/> 
+            <name type="place" subtype="address">
+               Jacksonville, Florida.<lb/>
+            </name>
+            <salute>
+               My dear <name type="person">Miss White</name>:<lb/> 
+            </salute>
+         </opener></div>
+         <div><p rend ='indent'>
+            On behalf of <name type="person">Mr. Fort</name>, who<lb/> 
+            is out of the <name type="place">city</name>, permit me to<lb/> 
+            acknowledge your very kind letter of<lb/> 
+            <date when="1928-11-19">November nineteenth</date>.<lb/> 
+         </p></div>
+         <div><p rend ='indent'>
+            We have indeed won a<lb/> 
+            tremendous victory, and under the<lb/> 
+            sound business leadership of <name type="person">Mr.<lb/>  
+               Hoover</name>, our <choice><orig>Country</orig><reg>country</reg></choice> will undoubtedly<lb/> 
+            show marked progress during the next<lb/>  
+            decade.<lb/> 
+         </p>
+         <closer style ='right'>
+            <salute>
+               With kind regards, I am<lb/>
+               Sincerely yours,<lb/>
+            </salute>
+            <signed>
+               <name type="person">William E<choice><orig/><reg>.</reg></choice> Murray</name>.<lb/>
+            </signed>
+            <name type="person">William E. Murray</name>,<lb/>
+            Asisstant to <name type="person">Mr. Fort</name><lb/>
+         </closer></div>
+      </body>
+  </text>
+</TEI>

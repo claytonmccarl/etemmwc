@@ -1,0 +1,198 @@
+/* Place project-specific CSS here */
+/*copying over to play 20180518 CM*/
+html {
+  margin: auto;
+  padding: 0;
+  padding: 2.5em;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 14pt;
+  background-color: #ebebeb; 
+  color: #292929;
+  width: 50%;
+  overflow: auto;
+  /*trying to get two-finger scroll on laptop to work again, but no luck. Not sure how I broke it*/
+  overflow-y: scroll;
+}
+/*this is document title at top of page*/
+titleStmt > tei-title { 
+    font-size: x-large;
+    font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
+}
+/*this is author at top of page*/
+titleStmt > author {
+    font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
+}
+
+p {
+    text-align: left;
+}
+
+addrLine {
+    font-style: normal;
+}
+
+
+/* Prevent Boilerplate's default CSS from showing parentheses. */
+
+choice abbr + expan:before,
+choice expan + abbr:before,
+choice sic + corr:before,
+choice corr + sic:before,
+choice orig + reg:before,
+choice reg + orig:before {
+    content: none;
+    display: inline !important;
+}
+
+choice abbr + expan:after,
+choice expan + abbr:after,
+choice sic + corr:after,
+choice corr + sic:after,
+choice orig + reg:after,
+choice reg + orig:after {
+    content: none;
+    display: inline !important;
+}
+mentioned {
+    font-style: italic;
+}
+
+/*I'm copying entire block over, trying to override all teipb.css settings for this 
+note {
+  display: block;
+  margin: auto auto auto auto;
+  padding: 0em 0em 0em 0em;
+  border: none;
+  border-radius: 0px;
+  width: inherit;
+  position: relative;
+  border: none;
+  background: inherit;
+  text-indent: 0;
+  font-size: inherit; 
+  text-align: left;
+
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+}
+ * -CM*/
+a {
+    color: black;    
+}
+a:link {
+    text-decoration: none;
+        color: blue;
+}
+
+a:visited {
+    text-decoration: none;
+        color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #cc0000;
+}
+
+a:active {
+    text-decoration: none;
+    color: #cc0000;
+}
+
+/* I'm copying all of this over so I can play with it */
+body {
+    font-size: small;
+}
+
+body > head {
+    font-family: "Gentium Book Basic", Cochin, Georgia, Serif; 
+  font-size: x-large;
+  font-weight: bold;
+  }
+
+div > head {
+    font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
+  font-size: large;
+  font-weight: bold;
+  text-indent: -.7em; 
+  text-align: left; 
+  }
+  
+div > div > head {
+  font-size: medium;
+   text-indent: -.4em;  
+    font-weight: bold;
+    line-height: 200%;
+    text-align: left;
+    font-style: italic;
+
+}
+div > div > div > head {
+    font-size: small;
+    text-indent: .01em;   
+    font-weight: bold;
+    line-height: normal; 
+    text-align: left;
+  /*   display: inline;
+    text-transform: none;  */
+    font-style: normal;
+    }
+    
+/* remove bullets from type=simple */
+list[type="simple"] {
+    list-style-type: none;
+}
+
+location {
+    display: none;
+}
+opener {
+
+}
+closer {
+
+}
+hi[style="superscript"] {
+    vertical-align: super;
+    font-size: smaller;
+}
+p[style="indent"] {
+    text-indent: 40px;
+}
+/* trying to get centering of text to work */
+p[style="center"] {
+    text-align: center;
+    }
+head[style="center"] {
+    text-align: center;
+    }
+p[style="right"] {
+    text-align: right;
+    }
+    
+#teibpToolbox {
+ /* left: 56em; */
+ /* left: 100em;  */
+ left: 140em;
+  top: 25px;
+  position: fixed;
+  font-size: 70%;
+  margin-right: 1em;
+  padding: 1em;
+  border-radius: 15px;
+  border: 1px solid #aaaaaa;
+  background: #fafafa;
+  font-family: Arvo, Verdana, sans-serif;
+  text-align: justify;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  width: 12em;
+}
+emph[style="case(allcaps)"] {
+    text-transform: uppercase;
+    
+}
+
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from D. A. Armstrong to Eartha M. M. White. July 30th, 1929.</title>
+            <author>D. A. Armstrong</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder G5, Item 1741</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to White about his life after leaving Jacksonville and asks her to contact his church there for him.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A handwritten letter of four pages. It is written on the lined paper of a notepad.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_g5_1741_001.jpg"/>
+         <opener><name type="place">Atlanta <choice><abbr>Ga</abbr><expan>Georgia</expan></choice></name><lb/>
+         <date when="1929-07-30">July 30th - 1929</date><lb/>
+         <salute>Dear <name type="person">Miss White</name><choice><orig/><reg>,</reg></choice></salute></opener>
+         <p>
+            I take great<lb/>
+            pleasure in writing you a<lb/>
+            few lines to let you hear<lb/>
+            from me. <choice><orig>also</orig><reg>Also</reg></choice> I want to hear<lb/>
+            from you very much. <name type="person">Miss<lb/>
+            White</name> this is the third<lb/>
+            letter <choice><orig>i've</orig><reg>I've</reg></choice> <choice><sic>writen</sic><corr>written</corr></choice> you since<lb/>
+            I left dear old <name type="place"><choice><orig>jacksonville</orig><reg>Jacksonville</reg></choice></name>.<lb/>
+            I sent them in care of the<lb/>
+            Church as I <choice><orig>Did</orig><reg>did</reg></choice> not have<lb/>
+            your address. <choice><orig>so</orig><reg>So</reg></choice> as I could<lb/>
+            never hear from you<choice><orig>.</orig><reg>,</reg></choice> I<lb/>
+            thought I would write <choice><orig>a gain</orig><reg>again</reg></choice>.<lb/>
+            <choice><orig>please</orig><reg>Please</reg></choice> let me hear from you<choice><orig/><reg>,</reg></choice><lb/>
+            <choice><orig>this</orig><reg>This</reg></choice> leaves me well and doing<lb/>
+         </p>
+         <pb n="2"/>
+         <p>
+            well<choice><orig>.</orig><reg></reg></choice> <choice><orig>And</orig><reg>and</reg></choice> <choice><sic>truely</sic><corr>truly</corr></choice> hope this<lb/>
+            may find you well and<lb/>
+            <choice><sic>injoying</sic><corr>enjoying</corr></choice> the sweet blessings<lb/>
+            of life. <choice><orig>yes</orig><reg>Yes</reg></choice> <name type="person">Miss<lb/>
+            White</name><choice><orig/><reg>,</reg></choice> God has wonderfully<lb/>
+            <choice><orig>Blessed</orig><reg>blessed</reg></choice> me since I <choice><sic>lft</sic><corr>left</corr></choice><lb/>
+            home. I was a very sick<lb/>
+            man for a long time<choice><orig>.</orig><reg>,</reg></choice> but<lb/>
+            after all, I found the Lord to<lb/>
+            be my best <choice><orig>Doctor</orig><reg>doctor</reg></choice>. <choice><orig>work</orig><reg>Work</reg></choice> is<lb/>
+            very poor up here<choice><orig>.</orig><reg/></choice> now<choice><orig>.</orig><reg>,</reg></choice><lb/>
+            but I serpose it is that<lb/>
+            way all over the <choice><orig>Country</orig><reg>country</reg></choice>.<lb/>
+            While I get nearly all I<lb/>
+            can do<choice><orig>.</orig><reg>,</reg></choice> I hope to come home<lb/>
+         </p>
+         <pb n="3" facs= "../images/ew_g5_1741_002.jpg"/>
+         <p>
+            sometime this year. <choice><orig>say</orig><reg>Say</reg></choice><lb/>
+            how is <name type="place">Bethel</name> and my<lb/>
+            choir<choice><orig>.</orig><reg>?</reg></choice> <choice><orig>give</orig><reg>Give</reg></choice> best regards to<lb/>
+            any of the members and friends<lb/>
+            that you may see. <choice><orig>if</orig><reg>If</reg></choice> <name type="person"><choice><orig>dasia harden</orig><reg>Dasia <lb/>
+            Harden</reg></choice></name> is in <name type="place"><choice><orig>jacksonville</orig><reg>Jacksonville</reg></choice></name><choice><orig/><reg>,</reg></choice><lb/>
+            give her my best regards<choice><orig/><reg>.</reg></choice> I<lb/>
+            would be glad to hear from<lb/>
+            her. <name type="person">Miss White</name><choice><orig/><reg>,</reg></choice> have you<lb/>
+            been <choice><orig>a way</orig><reg>away</reg></choice> since I left<choice><orig>.</orig><reg>?</reg></choice> <choice><orig>my</orig><reg>My</reg></choice><lb/>
+            Church<choice><orig>.</orig><reg/></choice> is <name type="place"><choice><orig>wheat street</orig><reg>Wheat Street</reg></choice><lb/>
+            Baptist Church</name>. <name type="person"><choice><abbr>Rev</abbr><expan>Reverend</expan></choice> <choice><abbr>Dr</abbr><expan>Doctor</expan></choice><lb/>
+            <choice><orig>p. j.</orig><reg>P. J.</reg></choice> Bryant</name><choice><orig>.</orig><reg/></choice> pastor.<lb/>
+            <choice><orig>he</orig><reg>He</reg></choice> is a great preacher<choice><orig>.</orig><reg/></choice> and they<lb/>
+            have a great church and<lb/>
+         </p>
+         <pb n="4"/>
+         <p>
+            <choice><orig>Choir</orig><reg>choir</reg></choice><choice><orig>.</orig><reg>,</reg></choice> but <choice><sic>non</sic><corr>none</corr></choice> of it looks<lb/>
+            like <name type="person"><choice><abbr>Dr</abbr><expan>Doctor</expan></choice> Ford</name> and <name type="place">Bethel</name><lb/>
+            and her <choice><orig>Choir</orig><reg>choir</reg></choice> to me.<lb/>
+            <choice><orig>remember</orig><reg>Remember</reg></choice> me when you<lb/>
+            pray<choice><orig>.</orig><reg/></choice> that the Lord may<lb/>
+            bring us <choice><sic>to gather</sic><corr>together</corr></choice> <choice><orig>a gain</orig><reg>again</reg></choice><lb/>
+            I remain yours very <choice><sic>Truely</sic><corr>truly</corr></choice><choice><orig/><reg>.</reg></choice><lb/>
+         </p>
+            
+         <closer>
+            <signed><name type="person">D.A. Armstrong</name></signed><lb/>
+            <name type="place" subtype="address"># 178 <choice><orig>richison</orig><reg>Richison</reg></choice> <choice><abbr>st.</abbr><expan>Street</expan></choice><lb/>
+            Atlanta Ga.</name><lb/>
+         </closer>
+      </body>
+  </text>
+</TEI>

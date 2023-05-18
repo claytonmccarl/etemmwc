@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from E. B. De Lany (to Eartha M.M. White?). July 21, 1922. East Organge, New Jersey. </title>
+            <author><name type="person">E.B. De Lany</name></author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Chad Germany</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder W2, Item 648</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author solicits financial support for establishing mission stations in Liberia, as part of "Africa for Christ" campaign.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>This document is a 1922 letter from E.B. De Lany to Eartha M.M. White on a 10" x 8" piece of printing paper with one 1/2 centimeter tear on the top edge and two 1 inch tears on the left edge.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_w2_648_001.jpg"/>
+         <head n="1" style="left"> Chain of Mission Stations <lb/>
+         <name type="place" subtype="country"> Liberia </name><lb/>
+         West Coast <name type="place" subtype="continent"> Africa </name><lb/>
+         Will You Help? </head>
+         <head n="2" style="right"> Address: <lb/>
+         <name type="place" subtype="address">7 Sussex Avenue<lb/>
+         East Orange, <choice><abbr> N.J. <expan> New Jersey </expan></abbr></choice></name></head>
+         <figure><graphic url="../images/ew_w2_648_002.jpg"></graphic></figure>
+<note place="marginMiddle"><date when="1922-07-21"></date></note>
+<opener> Dear Friend: </opener>
+<p style="indent"> Your name has been given to me as one especially able to ad- <lb/>
+vise wisely in a matter in which I am deeply interested. <lb/></p>
+<p style="indent"> I have been engaged for four years in <name type="place" subtype="colony">British East Africa</name> and <lb/>
+eight years in <name type="place" subtype="country"> Liberia </name>, West Coast <name type="place" subtype="continent"> Africa </name>, bearing the torchlight <lb/>
+of our <name type="faith"> Christian </name> civilization to my people in heathenism and sin. <lb/></p>
+<p style="indent"> After twelve years of personal, active service among them, I<lb/>
+am fully conscious of their needs, and I believe that planting a<lb/>
+chain of mission stations linked together and extending into the<lb/>
+interior will be a practicable way of meeting the needs of these un-<lb/>
+fortunate people.</p>
+<p style="indent"> In locating these stations, we shall be governed largely by<lb/>
+their accessibility, the good quality of timber available, and the<lb/>
+adaptability of the land to agriculture and stock-raising, as these<lb/>
+natural advantages will be a great asset in eventually make the,<lb/>
+stations, to a gegree, self-supporting.</p>
+<p style="indent"> The number of stations established will depend upon the amount<lb/> 
+of funds and working implements we are able to secure for their<lb/>
+equipment and operation, and in these stations will be conducted on the<lb/>
+plan of social settlement work in this country, only on a larger scale.<lb/></p>
+<p style="indent"> We shall need not less than twenty thousand dollars ($20,000)<lb/>
+to equip and maintain these stations, and to employ an efficient<lb/>
+corps of competent workers.</p>
+<p style="indent"> Confident of your interest, I am making this appeal earnestly<lb/>
+soliciting your financial aid in raising the above-named amount for<lb/>
+the accomplishment of this work. Any contribution you may be pleased<lb/>
+to make will sincerely be appreciated and judiciously used for the work.<lb/></p>
+<p style="indent"> As to my integrity and ability, you may refer to <choice><abbr> Dr. </abbr><expan> Doctor </expan></choice><name type="person"> J.H. </name><lb/>
+Hughes, Secretary of the <orgName type="committee"> Foreign Mission Board </orgName> of<name type="place" subtype="state"> New Jersey</name>, <name type="place" subtype="address"> 115 <lb/> 
+Oakwood <choice><abbr> Ave. </abbr><expan> Avenue</expan></choice></name>,<name type="place" subtype="city"> Orange, <choice><abbr> N.J. </abbr><expan> New Jersey </expan></choice></name>;<name type="person"> Miss Lucy H. Tapley </name>,<name role="administrator"> President </name> of The <lb/>
+<orgName type="religious"> Spelman Seminary </orgName>,<name type="place" subtype="city"> Atlanta, <choice><abbr> Ga. </abbr><expan> Georgia</expan></choice></name>, the <choice><sic>Institutiom</sic></choice><choice><corr> Institution </corr></choice> which I attended;<lb/>
+Ex-<choice><abbr>Pres.<expan> President</expan></abbr></choice><name type="person"> Howard </name>,<name type="place" subtype="city"> Monrovia, <name type="place" subtype="country"> Liberia </name> under whose administration I <lb/>
+served; also <name role="clergy"><choice><abbr> Rev. </abbr><expan> Reverand </expan></choice></name><name type="person"> H.C. Bailey </name>, <name role="clergy"> Pastor </name><orgName type="religious"> Antioch Baptist Church </orgName>,<name type="place" subtype="address"> 2244 <lb/>
+<choice><abbr> E. <expan> East </expan></abbr></choice> 43rd <choice><abbr> St. </abbr><expan> Street </expan></choice></name>,<name type="place" subtype="city"> Cleveland </name><name type="place" subtype="state"> Ohio. </name></name></p>
+<p style="indent"> Thanking you in advance for any contribution you may make or <lb/>
+for any assistance you may render in placing me in touch with others<lb/>
+who you think may be interested in this great work for the redemp-<lb/>
+tion of <name type="place"> Africa </name>, I am <lb/></p>
+<closer><salute> Yours for service, </salute><lb/>
+<signed><handShift medium="pen" script="cursive"></handShift> E.B. De Lany </signed></closer>
+<postscript><p><handShift medium="type"></handShift><name type="place" subtype="address"> 7 Sussex <choice><abbr> Ave. </abbr><expan> Avenue</expan></choice> East Orange, <choice><abbr> N.J.</abbr><expan> New Jersey </expan></choice></name></p></postscript>
+<note style="marginBottom"><handShift medium="pen" script="cursive"></handShift> Address until <date when="1922-08-31"> August <choice><abbr> 31 <hi style="superscript"> st </hi><expan> thirty-first </expan></abbr></choice></date> Box 790, <name type="place" subtype="city"> Fernindina, <lb/>
+</name><name type="place" subtype="state"><choice><abbr> Fla. </abbr><expan> Florida </expan></choice></name></note>
+      </body>
+  </text>
+</TEI>

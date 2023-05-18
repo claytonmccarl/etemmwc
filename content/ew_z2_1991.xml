@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader> 
+      <fileDesc>
+         <titleStmt>
+            <title>Announement by Judge Joseph E. Lee. Jacksonville, FL. June 02, 1913.</title>
+            <author>Joseph E. Lee</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Hazel D. Gillis and Janaya Ferrer</name> <!-- person adds their name here-->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder L2, Item 1991</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes an announcement about Judge Joseph E. Lee's resumption  of the general practice of law.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>An announcement typewritten on a single sheet of paper.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_z2_1991_001.jpg"/> <!-- create instances in accordance to number of images -->
+         <div><head style="center"><name type="person">Joseph E.  Lee</name></head></div>
+         <div>
+             <p>
+                <choice><orig>formerly</orig><reg>Formerly</reg></choice> <name type="person"><choice><orig>Municipal Judge</orig><reg>municipal judge</reg></choice></name> of <name type="place">Jacksonville, Florida</name> from <date when="1887">1887</date> to <date when="1889">1889</date> and<lb/>
+                who was <name type="person"><choice><orig>Collector of Customs</orig><reg>collector of customs</reg></choice></name> from <date when="1890">1890</date> to <date when="1894">1894</date>, and from <date when="1897">1897</date> to <date when="1898">1898</date>, and<lb/>
+                <name type="person"><choice><orig>Collector of Internal Revenue</orig><reg>collector of internal revenue</reg></choice></name> from <date when="1898">1898</date> to <date when="1913">1913</date>, begs to announce that he<lb/>
+                has resumed the general practice of law with offices at <name type="place" subtype="address">No. 32 East Beaver<lb/>
+                Street, Jacksonville, Florida</name>. He will practice in <choice><orig>State</orig><reg>state</reg></choice> and <choice><orig>Federal</orig><reg>federal</reg></choice> <choice><orig>Courts</orig><reg>courts</reg></choice>,<lb/>
+                and before the <choice><orig>Executive Departments</orig><reg>executive departments</reg></choice> at <name type="place">Washington</name>.<lb/>
+             </p>
+             <p>
+                <name type="place" subtype="city">Jacksonville, Florida</name><lb/>
+                <date when="1913-06-02">June 2, 1913</date><lb/>
+             </p>
+         </div>
+
+      </body>
+  </text>
+</TEI>

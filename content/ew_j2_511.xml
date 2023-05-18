@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Jimmy (James Lloyd Jordan) to Eartha M. M. White. December 15, 1895.</title>
+            <author>Jimmy</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Ethan Leavitt</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder J2, Item 511</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to his fiance White describing daily life and sharing greetings from his family.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page handwritten letter from Jimmy to White, written on 12/15/1895. Both sides of the paper contain writing and the letter is folded.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_j2_511_002.jpg"/>
+         <opener style="right"><name type="place">Jacksonville</name><lb/>
+            <date when="1895-12-15">12-15-95</date> 
+            <salute>Dear Little <name type="person">Eartha</name></salute></opener>
+         <p>I have <choice><sic>realy</sic><corr>really</corr></choice><lb/>
+               been looking for a<lb/>
+               letter from you now<lb/> 
+               for some time. But<lb/>
+               it seems like my<lb/> 
+               time now to ask<lb/> 
+               if you have ceased<lb/>
+               corresponding. Though<lb/>
+            can see <choice><sic>know</sic><corr>no</corr></choice> reason<lb/>
+               why you should.<lb/>
+              I really wrote you a<lb/>
+            <unclear cert="high" reason="item label obscures parts of word">long</unclear> letter before sending<lb/>
+         </p>
+         <pb n="2" facs= "../images/ew_j2_511_001.jpg"/>
+         <p>you the pictures.<lb/>
+            Sent them two<lb/>
+            week later and since<lb/>
+            that wrote you. But<lb/>
+            up to now<choice><orig>.<reg>,</reg></orig></choice> I have<lb/>
+            looked in vain for<lb/>
+            a reply. It is that<lb/>
+            <del type="strikeout">I</del> you have been<lb/>
+            <choice><sic>moveing</sic><corr>moving</corr></choice>. But sure<lb/>
+            you must be through<lb/>
+            by now. I saw<lb/>
+            your <name type="person">marma</name> a few<lb/>
+            days ago. She looks<lb/> 
+            very well I think.<lb/>
+            And Eartha that last<lb/> 
+            photo taken in <name type="place">Buss</name><lb/>
+            of <choice><sic>your self</sic><corr>yourself</corr></choice> I think<lb/>
+            very good. And I<lb/>
+            am going to look<lb/>
+            for one. And that is<lb/>
+         </p>
+         <pb n="3"/>
+         <p>sure. Send me one<choice><orig></orig><reg>,</reg></choice><lb/>
+            will you?<lb/>
+            How do you like<lb/>
+            <name type="place">Brooklyn</name>? Better than<lb/>
+            <name type="place">New York</name>. Remember<lb/>
+            me to the <name type="person_group">ladies</name>.<lb/>
+            Say <name type="person">marma</name> sends her<lb/>
+            love to you. She speaks<lb/>
+            of you being her<lb/>
+            sweet little girl all the<lb/>
+            time. I trust that<lb/>
+            this will find you<lb/>
+            well. I am not yet<lb/>
+            entirely well. Though<lb/>
+            lots better than I was<lb/>
+            when I wrote you last.<lb/>
+            And am looking better.<lb/>
+            I should make an attempt<lb/>
+            to go to work <choice><sic>to morrow</sic><corr>tomorrow</corr></choice><lb/>
+            in <name type="person"><choice><orig>mr</orig><reg>Mr.</reg></choice> Richardson</name> office.<lb/>
+         </p>
+         <pb n="4"/>
+         <p>My old employee <choice><orig>fa</orig><reg>F.A.</reg></choice><lb/>
+            <choice><orig>dont</orig><reg>don't</reg></choice> know how long<lb/>
+            I will hold out. But<lb/>
+            I hope all OK<choice><orig/><reg>.</reg></choice> I will<lb/>
+            not go to running as <name type="person"><choice><orig>Dr</orig><reg>Dr.</reg></choice><lb/>
+            Mitchel</name> says there is<lb/>
+            <choice><sic>two</sic><corr>too</corr></choice> much dust for me<choice><orig/><reg>.</reg></choice><lb/>
+            We are having very<lb/>
+            cool weather there<lb/>
+            though very changeable.<lb/>
+            Give my love to all.<lb/>
+            The town is very<lb/>
+            lively. And lots going<lb/>
+            on<choice><orig/><reg>.</reg></choice> But I dont get out<lb/>
+            to any thing<choice><orig>.</orig><reg>,</reg></choice> as I don’t<lb/>
+            go out at night, only<lb/>
+            in the day. All churches<lb/>
+            are preparing for <choice><abbr>xmas</abbr><expan>Christmas</expan></choice> .<lb/>
+            I trust you will have<lb/>
+            a merry one. Write soon<choice><orig/><reg>,</reg></choice></p>
+         <closer><salute>Yours Fondly<choice><orig/><reg>,</reg></choice></salute>
+            <signed>Jimmy</signed></closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Clara White to Eartha White. March 16, 1896.</title> 
+            <author>Clara White</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Lydia P. Stewart and Janaya Ferrer</name> <!-- person adds their name here-->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder R4, Item 1170</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to Eartha White about the package that Eartha sent her.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A two-page letter handwritten on a lined paper.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_r4_1170_001.jpg"/> <!-- create instances in accordance to number of images -->
+          <opener>
+            <date when="1986-03-16">March 16, 1896</date>
+         <salute>
+         Dear <name type="person">Eartha</name><choice><orig/><reg>,</reg></choice><lb/>
+         </salute>
+         </opener>
+         <p>
+            I received your dear letter<lb/>
+            and was happy to <choice><sic>here</sic><corr>hear</corr></choice> from you<choice><orig/><reg>.</reg></choice><lb/>
+            I hope you are well as it leaves<lb/>
+            me at present<choice><orig/><reg>.</reg></choice> I received the two<lb/>
+            packages also, My pictures and<lb/>
+            I was so proud of my pictures<choice><orig/><reg>.</reg></choice><lb/>
+            I think they are fine they are<lb/>
+            just lovely<choice><orig/><reg>.</reg></choice> Every one that <choice><orig>See</orig><reg>see</reg></choice> them<lb/>
+            say they are just grand<choice><orig/><reg>.</reg></choice> I gave<lb/>
+            one to <unclear cert="low" reason="Handwriting is difficult to read.">papar</unclear> and one to <name type="person">Bell</name><lb/>
+            and keep one <choice><orig>my self</orig><reg>myself</reg></choice><choice><orig/><reg>.</reg></choice> <choice><orig>you</orig><reg>You</reg></choice> said<lb/>
+            I would be surprised and I really<lb/>
+            was<choice><orig/><reg>.</reg></choice> I also thank you for my dress <lb/>
+            and <name type="person">Bell</name> give her best regards and<lb/>
+            thank you kindly for her dress<choice><orig/><reg>.</reg></choice> She<lb/>
+            says that puzzle is just grand and our<lb/>
+            two old <unclear cert="low" reason="Handwriting is difficult to read.">aunt</unclear> that you sent us<choice><orig/><reg>.</reg></choice><lb/>
+            I am glad to  <choice><sic>here</sic><corr>hear</corr></choice> that you went to<lb/>
+            see <unclear cert="low" reason="Handwriting is difficult to read.">our</unclear> Robins he was so proud of<lb/>
+            it that he wrote me all about it<choice><orig/><reg>.</reg></choice>
+            Some of the boys on the <unclear cert="low" reason="Handwriting is difficult to read.">[illegible]</unclear> <choice><orig>Says</orig><reg>says</reg></choice> that that<lb/>
+            they saw you and you just as <choice><orig>Sweet</orig><reg>sweet</reg></choice><lb/>
+            as a peach <unclear cert="low" reason="Handwriting is difficult to read."><name type="person">Este Barnlock</name></unclear> is married<lb/>
+            and gone to charge on her bridal tour<choice><orig/><reg>.</reg></choice><lb/>
+            I were at the wedding<choice><orig/><reg>.</reg></choice> She looks sweet<choice><orig/><reg>.</reg></choice><lb/>
+            I cannot tell you when I will<lb/>
+            be able to come <name type="place">North</name> as I am not <lb/>
+            quite through with my business in<lb/>
+            <name type="place">Washington</name> as yet and I would<lb/>
+            like very much to finish that before<lb/>
+            I leave home<choice><orig/><reg>.</reg></choice><lb/>
+         </p>
+
+         <pb n="2" facs= "../images/ew_r4_1170_002.jpg"/>
+         <p>
+            Now Dear I must close<choice><orig/><reg>.</reg></choice><lb/>
+
+            Goodly pray for <choice><orig>Me</orig><reg>me</reg></choice><lb/>
+            and <name type="person">Bell</name> that god bless<lb/>
+            us<lb/>
+         </p>
+         <closer>
+         <salute>
+            <hi style="center">
+               Your <choice><orig>Mother</orig><reg>mother</reg></choice><choice><orig/><reg>,</reg></choice><lb/>
+            </hi>
+         </salute>
+         <signed>
+            <name type="person">Clara White</name>.<lb/>
+         </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

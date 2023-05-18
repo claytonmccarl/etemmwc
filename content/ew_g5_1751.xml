@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Eartha M. M. White to Mrs. Young. March 4, 1910.</title>
+            <author>Eartha M. M. White</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Avery Preston Manwell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder G5, Item 1751</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author responds to Mrs. Young's request for advice.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A handwritten letter of three pages to Mrs. Young from White, written on 3/4/1910. The third page contains White's address and a sizeable hole in the middle of the sheet of paper.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_g5_1751_001.jpg"/>
+         <opener><salute>Dear <name type="person">Mrs<choice><orig/><reg>.</reg></choice> Young<choice><orig/><reg>,</reg></choice></name></salute></opener>
+            <p>I am indeed<lb/>
+            sorry to hear of your family<lb/>
+            trouble and my advice<lb/>
+            would be to you as you<lb/>
+            and <name type="person">Mr<choice><orig/><reg>.</reg></choice> Young</name> are husband<lb/>
+            and wife you should <choice><orig>Keep</orig><reg>keep</reg></choice><lb/>
+            your private affairs to your<lb break="no"/>selves. I did not send<lb/>
+            for <name type="person"> Mr<choice><orig/><reg>.</reg></choice> Young</name>. The young men<lb/>
+            who are in the quartet<lb/>
+            met at my home and sent<lb/>
+            for him to practice and<lb/>
+            as he did not come they<lb/>
+            sent for him. I always credited<lb/>
+            you of being a woman of high<lb/>
+            morals and having more common<lb/>
+            sense. I hope you will<lb/></p>
+         <pb n="2"/>
+         <p>think this over and you will<lb/>
+            see I am not to blame.<lb/>
+            And as for asking me <add type="caret">never</add> to<lb/>
+            <choice><orig>Come</orig><reg>come</reg></choice> or send to your home,<lb/>
+            why, as I have never been<lb/>
+            into your home. This request<lb/>
+            will be easily granted.<lb/>
+            Many thanks for your<lb/>
+            advice as to <choice><sic>geting</sic><corr>getting</corr></choice> a husband<lb/>
+            of my own. That is not a<lb/>
+            easy <del type="strikeout">thing to do</del> matter<lb/>
+            for husbands are few<lb/>
+            and far between. When I<lb/>
+            am ready there is one<lb/>
+            in store for me without<lb/>
+            giving any trouble.<lb/>
+            As you and I are not<lb/>
+            our <choice><orig>Keepers</orig><reg>keepers</reg></choice> and as time<lb/></p>
+         <pb n="3" facs= "../images/ew_g5_1751_002.jpg"/>
+         <p>is fleeting and life is so<lb/>
+            short<choice><orig>.</orig><reg>,</reg></choice> <choice><orig>It</orig><reg>it</reg></choice> becomes me as a<lb/>
+            Christian to tell that I<lb/>
+            freely forgive you for <del type="overwritten">for</del> the<lb/>
+            wrong you have done me<lb/>
+            and I hope you will always<lb/>
+            observe the <choice><orig>second</orig><reg>Second</reg></choice> Commandment<choice><orig/><reg>.</reg></choice><lb/>
+            As for <choice><orig>Casting</orig><reg>casting</reg></choice> reflections on<lb/>
+            my charity work<choice><orig>.</orig><reg>,</reg></choice> <choice><orig>That</orig><reg>that</reg></choice> is<lb/>
+            <choice><sic>Gods</sic><corr>God's</corr></choice> work and he will<lb/>
+            take care of that. If this<lb/>
+            is a satisfactory reply please answer.<lb/></p>
+            <closer style="right"><salute><choice><orig>yours</orig><reg>Yours</reg></choice> respectfully<choice><orig/><reg>,</reg></choice><lb/></salute>
+            <signed><name type="person">E. M. M. White</name><lb/></signed>
+            <name type="place" subtype="address">833 Puffin <choice><abbr>St<choice><orig/><reg>.</reg></choice></abbr><expan>Street</expan></choice></name><lb/>
+            <date when="1910-03-04">March 4<choice><orig/><reg>,</reg></choice> 1910</date><lb/></closer>
+      </body>
+  </text>
+</TEI>

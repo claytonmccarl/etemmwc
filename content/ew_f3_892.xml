@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Martha to Eartha M. M. White. July 21, 1933.</title>
+            <author>Martha</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder F3, Item 892</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to White discussing the recent deaths of residents of the Old Folks' Home..</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A handwritten letter of two pages from Marthe to White, written in 7/21/1933. It discusses the deaths of residents of the Old Folks' Home.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_f3_892_001.jpg"/>
+         <opener style="right"><name type="place" subtype="address">611 West Ashley <choice><abbr>St</abbr><expan>Street</expan></choice> <lb/>
+         Jacksonville <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name> <date when="1933-07-21">July 21, 1933</date><lb/></opener>
+         <opener><salute>My dear <name type="person">Eartha</name>:-</salute></opener>
+         <p style="indent">
+            Your cards was all recieved<lb/>
+            and found us all well and getting along<lb/>
+            fine. I am glad you are well and happy<choice><orig/><reg>.</reg></choice><lb/>
+         </p>
+         <p style="indent">
+            I am delighted to <choice><sic>here</sic><corr>hear</corr></choice> that you are having<lb/>
+            a nice time. Only wish I was with you.<lb/>
+         </p>
+         <p style="indent">
+            <name type="person">Martha</name> is improving nicely. She is able to sit.<lb/>
+         </p>
+         <p style="indent">
+            <choice><orig>Every thing</orig><reg>Everything</reg></choice> is progressing nicely at the<lb/>
+            <name type="place">Mission</name> and the <name type="place">Old Folks Home</name>.<lb/>
+         </p>
+         <p style="indent">
+            <name type="person">Mr. Stephen Williams</name> died the same morning you left<choice><orig/><reg>.</reg></choice><lb/>
+            <choice><orig>we</orig><reg>We</reg></choice> had a very nice funeral for him <add type="caret">on <date when="1933-07-13">Thursday July 13</date></add>, casket was<lb/>
+            covered with flowers. A <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> Ross</name> of <name type="place">Sweetfield<lb/>
+            Baptist Church</name> preached a very nice funeral. This<lb/>
+            is the way it was carried out. Singing How happy<lb/>
+            are the Saints, prayer by <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> Ross</name>, singing Asleep<lb/>
+            in <choice><sic>Jeasus</sic><corr>Jesus</corr></choice>, Resolution from <name type="place">Old Folks Home</name> by<lb/>
+            <name type="person">M.F. Green</name>, quartet Old Ragged Cross by 1 girl<lb/>
+            and three boys that work around the home.<choice><orig>)</orig><reg/></choice> The<lb/>
+            obituary, singing <choice><sic>than</sic><corr>then</corr></choice> <choice><orig>Sermon</orig><reg>sermon</reg></choice>, singing Nearer<lb/>
+            my God to thee. <name type="person">Pratt</name> furnished 1 car and a friend<lb/>
+            of <name type="person">Mrs. Gaskins</name> another <add type="caret">bar</add> it rained all afternoon.<lb/>
+         </p>
+         <p style="indent">
+            Well <name type="person">Mr. Joe H. James</name> sent <name type="person">Mr. Chas Erins</name> out<lb/>
+            to the <name type="place">Old Folks Home</name> and <unclear cert="low" reason="text obscured by sticker">he</unclear> is as happy as a<lb/>
+            child. <name type="person">Mr<choice><orig/><reg>.</reg></choice> James</name> said <unclear cert="low" reason="text obscured by sticker">he would</unclear> look after his order<choice><orig>.</orig><reg/></choice><lb/>
+         </p>
+         <pb n="2" facs= "../images/ew_f3_892_002.jpg"/>
+         <p style="center">2nd<lb/></p>
+         <p style="indent">
+            <name type="person">Mr. Thomas</name> is progressing nicely with his work.<lb/>
+            If he had the material he would have been <choice><sic>futher</sic><corr>further</corr></choice><lb/>
+            advanced<choice><orig>.</orig><reg>,</reg></choice> but we hope to surprise you<choice><orig>,</orig><reg/></choice> on your<lb/>
+            return.<lb/>
+         </p>
+         <p style="indent">
+            Recieved a letter from <name type="person">James Kenley</name><choice><orig/><reg>,</reg></choice> he is at <name type="place">Veterans<lb/>
+            Administration Home Virginia</name>, Company C. I answered<lb/>
+            his letter for you.<lb/>
+         </p>
+         <p style="indent">
+            Lots of deaths lately, <name type="person">John J. Christper</name> died<lb/>
+            last week. I am enclosing <supplied reason="omitted in original" cert="high">a</supplied> list of deaths also <supplied reason="omitted in original" cert="high">a</supplied> <choice><sic>cliping</sic><corr>clipping</corr></choice><lb/>
+            about your friend.<lb/>
+         </p>
+         <p style="indent">
+            <name type="person">Eartha</name><choice><orig/><reg>,</reg></choice> I am going to <name type="place">Tampa</name> Saturday night<choice><orig/><reg>.</reg></choice><lb/>
+            I keep dreaming about <name type="person">Albert</name>, I wrote him twice<lb/>
+            &amp; recieved no answer. Will return Monday morning.<lb/>
+         </p>
+         <p style="indent">
+            We had the <choice><sic>hearest</sic><corr>harshest</corr></choice> downpour of rain of the season<lb/>
+            yesterday.<lb/>
+         </p>
+         <p style="indent">
+            My family &amp; friends join in love, and best<lb/>
+            wishes<choice><orig>.</orig><reg/></choice> to you &amp; friends<choice><orig/><reg>.</reg></choice>
+         </p>
+         <closer><salute>Yours truly<choice><orig/><reg>,</reg></choice><lb/></salute>
+         <signed><name type="person">Martha</name></signed></closer>
+      </body>
+  </text>
+</TEI>

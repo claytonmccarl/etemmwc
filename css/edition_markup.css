@@ -1,0 +1,64 @@
+/* This css file suppresses the original transcription (orig) and shows the edited text (reg) */
+
+/* Show any <reg> (regularized text) and expand abbreviations. */
+/* IMPORTANT: this assumes that all abbreviations have expansions. */
+
+choice > reg,
+reg, 
+supplied {
+    display: inline;
+}
+
+choice expan {
+    display: inline !important;
+}
+
+subst add {
+    color: black;
+    vertical-align: baseline;
+}
+
+/* Show original reading as struck text */
+
+choice > abbr,
+choice > orig,
+choice > sic,
+choice > del {
+/*    display: none;*/
+    text-decoration: line-through;
+}
+
+choice > abbr {
+    border-bottom: none;
+}
+
+/* Kill the line-breaks */
+lb {
+	display: none;
+}
+/* trying to remove space after lb break="no" with no luck*/
+lb:after {
+	content: none;
+}
+/* Kill the parenthesis around expanded abbreviations and regularized/corrected forms */
+choice abbr + expan:before,
+choice expan + abbr:before,
+choice sic + corr:before,
+choice corr + sic:before,
+choice orig + reg:before,
+choice reg + orig:before {
+  content: "";
+}
+choice abbr + expan:after,
+choice expan + abbr:after,
+choice sic + corr:after,
+choice corr + sic:after,
+choice orig + reg:after,
+choice reg + orig:after {
+  content: "";
+}
+choice > expan,
+choice > reg,
+choice > corr {
+    color: blue;
+}

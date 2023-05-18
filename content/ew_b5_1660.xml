@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Deborah Daniels to Eartha M.M. White. February 16, 1930. Jacksonville, Florida.</title>
+            <author>Mrs. Deborah Daniels</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly and Carol Lynne Hemmingway</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1660</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author requests financial contribution to help pay for funeral of Lorenzo DeCosta.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Handwritten letter from Mrs. Deborah Daniel's to Eartha M. M. White on 2/16/1930 informing White of the death of Lorenzo DeCosta and soliciting donations for his funeral; includes hand-addressed envelope to Miss E. M. M. White, City (Jacksonville).</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1660_001.jpg"/>
+         <head>
+            <name type="place" subtype="city">Jacksonville <choice><abbr>Fla</abbr><expan>Florida</expan></choice></name><lb/>
+            <date when="1930-02-16"><choice><abbr>Feb 16-30</abbr><expan>February 16, 1930</expan></choice></date><lb/>
+         </head>
+         <opener>
+            <salute>
+               Dear <name type="person">Miss White</name>,__<lb/>
+            </salute>
+         </opener>
+         <p>
+            This comes to notify<lb/>
+            you of <name type="person">Lorenzo <choice><orig>Decosta</orig><reg>Decosta's</reg></choice></name>
+            <!-- <mentioned>Lorenzo</mentioned> really looks like Torenza, particularly because the "T" matches all of the other "Ts" in Mrs. Daniels' hand. --><lb/>
+            death<choice><orig>,</orig><reg>.</reg></choice> he died at the<lb/>
+            <name type="place">County Hospital</name><choice><orig>,</orig><reg>.</reg></choice> I am<lb/>
+            asking you for any<lb/>
+            donation you may<lb/>
+            be able to raise ___<lb/>
+            Towards his <choice><sic>funerall</sic><corr>funeral</corr></choice><lb/>
+            Thanking you in<lb/>
+            advance<choice><orig/><reg>.</reg></choice><lb/>
+         </p>
+         <closer>
+            <name type="person">Mrs Deborah Daniels</name><lb/>
+            <name type="place" subtype="address">#1177 <choice><sic>Bredier</sic><corr>Bridier</corr></choice> <choice><abbr>St</abbr><expan>Street</expan></choice><location><geo>30.337634 -81.638081</geo></location></name><lb/>
+            P.S. <name type="person"><choice><abbr>L.</abbr><expan>Lawton</expan></choice> L. Pratt</name> has body.<lb/>
+         </closer>
+      </body>
+  </text>
+</TEI>

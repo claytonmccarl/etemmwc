@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Souvenir Program of Women's Day Activities. June 23, 1957.</title>
+            <author>Unknown</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder F, Item 42 <!-- this should be filled in --></idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A souvenir program for the Women's Day activities held at Bethel Baptist Institutional Church in 1957.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A typed program folded into 11 pages with the outer pages being a red sheet of paper different from the rest of the program.  <!-- describe material , number of pages, print or handwritten, condition, dimensions etc.--> </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_f_42_001.jpg"/>
+			 	<div><head><emph style="case(allcaps)">Souvenir Program</emph></head></div>
+				<div><head>Of <name type ="event">Women's Day</name>Activities</head></div>
+				<div><head><date when="1957-06-23">Sunday, June 23, 1957</date></head></div>
+				<div><head><name type="place">Bethel Baptist Institutional Church</name></head></div>
+				<div><div><head><name type="address">Hogan  and Caroline Streets Jacksonville, Florida</name></head></div></div><lb/>
+      	<div><div><head><name type ="person"><emph style="case(allcaps)"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> <choice><abbr>Robt.</abbr><expan>Robert</expan></choice> H. Wilson</emph></name>, <emph style="case(allcaps)">Minister</emph></head></div></div>
+				<div><p><name type="place">Clipper Press,</name>
+				<name type="address">5741 McLeod <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice> Route 9, Box 419 F Ph.<!--unknown abbreviation-->  <choice><abbr>PO</abbr><expan>Post Office</expan></choice> 5-2089</name></p></div>
+		  <pb n="2" facs= "../images/ew_f_42_002.jpg"/>
+			<div><head><name type="organization"><emph style="case(allcaps)">The Federal Rally</emph></name></head></div><lb/>
+			<div><p style="center">Sponsored by The Executive and Judicial Departments of<lb/>
+			<name type="organization">Women's Day Committees</name>"</p></div>
+      	<div><p>
+         	<emph style="case(allcaps)">President</emph>.....................................<name type="person">Mrs. Amie Currie</name><lb/>
+      		<emph style="case(allcaps)">Vice President</emph>...........................<name type="person">Mrs. Robbie Bryant</name></p></div>
+			<div><div><head><emph style="case(allcaps)">Secretaries of the Treasury</emph></head></div></div>
+			<div><p><name type="person">Mrs. Meltonia McGriff</name>  <name type="person">Mrs. Johnestine Young</name>  <name type="person">Miss Coatsie Jones</name></p></div>
+			<div><p>Department of State <lb/>
+				<name type="person">Miss Caldonia Simpson </name></p></div>
+			 <div><p>Department of Treasury<lb/>
+			 	<name type="person">Mrs. Portia L. Thorington </name></p></div>
+			<div><p><hi style="center">Department of War<lb/>
+			<name type ="person">Mrs. Edith Broadway </name></hi></p></div>
+			<div><p>Department of Justice<lb/> 
+				<name type="person">Mrs. A. Charles Robinson</name></p></div>
+				<div><p>Department of Post Office<lb/>
+			<name type="person">Mrs. E. L. Weems</name></p></div>
+				<div><p><hi style="center">Department of Navy<lb/>
+			<name type="person">Mrs. Lessie Robinson</name></hi></p></div>
+			<div><p>Department of Agriculture<lb/> 
+				<name type="person">Mrs. Blanche Jenkins</name></p></div>
+				<div><p>Department of Commerce<lb/>
+			<name type="person">Mrs. Celia Owens</name></p></div>
+				<div><p><hi style="center">Department of Labor<lb/>
+			<name type="person">Mrs. Ellen G. Morgan</name></hi></p></div>
+			<div><p><cb/>
+				<emph style="case(allcaps)">Governors</emph><lb/>
+				<name type="state"><emph style="case(allcaps)">Alabama</emph></name> <name type ="person">Mrs. Alta Washington</name><lb/>
+				<name type="state"><emph style="case(allcaps)">California</emph></name> <name type ="person">Mrs. Pansy Hicks</name><lb/>
+				<name type="state"><emph style="case(allcaps)">Florida</emph></name> <name type ="person">Mrs. M. L. Carter</name><lb/>
+				<name type="state"><emph style="case(allcaps)">Georgia</emph></name> <name type ="person">Mrs. Bessie Dancer</name><lb/>
+				<name type="state"><emph style="case(allcaps)">Mississippi</emph></name> <name type ="person">Mrs. Nadine Massey</name><lb/>
+				<name type="state"><emph style="case(allcaps)">North Carolina</emph></name> <name type ="person">Mrs. Ola Parker</name><lb/>
+				<name type="state"><emph style="case(allcaps)"><choice><abbr>SO.</abbr><expan>South</expan></choice> Carolina</emph></name> <name type ="person">Mrs. L. B. Callahan</name><lb/>
+				<name type="state"><emph style="case(allcaps)">Tennessee</emph></name> <name type ="person">Mrs. Mabel E. Latson</name><lb/>
+				<name type="state"><emph style="case(allcaps)">Texas</emph></name> <name type ="person">Mrs. Willie Mae Oliver</name><lb/>
+				<name type="state"><emph style="case(allcaps)">Virginia</emph></name> <name type ="person">Mrs. Nettie Anders</name><lb/>
+			 <cb/>
+				<emph style="case(allcaps)"><choice><abbr>Lieut.</abbr><expan>Lieutenant</expan></choice> Governors</emph><lb/>
+				<name type="person">Mrs. Carter Lewis</name><lb/>
+				<name type="person">Mrs. L. A. Davis</name><lb/>
+				<name type="person">Mrs. E. M. Murray</name><lb/>
+				<name type="person">Mrs. Hettie Mills</name><lb/>
+				<name type="person">Mrs. Edna Swilley</name><lb/>
+				<name type="person">Mrs. Inez Jones</name><lb/>
+				<name type="person">Mrs. Betty James</name><lb/>
+				<name type="person">Mrs. Mae T. Collins</name><lb/>
+				<name type="person">Mrs. Sadie Gibson</name><lb/>
+				<name type="person">Mrs. Clarie Williams</name><lb/>
+			 <cb/>
+				<emph style="case(allcaps)">Secretaries</emph><lb/>
+				<name type="person">Mrs. Rossie French</name><lb/>
+				<name type="person">Mrs. Georgiana Bowen</name><lb/>
+				<name type="person">Mrs. Sarah Montgomery</name><lb/>
+				<name type="person">Miss Edna Moses</name><lb/>
+				<name type="person">Mrs. Capers Thompson</name><lb/>
+				<name type="person">Mrs. Maragret Ellis</name><lb/>
+				<name type="person">Mrs. E. Hunter</name><lb/>
+				<name type="person">Mrs. E. Smith</name><lb/>
+				<name type="person">Miss Mabel Wright</name><lb/>
+				<name type="person">Mrs. Ann Robinson</name><lb/>
+		 </p></div>
+		  <div><p>
+			  <choice><orig>(1)</orig><reg></reg></choice><lb/>
+		  </p></div>
+		  <pb n="3"/>
+			 <div><div><head style="center">
+				 <emph style="case(allcaps)">Judicial Department</emph><lb/>
+				 (Hostesses)<lb/>
+				 <emph style="case(allcaps)">Supreme  Court Justices</emph></head></div></div>
+				 <div><p>Chief Justice...........<name type="person">Mrs. Salome McKinney</name><lb/>
+				 <name type="person">Mrs. Helen Evans</name><lb/>
+				 <name type="person">Mrs. Dorothy Pinkney</name><lb/>
+				 <name type="person">Mrs. Ida Walker</name><lb/>
+				 <name type="person">Mrs. Christine Brown</name><lb/>
+				 <name type="person">Mrs. Dora Mitchell</name><lb/>
+				 <name type="person">Mrs. Lula Gourney</name><lb/>
+				 <name type="person">Mrs. Corrine Cooper</name><lb/>
+				 <name type="person">Miss Constanchie Hines</name><lb/></p></div>
+      	<div><head>Committee Chairman and Committees</head></div>
+			<div><p>
+				General Chairman...........,,,,,<name type="person">Mrs. Wilner W. Dorrell</name><lb/>
+				Co-Chairmen.................<name type="person">Mrs. Amie Currie</name>, <name type="person">Mrs. Robbie Bryant</name>	
+			</p></div>
+		  <div><p>
+		  	<emph style="case(allcaps)">Music</emph><lb/>
+			  <name type="person">Mrs. Lillian T. Robisnon</name>----------Chairman<lb/>
+			  <name type="person">Mrs. Hazel Argrett</name><lb/>
+			  <name type="person">Mrs. Eugenia M. Brown</name><lb/>
+			  <name type="person">Mrs. Julia James</name><lb/>
+		  </p></div>
+		  <div><p>
+		  	<emph style="case(allcaps)">Souvenir Program</emph><lb/>
+			  <name type="person">Mrs. Ola W. George</name>---------Chairman<lb/>
+			  <name type="person">Mrs. Gladys Daniels</name><lb/>
+			  <name type="person">Miss Altamese Weaver</name><lb/>
+			  <name type="person">Mrs. Willie Mack</name><lb/>
+			  <name type="person">Mrs. Theresa Keys</name><lb/>
+			  <name type="person">Mrs. Reatha Owens</name><lb/>
+		  </p></div>
+		  <div><p>
+		  	<emph style="case(allcaps)">Decoration</emph><lb/>
+			  <name type="person">Mrs. Eola Goines</name>-------Chairman<lb/>
+			  <name type="person">Mrs. Anna Lee</name><lb/>
+			  <name type="person">Mrs. P. Calhoun</name><lb/>
+			  <name type="person">Mrs. Mazepha Lewis</name><lb/>
+			  <name type="person">Mrs. Aurilla Grubbs</name><lb/>
+			  <name type="person">Mrs. Madeline Jones Hampton</name><lb/>
+			  <name type="person">Mrs. Leila Moseley</name><lb/>
+			  <name type="person">Mrs. Florence Harris</name><lb/>
+		  </p></div>
+		  <div><p>
+		  	<emph style="case(allcaps)">Program</emph><lb/>
+			  <name type="person">Mrs. Helen Sutton</name>-------Chairman<lb/>
+			  <name type="person">Mrs. Oliva H. Baldwin</name><lb/>
+			  <name type="person">Mrs. Ludie Whittington</name><lb/>
+			  <name type="person">Mrs. Thelma H. Jones</name><lb/>
+			  <name type="person">Mrs. Bertie Simmons</name><lb/>
+		  </p></div>
+		  <div><p>
+		  	<emph style="case(allcaps)">Publicity</emph><lb/>
+			  <name type="person">Mrs. Johnnie M. Thomas</name>------Chairman<lb/>
+			  <name type="person">Mrs. Mary Stevens</name><lb/>
+			  <name type="person">Mrs. Magdaline Peters</name><lb/>
+		  </p></div>
+		  <div><p>
+		  	<emph style="case(allcaps)">Historic</emph><lb/>
+  			  <name type="person">Mrs. B. Gordon</name><lb/>
+			  <name type="person">Miss Eartha M. M. White</name><lb/>
+			  <name type="person">Mrs. Celestine Joyner</name><lb/>
+			  <name type="person">Mrs. Elizabeth Ford</name><lb/>
+		  </p></div>
+		  <div><p>
+			  <choice><orig>(2)</orig><reg></reg></choice><lb/>
+		  </p></div>
+		  <pb n="4" facs= "../images/ew_f_42_003.jpg"/>
+      	<div><div><head><emph style="case(allcaps)">Chairman</emph></head></div></div>
+				 <div><head> <name type="person">Mrs. Wilner W. Dorrell</name></head></div>
+      	<div><div><head><emph style="case(allcaps)">"Looking Forward"</emph></head></div></div>
+		  <div><p style="indent">
+			 On the occasion of this our Woman's Day We Pause momentarily in retrospection.<lb/>
+			 Our Spirit is not one of exaltation, but a spirit of gratitide and high hope.<lb/>
+		 </p></div>
+		  <div><p style="indent">
+			  As we become more nearly <choice><sic>unamious</sic><corr>unanimous</corr></choice>in our pursuit of the knowledge of God, may we<lb/>
+			  strive to be doers of the Word. <choice><orig>then</orig><reg>Then</reg></choice> we shall find our joys becoming fuller.<lb/>
+		  </p></div>
+      	<div><div><head><name type="person">Mrs. Amy Currie</name>, CoChairman</head></div></div>
+      	<div><div><head><name type="person">Mrs. Robbie Bryant</name>, Co-Chairman</head></div></div>
+		  <div><p style="center">
+			  <choice><orig>(3)</orig><reg></reg></choice><lb/>
+		  </p></div>
+		  <pb n="5"/>
+				 <div><head>11:00 A.M. Speaker</head></div>
+      	<div><head><name type="person">Mrs. Annie Bellle Weston</name></head></div>
+				 <div><div><div><head><name type="city">Columbia, <choice><abbr>S. C.</abbr><expan>South Carolina</expan></choice></name>
+				 A. B., M. A., Instructor, <name type="place">Benedict College</name></head></div></div></div>
+      	<div><head><emph style="case(allcaps)">Evening Musical</emph> 7:25 P.M.</head></div>
+      		<div><div><head><emph style="case(allcaps)">Accent on Youth</emph></head></div></div>
+      	<div><head>Speaker</head></div>
+      	<div><head><name type="person">Miss Sylvia Elizabeth Moman</name></head></div>
+		  <div><p style="center">
+			  <choice><orig>(4)</orig><reg></reg></choice><lb/>
+		  </p></div>
+		  <pb n="6"  facs= "../images/ew_f_42_004.jpg"/>
+			  	<div><div><div><head><emph style="case(allcaps)">Lesson Reviewer</emph><lb/>
+				  <name type="person">Miss Norma Ruth Solomon</name></head></div></div></div>
+				  <div><p>Sunday School 9:30 A. M.<lb/>
+				  Superintendents...................<name type="person">Mrs. Mary Washington and Mrs. Bessie Dancer</name><lb/>
+				  Guest Superintendent..............<name type="person">Mrs. Ella Jones</name><lb/>
+				  Guest Artist.....................<name type="person">Mrs. Mae Roberts</name><lb/></p>
+		  </div>
+		  <div><p>
+			  Kindergarten Department<lb/>
+			  <name type="person">Mrs. Vivian Johnson</name><lb/>
+			  <name type="person">Mrs. Dorix Osborne</name><lb/>
+			  <name type="person">Mrs. Alma Glass</name><lb/>
+		  </p></div>
+		  <div><p>
+			  Primacy Department<lb/>
+			  <name type="person">Mrs. Edith Howard</name><lb/>
+			  <name type="person">Mrs. Norris Jackson</name><lb/>
+			  <name type="person">Mrs. Bernice D. White</name><lb/>
+			  <name type="person">Mrs. Beatrice Evans</name><lb/>
+			  <name type="person">Mrs. Emma Levy</name><lb/>
+		  </p></div>
+		 <div><p>
+			  Junior Department<lb/>
+			  <name type="person">Miss Theora Leggins</name><lb/>
+			  <name type="person">Mrs. Josephine Mears</name><lb/>
+			  <name type="person">Mrs. Garolyn Miller</name><lb/>
+			  <name type="person">Mrs. Vivian Satterwhite</name><lb/>
+			  <name type="person">Mrs. Annie L. Patterson</name><lb/>
+		  </p></div>
+		  <div><p>
+			  Young Adult Department<lb/>
+			  <name type="person">Miss Altamese Riley</name><lb/>
+			  <name type="person">Mrs. Annie C. Knight</name><lb/>
+			  <name type="person">Mrs. Vera Wilson</name><lb/>
+		  </p></div>
+		  <div><p>
+			  Intermediate Department<lb/>
+			  <name type="person">Miss Elizabeth Best</name><lb/>
+			  <name type="person">Mrs. Marjorie Stewart</name><lb/>
+		  </p></div>
+		  <div><p>
+			  Senior High Department<lb/>
+			  <name type="person">Mrs. Renelda Jenkins</name><lb/>
+			  <name type="person">Miss Estelle Williams</name><lb/>
+		  </p></div>
+		  <div><p>
+			  Adult Department<lb/>
+			  <name type="person">Mrs. Gladys Barnes</name><lb/>
+			  <name type="person">Mrs. Lucretia Harvey</name><lb/>
+			  <name type="person">Mrs. Rosa Howard</name><lb/>
+			  <name type="person">Mrs. Lois Cain</name><lb/>
+			  <name type="person">Mrs. Essie K. Laidler</name><lb/>
+		  </p></div>
+		  <div><p style="center">
+			  <choice><orig>(5)</orig><reg></reg></choice><lb/>
+		  </p></div>
+		  <pb n ="7"/>
+				  <div><head>Morning Worship 11:00 A.M.</head></div>
+				  <div><p>
+				  	<hi style="center"><name type="person">Mrs. Amy Currie</name>.........Presiding<lb/></hi>
+				  Organ Prelude..............."Meditation".............<name type="person">Ashford</name><lb/>
+				  <hi style="center"><name type="person">Mrs. Lillian T. Robinson</name></hi>
+		  </p></div>
+		  <div><p>
+			  Call to worship........"O, Come let us sing unto the Lord. Let us Make a<lb/>
+			  joyful noise to the Rock of our Salvation, For the <lb/>
+			  Lord is a great God, and a great King. Above <lb/>
+			  all Gods," Psalm 95: 1-3.<lb/>
+		  </p></div>
+		  <div><p>
+			  Processional.......................................................................Choir<lb/>
+			  Glori Patri<lb/>
+			  Scripture.........................................<name type="person">Mrs. G. B. Gardner</name><lb/>
+			  Invocation.........................................<name type="person">Mrs. C. A. Weaver</name><lb/>
+			  Choral Response<lb/>
+			  Morning Hymn...."Lord, In The Morning" (No. 28)....<name type="person">Mrs. Daisy Duncan</name><lb/>
+			  Responsive Reading..........(selection 20).........<name type="person">Mrs. Sadie Tillis</name><lb/>
+			  Selection....."He's Got The Whole World In His Hand"....<name type="person">Miss Altamese Weaver</name><lb/>
+			  Mission Offering..........."Cantibile In B Minor".............<name type="person">Franck</name><lb/>
+			  <hi style="center">
+				  <name type="person">Mrs. W. F. Foster</name><lb/>
+			  </hi>
+			  Prayer for The Sick...............................<name type="person">Mrs. T. V. Randall</name><lb/>
+			  Selection....................."I Heard The Voice Of Jesus Say".....................Choir<lb/>
+			  Announcements......................................<name type="person">Mrs. Ruth Stevens</name><lb/>
+			  Solos................."Morning".....................<name type="person">Frank L. Stanton</name><lb/>
+			<hi style="center">
+			  "I Want Jesus To Walk With Me"...........................................Negro Spiritual<lb/>
+				<name type="person">Mrs. Camilla Peters</name>. Guest Soloist<lb/>
+			</hi>
+			  Memorial..........................................<name type="person">Mrs. Alberta Bevel</name><lb/>
+			  Presentation of Speaker..............................<name type="person">Mrs. Amy Currie</name><lb/>
+			  Speaker..........................................<name type="person">Mrs. Annie B. Weston</name><lb/>
+			  Invitational Hymn...."Amazing Grace" No. 500....<name type="person">Mrs. Courtney N. Carley</name><lb/>
+			  Offertory Appeal.............................<name type="person">Mrs. Courtney N. Carley</name><lb/>
+			  Offertory.........................................<name type="person">Mrs. Wesley Harper</name>, <name type="person">Mrs. Ora Mae Melver</name><lb/>
+			  <name type="person">Mrs. Charlie Wilkerson</name>, <name type="person">Mrs. Alice Johnson</name><lb/>
+			  Acknowledgement of Visitors.....................<name type="person">Mrs. Dora J. Mitchell</name><lb/>
+			  Benediction<lb/>
+			  Doxology.<lb/>
+		  </p></div>
+		  <div><head>
+			  Baptist Training Union 6:00 P.M.</head></div>
+		  	<div><div><head><emph style="case(allcaps)">Presidents</emph>:<lb/>
+			  <name type="person">Mrs. L. B. Callahan</name>, <name type="person">Mrs. Willie Mae Oliver</name>, <name type="person">Mrs. Theresa Keys</name></head></div></div>
+		  <div><p style="center">
+			  <choice><orig>(6)</orig><reg></reg></choice><lb/>
+		  </p></div>
+		  <pb n="8" facs= "../images/ew_f_42_005.jpg"/>
+			  <div><head>Evening Musical 7:25 P.M.</head></div>
+			  <div><div><head>(<emph style="case(allcaps)">Accent on Youth</emph>)</head></div></div>
+			  <div>
+			  <p>	
+			  <hi style="center"><name type="person">Mrs. Robbie Bryant</name>, Presiding</hi>
+			  Call to Worship..............................."O Worship the Lord in the Beauty of Holiness<lb/>
+			  <hi style="right">Fear Before Him, all the Earth" Psalm 96:9</hi><lb/>
+		  </p></div>
+		  <div><p>
+			  <choice><sic>Proccessfonal</sic><corr>Proccessional</corr></choice>.....................Young Adult Choir<lb/>
+			  Presentation of Mistress of Ceremony...................................<name type="person">Mrs. R. Bryant</name><lb/>
+			  Mistres of Ceremony...............................................<name type="person">Mrs. Rosetta Carter</name><lb/>
+			  Scripture and Invocation..........................................<name type="person">Miss Delener Messer</name><lb/>
+			  Selection......"Evening Prayer"...........................................................Childrens Choir<lb/>
+			  Solo.........."Madam Butterfly".....................................<name type="person">Miss LaRita Darby</name><lb/>
+			  Selections, a and b..................................................................The Latimore Singers<lb/>
+			  Instrumental Selection..................................................................Foye Music Studio<lb/>
+			  Readings "It's Not The Church. It's You" "The Creation" <name type="person">Miss Gwendolyn Clark</name><lb/>
+			  Selection.............................................Junior Choir of Mt. Carmel Baptist Church<lb/>
+			  Solos..............."Hold On".....................<name type="person">Hall Johnson</name><lb/>
+			  "Roll o' The Wisp"................................<name type="person">Strauss</name><lb/>
+			  <hi style="center">
+				  <name type="person">Miss Meltonia Cobb</name>. Guest Artist<lb/>
+			  </hi>
+			  Selection.......................................Choir, <name type="place">Grant Memorial A. M. E. Church</name>
+			  Presentation of Speaker..........................<name type="person">Miss Rosemary Sandra Lillenthal</name><lb/>
+			  Speaker "Tomorrow's Future Rests In The Hand of Today's Youth"<lb/>
+			  <name type="person">Miss Sylvia E. Morman</name><lb/>
+			  Invitational Hymn............."Just As I Am"......<name type="person">Miss Betty Harris</name><lb/>
+			  Offertory......<name type="person">Mrs. Beulah McClellan</name>, <name type="person">Mrs. Thelma Agrett</name>, <name type="person">Mrs. Thelma Small</name><lb/>
+			  Presentation of Mister or Miss Future Bethel
+			  Gems of Gratitude............................<name type="person">Mrs. Wilner W. Dorrell</name><lb/>
+			  Acknowledgement of Visitors.....................<name type="person">Miss Mary Mungin</name><lb/>
+			  Closing Remarks.............................The <choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> <name type="person">Robert H. Wilson</name>, Minister<lb/>
+			  Benediction and Doxology<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  <emph style="case(allcaps)">Compliments and <choice><orig>Best</orig><reg>best</reg></choice> <choice><orig>Wishes</orig><reg>wishes</reg></choice></emph><lb/>
+			  <choice><orig>For</orig><reg>for</reg></choice> <choice><orig>A</orig><reg>a</reg></choice> <choice><orig>Successful</orig><reg>successful</reg></choice> <choice><orig>Day</orig><reg>day</reg></choice><lb/>
+			  <name type="person"><choice><abbr>Atty.</abbr><expan>Attorney</expan></choice> D. W. Perkins</name><lb/>
+			  <name type="place">Masonic Temple</name> <name type="address">410 Broad <choice><abbr>St.</abbr><expan>Street</expan></choice></name><lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="place">Weaver's Grocery and<lb/>
+			  Confectionary</name><lb/>
+			  Service <choice><orig>With</orig><reg>wish</reg></choice> <choice><orig>A</orig><reg>a</reg></choice> <choice><orig>Smile</orig><reg>smile</reg></choice><lb/>
+			  <name type="address">15th and Davis Streets</name><lb/>
+			  Across from <name type="place">Isaiah Blocker School</name><lb/>
+		  </p></div>
+		  <div><p style="center">
+			  <choice><orig>(7)</orig><reg></reg></choice><lb/>
+		  </p></div>
+		  <pb n="9"/>
+		  <div><p style="center">
+			  Compliments of</p></div>
+			  <div><head><emph style="case(allcaps)"><name type="organization">Walker Vocational and<lb/>
+			  Commercial College</name><lb/></emph></head></div>
+			  <div><div><head><name type="address">1832 Myrtle Avenue</name> Phone ELgin 4-3453</head></div></div>
+			  <div><p style="center">Business Administration - Secretarial - Beauty Culture - Radio<lb/>
+			  Television Technician - Tailoring - Uphostery<lb/>
+			  <name type="organization">Member National Association of Private Schools</name><lb/>
+			  "Largest Institution of its Kind in the Southeast"<lb/>
+			  <name type="person">Charles H. Hargraves</name>, President Established 1916<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Yours <choice><orig>For</orig><reg>for</reg></choice> <choice><orig>Success</orig><reg>success</reg></choice><lb/>
+			  <name type="person">Mr. Fred Alexander</name><lb/>
+			  Grand High Priest of the<lb/>
+			  <name type="organization">Royal Arch Masons of Florida</name><lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="person">Mrs. Eunice Lockett</name><lb/>
+			  <name type="place">Lockett's Jewlery Store</name><lb/>
+			  <name type="address">720 Davis Street</name> Phone EL 5-1888<lb/>
+		  </p></div>
+		  <div><p rend ="center">
+			  <choice><orig>(8)</orig><reg></reg></choice><lb/>
+		  </p></div>
+		  <pb n="10" facs= "../images/ew_f_42_006.jpg"/>
+		  <div><p style="center">
+		  	<emph style="case(allcaps)">Compliments and best wishes</emph><lb/>
+			  for a <choice><orig>Successful</orig><reg>successful</reg></choice> <choice><orig>Day</orig><reg>day</reg></choice>
+			  <name type="person">Major Bryant</name><lb/>
+			  <emph style="case(allcaps)"><name type="person">Thomas Florist</name></emph><lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="person">Allen L. Bannister</name>,<lb/>
+			  Salesman<lb/>
+			  Men and Women's <choice><sic>Taylor-made</sic><corr>tailor-made</corr></choice><lb/>
+			  <choice><orig>Suits</orig><reg>Suits</reg></choice><lb/>
+			  "Made <choice><orig>Especially</orig><reg>especially</reg></choice> <choice><orig>For</orig><reg>for</reg></choice> <choice><orig>You</orig><reg>you</reg></choice>"<lb/>
+			  <name type="address">1573 <choice><abbr>W. </abbr><expan>West </expan></choice>10th <choice><abbr>St. </abbr><expan>Street </expan></choice></name>Phone EL 6-4003<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="person">John G. Staley</name><lb/>
+			  Contractor-Builder<lb/>
+			  Small <choice><orig>Jobs</orig><reg>jobs</reg></choice> <choice><orig>Appreciated</orig><reg>appreciated</reg></choice><lb/>
+			  <name type="address">2503 McMillan <choice><abbr>St</abbr><expan>Street</expan></choice></name> Phone EL 6-9002<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="place">W.F. Faust Barber Shop</name><lb/>
+			  "The Old D. George Shop"<lb/>
+			  Efficient Service Any Time<lb/>
+			  <name type="address">1108 Davis <choice><abbr>St.</abbr><expan>Street</expan></choice></name> Phone EL 4-5292<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="place">Hollywood<lb/>
+			  Music Store</name><lb/>
+			  Special Attention Given to Mail<lb/>
+			  <name type="address">605 <choice><abbr>W,</abbr><expan>West</expan></choice> <choice><abbr>St.</abbr><expan>Street</expan></choice></name> Phone EL 4-0710<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="place">Wilner's Beauty Salon</name><lb/>
+			  Specialling in the Latest Creations<lb/>
+			  and Phases of Beauty Culture<lb/>
+			  <emph style="case(allcaps)">No appointment necessary</emph><lb/>
+			  Associate Operator - <name type="person">Mrs. Irene Harrison</name><lb/>
+			  <name type="person">Wilner W. Dorrell</name>. State Inspector of <lb/>
+			  Beauty Shops<lb/>
+			  <name type="address">1736 Davis <choice><abbr>St,</abbr><expan>Street</expan></choice></name> Phone EL 3-6228<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="place">Singleton's Superior<lb/>Bar-B-Q</name><lb/>
+			  Specializing in <choice><orig>Barbecued</orig><reg>barbecued</reg></choice> <choice><orig>Ribs</orig><reg>ribs</reg></choice> &amp; <choice><orig>Chicken</orig><reg>chicken</reg></choice><lb/>
+			  No 1 <name type="address">4238 Moncreif Road</name><lb/>
+			  No. 2 <name type="address">825 Broad Street</name><lb/>
+			  No. 3 <name type="address">847 Florida Avenue</name><lb/>
+			  No. 4 <name type="address">700 <choice><abbr>W.</abbr><expan>West</expan></choice> Ashley Street</name><lb/>
+			  <name type="person">Isadore Singleton</name>, Owner<lb/>
+			  <name type="person">James O. Walker</name>, General Manager<lb/>
+		  </p></div>
+		  <div><p>
+		  	<emph style="case(allcaps)">Compliments of</emph><lb/>
+			  <name type="place">Broadnax<lb/>Service Station</name><lb/>
+			  <name type="person">J.H. Broadnax</name>, Manager<lb/>
+			  Gas, Oil, Accessories, Washing, Greasing,<lb/>
+			  Storage, Battery, Service<lb/>
+			  <name type="address">916 <choice><abbr>W.</abbr><expan>West</expan></choice> State Street</name> Phone EL 4-9264<lb/>
+		  </p></div>
+		  <div><p>
+			  <choice><orig>(9)</orig><reg></reg></choice><lb/>
+		  </p></div>
+		  <pb n="11"/>
+		 <div> <p style="center">
+			  Compliments of</p></div>
+			  <div><head><name type="company">Afro-American Life Insurance Company</name><lb/></head></div>
+			  <div><p>Security<lb/>
+			  Service<lb/>
+			  Safety<lb/>
+			  <name type="person">Dr. <choice><abbr>Jas.</abbr><expan>James</expan></choice> H. Lewis</name> <name type="person">I. H. Burney</name> <name type="person">Mrs. Mary L. Betsch</name><lb/>
+			  Chairman-President Vice <choice><abbr>Pres.</abbr><expan>President</expan></choice> Secretary Executive Vice <choice><abbr>Pres.</abbr><expan>President</expan></choice> - Treasurer<lb/>
+			  <name type="person">James C<choice><orig/><reg>.</reg></choice> Evans</name>, Vice President<lb/>
+			  New Home Office: 101 <name type="address">101 <choice><abbr>E.</abbr><expan>East</expan></choice> <emph style="case(allcaps)">Union Street</emph></name> Serving <name type="state">Florida</name>-<name type="state">Georiga</name>-<name type="state">Alabama</name><lb/>
+		  </p></div>
+		  <div><p rend ="center">
+			  Compliments of<lb/>
+			  <name type="person">Dr. O.W. McIntosh</name>, M.D.<lb/>
+			  <name type="address">710 <choice><abbr>W.</abbr><expan>West</expan></choice> Beaver <choice><abbr>St.</abbr><expan>Street</expan></choice></name> Phone EL 4-1200<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="person">Rudy Williams</name><lb/>
+			  <name type="company">Carter Furniture <choice><sic>Cnmpany</sic><corr>Company</corr></choice></name><lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="place">Roosevelt Grill</name><lb/>
+			  "Delicious Food Any Time"<lb/>
+			  <name type="address">816 <choice><abbr>W.</abbr><expan>West</expan></choice> Ashley <choice><abbr>St.</abbr><expan>Street</expan></choice></name> Phone EL 4-9349<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="place">Myrtle <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice> Cleaners</name><lb/>
+			  <name type="person">I. H. Caffey</name>, Prop.<!--unknown abbreviation--> Notary Public<lb/>
+			  Income Tax Service <name type ="address">3328 Myrtle <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice></name><lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments<lb/>
+			  <name type="place">Jones Confectionary</name><lb/>
+			  <name type="address">Jefferson &amp; Beaver <choice><abbr>Sts.</abbr><expan>Streets</expan></choice></name> Phone EL 6-9452<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="person">Mrs. Courtney Nauweta Carley</name><lb/>
+			  Fashionable Dressmaking<lb/>
+			  <name type="address">1342 <choice><abbr>W.</abbr><expan>West</expan></choice> 10th <choice><abbr>St.</abbr><expan>Street</expan></choice></name> Phone EL 6-7767<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+		  	<name type="place"><emph style="case(allcaps)">Bill's Sundries</emph></name><lb/>
+			  "Try Us For Satisfaction"<lb/>
+			  <name type="address">201 Park <choice><abbr>St.</abbr><expan>Street</expan></choice></name> <name type="person">W. H. Bannister</name>, Prop<!--unknown abbreviation--><lb/>
+		  </p></div>
+		  <div><p style="center">
+		  	<emph style="case(allcaps)">Compliments</emph><lb/>
+			  <name type="person">W. F. Hill</name><lb/>
+			  Your Electrolux Vacuum Representative<lb/>
+			  <name type="address">128 <choice><abbr>E.</abbr><expan>East</expan></choice> Bay <choice><abbr>St.</abbr><expan>Street</expan></choice></name> Phone EL 6-3046<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments of<lb/>
+			  <name type="place">Moreland Tire Supply</name><lb/>
+			  Tubes-Recapping- Tires - Vulcanizing<lb/>
+			  Tubes, Tires, Flats Fixed, Road Service<lb/>
+			  <name type="address">3409 Kings Road</name> Phone EL 4-9451<lb/>
+		  </p></div>
+		  <div><p style="center">
+			  Compliments<lb/>
+			  <emph style="case(allcaps)"><name type="place">Davis <choice><abbr>St.</abbr><expan>Street</expan></choice> Shoe Factory</name></emph><lb/>
+		  </p></div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Annie A. Gray to Eartha M. M. White. July 11, 1920</title>
+            <author>Annie A. Gray</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding by</resp>
+               <name>K. Anagnostou and Marisa Pechillo</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document was produced as part of the project "Northeast Florida Editing Workshop" at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>
+                  <settlement>Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection>Eartha M. M. White Collection</collection>
+                  <idno>Folder U1 Item 0410</idno>
+                  <altIdentifier>
+                     <collection><!-- If you have accessed a digital copy of the item through an online collection, indicate the name and URL of the online collection here.--></collection>
+                     <idno><!-- Indicate the item number or whatever is used to designate the item within that online collection here.--></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>A letter from Annie A. Gray to Eartha M.M. White discussing her friend's job search, pastor's vacation, acquaintance's marriage, and Eartha M.M. White's ill mother. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>The letter consists of three handwritten pages on plain bifold card in fair condition with slight darkening and few stains</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Northeast Florida Editing Workshop" (nfew.org) at the University of North Florida. Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+
+         <pb n="1" facs= "../images/ew_u1_410_001.jpg"/>
+         
+            <opener> <!-- How to indent only the city and date to right alignment? -->
+               <!-- This isn't how it should be done, but it works for now, sort of. It starts these two lines half way across but doesn't right-align. -CM 2020-07-20 -->
+              <dateline style="mid-page">
+                  <name type="place" subtype="city">
+                     Washington<choice><orig></orig><reg>,</reg></choice> D.C.<choice><orig>,</orig><reg></reg></choice></name>
+                 </dateline><lb/>
+               <dateline style="mid-page">
+                  <date when="1920-07-11">
+                     July 11, 1920<choice><orig>.</orig><reg></reg></choice>
+                  </date>
+               </dateline>
+               <salute>
+                  My dear <name type="person">Eartha</name><choice><orig>-</orig><reg>,</reg></choice>
+               </salute>
+            </opener>
+         <p>
+            Just a word to cheer you -<lb/>
+            received card and glad to<lb/>
+            note that <name type="person">Mama White</name><note type="editorial">Likely reference to Clara White, Eartha White's mother</note> is<lb/>
+            no worse at least, though<lb/>
+            I was in hopes she was<lb/>
+            better.         
+         </p>
+         <p>
+            <name type="person">Brother Ross</name> drops in on<lb/>
+            me (and I mean drops in)<lb/>
+            every now and then so on last<lb/>
+            Thursday I carried him<lb/>
+            to prayer meeting. 
+         </p>
+         <note type="transcription">The text on the left page is transcribed as the third and final page of this letter as it appears to be contiguous to the end of the second page.</note>
+         <pb n="2" facs= "../images/ew_u1_410_002.jpg"/>
+         <p>
+            He said he could not hear <lb/>
+            <name type="person">Dr. Grimke</name><note type="editorial">Possible reference to Francis J. Grimk&#xe9;, a Presbyterian minister who served in Washington D.C. and Jacksonville, Florida. See "The Earnest Protest of Francis Grimké". Prebysterian Historical Society The National Archives of PC(USA), https://www.history.pcusa.org/blog/2016/07/earnest-protest-francis-grimk%C3%A9. Accessed 18 July, 2020.</note> very good<choice><orig>,</orig><reg>.</reg></choice> <choice><orig>'</orig><reg></reg></choice><choice><orig>of</orig><reg>Of</reg></choice> course<choice><orig></orig><reg>,</reg></choice><lb/>
+            <name type="person">Grimke</name> does not try to make<lb/>
+            <hi style="underline">deaf</hi> people hear.
+         </p>
+         <p>
+            <name type="person">Mr. Grimke</name> leaves next week for<lb/>
+            his vacation which ends the<lb/>
+            <choice><orig>2',,</orig><reg>second</reg></choice> Sunday in <choice><orig>Sept.</orig><reg>September</reg></choice><choice><orig></orig><reg>.</reg></choice> <choice><orig>quite</orig><reg>Quite</reg></choice> long<lb/>
+            for a pastor<choice><orig></orig><reg>,</reg></choice> don't you think?<lb/>
+            <name type="person">Ross</name> hopes to get a church or<lb/>
+            a <choice><orig>Gov't.</orig><reg>government</reg></choice> position<choice><orig></orig><reg>,</reg></choice> but I think<lb/>
+            he had better find something<lb/>
+            else to do as he is rather<lb/>
+            old for either job and now<lb/>
+            they are putting men of his<lb/>
+            <choice><orig>'</orig><reg></reg></choice>age <hi style="underline">out</hi> of the <choice><orig>'</orig><reg></reg></choice>offices on a<lb/>
+            pension<choice><orig>-</orig><reg>.</reg></choice> <choice><orig>hardly</orig><reg>Hardly</reg></choice> think he can<lb/>
+            make good there<choice><orig>-</orig><reg>.</reg></choice> <choice><orig>i</orig><reg>I</reg></choice>s he going<lb/>
+            all his life depending on a<lb/>
+            little invitation here and there<lb/>
+            to preach? <choice><orig>d</orig><reg>D</reg></choice>id his wife send<lb/>
+            him from home? It looks so <hi style="underline">de-<lb/></hi><hi style="underline">pendent</hi> to me. He told me that<lb/>
+            his grand<choice><orig>-</orig><reg></reg></choice>daughter married <name type="person">Dr.<lb/>
+            Campbell.</name> <choice><orig>how</orig><reg>How</reg></choice> about it? Wish them<lb/>
+            success. Well<choice><orig></orig><reg>,</reg></choice> kiss <name type="person">Mama White</name> </p>
+         <p>
+         <note type = "transcription">The text of the letter continues in a non-contiguous block on the left inner page of the card at a ninety-degree angle to the first page of the letter on the right.</note>
+         <pb n ="3" facs="../images/ew_u1_410_001.jpg"/></p>
+         <p>
+         for me and tell her I say to<lb/>
+         get well so she can cook some<lb/>
+         more cabbage and soup for me<choice><orig>-</orig><reg>,</reg></choice><lb/>
+         that we can sit up half the night<lb/>
+         and talk.
+         </p>
+         <p>
+            Old Pal, I do hope by now she<lb/>
+            is feeling much better<choice><orig>-</orig><reg>.</reg></choice> <choice><orig>we</orig><reg>We</reg></choice> are<lb/>
+            still praying for you on this end<choice><orig></orig><reg>.</reg></choice><lb/>
+            <choice><orig>although</orig><reg>Although,</reg></choice> <name type="person">Dr. <unclear cert="medium" reason ="Characters are hard to distinguish">Ford</unclear></name><note type="editorial">Possible reference to John E. Ford, Pastor at Bethel Baptist Institutional Church. See “Program of the 93rd Anniversary Home Coming and Jubilee Celebration, Bethel Baptist Institutional Church,” 1931, Eartha M.M. White Collection, University of North Florida, Thomas G. Carpenter Library Special Collections and Archives. UNF Digital Commons, https://digitalcommons.unf.edu/eartha_materials/16/. Accessed 18 July 2020.</note> used to tell me<lb/>
+            I have no religion<choice><orig>-</orig><reg>.</reg></choice> <choice><orig>perhaps</orig><reg>Perhaps</reg></choice> some<lb/>
+            day it may be put to its test, some<lb/>
+            day soon. Love to the <name type="person">Pratts</name> and<lb/>
+            every<choice><orig> </orig><reg></reg></choice>body<choice><orig>-</orig><reg>.</reg></choice>
+         </p>
+         <closer>
+            <salute>
+               Lovingly yours,
+            </salute>
+            <signed>
+               <name type="person">
+                  Annie
+               </name>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

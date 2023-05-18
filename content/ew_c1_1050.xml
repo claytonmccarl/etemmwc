@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader> 
+      <fileDesc>
+         <titleStmt>
+            <title>News article "Architect to Submit Girls' Cottage Plan." Jacksonville, FL. No date given.</title>
+            <author>Unknown</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Tru Leverette Hall and Janaya Ferrer</name> <!-- person adds their name here-->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>
+                  <settlement>Jacksonville</settlement>
+                  <repository>University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection>Eartha M. M. White Collection</collection>
+                  <idno>Folder C1, Item 1050</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes a news article regarding Duval County Parental Home - a cottage type building to accommodate thirty girls and the administrative offices.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single clipping of a typewritten news article.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_c1_1050_001.jpg"/> 
+         <div><head style="center">Architect to Submit<lb/>
+                    Girls' Cottage Plan</head></div>
+         <div>
+            <p style="center">----------</p>
+            <p style="indent">
+                Plans for a cottage type building to<lb/>
+                accommodate thirty girls and the ad-<lb/>
+                ministration offices of the <name type="organization">Duval Coun-<lb/>
+                ty Parental home</name> will be presented by<lb/>
+                <name type="person">Jefferson D. Powell</name>, <name type="person">architect</name>, at the<lb/>
+                regular meeting of the <choice><orig>Parental</orig><reg>parental</reg></choice> home<lb/>
+                board of managers, to be held at the<lb/>
+                <name type="place">courthouse</name> at 9 o’clock this morning.<lb/>
+            </p>
+            <p style="indent">
+                The building will be the first unit of<lb/> 
+                the two-unit plant contemplated in the<lb/>
+                act of legislature authorizing the ex-<lb/>
+                penditures of $50,000 for the home for<lb/>
+                delinquent and dependent children who<lb/>
+                become wards of the juvenile court in<lb/>
+                the county.<lb/>
+            </p>
+            <p style="indent">
+                Until the second unit is constructed<lb/> 
+                next year, the boys will be quartered in<lb/>
+                an available building near the 30-acre<lb/>
+                tract near <name type="place">Hogan</name> on which the home<lb/> 
+                is to be built, it was said.<lb/>                
+            </p>
+
+         </div>
+      </body>
+  </text>
+</TEI>

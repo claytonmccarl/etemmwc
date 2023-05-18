@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from George to Eartha M.M. White. April 30, 1896. Jacksonville, Florida.</title>
+            <author>George</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Bethany Jerger</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder J2, Item 513</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author notifies White of death of mutual friend James Jordan.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Date Written: (April?), 30, 1896. A full page (four sides) taken from a small book, half of one page is missing but doesn't seem to be missing any text. Approximately 5x9. Very good condition</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_j2_513_001.jpg"/><!-- Here is your first page break. You need to make the image name here match the name of your file -->
+         <p>
+            <name type="place" subtype="city">Jacksonville Fla</name> <unclear cert="medium" reason="number is unclear"><date when="1896-04-30">4/30th 96</date></unclear>
+            <!--- evidence gathered that resulted in the information on https://www.unf.edu/library/specialcollections/manuscripts/eartha-white/Eartha_White_Selected_Resources.aspx
+            about the month of James Jordan's death leads to the numer 4 (April) being the best plausible guess as to what the 
+            author of the letter intended to write -->
+             
+         </p>
+            <div>
+             
+               <opener> 
+                <salute>
+                  Dear <name type="person">Eartha</name> :<lb/>
+               </salute>
+            </opener>
+               
+            </div>
+               
+           <div>
+              <p>
+            I sit with Pen in<lb/>
+            hand to tell you the <lb/>
+            Sad news of our friend <lb/>
+                 <name type="person">James Jordan</name><choice><orig/><reg>.</reg></choice> he <choice><sic>pass</sic><corr>passed</corr></choice> <lb/>
+            away this afternoon<lb/>
+                 after four 4- Clock<choice><orig/><reg>.</reg></choice> I did <lb/>
+                
+            Not get to see him, <choice><sic>witch</sic><corr>which</corr></choice>  <lb/>
+                 I was very much disappointed<choice><orig/><reg>.</reg></choice> <lb/>
+                 But I guess he is Better off<choice><orig/><reg>.</reg></choice>  <lb/>
+            I do not <choice><sic>no</sic><corr>know</corr></choice>  what time the <lb/>
+                 <choice><sic>funural</sic><corr>funeral</corr></choice> will Take Place<choice><orig/><reg>,</reg></choice>  I <lb/>
+                 Suppose <choice><sic>tomarrow</sic><corr>tomorrow</corr></choice>  afternoon<choice><orig/><reg>.</reg></choice>  <lb/> 
+            
+                 <pb n="2" facs="../images/ew_j2_513_002.jpg"/>
+            I thought that I would <lb/>
+                 let you know at once<choice><orig/><reg>.</reg></choice>  <lb/>
+            I have nothing <choice><sic>intristing</sic><corr>interesting</corr></choice>  <lb/>
+            to tell you in this <lb/>
+                 letter<choice><orig/><reg>.</reg></choice>         Your Friend<choice><orig/><reg>,</reg></choice>  <lb/>
+            George <lb/>
+                 <gap reason="part of page missing from document"/> 
+                 <!-- Highly confident missing part of page does not contain more of the letter -->
+                
+         </p>
+           </div>
+      </body>
+  </text>
+</TEI>

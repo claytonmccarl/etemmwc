@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Church Terrell promotional pamphlet</title>
+            <author>Slayton Lyceum Bureau</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding</resp>
+               <name>K. Anagnostou</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder K, Item 1130 <!-- this should be filled in --></idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>This pamphlet promotes Terrell's skill as an orator, including a brief biography of her life and praise from important figures around the country.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A printed pamphlet of four pages. The first and final pages include photographs of Terrell.  <!-- describe material , number of pages, print or handwritten, condition, dimensions etc.--> </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs="../images/ew_k_1130_001.jpg"/>
+         <!-- This text is rather decorative and within an illustration of an inkwell, pen, and flowers. It is located in the upper left corner of the page and similarly situated to a large photograph of Mary Church Terrell-->
+         <div><head style="case(allcaps)"><name type="person">Mary Church Terrell</name></head></div>
+         
+         <pb n="2" facs="../images/ew_k_1130_002.jpg"/>
+         <!-- There is a narrow decorative panel with ornate illustrations on the left side of this page-->
+         <div><head style="case(allcaps)"><name type="person">Mrs. Mary Church Terrell</name><lb/>
+            <hi style="center">of <name type="place">Washington, D.C.</name></hi></head></div>
+         <!-- This header is flanked by illustrations of an eagle in a wreath atop a garland -->
+         <div><div><head style="case(allcaps)">Announcement</head></div></div>
+         
+         <div><p>
+            We present <name type="person">Mrs. Terrell</name> as one of the really suc<lb break="no"/>cessful<lb/>
+            women of this country, and as one who<lb/>
+            has an important mission. She has a message<lb/>
+            to deliver to the American people which in her day is<lb/>
+            as important as was that of <name type="person">Harriet Beecher Stowe</name> in<lb/>
+            <title level="m">"Uncle Tom's Cabin."</title> Indeed, it may be considered sup<lb break="no"/>plementary<lb/>
+            to that great work. It is fortunate that to<lb/>
+            the work <name type="person">Mrs. Terrell</name> brings a liberal education, a becom<lb break="no"/>ing<lb/>
+            modesty and refinement of manner which give promise<lb/>
+            of great usefulness. She is specially gifted in speech and<lb/>
+            in her every platform appearance readily captivates her<lb/>
+            audience. She is so profoundly in earnest that she invar<lb break="no"/>iably<lb/>
+            carries conviction to those who hear her.
+         </p></div>
+         
+         <div><p>
+            For the sake of the cause in behalf of which <name type="person">Mrs.<lb/>
+            Terrell</name> speaks, we hope to secure for her many and im<lb break="no"/>portant<lb/>
+            engagements during the next three years, for<lb/>
+            which time we have assumed the direction of her plat<lb break="no"/>form<lb/>
+            work.--<hi style="italic">The Management</hi>
+         </p></div>
+         <!-- This header is flanked by garland-like illustrations -->
+         <div><div><div><head style="case(allcaps)">Introduction</head></div></div></div>
+         
+         <div><p>
+            <name type="person">Mrs. Mary Church Terrell</name> was born in <name type="place" subtype="city">Memphis, <choice><abbr>Tenn.</abbr><expan>Tennessee</expan></choice></name>, of colored parentage.<lb/>
+            She was taken to <name type="place" subtype="city">Oberlin, Ohio</name>, when a child, and was graduated later from the<lb/>
+            classical course of <name type="place">Oberlin College</name>. Her immediate worth was apparent, in that she<lb/>
+            was invited, upen her graduation, to become registrar and tutor in <name type="place">Oberlin College</name>.<lb/>
+            This would have made her a member of its faculty. The honor of this call was<lb/>
+            great, for it was the first and only such that has ever been given to one of the negro<lb/>
+            race by a college of such rank as <name type="place">Oberlin</name>. She was <name type="person">Miss Church</name> then, and declined<lb/>
+            the call, because she was soon to marry <name type="person">Mr. Terrell</name>, whose wife she now is. Before<lb/>
+            marriage, <name type="person">Mrs. Terrell</name> spent some years in Europe in study and travel. She studied<lb/>
+            French at <name type="place" subtype="city">Paris</name> and <name type="place" subtype="city">Lausanne, Switzerland</name>, a year. Then she studied German for one<lb/>
+            year at <name type="place" subtype="city">Berlin</name>, enjoying, in the meantime, the German opera and theater. After<lb break="no"/>wards<lb/>
+            she went to Italy, and in <name type="place" subtype="city">Florence</name> studied Italian, having advantage at the<lb/>
+            same time of the world's famous art galleries. Behind all the culture from her<lb/>
+            advantages was <name type="person">Mrs. Terrell</name> herself, who at once appealed to all who met her, and<lb/>
+            made them want to know her.
+         </p></div>
+         
+         <div><p>
+            <name type="person">Mrs. Terrell</name> was the first colored woman to serve on the Board of Trustees of the Wash<lb break="no"/>ington<lb/>
+            Public Schools and through her energy and intelligence made her influence felt through<lb break="no"/>out<lb/>
+            the system. She was the first president of the <name type="organization">National Association of Colored Women</name>, to<lb/>
+            which position she was elected three times, and declining to serve further was made Honorary<lb/>
+            President for life.
+         </p></div>
+         
+         <pb n="3"/>
+         <!-- There is a narrow decorative panel with ornate illustrations on the right side of this page-->
+         <div><div><head style="case(allcaps)">Significant Opinions of Public and Pla<gap reason="document torn"/><lb/>
+            <!-- This part of the header is flanked by the same garland-like illustrations that flank the Introduction header -->
+            People of Note</head></div></div>
+         
+         <!-- Use the following as a template for the rest of the text on page 3 -->
+         <div><p><hi style="italic">From <emph style="case(allcaps)"><name type="person">Senator Dolliver</name></emph> of Iowa.</hi></p></div>
+         <div><p style="indent">She is one of the most eloquent women in America.</p></div>
+         
+         <div><p><hi style="italic">From <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> <emph style="case(allcaps)">Anna H. Shaw</emph></name> and <name type="person">Mrs. <emph style="case(allcaps)"><choice><abbr>Wm.</abbr><expan>William</expan></choice> Lloyd Garrison.</emph></name></hi></p></div>
+         <div><p style="indent">It gives us pleasure to endorse <name type="person">Mrs. Mary Church Terrell</name> as a woman of education and<lb/>
+            intelligence. She is a magnetic speaker and holds the undivided interest of her audience.</p></div>
+         
+         <div><p><hi style="italic">From <emph style="case(allcaps)"><name type="person">Le Temps</name></emph>, <name type="place" subtype="city">Paris, France</name>, <date when="1904-06-24">June 26, 1904</date>.</hi></p></div>
+         <div><p style="indent">The woman who made the best appearance at the convention of the <name type="organization">International Congress of<lb/>
+            Women</name> (which was held in <name type="place" subtype="city">Berlin, Germany</name>, <date when="1904-06">June, 1904</date>) was <name type="person">Mrs. Terrell</name> of Washington, "a lady of<lb/>
+            Andalusian complexion," who in ease of manner, gracefulness and force of gesture and naturalness<lb/>
+            of expression was ahead of all the other oratrices. <name type="person">Mrs. Terrell</name> spoke in German with the same fluency<lb/>
+            and ease as in her native tongue.</p></div>
+         
+         <div><p><hi style="italic">From <emph style="case(allcaps)"><name type="person">Isabel Beecher Hooker</name></emph></hi></p></div>
+         <div><p style="indent">At a convention, composed of the brainiest women of the United States, <name type="person">Mrs. Mary Church<lb/>
+            Terrell</name>, of Washington, proved herself to be an orater among orators. She is a speaker of superior<lb/>
+            ability, fine presence and strong magnetic power — graceful, eloquent, logical. <name type="person">Mrs. Terrell</name> is one of the<lb/>
+            coming women of America.</p></div> 
+         
+         <div><p><hi style="italic">From <emph style="case(allcaps)"><name type="person">Mrs. Ida Husted Harper</name></emph>.</hi></p></div>
+         <div><p style="indent">Commenting upon the <name type="organization">International Congress of Women</name> in a syndicate letter to some of the<lb/>
+            largest newspapers in the country<choice><orig></orig><reg>,</reg></choice> <name type="person">Mrs. Ida Husted Harper</name> said: Mrs. Terrell was able to deliver one<lb/>
+            speech in excellent German, and one equally good in French. This achievement on the part of a colored<lb/>
+            woman, added to a fine appearance and the eloquence of her words, carried the audience by storm and<lb/>
+            she had to respond three times to the encores before they were satisfied. It was more than a personal<lb/>
+            triumph, it was a triumph for her race.</p></div> 
+         
+         <div><p><hi style="italic">From <emph style="case(allcaps)"><name type="person">Dr. J.E. Rankin</name></emph>, Pres. of <name type="place">Howard University</name>, <name type="place" subtype="city">Washington, D.C.</name></hi></p></div>
+         <div><p style="indent"><name type="person">Mrs. Mary Church Terrell</name> lectured on" The Progress of Colored Women." Her graceful<lb/> 
+            manner, and perfect self-possession, her ease and correctness in speaking, added greatly to the<lb/>
+            pleasure of listening, while, when she was done, we all felt that the subject had been treated with<lb/>
+            a dignity, enthusiasm and intelligence worthy of the theme.</p></div>
+         
+         <div><p><hi style="italic">From <emph style="case(allcaps)"><name type="person">Ballington Booth</name></emph>, <date when="1903-12-04">December 4, 1903</date>.</hi></p></div>
+         <div><p style="indent"><name type="person">Mary Church Terrell</name> is, in my opinion, an able platform woman. She possesses in more<lb/>
+            than ordinary degree the essentials for public work. She is perfectly natural in manner, clear<lb/>
+            and consecutive in delivery and forcible in logic. I have before remarked, and again unhesitat<lb break="no"/>ingly do so, that many a princess would part with a princess' ransom had they her gift of mag<lb break="no"/>netism and delivery.
+         </p></div>
+         
+         <div><p><hi style="italic">From <emph style="case(allcaps)"><name type="person">Mrs. John A. Logan</name></emph>, in <title level="m">New York Journal</title>, <date when="1905-05-07">May 7, 1905</date>.</hi></p></div>
+         <div><p style="indent">One of the ablest addresses of the session of the <name type="organization">National Council of Women</name> (held in <name type="place" subtype="city">Wash<lb break="no"/>ington,<lb/>
+            D. C.</name>, <date when="1905-04">April, 1905</date>) was that of <name type="person">Mrs. Mary Church Terrell</name>. She is a woman of rare attainments<lb/>
+            and culture and in handling her subject displayed logic and courage and without covering unimportant<lb/>
+            ground delivered some strong blows. She told some startling truths in a dignified and intelligent way.<lb/>
+            There was really more in her address than in any other given before the council.</p></div>
+         
+         <div><p><hi style="italic">From Editorial in <title level="m">Washington, D. C. Post</title>, <date when="1904-07-19">July 19, 1904</date>.</hi></p></div>
+         <div><p style="indent">The hit of the <name type="organization">International Congress of Women</name> on the part of the American delegates was made<lb/>
+            by <name type="person">Mrs. Mary Church Terrell</name> of Washington, who delivered one speech in German and another in<lb/>
+            equally good French. <name type="person">Mrs. Terrell</name> is a colored woman who appears to have been beyond every other<lb/>
+            of our delegates prominent for her ability to make addresses in other than her own language.</p></div>
+         
+         <div><p><hi style="italic">From <emph style="case(allcaps)"><name type="person">Booker T. Washington</name></emph></hi></p></div>
+         <div><p style="indent">This is to say that for many years I have known <name type="person">Mrs. Mary Church Terrell</name> of <name type="place" subtype="city">Washing<lb break="no"/>ton,<lb/>
+            D. C.</name> She is a platform speaker possessed of a unique and commanding personality and<lb/> 
+            will interest any audience to which she may be permitted to address herself. She speaks out of<lb/>
+            a cultured mind and quickly wins a sympathetic response from her audience. Her delivery is <lb/>
+            forceful and her expression fluent and descriptive.</p></div>
+         
+         <pb n="4" facs="../images/ew_k_1130_003.jpg"/>
+         <!-- This header is flanked by curlicue type of illustrations -->
+         <div><div><head style="case(allcaps)">Press Reflections</head></div></div>
+         
+         <cb/>
+         <div><p>
+            <gap reason="document torn"/><hi style="italic">News </hi>-- <name type="person">Mrs. Terrell</name> well<lb/>
+            <gap reason="document torn"/>le Booker T. Wash-<lb/>
+            <gap reason="document torn"/>e title to aid her<lb/>
+            <gap reason="document torn"/>oratorical world.
+            <gap reason="document torn"/>
+            <gap reason="document torn"/>k of<lb/>
+            <gap reason="document torn"/>er<lb/>
+            <gap reason="document torn"/>
+            <gap reason="document torn"/>ng<lb break="no"/>ton<lb/>
+            " had complete mastery<lb/>
+            of her subject.
+         </p></div>
+         
+         <div><p style="indent">
+            <hi style="italic"><title level="m">Winona (<choice><abbr>Ind.</abbr><expan>Indiana</expan></choice>) Assembly<lb/>
+               Review</title> —</hi> The colored race<lb/>
+            needs no better proof of its<lb/>
+            bright side than the existence<lb/>
+            of a woman like <name type="person">Mrs. Mary<lb/>
+            Church Terrell</name>. Graceful, magnetic, bearing the un<lb break="no"/>mistakable stamp of a broad culture, education and<lb/>
+            refinement, a woman whose vast knowledge of her<lb/>
+            own and other races left her far above the average<lb/>
+            woman of whatever color, she stood upon Winona's<lb/>
+            platform yesterday and captured the hearts of her<lb/>
+            audience. Beginning with the idea of placing hope<lb/>
+            before the race, rather than dwelling upon its vices,<lb/>
+            she showed that the surest way to elevate was to<lb/>
+            dwell upon its virtues and achievements rather than<lb/>
+            to grossly exaggerate its faults.
+         </p></div>
+         
+         <div><p style="indent">
+            <hi style="italic"><title level="m">Wilmington (<choice><abbr>Del.</abbr><expan>Delaware</expan></choice>) Morning News</title></hi>— The scene<lb/>
+            on the platform was a very pretty one. <name type="person">President<lb/>
+            Baird</name>, of the Board of Education, presided. The<lb/>
+            feature of the evening's exercises was the address<lb/>
+            to the graduating class by <name type="person">Mrs. Mary Church Ter<lb break="no"/>rell</name>, of the Wasington School Board. In recent<lb/>
+            years no woman speaker in this city has made a<lb/>
+            better impression. Her address was both eloquent<lb/>
+            and practical. It was as interesting to the people<lb/>
+            in the audience as it was to the graduates.           
+         </p></div>
+         
+         <cb/>
+         <div><p style="indent">
+            <hi style="italic"><title level="m">Columbus Safeguard</title>, <name type="place" subtype="city">Columbus Junction, <choice><abbr>Ia.</abbr><expan>Iowa</expan></choice></name> —</hi><lb/>
+            Yesterday was a day of rare enjoyment, the address<lb/>       
+            of <name type="person">Mary Church Terrell</name>, the colored lady, in a plea<lb/>   
+            for her race, easily being the best of the many good<lb/>   
+            things to which the audience<lb/>   
+            has been permitted to listen<lb/>   
+            the past week.
+         </p></div>
+         
+         <div><p style="indent">
+            <hi style="italic"><title level="m">Decatur (<choice><abbr>Ill.</abbr><expan>Illinois</expan></choice>) Daily Her<lb break="no"/>ald</title></hi> — If the negro persecutors<lb/>
+            of Eldorado, Ill., could have<lb/>
+            listened to the marvelous ad<lb break="no"/>dress<lb/>
+            of Mary Church Terrell,<lb/>
+            at the Chautauqua, Thurs<lb break="no"/>day,<lb/>
+            they would surely have<lb/>
+            felt their insignificance. Mrs.<lb/>
+            Terrell is a credit to any<lb/>
+            race. She is able, scholarly,<lb/>
+            and broad in her conceptions.<lb/>
+            Her lecture was almost classic<lb/>
+            in diction, profound and con<lb break="no"/>vincing<lb/>
+            in its philosophy. Those<lb/>
+            unanimous in according her<lb/>
+            a place among the foremost<lb/>
+            orators and thinkers of<lb/>
+            America.
+         </p></div>
+         
+         <div><p style="indent">
+            <hi style="italic"><title level="m">Boston (<choice><abbr>Mass.</abbr><expan>Massachusetts</expan></choice>) Trans<lb break="no"/>cript</title></hi> — The Friday evening<lb/>
+            <gap reason="crease"/><lb/>
+            brought before a very large<lb/>
+            audience a woman of whom<lb/>
+            few present had ever heard,<lb/>
+            but whose address was one of the ablest and most<lb/>
+            brilliant to which a <name type="place" subtype="city">Washington, (D. C.)</name> audience<lb/>
+            may listen. The women was <name type="person">Mrs. Mary Church<lb/>
+            Terrell</name>, a member of the School Board of the Dis<lb break="no"/>trict<lb/>
+            of Columbia, a graduate of <name type="place">Oberlin College</name><lb/>
+            and president of the <name type="organization">National Colored Woman's<lb/>
+            Association</name>. At the close of her address the ap<lb break="no"/>plause lasted several minutes.
+         </p></div>
+         
+         <div><p style="indent">
+            <hi style="italic"><title level="m">Minneapolis (Wis.) Tribune</title></hi> — While the ad<lb break="no"/>dresses<lb/>
+            of all the speakers were admirable in sub<lb break="no"/>ject<lb/>
+            and treatment, the palm must be conceded to<lb/>
+            <name type="person">Mrs. Mary Church Terrell</name>, the colored delegate<lb/>
+            from Washington. <name type="person">Mrs. Terrell</name> is a woman of<lb/>
+            refined, imposing presence. Her subject was the<lb/>
+            " Progress of Colored Women." She pleaded for<lb/>
+            justice to her people in eloquent, impassioned<lb/>
+            language that moved many of her audience to<lb/>
+            tears. In beauty and refinement of diction, as well<lb/>
+            as impressinve earnestness, her appeal was a master<lb break="no"/>piece<lb/>
+            of oratory.
+         </p></div>
+         
+         <div><p><emph style="case(allcaps)">Management Chautauqua Season</emph></p></div>
+         <div><head style="case(allcaps)"><name type="company">Slayton Lyceum Bureau</name></head></div>
+         <div><div><head>Steinway Hall, Chicago, <choice><abbr>Ill.</abbr><expan>Illinois</expan></choice></head></div></div>
+         
+         <!-- The below text is part of a teardrop-shaped illustration that is an eagle at the top and an upside down triangle at the bottom  -->
+         <div><p>
+            <emph style="case(allcaps)">
+               The Central<lb/>
+               Printing &amp;<lb/>
+               Engraving<lb/>
+               Company<lb/>
+               Rochester<lb/>
+               N.Y.</emph>
+         </p></div>
+      </body>
+  </text>
+</TEI>

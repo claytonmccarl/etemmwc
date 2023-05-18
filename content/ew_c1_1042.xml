@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Mr. Skinner. October 6, 1906.</title>
+            <author>O. Benedict</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding</resp>
+               <name>Janaya Ferrer</name> <!-- person adds their name here-->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder C1, Item 1042</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to Skinner for permission to allow Eartha M. M. White and others to visit colored convicts.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page handwritten letter with the Duval Country Board of County Commissioners's header.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_c1_1042_001.jpg"/>
+         <div><head>Board of Country Commissioners<choice><orig>,</orig><reg/></choice></head></div>
+         <div><p>
+            <cb/>
+            <emph style="case(allcaps)"><name type="person">J. W. White</name>, <choice><abbr>Dist.</abbr><expan>District</expan></choice> 1.</emph><lb/>
+            <emph style="case(allcaps)"><name type="person">O. Benedict</name>, " 2.</emph><lb/>
+            <emph style="case(allcaps)"><name type="person">H. J. Pickett</name>, " 3.</emph><lb/>
+            <emph style="case(allcaps)"><name type="person">R. H. Bowden</name></emph>, " 5.<lb/>
+            <cb/>
+            <emph style="case(allcaps)"><name type="person">F. J. Hyde</name>, Chairman.</emph><lb/>
+            <emph style="case(allcaps)"><name type="person">P. D. Cassidey</name>, Clerk.</emph><lb/>
+            <!--line appears here-->
+         </p></div>
+         <div><div><head style="case(allcaps)"><name type="place">Duval County</name></head></div></div>
+         <div><opener>
+            <name type="place">Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name>, <date when="1906-10-06"><choice><abbr>Oct.</abbr><expan>October</expan></choice> 6, 1906</date>
+         <salute>
+            Mr<choice><orig/><reg>.</reg></choice> <name type="person">Skinner</name><lb/>
+            Dear Sir:<lb/>
+         </salute>
+         </opener></div>
+         <div><p>
+            Please permit Miss <name type="person">White</name> and associates<lb/>
+            to visit the <name type="place"><choice><orig>Camp</orig><reg>camp</reg></choice></name> to see the colored <lb/>
+            convicts as missionaries.<lb/>
+            
+         </p></div>
+         <closer>
+            <salute>
+            <hi style="right">
+            Yours truly<choice><orig/><reg>,</reg></choice><lb/>
+            </hi>
+            </salute>
+            <signed>
+            <name type="person">Benedict</name><lb/>
+            County <choice><abbr>Comms</abbr><expan>Commisioner</expan></choice> 
+            </signed>
+            </closer>
+      </body>
+  </text>
+</TEI>

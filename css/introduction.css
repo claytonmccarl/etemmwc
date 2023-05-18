@@ -1,0 +1,52 @@
+/* Place project-specific CSS here */
+/*copying over to play 20180518 CM*/
+/* I think this can be deleted 
+ titleStmt > title {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
+ }
+*/
+
+div {
+    margin-bottom: 30px;
+}
+/*
+tei-title {
+    font-size: xx-large;
+    font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
+    color: red;
+}
+*/
+desc {
+    font-style:italic;
+    font-size: smaller;
+   }
+
+list {
+    margin-bottom: auto;
+    }
+
+p {
+    text-align: left;
+    text-indent: 40px; 
+    /* removes blank line between paragraphs, but also pulls sub headings up too close if they don't follow the end of a div 
+    margin-bottom: -15px; */
+    line-height: 30px;
+}
+bibl {
+    text-indent: 0px;
+/*    margin-bottom: 15px; */
+    display: block;
+}
+
+mentioned {
+    font-style:normal;
+    font-weight: bold;
+}
+
+
+
+
+

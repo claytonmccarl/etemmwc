@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="introduction.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Introduction to An Interactive Edition of Selected Materials from the Eartha M.M. White Collection</title>
+            <author>Clayton McCarl</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body> 
+         
+         <!-- <span>
+
+         
+               <ref target="#earthammwhite">
+                  Eartha M.M. White and the Collection
+               </ref>
+            
+               /
+            
+               <ref target="#evolutionoftheproject">
+                  Evolution of this Project 
+               </ref>
+            
+            
+               /
+               
+               <ref target="#editorialapproach">
+                  Editorial Approach
+               </ref>
+               
+               /
+               
+               <ref target="#namingschemeforfiles">
+                  Naming Scheme for Files
+               </ref>
+         
+               /
+              
+               <ref target="#encodingguidelines">
+                  Encoding Guidelines
+               </ref>
+               
+               /
+            
+               <ref target="#acknowledgments">
+                  Acknowledgments
+               </ref>
+         
+               /          
+            
+            
+               <ref target="#workscited">
+                  Works Cited
+               </ref>
+            
+               /
+            
+               <ref target="#indexofdocuments">
+                  Index of Documents
+               </ref>
+            
+      </span> -->
+          
+         <figure><lb/><desc>Envelope accompanying Folder G5, Item 1787 (Courtesy of UNF Special Collections and Archives)</desc>
+        <!--    <graphic url="../images/EW2scaled1x1.png"></graphic> -->
+            <graphic url="../images/ew_g5_1787_002_scaled.png"></graphic>
+         </figure>
+   <!--       </cell>
+               <cell> -->
+     <!--    <head>Editing the Eartha M.M. White Collection</head>
+         <head>Introduction</head> -->
+         
+                  <!--    <div> -->
+           <!--    <head>
+                  Contents
+               </head> -->
+         
+         
+        
+  
+         
+         
+         <div>
+ 
+            <p>
+               <title level="m">An Interactive Edition of Selected Materials from the Eartha M.M. White Collection</title> is the result of an ongoing experiment in collaborative digital editing at the University of North Florida (UNF). That project, Editing the Eartha M.M. White Collection, engages students, faculty, staff and others in the transcription and TEI-XML encoding of items from the personal correspondence and papers of Eartha M. M. White (1876–1974), held in Special Collections and Archives at UNF's Thomas G. Carpenter Library. This undertaking began in the context of an experimental digital editing course in the summer of 2016, and now represents a continuing endeavor, advanced in part through a series of periodic short-term workshops, initiated in the spring of 2018.<hi style="superscript"><ref target="#n1" xml:id="return1">1</ref></hi>
+            </p>
+            <p>
+               This introduction begins with a brief discussion of <ref target="#earthammwhite">the life and work of White and the collection of her papers at UNF</ref>. It then outlines the primary <ref target="#editorialapproach">objectives</ref> of this edition, and explains the procedural and technical criteria used to pursue those goals. The project's approach to TEI-XML markup is discussed with respect to <ref target="#representingtheoriginal">documenting the original items</ref>, <ref target="#regularizingmodernizing">regularizing the text</ref>, <ref target="#semanticaspects">identifing semantic features</ref>, and <ref target="#doubtsandconcerns">recording editorial doubts and concerns</ref>. This study also discusses the edition's <ref target="#interface">interface</ref>, <ref target="#namingschemeforfiles">protocol for naming files</ref>, and <ref target="#versioning">system for versioning</ref>. <!-- It concludes with an <ref target="#indexofdocuments">index of documents</ref> edited to date.--> For an index of documents edited to date, see the project's <ref target="https://unfdhi.org/earthawhite/items/browse">Omeka site</ref>.
+            </p>
+         </div>
+            <div xml:id="earthammwhite">
+               <head>Eartha M.M. White and the Collection</head>
+               <p>
+                  Eartha M.M. White (1876–1974) was a key figure in the African-American history of Jacksonville, Florida. She fulfilled many roles, including those of community leader, businesswoman, humanitiarian and philanthropist. She is perhaps best known today as the founder of the Clara White Mission, which she named for her adoptive mother, and which has operated continuously since 1904. 
+               </p>
+               <p>
+                  Despite her role in the history of North Florida, scholarship on her life and work is limited. In 1976, Dr. Daniel Schafer presented an unpublished paper on her at UNF, and contributed a biographical sketch to the 1980 volume <title level="m">Notable American Women: The Modern Period</title>, edited by Barbara Sicherman and Carol Hurd Green. In 2001, Carmen Godwin completed a master's thesis on White at the University of Florida. Dr. Tim Gilmore in 2014 published <title level="m">In Search of Eartha White, Storehouse for the People</title>, and the Thomas G. Carpenter Library presents a summary of White's life on their website.<ref target="#n2" xml:id="return2"><hi style="superscript">2</hi></ref>
+               </p>
+               <p>
+                  The primary resource for all the writings mentioned above is the collection of Eartha M.M. White's personal papers, correspondence, and other materials, held in the Special Collections and Archives of the Thomas G. Carpenter Library. These materials were acquired by UNF shortly after White's death in 1974, and represent the foundational collection of the University's Special Collections. UNF's holdings represent approximately half of the extent materials, with the remainder at the Eartha M.M. White Memorial Art and Historical Resource Center, on the site of the Clara White Mission. The Thomas G. Carpenter Library has digitized and published online selected items from the collection on their website, and other items are available in the UNF Digital Commons and the Florida Heritage Collection.<ref target="#n3" xml:id="return3"><hi style="superscript">3</hi></ref>        
+               </p>
+            </div>
+         <!--
+            <div xml:id="evolutionoftheproject">
+               <head>Evolution of this Project</head>
+               <p>This project began within the framework of experimental course titled Introduction to Electronic Textual Editing in the summer of 2016, co-taught by Dr. McCarl and Dr. Aisha Johnson-Jones, who was at that time the head of UNF's Special Collections and Archives.<note>UNF Catalog entry</note> This phase of the project is documented in the article <title level="a">Editing the Eartha M.M. White Collection: An Experiment in Engaging Students in Archival Research and Editorial Practice,</title> forthcoming in the <title level="m">Journal of Academic Librarianship</title>.                    
+               </p>
+               <p>
+                  In the spring of 2018, we began offering periodic short-term workshops to engage new participants in the project. These efforts are described in the article <title level="a">A Model for Short–Term Digital Editing Workshops for Archival Outreach and Project Continuity,</title> currently in development.
+               </p>
+            </div> -->
+        <!--    <div xml:id="aboutthisedition">
+               <head>About the Edition</head> -->
+               
+               <div xml:id="editorialapproach">
+                  <head>Editorial Objectives</head>
+                  <p style="indent">
+                     In constructing a digital archive of selected materials from the Eartha M.M. White Collection, this project pursues several editorial objectives. We seek to document the archival items by presenting diplomatic transcriptions that record the items as-is, preserving to the best of our ability the spelling, punctuation, word spacing, use of capital/lower-case letters, abbreviations, line breaks, and other formal aspects of the originals. We endeavor to increase the accessability and usability of those texts by also presenting partially regularized reading versions of the texts.<ref target="#n4" xml:id="return4"><hi style="superscript">4</hi></ref> We aim to make possible new ways to analyze and visualize the documents through the encoding of the semantic features we deem to hold relevence for our understanding of the individual documents and the collection as a whole. Additionally, we seek to create a forum in which to theorize on approaches to collaborative digital editing, as well as to develop processes and standards that are both compliant with the current TEI P5 Guidelines<ref target="#n5" xml:id="return5"><hi style="superscript">5</hi></ref>  and that can speak to the specific needs of our project and potentially others that may be similar. 
+                  </p>
+               </div>
+               
+
+   <!--            <div xml:id="encodingguidelines">
+                  <head>Encoding Standards</head>
+                  <p>The Editing the Eartha M.M. White Collection project follows the TEI P5 Guidelines, implemented according to the standards and procedures developed to ensure consistency across all documents. As explained in McCarl (forthcoming), this protocol has evolved through a collaborative process as participants have encountered new problems in the process of preparing their documents. The custom standards for the project can be divided into four categories: <ref target="#representingthemanuscript">representing the manuscript</ref>, <ref target="#regularizingmodernizing">regularizing and modernizing</ref>, <ref target="#encodingsemanticaspects">isolating semantic aspects</ref>, and <ref target="#doubtscomments">adding editorial commentary.</ref></p><ref target="#n5"><hi style="superscript">5</hi></ref> -->
+                  <div xml:id="representingthemanuscript">
+                     <head>Representing the Manuscript</head>
+                     <p>
+                        Our standards for representing the original documents focus on the following features: the structure of the item; the layout and formatting of text; gaps in the text; and authorial deletions, insertions and changes of hand. Our approach here aligns strictly with the guidelines set forth by the TEI.
+                     </p>
+                     <div xml:id="structuralelements">
+                        
+                        <head>Structural Elements</head>
+                        <p>
+                           We encode page breaks using the empty element <mentioned>&lt;pb/&gt;</mentioned> with the value of the <mentioned>n</mentioned> attribute reflecting the page number in the original document, and the value of the <mentioned>facs</mentioned> attribute being the filename of the corresponding image, as in <mentioned>&lt;pb n="1" facs="../images/ew_a1_342_001.jpg"/&gt;</mentioned>.<ref target="#n6" xml:id="return6"><hi style="superscript">6</hi></ref>  We use the container <mentioned>&lt;div&gt;</mentioned> to divide up documents that have multiple sections, particularly when those sections begin with titles or subtitles, which we encode with <mentioned>&lt;head&gt;</mentioned>. We enclose each paragraph within a <mentioned>&lt;p&gt;</mentioned> element, and use the empty element <mentioned>&lt;lb/&gt;</mentioned> to mark the place where a line break occurs in the original (when the line break falls in the middle of a word, we use a value of <mentioned>no</mentioned> for <mentioned>break</mentioned> (<mentioned>&lt;lb break="no"/&gt;</mentioned>). We use the empty element <mentioned>&lt;cb/&gt;</mentioned> to mark the beginning of a column on a page that has more than one column.                                                     
+                        </p>
+                        <p>
+                           Many of the documents we are editing are letters, which generally have as structural elements openings and closings. We encode these using <mentioned>&lt;opener&gt;</mentioned> and <mentioned>&lt;closer&gt;</mentioned>, respectively. These do not need to appear in a <mentioned>&lt;div&gt;</mentioned>, but we place each in its own <mentioned>&lt;div&gt;</mentioned> anyway, as this seems to simplify matters when trying to manipulate them in terms of layout. Openers generally include such elements as <mentioned>&lt;date&gt;</mentioned>, <mentioned>&lt;address&gt;</mentioned> and <mentioned>&lt;salute&gt;</mentioned>. 
+                           </p>
+                        <p>
+                           Some letters include images of the corresponding envelope.<ref target="#n7" xml:id="return7"><hi style="superscript">7</hi></ref>  As the TEI-XML P5 Guidelines do not appear to contemplate this situation, we have developed our own approach, treating the envelope as the first page in the corresponding XML document, encoding each address block (sender, receiver), and anything else, as a <mentioned>&lt;p&gt;</mentioned>, with <mentioned>&lt;lb/&gt;</mentioned> at the end of each line. 
+                        </p>
+                       </div>
+
+
+                     <div xml:id="layoutformatting">
+                        <head>Layout/Formatting of Text</head>
+                        <p>
+                           In our transcriptions, we endeavor to reproduce the formatting of the originals. However, the documents in the Eartha M.M. White Collection fall into diverse categories, with differing formal possibilities that can present themselves in each case. We need to balance, therefore, our interest in replicating the original layout and formatting with the need to have transcribing guidelines that are straightforward and not overly cumbersome. For this purpose, we restrict our efforts in this area to a limited number of factors, which include the use of underlining, italics and boldface; the indentation of paragraphs; horizontal alignment; horizontal positioning; and relative text size. For the purposes of approaching the markup of such aspects, we divide documents into two possible types of text blocks: header and body text.
+                        </p>
+                        <p>
+                           We consider a header to be the intitial title of a document, or the heading of a sub-section. These are most often present in newspaper articles, monographic works, pamphlets or other such formal or structured writing. Letters generally will not contain headings. In the transcription view within our interface, we display different levels of headings in a standardized fashion: an initial heading (<mentioned>&lt;body&gt;&lt;head&gt;</mentioned>) will be extra-large, a first-level subheading (<mentioned>&lt;body&gt;&lt;div&gt;&lt;head&gt;</mentioned>) will be large, a second-level subheading (<mentioned>&lt;body&gt;&lt;div&gt;&lt;div&gt;&lt;head&gt;</mentioned>) will be medium, and a third-level subheading (<mentioned>&lt;body&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;head&gt;</mentioned>) will be small. Each subheading must be within its own nested <mentioned>&lt;div&gt;</mentioned>, which will also contain all of the body text corresponding to that subsection. 
+                        </p>
+                        <p>
+                          We assume all headings are centered in the original, and display them in this fashion in the transcription view by default. When they are not centered in the original, we use "left"  "right," or "justify" for the <mentioned>style</mentioned> attribute on the respective <mentioned>&lt;head&gt;</mentioned> element(s), as in <mentioned>&lt;head style="center"&gt;</mentioned>. 
+                        </p>
+
+                        <p>
+                           We consider body text to be any text that is not a header. In our documents, such text is generally contained in a paragraph (<mentioned>&lt;p&gt;</mentioned>), an <mentioned>&lt;opener&gt;</mentioned> or a <mentioned>&lt;closer&gt;</mentioned>. We assume the text in such blocks to be left-justified. To indicate otherwise, we use a value of "center", "right" or or "justify" for the <mentioned>style</mentioned> attribute on any of these elements (or on <mentioned>&lt;div&gt;</mentioned>, or other elements), as in <mentioned>&lt;p style="center"&gt;</mentioned>. The first line of a paragraph is assumed to begin at the left margin. To indicate instead that the first line is indented, we use a value of "indent" for the <mentioned>style</mentioned> attribute on the <mentioned>p</mentioned> element, as in <mentioned>&lt;p style="indent"&gt;</mentioned>.
+                           </p>
+                        <p>
+                           In terms of horizontal positioning, we simplify the possibilites that a document could present. Centered and right-justified text will be begin in the corresponding horizonal positions (as determined automatically), but left-aligned text may begin only at the left margin, one-fourth of the way across the page, mid-page or three fourths across, as in <mentioned>&lt;opener style="one-fourth"&gt;</mentioned>, <mentioned>&lt;p style="mid-page"&gt;</mentioned>) or three-fourths of the way across (<mentioned>&lt;closer style="three-fourths"&gt;</mentioned>). We do not, in other words, endeavor to recreate all the possible horizontal positioning of blocks of text, but rather "round" to one of these positions. When spacing of more than one blank space is used as a layout mechanism for representing separate elements on the same line, we indicate this using <mentioned>&lt;space/&gt;</mentioned>, which will be displayed in a standardized fashion in the interface. All body text will be assumed to be the same size, regardless of actual variations in the original. We do not reproduce vertical spacing. Any number of blank lines are reduced to one blank line in our transcriptions. As a convention, one blank line will follow every paragraph.
+                        </p>
+                        <p>
+                           We assume all headings to be bold, and display them as such in the transcription view in our interface. When a heading is not bold in the original, we mark up the text of the heading with <mentioned>&lt;hi&gt;</mentioned>, using a value of "normal" for the <mentioned>&lt;p style&gt;</mentioned> attribute. When words in a heading appear in italics or underlined, we do likewise, using values of "italics" or "underlined" for the <mentioned>&lt;p style&gt;</mentioned> attribute. When words appear in bold, italicized or underlined in body text, we do the same. When text is underlined or italicized to provide emphasis where a word is being referred to as itself (for example, "<mentioned>weather</mentioned> and <mentioned>whether</mentioned> are homonyms"), or because they are the titles of written works, we also mark up the italicized/underlined word as <mentioned>&lt;mentioned&gt;</mentioned> or as <mentioned>&lt;title level="m"&gt;</mentioned>, respectively, as discussed in the section on semantic tagging below, so that we can also handle them appropriately in our regularized version. 
+                        </p>
+                        <p>
+                         When any text, whether in headings or body, appears in all caps, we transcribe the text in title or sentence case, as appropriate, and indicate the original formatting in all caps as explained in the section Capital Letters below. 
+                        </p>
+                     </div>
+                     
+                     <div xml:id="gaps">
+                        <head>Gaps in the Text</head>
+                        <p>
+                           We use <mentioned>&lt;gap&gt;</mentioned> to mark an unrecoverable gap in the original, using the value of the <mentioned>reason</mentioned> attribute to explain the circumstances (for example, <mentioned>&lt;gap&gt; reason="page missing from document"&lt;/gap&gt; </mentioned>). 
+                        </p>
+                     </div>
+                     <div xml:id="deletionsinsertions">
+                        <head>Deletions, Insertions and Changes of Hand</head>
+                        <p><mentioned>&lt;del&gt; </mentioned> encloses any material that has been visibly struck from the original. We use the <mentioned>type</mentioned> attribute to indicate the nature of this action (<mentioned>type="strikeout"</mentioned> for struck text, <mentioned>type="overwritten"</mentioned> when something else has been written on top).</p>
+                        <p>
+                           <mentioned>&lt;add type="caret"&gt;</mentioned> encloses any material that has been added above the line, or between lines, with a caret or other mark indicating its point of insertion in the original. <mentioned>&lt;add type="no_caret"&gt;</mentioned> encloses any material that has been added, with the point of insertion not indicated (meaning that an editorial decision has been made about where to locate this text).
+                        </p>
+                        <p>
+                           We use <mentioned>&lt;note&gt;</mentioned> to transcribe any material we find hand-written into the margin of a document, using the <mentioned>place</mentioned> attribute to indicate which margin ("marginLeft", "marginRight", "marginTop", or "marginBottom"). When the note appears in the left or right margin, we locate this element as close as possible to the place which it corresponds in the top-to-bottom flow of the text. We use <mentioned>&lt;note type="authorial" place="marginTop"&gt;</mentioned> to record a heading that runs across the top of the page throughout a document but is separate from the flow of the text (as might occur in a diary).
+                        </p>
+                        <p>
+                           We use <mentioned>&lt;supplied&gt;</mentioned> to add material that we believe, according to our editorial discretion, was unintentionally omitted from the text. The <mentioned>reason</mentioned> attribute is used to provide a justification (for example, "omitted in original") and the value of the <mentioned>cert</mentioned> attribute to indicate our degree of certainty (<mentioned>low</mentioned>, <mentioned>medium</mentioned>, or <mentioned>high</mentioned>).
+                        </p>
+                     </div>
+                     
+                     <div xml:id="specialcharacters">
+                        <head>Special Characters</head>
+                        <p>
+                           We have transcribed the following with character references: &amp; (the ampersand, meaning “and”) as <mentioned>&amp;amp;</mentioned>, and ° (the degree sign, as in <mentioned>98° Fahrenheit</mentioned>) as <mentioned>&amp;#176;</mentioned>.
+                        </p>
+                     </div>
+                                           
+              </div>   
+                  <div xml:id="regularizingmodernizing">
+                     <head>Regularizing/Modernizing</head>
+                     <p>In addition to the transcription recorded with the abovementioned standards, we present a partially regularized reading version. Rather than existing as a separate document, the regularized version is layered on top of the transcription. The two versions represent one linear string within a single <mentioned>&lt;text&gt;</mentioned> element, with the <mentioned>&lt;choice&gt;</mentioned> element employed to designate original and regularized readings. 
+                     </p>
+                     
+                     <div>
+                        <head>Abbreviations</head>
+                        <p>
+                           We use <mentioned>&lt;choice&gt;&lt;abbr&gt;&lt;/abbr&gt;&lt;expan&gt;&lt;/expan&gt;&lt;/choice&gt;</mentioned> to simultaneously record an abbreviation and provide its resolution, as in <mentioned>&lt;choice&gt;&lt;abbr&gt;1st&lt;/abbr&gt;&lt;expan&gt;first&lt;/expan&gt;&lt;/choice&gt;</mentioned>. When letters in the original appear in raised script, we document that using the <mentioned>hi</mentioned> element, as in <mentioned>&lt;hi style="superscript"&gt;st&lt;/hi&gt;;choice&gt;&lt;abbr&gt;1st&lt;/abbr&gt;&lt;expan&gt;first&lt;/expan&gt;&lt;/choice&gt;</mentioned>. As a general rule, we expand all abbreviations. 
+                        </p>
+                     </div>  
+                     <div>
+                        <head>Misspellings</head>
+                        <p>
+                           We use <mentioned>&lt;choice&gt;&lt;sic&gt;&lt;/sic&gt;&lt;corr&gt;&lt;/corr&gt;&lt;/choice&gt;</mentioned> to simultaneously record and correct a misspelling (a misused homonym, a word spelled incorrectly, etc.), as in the following examples: <mentioned>We had some very nice &lt;choice&gt;&lt;sic&gt;whether&lt;/sic&gt;&lt;corr&gt;weather&lt;/corr&gt;&lt;/choice&gt; last week,</mentioned> or <mentioned>Lisa's dog is partly &lt;choice&gt;&lt;sic&gt;Dauchshound&lt;/sic&gt;&lt;corr&gt;Dachshund&lt;/corr&gt;&lt;/choice&gt;, I think.</mentioned>  
+                        </p>
+                     </div>  
+                     <!--
+                     <div>
+                        <head>C. Archaic/Obsolete spellings</head>
+                        <p>
+                           We have used &lt;choice&gt;&lt;orig&gt;&lt;/orig&gt;&lt;reg&gt;&lt;/reg&gt;&lt;/choice&gt; can be used to modernize a correct, but obsolete, spelling.
+                        </p>
+                     </div> 
+                     -->
+                     <div>
+                        <head>Punctuation</head>
+                        <p>
+                           We have used <mentioned>&lt;choice&gt;&lt;orig&gt;&lt;/orig&gt;&lt;reg&gt;&lt;/reg&gt;&lt;/choice&gt;</mentioned> to regularize punctuation, as in the following examples: 
+                        
+                  <!--      <list type="simple">
+                           <item> -->
+                              <mentioned>&lt;choice&gt;&lt;orig&gt;,&lt;/orig&gt;&lt;reg/&gt;&lt;/choice&gt;</mentioned> to remove a comma; 
+            <!--           </item>
+                           <item> -->
+                              <mentioned>&lt;choice&gt;&lt;orig&gt;.&lt;/orig&gt;&lt;reg/&gt;&lt;/choice&gt; </mentioned> to remove a period; 
+                           <!--           </item>
+                           <item> -->
+                              <mentioned>&lt;choice&gt;&lt;orig/&gt;&lt;reg&gt;,&lt;/reg&gt;&lt;/choice&gt;</mentioned> to add a comma; 
+                           <!--           </item>
+                           <item> -->
+                              <mentioned>&lt;choice&gt;&lt;orig&gt;,&lt;/orig&gt;&lt;reg&gt;.&lt;/reg&gt;&lt;/choice&gt;</mentioned> to change a comma to a period; 
+                           <!--           </item>
+                           <item> -->
+                              <mentioned>&lt;choice&gt;&lt;orig/&gt;&lt;reg>.&lt;/reg&gt;&lt;/choice&gt;</mentioned> to add a period; and
+                           <!--           </item>
+                           <item> -->
+                              <mentioned>&lt;choice&gt;&lt;orig&gt;;&lt;/orig&gt;&lt;reg&gt;,&lt;/reg&gt;&lt;/choice&gt;</mentioned> to replace a semicolon with a comma.
+                      <!--     </item>
+                           
+                        </list> -->
+                        </p>
+                     </div>  
+                     <div>
+                        <head>Capital letters</head>
+                        <p>
+                           We respect the use of lower case/upper case letters in our transcriptions, but regularize them in the reading version, using <mentioned>&lt;choice&gt;&lt;orig&gt;&lt;/orig&gt;&lt;reg&gt;&lt;/reg&gt;&lt;/choice&gt;</mentioned>. We replace the entire word, not merely the individual letter or letters. When we encounter text that appears in all caps in the original, we transcribe in title or sentence case, as would be appropriate in the regularized version, indicating the capitalization in the original as follows: <mentioned>&lt;emph style="case(allcaps)"&gt;</mentioned>.
+                        </p>
+                     </div>
+                     <div>
+                        <head>Layout/Formatting</head>
+                        <p>
+                              In regularized versions, we standardize the use of underlining, italics and boldface. Only titles of books (and other similar items encoded as <mentioned>&lt;title level="m"&gt;</mentioned>), and words used as words (encoded as <mentioned>&lt;mentioned&gt;</mentioned>, are italicized. Only headers are bolded. In addition, all headers appear centered, all body text is left-aligned, paragraphs are not indended, and a blank line is imposed following each. We use only one font size for all body text. Items presented in all caps in the original are shown here in title or sentence case, as appropriate. Unlike other modernizations, these layout/formatting changes are accomplished not with <mentioned>&lt;choice&gt;</mentioned>, but rather the Cascading Style Sheets (CSS) that modify the HTML output of our interface. 
+                        </p>
+                     </div>
+                  </div>
+                  <div xml:id="encodingsemanticaspects">
+                     <head>Encoding Semantic Aspects</head>
+                     <p>Our markup of semantic aspects responds to an interest in developing advanced, interactive options for the analysis and display of the texts. For purposes of project, we consider relevant semantic features to be dates, names of various sorts, and the titles of written works.
+                     </p>
+                     <div>
+                        <head>Dates</head>
+                        <p>
+                           We use <mentioned>&lt;date when="YYYY-MM-DD"&gt;</mentioned> to enclose a date, however it is articulated. The following represent some possible variations on how a date could be stated: <mentioned>&lt;date when="1970-04-01"&gt;April 1, 1970lt;/date&gt;</mentioned>, <mentioned>&lt;date when="1970"&gt;1970&lt;/date&gt;</mentioned>, <mentioned>&lt;date when="1980-02"&gt;February 1980&lt;/date&gt;</mentioned>, <mentioned>&lt;date when="1970"&gt;that same year&lt;/date&gt;</mentioned>, and <mentioned>&lt;date when="9999-01-17"&gt;January 17&lt;/date&gt;</mentioned>.<ref target="#n8" xml:id="return8"><hi style="superscript">8</hi></ref> 
+                        </p>
+                     </div>  
+                     <div>
+                        <head>Names</head>
+                        <p>
+                           We use <mentioned>&lt;name&gt;</mentioned> to mark up the names of individual persons, groups of people, places, companies and organizations, and events, using the <mentioned>type</mentioned> attribute to indicate their category. This protocol deviates somewhat from the norm, as TEI provides specified elements to mark up several of these types of names, including <mentioned>&lt;persName&gt;</mentioned> and <mentioned>&lt;address&gt;</mentioned>. We have chosen, however, to use <mentioned>&lt;name&gt;</mentioned> for all, in order to be able to access all the named items that concern us--whether in a document, or across the collection--using one element. 
+                        </p>
+                        <p> 
+                           We use <mentioned>type="person"</mentioned> for the proper names of individual people, as in <mentioned>&lt;name type="person"&gt;Eartha M.M. White&lt;/name&gt;</mentioned>. We do the same to mark up a pronoun, common noun or phrase that refer to a specific, identifiable person, as in <mentioned>&lt;name type="person"&gt;she&lt;/name&gt;</mentioned> or <mentioned>&lt;name type="person"&gt;the Mission's founder&lt;/name&gt;</mentioned>, when those formulations refer to White. We use <mentioned>type="person_group"</mentioned> to mark up a proper noun indicating the name of a group of people that has a particular name, such as the <mentioned>&lt;name type="person_gro up"&gt;Seminole&lt;/name&gt; and &lt;name type="person_group"&gt;Creek&lt;/name&gt;</mentioned> and <mentioned>the &lt;name type="person_group"&gt;British&lt;/name&gt; and &lt;name type="person_group"&gt;French&lt;/name&gt;</mentioned>. We also use <mentioned>&lt;name type="company"&gt;</mentioned> and <mentioned>&lt;name type="organization"&gt;</mentioned>, as appropriate. As with individual people, we would also use <mentioned>&lt;name type="person_group"&gt;</mentioned>, <mentioned>&lt;name type="company"&gt;</mentioned> and <mentioned>&lt;name type="organization"&gt;</mentioned> to mark up a generic word or phrase that refers to a previously mentioned or otherwise identifiable group, company or organization, respectively.
+                        </p>
+                        <p>
+                           We use <mentioned>type="place"</mentioned> to mark up the proper names of places of any type, including buildings, streets, cities, states (and other political divisions), as well as geographical features like rivers, lakes, etc. To indicate the category, we employ the <mentioned>subtype</mentioned> attribute, as in the following examples: <mentioned>&lt;name type="place" subtype="city"&gt;Jacksonville&lt;/name&gt;</mentioned>, <mentioned>&lt;name type="place" subtype="river"&gt;St. John's River&lt;/name&gt;</mentioned>, and <mentioned>&lt;name type="place" subtype="building"&gt;City Hall&lt;/name&gt;</mentioned>.  We do the same with common nouns or phrases that refer to specific, identifiable places, as in <mentioned>she loved &lt;name type="place" subtype="city"&gt;her city&lt;/name&gt; more than anything</mentioned>, <mentioned>the level of the &lt;name type="place" subtype="river"&gt;river&lt;/name&gt; was rising</mentioned>, and <mentioned>we went &lt;name type="place" subtype="building"&gt;next door&lt;/name&gt;</mentioned>. We regard addresses as a type of name that designates a place: <mentioned>&lt;name type="place" subtype="address"&gt;123 Main Street&lt;/name&gt;</mentioned>. For places that can be located on a map, we include latitude and longitude as follows: <mentioned>&lt;name type="place" subtype="building"&gt;The Clara White Mission&lt;location&gt;&lt;geo&gt;30.332632 -81.664020&lt;/geo&gt;&lt;/location&gt;&lt;/name&gt;. We obtain this information from Google Maps.</mentioned>                        
+                        </p>
+                        <p>
+                           We use <mentioned>&lt;name type="event"&gt;</mentioned> to mark up the name of an organized event, such as <mentioned>&lt;name type="event"&gt;The World's Fair&lt;/name&gt;</mentioned>.
+                        </p>
+                     </div>
+                     <div>
+                        <head>Titles of Written Works</head>
+                        <p>
+                           As per the TEI guidelines, <mentioned>&lt;name type="title"&gt;</mentioned> is used to mark up the title of a written work, with the <mentioned>level</mentioned> attribute indicating the type of publication. The title of a book, magazine or other "monographic" work (that would generally appear in italics) is encoded as <mentioned>&lt;title level="m"&gt;</mentioned>, while <mentioned>&lt;title level="a"&gt;</mentioned> applies to an "analytic" work (one that is part of something bigger), such as a chapter or an article (which generally would appear within quotation marks).
+                        </p>
+                     </div> 
+                     <div>
+                        <head>Words Used as Words</head>
+                     <p>
+                        We have used <mentioned>&lt;title level="m"&gt;</mentioned> to mark up words that are used as themselves.
+                     </p>
+                     </div>
+                  </div>
+                  <div xml:id="doubtscomments">
+                     <head>Doubts, Comments and Editorial Additions/Annotations</head>
+
+                     <div>
+                        <head>Documenting observations and doubts</head>
+                        <p>
+                           To indicate uncertaintly about any feature of the transcription, we employ <mentioned>&lt;unclear&gt;</mentioned>, using the <mentioned>cert</mentioned> attribute to indicate a relative level of certainty (<mentioned>low</mentioned>, <mentioned>medium</mentioned>, or <mentioned>high</mentioned>), and the <mentioned>reason</mentioned> attribute to explain the circumstances, as in the following example: <mentioned>&lt;unclear cert="low" reason="Handwritten signature is difficult to read."&gt;J. Henderson&lt;/unclear&gt;</mentioned>. We consider such use of <mentioned>&lt;unclear&gt;</mentioned> to represent permanent documentation that should remain as part of the transcription.
+                        </p>
+                        <p>
+                           To document obervations or concerns of a more temporary nature, we use XML comments in the format <mentioned>&lt;!-- text here --&gt;</mentioned>, inserted in the corresponding place in the file.
+                        </p>
+                     </div>  
+                     <div>
+                        <head>Added material</head>
+                        <p>
+                           At times when faced with a gap or a passage that is difficult to read, we may believe we can deduce with reasonable certainty the missing content. In such cases, we mark our solution with <mentioned>&lt;supplied&gt;</mentioned>, using the <mentioned>cert</mentioned> attribute to indicate a relative level of certainty (<mentioned>low</mentioned>, <mentioned>medium</mentioned>, or <mentioned>high</mentioned>), and the <mentioned>reason</mentioned> attribute to explain our explanation of the circumstances.  
+                        </p>
+                     </div>                   
+                  </div>
+      <!--         </div> -->
+         <div xml:id="namingschemeforfiles">
+            <head>Naming Scheme for Files</head>
+            <!--             <div xml:id="namingxml">
+                     <head>XML</head> -->
+            <p>
+               Because the Eartha M.M. White project involves numerous documents, each encoded as an individual XML file, along with page images for all documents, the systematic and consistent naming of XML and images files is essential. In designing such an approach, we have followed the conventions with which the materials are cataloged in the archive. The Eartha M.M. White Collection is organized into boxes, with each box containing folders and each folder containing items. To identify an item, however, only the designations for folder and item are necessary. This is because the box numbers consist of folder numbers (Box A-A5, for instance, contains folders A1-A5) running sequentially across the collection (not starting over within each new box). For this reason, the box numbers are not meaningful. They are, in fact, omitted on the archive’s container list, and we consequently have not included them in our filenames. For the item catalogued as Box A-A5, Folder A1, Item 342, therefore, we create an XML file named <mentioned>ew_a1_342.xml</mentioned>, where <mentioned>ew</mentioned> is the collection, <mentioned>a1</mentioned> is the folder and <mentioned>342</mentioned> is the item. When working with an excerpt from a larger document contained in its entirety in the archive, such as a magazine or newspaper, we indicate the inclusive page numbers of the selection in the filename. For instance <mentioned>ew_d1_330_29-30.xml</mentioned> would contain the transcription of just pages 29 and 30 of the article labeled <mentioned>Folder D1, Item 330</mentioned>. All XML file names in the project are entirely lower case.
+            </p>
+            <p>
+               We follow the same protocol as above for naming image files, adding an additional node, preceded by an underscore, and containing three consecutive digits indicating the numbering of the images. For example, if the document referenced above consisted of three pages, we would name the corresponding images <mentioned>ew_a1_342_001.jpg</mentioned>, <mentioned>ew_a1_342_002.jpg</mentioned>, and <mentioned>ew_a1_342_003.jpg</mentioned>. When we are cropping a selection (such as a graphic) out of a larger file, we add an additional node. For example, <mentioned>ew_w2_648_002_001.jpg</mentioned> would be the first graphic taken from Folder W2, Item 684, image 2. As with XML files, the names of image files contain no upper-case letters.
+            </p>
+            
+         </div>
+
+               <div xml:id="interface">
+                  <head>Interface</head>
+                  <p>We use an adaptation of TEI Boilerplate to display the documents in this edition. Our primary modification consists of changes to the selector box to allow the user to choose between four views of the text: the transcription, the regularized version, a version revealing all changes made via <mentioned>&lt;choice&gt;</mentioned> elements, and a modernized version showing semantic markup. These four views are defined as CSS style sheets, following the model built into TEI Boilerplace. This introductory page is also displayed via TEI Boilerplace, styled with separate XSLT and CSS files.</p>
+               </div>
+         <div>
+            <head>Versioning</head>
+            <p>As this edition is continuously evolving, we deem it convenient to track versioning.<ref target="#n9" xml:id="return9"><hi style="superscript">9</hi></ref> We do so using the common format of <mentioned>[major revision.minor revision]</mentioned>, with the first publication being version 1.0. We consider a major revision to occur when when a signifant new feature is added to the edition; some component of the project undergoes a significant modification in terms of design or functionality; or a sizable group of documents are added, such as after one of our periodic editing workshops. A minor revision indicates small modifications to any aspect of the interface or content, including the addition of individual items.</p>
+         </div>
+ 
+               <div xml:id="acknowledgments">
+                  <head>Acknowledgments</head>
+                  <p>We are grateful to all those who have participated in this project by transcribing and encoding documents: Jennifer Bibb, Joseph Fricks, Chad German, Bethany Jerger, Aislinn Kelly, Courtenay McLeland, John Pello-Wasko, Michael "Dean" Rice, Joleen Stahl, Susan Williams, and Lauren Kelley Winters. Dr. Aisha Johnson-Jones, then head of Special Collections and Archives, co-taught the experimental course in Summer 2016 with which this project began. Susan Williams served as project intern in Spring 2016, a collaboration that led, in part, to our current model for ongoing workshops. This project has received critical support from the Thomas G. Carpenter Library, the UNF Digital Humanities Institute, the UNF Center for Instruction and Research Technology.</p>
+               </div>
+               <div>
+                  <head>Notes</head>  
+                  
+                  <note xml:id="n1"><hi style="superscript">1.</hi> The initial phase of the project in summer 2016 is documented in Clayton McCarl, <title level="a">Editing the Eartha M.M. White Collection: An Experiment in Engaging Students in Archival Research and Editorial Practice,</title> <title level="m">The Journal of Academic Librarianship</title> 44 (2018), 527-537. The workshop paradigm developed in the spring of 2018 is likewise described in the article <title level="a">A Model for Short–Term Digital Editing Workshops for Archival Outreach and Project Continuity,</title> currently under review. <mentioned><ref target="#return1">(return to text)</ref></mentioned></note>
+
+                  <note xml:id="n2"><hi style="superscript">2.</hi> Daniel L. Schafer, <title level="a">Eartha M.M. White: The Early Years of a Jacksonville Humanitarian,</title> unpublished paper presented at the University of North Florida, 1976; and <title level="a">Eartha Mary Magdelene White,</title> in <title level="m">Notable American Women: The Modern Period: A Biographical Dictionary</title>, edited by Barbara Sicherman and Carol Hurd Green, Cambridge, Mass: Belknap Press, 1980, 726-728; Carmen Godwin, <title level="a">'To Serve God and Humanity': Jacksonville's Eartha Mary Magdalene White (1876-1974),</title> master's thesis, University of Florida, 2001; Tim Gilmore, <title level="m">In Search of Eartha White, Storehouse for the People.</title> [Jacksonville, FL]: [CreateSpace Independent Publishing], 2014; Thomas G. Carpenter Library, <title level="a">Eartha M. M. White: Biographical Highlights</title>, Thomas G. Carpenter Library, University of North Florida, <ref target="https://www.unf.edu/library/specialcollections/manuscripts/eartha-white/Eartha_White_Biography.aspx">https://www.unf.edu/library/specialcollections/manuscripts/eartha-white/Eartha_White_Biography.aspx</ref>. <mentioned><ref target="#return2">(return to text)</ref></mentioned></note>
+                  
+                  <note xml:id="n3"><hi style="superscript">3.</hi> <title level="a">Eartha M. M. White Collection</title>, Thomas G. Carpenter Library, University of North Florida, <ref target="https://www.unf.edu/library/specialcollections/manuscripts/eartha-white/Eartha_White.aspx">https://www.unf.edu/library/specialcollections/manuscripts/eartha-white/Eartha_White.aspx</ref>; <title level="a">Eartha M. M. White Collection</title>, UNF Digital Commons, Thomas G. Carpenter Library, University of North Florida, <ref target="https://digitalcommons.unf.edu/eartha_white">ttps://digitalcommons.unf.edu/eartha_white</ref>; Florida Heritage Collection, State University System of Florida, <ref target="https://palmm.digital.flvc.org/islandora/search?type=edismax&amp;collection=palmm:fhp"> https://palmm.digital.flvc.org/islandora/search?type=edismax&amp;collection=palmm:fhp.</ref> <mentioned><ref target="#return3">(return to text)</ref></mentioned></note>
+                  
+                  <note xml:id="n4"><hi style="superscript">4.</hi> These reading texts are "partially regularized" because our regularization addresses only those aspects of the texts which have no phonological transcendence (in other words, those features whose modernization does not affect the sound of the text), including the correction of misspellings, and the standardization of word spacing and punctuation. We are not altering the grammar, syntax, morphology, or anything else that would alter the way the text might sound when read aloud. When we encounter language that reflects a particular dialect or otherwise does not reflect "standard" usage of English in the U.S., we leave the text as-is without attempting to modernize any features. <!-- (for example, we would not attempt any regularization in the following sentence: "Mr. Kilgo was de fust overseer I member; I was big enuf to tote meat an stuff fum de smokehouse to de kitchen an to tote water in an git wood fur granny to cook de dinner an fur de sucklers who nu’sed de babies, an I ca’ied dinners back to de hans").--> <mentioned><ref target="#return4">(return to text)</ref></mentioned></note>
+                  
+                  <note xml:id="n5"><hi style="superscript">5.</hi> Text Encoding Initiative. "TEI: P5 Guidelines." Text Encoding Initiative. Accessed May 8, 2018. <ref target="www.tei–c.org/Guidelines/P5">www.tei–c.org/Guidelines/P5</ref>. <mentioned><ref target="#return5">(return to text)</ref></mentioned></note> 
+                  
+                  <note xml:id="n6"><hi style="superscript">6.</hi>If the item in question contains no explicit pagination, we impose it here, numbering sequentially from <mentioned>1</mentioned>. <mentioned><ref target="#return6">(return to text)</ref></mentioned></note>
+                  
+                  <note xml:id="n7"><hi style="superscript">7.</hi>For example, see <ref target=" https://unfdhi.org/ewproject/content/ew_g5_1807.xml">https://unfdhi.org/ewproject/content/ew_g5_1807.xml</ref> <mentioned><ref target="#return7">(return to text)</ref></mentioned></note>
+                  
+                  <note xml:id="n8"><hi style="superscript">8.</hi> In the penultimate example, we know that 1970 is the correct year from context or some previous reference. In the final example, we are unable to determine the correct year, and so use "9999" as our standard placeholder, as month and day alone do not validate. <mentioned><ref target="#return8">(return to text)</ref></mentioned></note>
+                  
+                  <note xml:id="n9"><hi style="superscript">9.</hi> "Edition" should be understood here to mean this introduction, the edited files, the interface, and any tools for viewing or analysis or visualization that may be developed in the future. <mentioned><ref target="#return9">(return to text)</ref></mentioned></note>
+                  
+
+                        
+                  </div>
+      <!--      </div> -->
+         <!-- this index is no longer current.-
+            <div xml:id="indexofdocuments">
+               <head>Index of Documents</head>
+               <p>Note: Due to the evolving nature of our project, the items below do not all follow entirely the encoding specifications outlined above. A future round of editorial review will bring these previously completed items into compliance. </p>
+               <list type="simple">
+                  <item>
+                     <ref target="ew_b.xml">Folder B, no item number.</ref> A.L. Lewis. Letter to Eartha M.M. White. January 18, 1936. Jacksonville, Florida. Author expresses support for the writing of a history of African Americans in Jacksonville, asks for meeting regarding appointment of both to advisory committee for Slum Housing Act. (Bethany Jerger)                                
+                  </item>                              
+                  <item> 
+                     <ref target="ew_b5_1580.xml">Folder B5, Item 1580</ref>. Sarah Best. Letter to Eartha M. M. White. April 10, 1929. Chattahoochee, Florida. Author writes to White appealing for assistance in being release from Florida State Hospital. (Aislinn Kelly)
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1581.xml"> Folder B5, Item 1581</ref>. Willie Harn. Letter to Eartha M.M. White. Jacksonville, Florida (?). Author writes to Eartha M.M. White regarding possible employment as a janitor. (Aislinn Kelly)               
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1582.xml"> Folder B5, Item 1582</ref>. G.D. Rogers. Letter to Eartha M.M. White. November 12, 1930. Bradenton, Florida. Author requests information regarding the address of the mother of a deceased WWI veteran, for purposes of insurance disbursement. (Aislinn Kelly)              
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1583.xml"> Folder B5, Item 1583</ref>. H.B. Perkins. Letter to Eartha M.M. White. August 19, 1930. Jacksonville, Florida. Author asks for employment. (Aislinn Kelly)               
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1648.xml"> Folder B5, Item 1648</ref>. G.R. Swain. Letter to Eartha M.M. White. April 11, 1929. Jacksonville, Florida. Author inquires about possible employment. (Aislinn Kelly)              
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1649.xml"> Folder B5, Item 1649</ref>. J.A. Wynn and S.G. Bellamy. Letter to Eartha M.M. White. January 29, 1925. Marianna, Florida. Authors request assistance in raising matching funds to build schoolhouse. (Aislinn Kelly)               
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1650.xml"> Folder B5, Item 1650</ref>. Mrs. F.V. Williams. Letter to Eartha M.M. White. July 9, 1934. Hampton, Virginia. Author writes on behalf of elderly soldier James Renley, requesting that White reply to his communications to her. (Aislinn Kelly)           
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1652.xml"> Folder B5, Item 1652</ref>. Willie Ebron. Letter to Eartha M.M. White. July 21, 1930. Jacksonville, Florida. Author writes from Duval County Jail requesting that White intervene on behalf of his motherless children. (Aislinn Kelly)        
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1654.xml"> Folder B5, Item 1654</ref>. H. B. Barnes. Letter to Eartha M.M. White. September 28, 1900. Bayard, Florida. Author appeals for help after losing home in fire. (Aislinn Kelly)               
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1655.xml"> Folder B5, Item 1655</ref>. Lucile Boston. Letter to Eartha M.M. White. February 13, 1930. Jacksonville, Florida. Author requests that White visit her. (Aislinn Kelly)               
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1656.xml"> Folder B5, Item 1656</ref>. Edward Jones. Letter to Eartha M.M. White. April 11, 1967. Tallahassee, Florida. Author requests help in promoting an initiative related to documenting Florida's African American history. (Aislinn Kelly)               
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1657.xml"> Folder B5, Item 1657</ref>. Author unknown (representative of Bethel Baptist Institutional Church). Letter to Eartha M.M. White. April 13, 1930, Jacksonville, Florida. Author appeals for support of Bethel Baptist Institutional Church in context of an apparent fundraising effort. (Aislinn Kelly)             
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1658.xml"> Folder B5, Item 1658</ref>. J.W. Drake. Letter to Eartha M.M. White. April 18, 1929. Author writes offering help in apparent statewide campaign to raise money for the "redemption of Africa." (Aislinn Kelly)             
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1659.xml"> Folder B5, Item 1659</ref>. E.D. Ballard and J. H. Lewis. Letter to Eartha M.M. White. November 20, 1929. Jacksonville, Florida. Authors request donations of furnishings for clubhouse of soon-to-open Lincoln Golf &amp; Country Club. (Aislinn Kelly)             
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1660.xml"> Folder B5, Item 1660</ref>. Mrs. Deborah Daniels. Letter to Eartha M.M. White. February 16, 1930. Jacksonville, Florida. Author requests financial contribution to help pay for funeral of Lorenzo DeCosta. (Aislinn Kelly)             
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1661.xml"> Folder B5, Item 1661</ref>. E.C. Jenkins. Letter to Eartha M.M. White. November 1, 1928. Charleston, S.C. Author requests financial contribution in support of the Jenkins Orphanage. (Aislinn Kelly)            
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1662.xml"> Folder B5, Item 1662</ref>. Ruth. Letter to Eartha M.M. White. c. 1908. Jacksonville, Florida. Author requests urgent assistance in paying her creditors. (Aislinn Kelly)          
+                  </item>
+
+                  <item>
+                     <ref target="ew_c3_699.xml"> Folder C3, Item 699</ref>. National Urban League. Announcement of Fifteenth Annual Meeting and Conference, February 3-5, 1926, in New York City. (John Pello-Wasko)
+                  </item>
+                  <item>
+                     <ref target="ew_d1_329_287-289.xml"> Folder D1, Item 329, pages 287-289</ref>. <title level="m">The Crisis Magazine</title>. Introductory article to photo series "First Ladies of Colored America," from September 1942 issue, with photo and profile of Eartha M.M. White. (Michael "Dean" Rice)
+                  </item>
+                  <item>
+                     <ref target="ew_d5_1687.xml"> Folder D5, Item 1687</ref>. Author unknown. "Suspense," a 72-page manuscript history of African Americans in Florida, dated June 20, 1941 (Lauren Kelley Winters and Michael "Dean" Rice)
+                  </item>
+                  
+                  
+                  
+                  
+                  
+                  <item>
+                     <ref target="ew_g_56.xml"> Folder G, Item 56</ref>. The Mary McLeod Bethune Circle. Program from "Mary McLeod Bethune Night," April 23, 1945. Item presents event program and includes ads from a variety of local businesses. (Bethany Jerger)              
+                  </item>
+                  <item>
+                     <ref target="ew_g2_495.xml">Folder G2, Item 495.</ref> Eartha M.M. White. "Facts About James Weldon Johnson." Item provides brief biographical sketch of James Weldon Johnson. (Lauren Kelley Winters)
+                  </item>
+                  <item>
+                     <ref target="ew_g2_496.xml">Folder G2, Item 496.</ref> Author unknown (possibly Eartha M.M. White). Remembrance of James Weldon Johnson. 1938 or later. Item presents a brief reminiscence of James Weldon Johnson at some point after his death. (Lauren Kelley Winters)
+                  </item>
+                  <item>
+                     <ref target="ew_g2_501.xml">Folder G2, Item 501.</ref> Jim Ward. Letter to Miss Snodgrass. September 26, 1972. Jacksonville, Florida. In letter on Florida Times-Union/Jacksonville Journal letterhead, author remits to recipient materials related to James Weldon Johnson. (Lauren Kelley Winters)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1757.xml">Folder G5, Item 1757.</ref> Jos. M. Sams. Letter to Eartha M.M. White. July 16, 1920. Long Branch, New Jersey. Author expresses concern regarding illness of White's mother. (Courtenay McLeland)
+                  </item>
+                  
+                  
+                  
+                  <item>
+                     <ref target="ew_g5_1791.xml">Folder G5, Item 1791.</ref> W. W. Hamilton. Letter to Eartha M.M. White. January 30, 1930. Tampa, Florida. Author appeals to White for help with arrangements related to a rental home owned in Jacksonville. (Susan Williams)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1807.xml">Folder G5, Item 1807.</ref> Cornelius. Letter to Eartha M.M. White. March 6, 1930. Palatka, Florida. Author appeals to White for financial help related to mortgage following bank failure. (Jennifer Bibb)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1814.xml">Folder G5, Item 1814.</ref> M.E.J. Washington. Letter to Eartha M.M. White. July 22, 1920. Jacksonville, Florida. Author expresses condolences to White upon the death of a friend. (Joleen Stahl)
+                  </item>
+                  
+                  
+                  <item>
+                     <ref target="ew_j2_513.xml">Folder J2, Item 513.</ref> George. Letter to Eartha M.M. White. April 30, 1896. Jacksonville, Florida. Author notifies White of death of mutual friend James Jordan. (Bethany Jerger)
+                  </item>
+                  
+                  
+
+                  <item>
+                     <ref target="ew_n1_377.xml">Folder N1, Item 377.</ref> Emancipation Proclamation Committee of the City of Jacksonville. Program from 82nd Annual Emancipation Proclamation Celebration. Item contains program from event held at Mt. Zion A.M.E. Church January 1, 1945, including list of Committee officers and members, and lyrics to "Lift Every Voice and Sing." (Lauren Kelley Winters)
+                  </item>  
+                  <item>
+                     <ref target="ew_n1_378.xml">Folder N1, Item 378.</ref> Emancipation Proclamation Association of the City of Jacksonville. Membership roster. Item lists members and officers of Association, including Eartha M.M. White as president emeritus. (Lauren Kelley Winters)
+                  </item>  
+                  
+                  <item>
+                     <ref target="ew_p1_405.xml"> Folder P1, Item 405</ref>. J. Henderson (?). Letter to Eartha M.M. White. May 3, 1954. Tallahassee, Florida. Author, an administrator at Florida A &amp; M University, remits to White a photograph of Thomas Van Gibbs, with brief biographical note. (Joseph Fricks)                
+                  </item>
+                  <item>
+                     <ref target="ew_q4_1164.xml"> Folder Q4, Item 1164</ref>. City Federation of Colored Women's Clubs. Program from event at Bethel Baptist Institutional Church, March 24, 1913, featuring address by Mrs. Booker T Washington, and organized by Eartha M.M. White.  Jacksonville, Florida. (Chad Germany)          
+                  </item>
+                  <item>
+                     <ref target="ew_s4_2872.xml"> Folder S4, Item 2872</ref>. Florida Motor Lines. Newspaper advertisment for round-trip travel, Jacksonville-Chigaco, for 1933 World's Fair. (Bethany Jerger)                 
+                  </item>
+                  <item>
+                     <ref target="ew_w1_428.xml"> Folder W1, Item 428.</ref> Florida Times-Union. "Housewives League is Organized," a news article from July 13, 1958. Item discusses efforts by White to compile a directory of local business and professional people and to form a league of housewives. (John Pello-Wasko)                
+                  </item>
+                  
+                  <item>
+                     <ref target="ew_w2_648.xml"> Folder W2, Item 648</ref>.  E.B. De Lany. Letter (to Eartha M.M. White?). July 21, 1922. East Organge, New Jersey. Author solicits financial support for establishing mission stations in Liberia, as part of "Africa for Christ" campaign. (Chad Germany)           
+                  </item>
+                  <item>
+                     <ref target="ew_y1_2468.xml"> Folder Y1, Item 2468</ref>. Jacksonville City Council (?). "Indigent Hospital Patients Admitted for Treatment in Duval County during Year Ending June 30th, 1915" and "Standing Committees City Council, June 1932." Item contains two apparently unrelated documents: 1) a statistical table of indigent hospital patients admitted in Duval County in 1915, with a narrative regarding inefficiencies and inadequate hospital funding at the county level; and 2) a list of standing committee members for the Jacksonville City Council and their administrative functions, dated June 1932. (Joseph Fricks)           
+                  </item>  
+                  <item>
+                     <ref target="ew_y2_648.xml"> Folder Y2, Item 648</ref>. Mary B. Talbert. Letter to Eartha M.M. White. July 14, 1922. Buffalo, New York. Author asks White to serve as Florida state director for new N.A.A.C.P campaign against lynching. (Chad Germany)            
+                  </item>    
+                  <item>
+                     <ref target="ew_z4_1427.xml"> Folder Z4, Item 1427</ref>. The Citizens Bank of Jacksonville. Advertisement for Christmas savings accounts for year 1932. (Michael "Dean" Rice)               
+                  </item> 
+               </list>
+               
+            </div>
+            -->
+         <div>
+            <!--<p><desc>Version 1.1, 6/20/18</desc></p>-->
+            <p><desc>Version 1.2, 2/24/20</desc></p>
+         </div>
+      </body>
+   </text>
+</TEI>

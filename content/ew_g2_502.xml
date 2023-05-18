@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter between Dr. Daniel Schafer and Dena Snodgrass on James Weldon Johnson</title>
+            <author>Dena Snodgrass</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding</resp>
+               <name>Lauren Kelley Winters</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder g2, Item 502</idno>                  
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>This letter is one page, typed, with a signature in blue ink at the bottom.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_g2_502_001.jpg"/>
+         <div>
+            <head>
+               <name type="person">Miss Dena Snodgrass</name>. <name type="place" subtype="address">3680 Hedrick Street<location><geo>30.293346 -81.704349</geo></location></name>. <name type="place">Jacksonville, Florida 32205</name>
+            </head>
+         </div>
+         <div>
+            <p>
+               <date when="1975-10-11">October 11, 1975</date>
+            </p>
+         </div>
+         <div>
+            <p>
+               <name type="person">Dr. Daniel Schafer</name><lb/>
+               Department of History<lb/>
+               <name type="place">University of North Florida<location><geo>30.270070 -81.508378</geo></location><lb/>
+               Jacksonville, Florida</name><lb/>
+            </p>
+         </div>
+         <div>
+            <opener>
+               <salute>
+                  Dear <name type="person"><name type="person">Dan</name></name> :<lb/>
+               </salute>
+            </opener>
+         </div>
+         <div>
+         <p>
+            <name type="person">James R. Ward</name>, Staff Writer, <hi style="underline">The Florida Times-Union</hi>, P.O.<lb/>
+            Box 1949, <name type="place">Jacksonville (32201)</name> has generously donated the<lb/>
+            enclosed letters from <name type="person">Mrs. James Weldon Johnson</name> to him. These<lb/>
+            are for the collection of black memorabilila at the <name type="place">University<lb/>
+               of North Florida library<location><geo>30.270070 -81.508378</geo></location></name>. Please acknowledge to <name type="person">Mr. Ward</name>.<lb/>
+         </p>
+            <p>
+               Xeroxed copies of the enclosed have been given by <name type="person">Mr. Ward</name> to<lb/>
+               the <name type="organization">Jackconville Historical Society</name> for its use.<lb/>
+            </p>
+            <p>
+               The correspondence with <name type="person">Mr. Ward</name> was a result of his article<lb/>
+               (or articles) in the paper (shorty before the August letter,<lb/>
+               sorry I do not have exact date) about <name type="person">James Weldon Johnson</name> and<lb/>
+               the error in locating the marker erected in his memory. This<lb/>
+               mistake was a natural one for amaturs to make for <name type="place">Lee Street</name><lb/>
+               where the <name type="person">Johnsons</name> lived was once <name type="place">Third Street</name>. The marker was<location><geo>30.330144 -81.670309</geo></location><lb/>
+               placed on the preset <name type="place">Third Street</name>, some miles away!<lb/>
+            </p>
+            <p>
+               Enclosed:<lb/>
+               1. Letter of <date when="1972-08-21">August 21, 1972</date>, <name type="person">Johnson</name> to <name type="person">Ward</name>, with two envelopes<lb/>
+               2. Undated letter recieved <date when="1972-09-26">September 26, 1972</date>, <name type="person">Johnson</name> to <name type="person">Ward</name>.<lb/>
+               3. Letter of tranmittal, <date when="1972-09-26">September 26, 1972</date>, from <name type="person">Jim Ward</name> to me.<lb/>
+            </p>
+            </div>
+            <closer>
+               <salute>
+                  Sincerely
+               </salute>
+               <signed>
+                  <name type="person"><name type="person">Dena Snodgrass</name><lb/>
+                     CC: <name type="person">Miss Audry Broward</name>, Archivist<lb/>
+                     <name type="organization">Jacksonville Historical Society</name><lb/></name>.<lb/>
+               </signed>
+            </closer>
+      </body>
+  </text>
+</TEI>

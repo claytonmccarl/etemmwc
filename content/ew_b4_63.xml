@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Invitation to the Planning Conference to Write the Negro History of Florida</title>
+            <author>A. Philip Randolph</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Matthew Paul Welcome</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder B4, Item 63</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Randolph invites African Americans in Florida to participate in a conference to record their history for Negro History Week.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page typewritten letter with the Brotherhood of Sleeping Car Porter's heading. It is accompanied by a small card for recipients to record their response to the invitation.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_b4_63_001.jpg"/>
+         <div><p><cb/><name type="person"><emph style="case(allcaps)">A. Philip Randolph</emph></name><lb/>
+            International President<lb/>
+            
+            <name type="person"><emph style="case(allcaps)">Milton P. Webster</emph></name><lb/>
+            1st International Vice President<lb/>
+            <name type="place">394 Drexel Boulevard<lb/>
+            Chicago 15, Illinois</name><lb/>
+            
+            <name type="person"><emph style="case(allcaps)">Bennie Smith</emph></name><lb/>
+            2nd International Vice-President<lb/>
+            <name type="place">1308 Broadway, Room 305<lb/>
+            Detroit, Michigan</name><lb/>
+                        
+            <cb/><figure><graphic url="../images/ew_b4_63_001_001.jpg"/></figure>
+            
+            <cb/><name type="person"><emph style="case(allcaps)">Ashley L. Totten</emph></name><lb/>
+            International Secretary-Treasurer<lb/>
+            
+            <name type="person"><emph style="case(allcaps)">C. L. Dellums</emph></name><lb/>
+            3rd International Vice President<lb/>
+            <name type="place">1716 Seventh Street<lb/>
+            Oakland, California</name><lb/>
+            
+            <name type="person"><emph style="case(allcaps)">T.D. McNeal</emph></name><lb/>
+            4th International Vice-President<lb/>
+            <name type="place">11 North Jefferson Street<lb/>
+            St. Louis 3, Missouri</name><lb/>
+            
+            <name type="person"><emph style="case(allcaps)">Thomas Patterson</emph></name><lb/>
+            Eastern Zone Supervisor<lb/>         
+         </p></div>
+         <div><opener><salute>Dear Friend:</salute></opener></div>
+         
+         <div><p style="indent">The Negro in American History is still to make sufficient imprint on writers,<lb/>
+            scholars and agencies attempting to reflect the true contributions that the peoples<lb/>
+            of color have made to this great nation.<lb/></p></div>
+         
+         <div><p style="indent">Shortly, we will be celebrating Negro History Week, largely because special<lb/>
+            attention must be given to American people and the world about the significant contri<lb break="no"/>butions we have made and are making to the world.<lb/></p></div>
+         
+         <div><p style="indent">Because Negroes have made such interesting and outstanding accomplishments in<lb/>
+            the development of the history of <name type="place">Florida</name>, it occurs to us that many of our friends<lb/>
+            who helped to develop and enrich the state<choice><orig>,</orig><reg></reg></choice> should be given an opportunity to help<lb/>
+            write Negro History of the state of <name type="place">Florida</name>. To this end, we are inviting you to<lb/>
+            join in a special planning conference to develop methods and techniques for acquir<lb break="no"/>ing material for such a history.<lb/></p></div>
+           
+         <div><p style="indent">We are very fortunate in having <name type="person">Sister Eartha M. M. White</name> as temporary<lb/>
+            chairman of the conference.<lb/></p></div>
+                 
+         <div><p style="indent">The conference will take place February 14th at 8:00 P.M., in the <name type="place">Clara White<lb/>
+            Mission, 613 W. Ashley Street<location><geo>30.332632 -81.664020</geo></location></name>. For additional information, kindly confer with <name type="person">Mrs.<lb/>
+               White</name> and <name type="person">Mr. Sam Harper</name> of <name type="place" subtype="city">Jacksonville</name> or <name type="person">B. F. McLaurin</name> of <name type="place" subtype="city">New York City</name>.<lb/></p></div>    
+         
+         <div><p style="indent">Enclosed please find card that I wish you would return indicating your interest<lb/>
+            and desire to cooperate.<lb/></p></div>
+         
+         <div><p style="indent">I look forward with a great deal of pleasure to having your participation in<lb/>
+            this <choice><orig>all important</orig><reg>all-important</reg></choice> conference.</p>
+         
+         <closer style="right"><salute>Sincerely yours,</salute>
+            <signed><name type="person">A. Philip Randolph</name> <!-- This is his signature :] Matthew Welcome, February 25, 2020-->
+               <name type="person">A. Philip Randolph</name>
+            International President</signed>
+         </closer>
+         
+         <closer><date when="1957-01-30">January 30, 1957<date/></date></closer></div>
+         
+ 
+         <pb n="2" facs= "../images/ew_b4_63_002.jpg"/>
+         <div><p><hi style="right">January 30, 1957</hi>
+            <cb/>I will<lb/>
+            I will not                              
+            <cb/><emph style="case(allcaps)">attend the planning conference to</emph><lb/>
+            <emph style="case(allcaps)">write the Negro history of Florida</emph></p>
+            <p>I am interested and will cooperate<lb/>
+            
+               <hi style="right">Name_______________________________________</hi><lb/>
+               <hi style="right">Address____________________________________</hi><lb/>
+               <hi style="right">City_______________________________________</hi><lb/>
+            </p></div>
+      </body>
+  </text>
+</TEI>

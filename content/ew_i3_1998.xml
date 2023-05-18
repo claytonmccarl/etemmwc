@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thank you note for Christmas gifts to the Old Folks Home <!-- c. 1930--></title>
+            <author>(Likely) Eartha M. M. White</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Michael Detscher</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder I3, Item 1998</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author thanks recipients for Christmas gifts sent to the Old Folks home.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>This is a handwritten letter written on the folded stationary of Eartha M. M. White with writing on both sides. It is accompanied by a photograph of an event.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_i3_1998_001.jpg"/>
+         <p style="center">
+            <name type="place">The Old Folks Home</name> <del type="strikeout">was</del><lb/>
+            <choice><orig>Enjoyed</orig><reg>enjoyed</reg></choice> a <choice><orig>Merry</orig><reg>merry</reg></choice> Christmas<lb/>
+         </p>
+         <p>
+            Two days before Christmas a splendid<lb/>
+            <choice><orig>programe</orig><reg>program</reg></choice> was rendered by the <choice><orig>Students</orig><reg>students</reg></choice><lb/>
+            of the <name type="place">Boylan <choice><abbr>2nd.</abbr><expan>Second</expan></choice> School</name> who gave each<lb/>
+            of the inmates a box of candy and<lb/>
+            a <choice><sic>bushell</sic><corr>bushel</corr></choice> of sweet potatoes. <del type="strikeout">and</del><lb/>
+            Christmas Eve<choice><orig/><reg>,</reg></choice> <choice><orig>The</orig><reg>the</reg></choice> Federated <choice><orig>clubs</orig><reg>Clubs</reg></choice> of<lb/>
+            the city under the leadership of<lb/>
+            <name type="person">Mr<choice><orig></orig><reg>.</reg></choice> Garfield</name> and <name type="person">Mr<choice><orig></orig><reg>.</reg></choice> Brown</name> accomplished<lb/>
+            a <choice><orig>Motor Cade</orig><reg>motorcade</reg></choice> to the Home where<lb/>
+            a splendid <choice><orig>programe</orig><reg>program</reg></choice> was rendered<lb/>
+            <choice><orig>After</orig><reg>after</reg></choice> by <name type="person">Mrs<choice><orig></orig><reg>.</reg></choice> Richardson</name><choice><orig></orig><reg>.</reg></choice> Miss <gap reason="name of secretary seems to be ommitted"/><lb/>
+            the secretary <del type="strikeout">introduced</del><add type="no_caret">called on</add> <name type="person">Mr<choice><orig></orig><reg>.</reg></choice> <choice><abbr>Jas.</abbr><expan>James</expan></choice> H. James</name><lb/>
+         </p>
+         <pb n="2" facs= "../images/ew_i3_1998_002.jpg"/>
+         <p>
+            who in an <choice><sic>elocquelent</sic><corr>eloquent</corr></choice> address that<lb/>
+            touched the hearts of all present the<lb/>
+            very latest thing in a <choice><orig>Radio</orig><reg>radio</reg></choice> costing<lb/>
+            over a hundred dollars and presented<lb/>
+            a <choice><sic>receited</sic><corr>receipted</corr></choice> bill <choice><sic>accompaing</sic><corr>accompanying</corr></choice> the <choice><orig>Radio</orig><reg>radio</reg></choice><choice><orig/><reg>.</reg></choice><lb/>
+            The <choice><orig>Old</orig><reg>old</reg></choice> people were made happy to<lb/>
+            to the <choice><sic>extreem</sic><corr>extreme</corr></choice><choice><orig/><reg>.</reg></choice> Some had never heard<lb/>
+            or seen a radio<choice><orig></orig><reg>.</reg></choice> <choice><orig>each</orig><reg>Each</reg></choice> had to express<lb/>
+            their joy and thanks<choice><orig></orig><reg>;</reg></choice> this brought<lb/>
+            tears to the eyes of those present<choice><orig/><reg>.</reg></choice> <choice><orig>one</orig><reg>One</reg></choice><lb/>
+            old <choice><orig>Man</orig><reg>man</reg></choice>, over one hundred<choice><orig></orig><reg>,</reg></choice> express his<lb/>
+            thanks in a <choice><sic>pray</sic><corr>prayer</corr></choice> asking God's blessing<lb/>
+            upon all who made it possible. <name type="person">Miss<lb/>
+               Eartha M.M. White</name> <choice><orig>The</orig><reg>the</reg></choice>  president and <name type="person">Mrs<choice><orig></orig><reg>.</reg></choice><lb/>
+                  Martha Green</name> the <choice><abbr>Secty</abbr><expan>secretary</expan></choice> accepted the radio with <choice><orig><add type="no_caret">(over)</add></orig><reg/></choice><lb/>
+         </p>
+         <pb n="3" facs= "../images/ew_i3_1998_003.jpg"/>
+         <p>
+            thanks <choice><orig>inbehalf</orig><reg>in behalf</reg></choice> of the <choice><orig>Institution</orig><reg>institution</reg></choice><choice><orig></orig><reg>.</reg></choice><lb/>
+            Its officers and members and<lb/>
+            <choice><orig>The</orig><reg>the</reg></choice> <choice><orig>Old</orig><reg>old</reg></choice> folks.<lb/>
+            Others who <choice><orig>contribubuted</orig><reg>contributed</reg></choice><lb/>
+            <name type="person">Sheriff W. B. Cohoon</name> $5.00<lb/>
+            St Paul Junior choir <add type="caret">sang</add> <choice><orig>charols</orig><reg>carols</reg></choice> and a basket<lb/>
+            of groceries and cash $1.10<lb/>
+            <name type="company">The Wade-Farris Cold Storage <choice><abbr>Co</abbr><expan>Company</expan></choice></name> <choice><orig></orig><reg>—</reg></choice><lb/>
+            1 <choice><orig>barrell</orig><reg>barrel</reg></choice> of lights and 75 lbs <unclear cert="low" reason="Handwriting is difficult to decipher.">brome</unclear><lb/>
+            <name type="person">Mr<choice><orig></orig><reg>.</reg></choice> Richard Anderson</name> <choice><orig></orig><reg>—</reg></choice> 11 per <choice><orig>Socks</orig><reg>socks</reg></choice><choice><orig/><reg>,</reg></choice> 22 per <choice><orig>Hoes</orig><reg>hoes</reg></choice><choice><orig>.</orig><reg/></choice><lb/>
+            <name type="person">Mr<choice><orig></orig><reg>.</reg></choice> Walter Hawkins</name> <choice><orig></orig><reg>—</reg></choice> 50 oranges<choice><orig>.</orig><reg/></choice><lb/>
+            <name type="organization">Daughter Elks</name> through <name type="person">Mrs<choice><orig></orig><reg>.</reg></choice> Hattie Williams</name> <choice><orig></orig><reg>—</reg></choice><lb/>
+            a box with new garments of each person<lb/>
+            <name type="person">Mrs<choice><orig></orig><reg>.</reg></choice> Amanda Coleman</name> <choice><orig></orig><reg>—</reg></choice> 12 bath <choice><sic>towells</sic><corr>towels</corr></choice><choice><orig>-</orig><reg>,</reg></choice> 11 face <choice><sic>towells</sic><corr>towels</corr></choice><lb/>
+         </p>
+         <pb n="4" facs= "../images/ew_i3_1998_004.jpg"/>
+         <p>
+            <name type="place">Stanton High School</name> 10 grade <choice><abbr>Div</abbr><expan>Division</expan></choice> B <choice><orig></orig><reg>—</reg></choice> groceries<lb/>
+            <name type="organization">Jolly Boys and Girls</name><choice><orig></orig><reg>,</reg></choice> <name type="person">A.E. Davis</name><choice><orig></orig><reg>,</reg></choice> chairman <choice><orig></orig><reg>—</reg></choice><lb/>
+            2 chickens<choice><orig></orig><reg>,</reg></choice> a new suit of clothing<lb/>
+            From the <name type="organization">Daughters and Brothers of Elks</name><choice><orig></orig><reg>,</reg></choice><choice><orig> </orig><reg>—</reg></choice> groceries<lb/>
+            <name type="organization">The Jolly 12 Social Club</name> <choice><orig></orig><reg>—</reg></choice> 1 crate mixed fruits<lb/>
+            <name type="person">Mr. S. W. Faine</name> <choice><orig></orig><reg>—</reg></choice> 15 lbs fish<lb/>
+            <name type="person">Mrs<choice><orig></orig><reg>.</reg></choice> S. S. Goffin</name> - a large fruit cake<choice><orig></orig><reg>,</reg></choice> 2 <choice><abbr>gal</abbr><expan>gallons</expan></choice><lb/>
+            grape fruit juice, oranges<choice><orig></orig><reg>,</reg></choice> candy<choice><orig></orig><reg>,</reg></choice> and flowers,<lb/>
+            <name type="person">Mrs<choice><orig></orig><reg>.</reg></choice> Rosa Pleasant</name> <choice><orig></orig><reg>—</reg></choice> 14 pies<lb/>
+            <name type="organization">The DayLight Grocery</name> <choice><orig></orig><reg>—</reg></choice> apples<lb/>
+            <name type="person">Mr<choice><orig></orig><reg>.</reg></choice> Isaac Lewis</name> of <name type="place">Mayport</name> <choice><orig></orig><reg>—</reg></choice> 1/2 bar fish<lb/>
+            <choice><orig>for</orig><reg>For</reg></choice> these and all other gifts<choice><orig></orig><reg>,</reg></choice><lb/>
+            we wish to thank <del type="strikeout">yo</del> all.<lb/>
+         </p>
+         <pb n="5" facs= "../images/ew_i3_1998_005.jpg"/>
+      </body>
+  </text>
+</TEI>

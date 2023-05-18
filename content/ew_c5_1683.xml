@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Laura Carrie Frank Stewart to Eartha M. M. White. Novermber 17. 1931.</title>
+            <author>Laura Carrie Frank Stewart</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder C5, Item 1683</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to White thanking her for her assistance to herself and her family.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page handwritten letter from Stewart to White written on 11/17/1931. It is written on lined notebook paper.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_c5_1683_001.jpg"/>
+         <opener style="right"><name type="place"><choice><sic>jacksonvill</sic><corr>Jacksonville</corr></choice></name><lb/>
+         <date when="1931-11-17"><choice><abbr>Nov.</abbr><expan>November</expan></choice> <choice><abbr>17.</abbr><expan>seventeenth</expan></choice>, 1931.</date><lb/>
+            Dear <choice><orig>miss</orig><reg>Miss</reg></choice> <name type="person">Eartha White</name><choice><orig/><reg>,</reg></choice></opener>
+         <p>
+            I <choice><orig>Am</orig><reg>am</reg></choice> thankful for my socks<lb/>
+            <choice><orig>And</orig><reg>and</reg></choice> <choice><orig>Shoes</orig><reg>shoes</reg></choice><choice><orig>.</orig><reg/></choice> <choice><orig>And</orig><reg>and</reg></choice> dress<lb/>
+            <choice><orig>Because</orig><reg>because</reg></choice> I din't have a <choice><orig>Stocking</orig><reg>stocking</reg></choice><lb/>
+            <choice><orig>To</orig><reg>to</reg></choice> my feets. I am thankful<lb/>
+            <choice><orig>That</orig><reg>that</reg></choice> you are helping the unable<lb/>
+            <choice><sic>peopl</sic><corr>people</corr></choice><lb/>
+         </p>
+         <p style="indent">
+            May <choice><orig>god</orig><reg>God</reg></choice> bless you.<lb/>
+            In <choice><orig>Our</orig><reg>our</reg></choice> <choice><sic>preay</sic><corr>pray</corr></choice> <choice><orig>We</orig><reg>we</reg></choice> <choice><orig>All</orig><reg>all</reg></choice> three<lb/>
+            <choice><orig>Will</orig><reg>will</reg></choice> renber you<choice><orig/><reg>.</reg></choice><lb/>
+            I want <name type="person">mother</name> to help you<lb/>
+            as much as she can<lb/>
+            <choice><orig>For</orig><reg>for</reg></choice> your goodness to us.<lb/>
+         </p>
+         <closer style="right"><signed><name type="person">Laura Carrie Frank<lb/> Stewart</name></signed></closer>
+      </body>
+  </text>
+</TEI>

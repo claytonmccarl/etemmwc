@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Editing the Eartha M.M. White Archive": Edited Documents, Summer 2016</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <figure><lb/><desc>Image courtesy of UNF Special Collections and Archives</desc>
+            <graphic url="../images/EW2scaled.jpg"></graphic>
+         </figure>
+         <div>
+            <head>"Editing the Eartha M.M. White Archive"</head>
+            
+            <div>
+               <head>Draft Introduction (last edited 5/6/18)</head>
+               <p>Editing the Eartha M. M. White Collection is a project that seeks to transmit in a digital, interactive format, selections from the personal correspondence and other papers of Eartha M. M. White (1876–1974), held in Special Collections and Archives in the Thomas G. Carpenter Library at the University of North Florida (UNF). An affiliated project of the UNF Digital Humanities Institute, the project engages students, faculty, staff and others, as archival researchers and editors. Dr. Clayton McCarl is the director and general editor.
+               </p>
+            </div>
+            <div>
+               <p>
+                  Contents
+               </p>
+               <list rend="simple">
+                  <item>
+                     <ref target="#earthammwhite">
+                        Eartha M.M. White
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="#thecollection">
+                        The Collection
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="#evolutionoftheproject">
+                        Evolution of this Project 
+                     </ref>
+                  </item>   
+                  <item>
+                     <ref target="#aboutthisedition">
+                        About the Edition
+                     </ref>
+                     <list>
+                        <item>
+                           <ref target="#editorialapproach">
+                              Editorial Approach
+                           </ref>
+                        </item>
+                        <item>
+                           <ref target="#namingschemeforfiles">
+                              Naming Scheme for Files
+                           </ref>
+                        </item>
+                        <item>
+                           <ref target="#encodingguidelines">
+                              Encoding Guidelines
+                           </ref>
+                           <list>
+                              <item>
+                                 <ref target="#representingthemanuscript">
+                                    I. Representing the Manuscript
+                                 </ref>
+                              </item>
+                              <item>
+                                 <ref target="#regularizingmodernizing">
+                                    II. Regularizing/Modernizing
+                                 </ref>
+                              </item>
+                              <item>
+                                 <ref target="#encodingsemanticaspects">
+                                    III. Encoding semantic aspects 
+                                 </ref>
+                              </item>
+                              <item>
+                                 <ref target="#doubtscomments">
+                                    IV. Doubts, Comments and Editorial Additions/Annotations
+                                 </ref>
+                              </item>                              
+                           </list>
+                        </item>
+                        <item>
+                           <ref target="#earthammwhite">
+                              Interface
+                            </ref>
+                        </item>  
+
+                     </list>
+                  </item>
+                  
+                  <item>
+                     <ref target="#earthammwhite">
+                        Acknowledgments
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="#indexofdocuments">
+                        Index of Documents
+                     </ref>
+                  </item>
+               </list>
+            </div>
+            <div xml:id="earthammwhite">
+               <head>Eartha M.M. White</head>
+               <p>
+                  Eartha M.M. White was a key figure in the African-American history of Jacksonville.
+               </p>
+               <p>
+                  To date, the primary scholarship on White consists of...
+               </p>
+            </div>
+            <div xml:id="thecollection">
+               <head>The Collection</head>
+               <p>
+                  The Eartha M.M. White materials held at UNF were acquired in the 1970s as the foundational collection in the university's Special Collections and Archives. The materials at UNF comprise approximately one-half of White's personal papers, with the other half remaining in possession of the Clara White Mission.
+               </p>
+            </div>
+            <div xml:id="evolutionoftheproject">
+               <head>Evolution of this Project</head>
+               <p>This project began within the framework of experimental course DIG3990 Introduction to Electronic Textual Editing in the summer of 2016, co-taught by Dr. Clayton McCarl of Languages, Literatures and Cultures, and Dr. Aisha Johnson-Jones, at that time the head of Special Collections and Archives at UNF’s Thomas G. Carpenter Library. The course was centered on the electronic edition of personal correspondence and other documents, held in Special Collections, related to Eartha M. M. White (1876–1974), founder of the Clara White Mission and a leader of Jacksonville’s African American community. Dr. Johnson-Jones, a specialist in African–American History, helped students to understand the biographical and social context in which these documents were produced. She likewise trained students on archival methods and procedures and instructed them on the proper handling of rare materials. Dr. McCarl led the students in the transcription, regularization and annotation of the documents, as well as their encoding in TEI–XML, the standard today for creating digital texts in the Humanities. As transcribers, editors and annotators, the students took on a variety of roles in this course. This phase of the project is documented in the article... (forthcoming).                    
+               </p>
+               <p>
+                  In the spring of 2018, we began offering a series of periodic short-term workshops to engage new participants in the project. This phase of the project is documented in the article... (in process).
+               </p>
+            </div>
+            <div xml:id="aboutthisedition">
+               <head>About the Edition</head>
+               
+               <div xml:id="editorialapproach">
+                  <head>Editorial Approach</head>
+                  <p>
+                     We are building an edition that permits us to view the edited documents in two states:
+                     <list type="index">
+                        <item>
+                           A diplomatic transcription that records the document as-is. To the best of our ability, we preserve spelling, punctuation, word spacing, use of capital/lower-case letters, abbreviations, line breaks, and any other formal aspect that we can represent in XML.
+                        </item>
+                        <item>
+                           A partially regularized reading text. This version is "partially regularized" because our regularization addresses only those aspects of the texts which have no phonological transcendence (in other words, those features whose modernization does not affect the sound of the text). These include the correction of misspellings (but not dialectical usages — see below), and the standardization of word spacing and punctuation. We are not altering the grammar, syntax, morphology, or anything else that would alter the way the text might sound when read aloud. When we encounter language that reflects a particular dialect or otherwise does not reflect "standard" usage of English in the U.S., we leave the text as-is without attempting to modernize any features (for example, we would not attempt any regularization in the following sentence: "Mr. Kilgo was de fust overseer I member; I was big enuf to tote meat an stuff fum de smokehouse to de kitchen an to tote water in an git wood fur granny to cook de dinner an fur de sucklers who nu’sed de babies, an I ca’ied dinners back to de hans").
+                        </item>
+                     </list>
+                     For each document in the collection, these two versions are encoded together in a single &lt;text&gt; element, using the &lt;choice&gt; element to layer the transcription and edition together. For each text, will also encode semantic features such as dates and proper names, in order to allow us to later experiment with options for analysis and display.
+                     
+                  </p>
+               </div>
+               
+               <div xml:id="namingschemeforfiles">
+                  <head>Naming Scheme for Files</head>
+                  <div>
+                     <head>XML</head>
+                     <p>
+                        We name our XML files to match the way items are cataloged in the Eartha M.M. White Collection, which is organized into boxes, with each box containing folders and each folder containing items. To identify an item, only the designations for folder and item are necessary, as the box numbers consist of folder numbers (Box A-A5, for instance, contains folders A1-A5) running sequentially across the collection (not starting over within each new box). For this reason, the box numbers are omitted on the archive’s container list, and we have not included them in our filenames. As an example, for the item catalogued as Box A-A5, Folder A1, Item 342, we create an XML file named ew_a1_342.xml, where <mentioned>ew</mentioned> is the collection, <mentioned>a1</mentioned> is the folder and <mentioned>342</mentioned> is the item.  
+                     </p>
+                     <p>
+                        When working with an excerpt from a larger document contained in its entirely in the archive, such as a magazine or newspaper, we indicate the inclusive page numbers of the selection in the filename. For instance ew_d1_330_29-30.xml would contain the transcription of just pages 29 and 30 of the article labeled Folder D1, Item 330.
+                     </p>
+                     <p>                        
+                        All XML file names in the project are entirely lower-case.
+                     </p>
+                  </div>
+                  <div>
+                     <head>Images</head>
+                     <p>
+                        We follow the same protocol as above for naming image files, adding an additional node, preceded by an underscore and containing three consecutive digits indicating the numbering of the images. For example, if the document referenced above consisted of three pages, we would name the corresponding images ew_a1_342_001.jpg, ew_a1_342_002.jpg, and ew_a1_342_003.jpg. 
+                     </p>
+                     <p>
+                        When we are cropping a selection out of a larger file (such as a graphic), we add an additional node. For example, ew_w2_648_002_001.jpg would be the first graphic taken from Folder W2, Item 684, image 2.
+                     </p>
+                     <p>
+                        All image file names are entirely lower case.
+                     </p>
+                    
+                  </div>
+               </div>
+               <div xml:id="encodingguidelines">
+                  <head>Encoding Guidelines</head>
+                  <div xml:id="representingthemanuscript">
+                     <head>I. Representing the Manuscript</head>
+                     <div>
+                        <head>A. Structural elements</head>
+                        <p>
+                           We have encoded page breaks as follows: &lt;pb n="1" facs="../images/ew_a1_342_001.jpg"/&gt;. The value of @n is the page number. If the document contains no explicit pagination, we impose it here, numbering sequentially from 1. The value of @facs is filename of the corresponding image, named according to our naming scheme. 
+                        </p>
+                        <p>
+                           We have used the empty element &lt;p&gt; to encode paragraphs, with each &lt;p&gt; element on its own line.
+                        </p>
+                        <p>
+                           We have used the empty element &lt;lb/&gt; to mark the place where a line break occurs in the original. When the line break falls in the middle of a word, we use a value of "no" for @break to indicate this: &lt;lb break="no"/&gt;.
+                        </p>
+                        <p>
+                           We use the empty element &lt;cb/&gt; to mark the beginning of a column on a page that has more than one column.
+                        </p>
+                     </div>
+                     <div>
+                        <head>B. Deletions, Insertions and Changes of Hand</head>
+                        <p>&lt;del&gt; encloses any material that has been visible struck from the original. We use @type to indicate the nature of this action ("strikeout" for struck text, "overwritten" when something else has been written on top).</p>
+                        <p>
+                           &lt;add type="caret"&gt; encloses any material that has been added above the line, or between lines, with a caret or other mark indicating its point of insertion in the original. &lt;add type="no_caret"&gt; encloses any material that’s been added, with the point of insertion not indicated (meaning that an editorial decision has been made about where to locate this text).
+                        </p>
+                        <p>
+                           We use &lt;note&gt; to transcribe any material we find hand-written into the margin of a document, using the @place to indicate which margin ("marginLeft", "marginRight", "marginTop", or "marginBottom"). When the note appears in the left or right margin, we locate this element as close as possible to the place which it corresponds in the top-to-bottom flow of the text. We use &lt;note type="authorial" place="marginTop"&gt; to record a heading that runs across the top of the page throughout a document but is separate from the flow of the text (as might occur in a diary).
+                        </p>
+                        <p>
+                           We use &lt;supplied&gt; to add material that we believe, according to our editorial discretion, was unintentionally omitted from the text. @reason is used to provide a justification (for example,  "omitted in original") and @cert to indicate our degree of certainty ("low", "medium", or "high").
+                        </p>
+                     </div>
+                     <div>
+                        <head>C. Representing layout/formatting of original document</head>
+                     </div>
+                     <div>
+                        <head>D. Handling gaps in the text</head>
+                        <p>
+                           We use &lt;gap&gt; to mark an unrecoverable gap in the original, using @reason to explain the circumstances (for example, "page missing from document"). 
+                        </p>
+                     </div>
+                     <div>
+                        <head>E. Special Characters</head>
+                        <p>
+                           We have transcribed the following with character references: &amp; the ampersand, meaning “and”) as &amp;amp;, and ° (the degree sign, as in 98° Fahrenheit) as &amp;#176;.
+                        </p>
+                     </div>
+                     <div>
+                        <head>F. Openings and Closings of Letters</head>
+                     </div>
+                     <div>
+                        <head>G. Envelopes</head>
+                     </div>    
+                  </div>
+                  <div xml:id="regularizingmodernizing">
+                     <head>II. Regularizing/Modernizing</head>
+                     <div>
+                        <head>Abbreviations</head>
+                        <p>
+                           We use &lt;choice&gt;&lt;abbr&gt;&lt;/abbr&gt;&lt;expan&gt;&lt;/expan&gt;&lt;/choice&gt; to simultaneously record an abbreviation and provide its resolution, as in &lt;choice&gt;&lt;abbr&gt;1st&lt;/abbr&gt;&lt;expan&gt;first&lt;/expan&gt;&lt;/choice&gt;. When letters in the original appear in raised script, we would document that as follows: &lt;hi rend="superscript"&gt;st&lt;/hi&gt;;choice&gt;&lt;abbr&gt;1st&lt;/abbr&gt;&lt;expan&gt;first&lt;/expan&gt;&lt;/choice&gt;. As a general rule, we have expanded all abbreviations. 
+                        </p>
+                     </div>  
+                     <div>
+                        <head>Misspellings</head>
+                        <p>
+                           We use &lt;choice&gt;&lt;sic&gt;&lt;/sic&gt;&lt;corr&gt;&lt;/corr&gt;&lt;/choice&gt; to simultaneously record and correct a misspelling (a misused homonym, a word spelled incorrectly, etc.), as in the following examples: <mentioned>We had some very nice &lt;choice&gt;&lt;sic&gt;whether&lt;/sic&gt;&lt;corr&gt;weather&lt;/corr&gt;&lt;/choice&gt; last week,</mentioned> or <mentioned>Lisa's dog is partly &lt;choice&gt;&lt;sic&gt;Dauchshound&lt;/sic&gt;&lt;corr&gt;Dachshund&lt;/corr&gt;&lt;/choice&gt;, I think.</mentioned>  
+                        </p>
+                     </div>  
+                     <!--
+                     <div>
+                        <head>C. Archaic/Obsolete spellings</head>
+                        <p>
+                           We have used &lt;choice&gt;&lt;orig&gt;&lt;/orig&gt;&lt;reg&gt;&lt;/reg&gt;&lt;/choice&gt; can be used to modernize a correct, but obsolete, spelling.
+                        </p>
+                     </div> 
+                     -->
+                     <div>
+                        <head>Punctuation</head>
+                        <p>
+                           We have used &lt;choice&gt;&lt;orig&gt;&lt;/orig&gt;&lt;reg&gt;&lt;/reg&gt;&lt;/choice&gt; to regularize punctuation, as in the following examples: 
+                        </p>
+                        <list type="index">
+                           <item>
+                              removing comma:
+                              &lt;choice&gt;&lt;orig&gt;,&lt;/orig&gt;&lt;reg/&gt;&lt;/choice&gt;
+                           </item>
+                           <item>
+                              removing period:
+                              &lt;choice&gt;&lt;orig&gt;.&lt;/orig&gt;&lt;reg/&gt;&lt;/choice&gt;
+                           </item>
+                           <item>
+                              adding comma:
+                              &lt;choice&gt;&lt;orig/&gt;&lt;reg&gt;,&lt;/reg&gt;&lt;/choice&gt;
+                           </item>
+                           <item>
+                              changing comma to period:
+                              &lt;choice&gt;&lt;orig&gt;,&lt;/orig&gt;&lt;reg&gt;.&lt;/reg&gt;&lt;/choice&gt;
+                           </item>
+                           <item>
+                              adding period:
+                              &lt;choice&gt;&lt;orig/&gt;&lt;reg>.&lt;/reg&gt;&lt;/choice&gt;
+                           </item>
+                           <item>
+                              replacing semicolon with comma:
+                              &lt;choice&gt;&lt;orig&gt;;&lt;/orig&gt;&lt;reg&gt;,&lt;/reg&gt;&lt;/choice&gt;
+                           </item>
+                           
+                        </list>
+                     </div>  
+                     <div>
+                        <head>D. Capital letters</head>
+                        <p>
+                           We respect the use of lower case/upper case letters in our transcriptions, but regularize them in the reading version, using &lt;choice&gt;&lt;orig&gt;&lt;/orig&gt;&lt;reg&gt;&lt;/reg&gt;&lt;/choice&gt;. We replace the entire word, not merely the individual letter or letters.
+                        </p>
+                     </div> 
+                  </div>
+                  <div xml:id="encodingsemanticaspects">
+                     <head>III. Encoding semantic aspects of the text</head>
+                     <div>
+                        <head>A. Dates</head>
+                        <p>
+                           
+                           We use &lt;date when="YYYY-MM-DD":gt; to enclose a date, however it is articulated. 
+                           
+                           <list>
+                              <item>
+                                 She was born on lt;date when="1970-04-01"&gt;April 1, 1970lt;/date&gt;..
+                              </item>
+                              <item>
+                                 &lt;date when="1970"&gt;1970&lt;/date&gt;
+                              </item>
+                              <item>
+                                 &lt;date when="1980-02"&gt;February 1980&lt;/date&gt;
+                              </item>
+                              <item>
+                                 &lt;date when="9999-01-17"&gt;January 17&lt;/date&gt; (Month and day alone won’t validate, so in such cases we use “9999” as a placeholder year)
+                              </item>
+                              <item>
+                                 Earlier &lt;date when="1970"&gt;that same year&lt;/date&gt;, her parents had moved to Florida.
+                              </item>
+                           </list>
+                        </p>
+                        
+                     </div>  
+                     <div>
+                        <head>B. Names</head>
+                     </div> 
+                     <div>
+                        <head>C. Titles</head>
+                     </div> 
+                  </div>
+                  <div xml:id="doubtscomments">
+                     <head>IV. Doubts, Comments and Editorial Additions/Annotations</head>
+                     <div>
+                        <head>A. Documenting doubts</head>
+                     </div>  
+                     <div>
+                        <head>B. Added material</head>
+                     </div>                   
+                  </div>
+               </div>
+
+
+               <div xml:id="interface">
+                  <head>Interface</head>
+                  <p>We have used an adaptation of TEI Boilerplate as a preliminary test interface for this edition.</p>
+               </div>
+ 
+               <div xml:id="acknowledgments">
+                  <head>Acknowledgments</head>
+                  <p></p>
+               </div>
+            </div>
+            <div xml:id="indexofdocuments">
+               <head>Index of Documents</head>
+               <list type="index">
+                  <item>
+                     <ref target="ew_b.xml">Folder B, no item number.</ref> A.L. Lewis. Letter to Eartha M.M. White. 18 January 1936. Jacksonville, FL. (Bethany Jerger)                                
+                  </item>                              
+                  <item>
+                     <ref target="ew_b5_1580.xml">Folder B5, item 1580</ref>. Sarah Best. Letter to Eartha M. M. White. 10 April 1929. Chattahoochee, Florida. Author writes to White appealing for assistance in being release from Florida State Hospital. (Aislinn Kelly)
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1581.xml"> Folder B5, item 1581</ref>. Willie Harn, Letters of Appeal - Janitor Job (Aislinn Kelly)               
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1582.xml"> Folder B5, item 1582</ref>. G. D. Rogers, Letter of Appeal - Request for Woman's Address (Aislinn Kelly)              
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1583.xml"> Folder B5, item 1583</ref>. H. B. Perkins, Letter of Appeal (Aislinn Kelly)               
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1648.xml"> Folder B5, item 1648</ref>. G. R. Swain, Letter of Appeal (Aislinn Kelly)              
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1649.xml"> Folder B5, item 1649</ref>. J. A. Wynn and S. G. Bellamy, Letter of Appeal (Aislinn Kelly)               
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1650.xml"> Folder B5, item 1650</ref>. Mrs. F. V. Williams, Letter of Appeal (Aislinn Kelly)           
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1652.xml"> Folder B5, item 1652</ref>. Willie Ebron, Letter of Appeal - Help for Motherless Children (Aislinn Kelly)        
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1654.xml"> Folder B5, item 1654</ref>. H. B. Barnes, Letter of Appeal - Debt (Aislinn Kelly)               
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1656.xml"> Folder B5, item 1656</ref>. [Author], Letter of Appeal (Aislinn Kelly)               
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1657.xml"> Folder B5, item 1657</ref>. Author Unknown, Letter of Appeal - Bethel Baptist Church Rally (Aislinn Kelly)             
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1658.xml"> Folder B5, item 1658</ref>. Rev. Drake, Letter of Appeal - Solicitation from Rev. Drake (Aislinn Kelly)             
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1660.xml"> Folder B5, item 1660</ref>. Mrs. Deborah Daniels, Letter of Appeal - Donations for Lorenzo DeCosta's Funeral (Aislinn Kelly)             
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1661.xml"> Folder B5, item 1661</ref>. E. C. Jenkins, Letter of Appeal - Jenkins Orphanage (Aislinn Kelly)            
+                  </item>
+                  <item>
+                     <ref target="ew_b5_1662.xml"> Folder B5, item 1662</ref>.  Ruth, Letter of Appeal - Assistance to Pay Creditors (Aislinn Kelly)          
+                  </item>
+   <!-- problem item
+   <item>
+                     <ref target="ew_C3_669_001_002.xml"> Folder C3, item 1. (John Pello-Wasko)
+                  </item>
+   -->
+                  <item>
+                     <ref target="ew_d5_1687.xml"> Folder D5, item 1687</ref>. Eartha M.M. White, "Suspense" manuscript (Lauren Winters)
+                  </item>
+                  <item>
+                     <ref target="ew_d5_1687_35-48.xml"> Folder D5, item 1687, pp. 36-48</ref>. A section of Eartha M.M. White, "Suspense" manuscript (Dean Rice)
+                  </item>
+                  <item>
+                     <ref target="ew_e4_1065.xml">Folder E4, item 1065.</ref> title/description (unassigned)
+                  </item>   
+                  <item>
+                     <ref target="ew_e4_1066.xml">Folder E4, item 1066.</ref> title/description(unassigned)
+                  </item> 
+                  <item>
+                     <ref target="ew_e4_1068.xml">Folder E4, item 1068.</ref> title/description (unassigned)
+                  </item> 
+                  <item>
+                     <ref target="ew_e5_1665.xml">Folder E5, item 1665.</ref> title/description (unassigned)
+                  </item> 
+                  <item>
+                     <ref target="ew_f4_1075.xml">Folder F4, item 1075.</ref> title/description (unassigned)
+                  </item> 
+                  <item>
+                     <ref target="ew_f5_1697.xml">Folder F5, item 1657.</ref> title/description (unassigned)
+                  </item>
+                  <item>
+                     <ref target="ew_g_56.xml"> Folder G, item 56</ref>. The Mary McLeod Bethune Circle, "Mary McLeod Bethune Night" (Bethany Jerger)              
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1757.xml">Folder G5, item 1757.</ref> Letter from Jos. M Sams to Eartha M.M. White, Long Branch, NJ, July 16, 1920 (Courtenay McLeland)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1784.xml">Folder G5, item 1784.</ref> title/description (unassigned)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1787.xml">Folder G5, item 1787.</ref> title/description (unassigned)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1791.xml">Folder G5, item 1791.</ref> title/description (Susan Williams)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1807.xml">Folder G5, item 1807.</ref> title/description (Jennifer Bibb)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1814.xml">Folder G5, item 1814.</ref> title/description (Joleen Stahl)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_2868.xml">Folder G5, item 2868.</ref> title/description (unassigned)
+                  </item>
+                  <item>
+                     <ref target="ew_l4_1328.xml">Folder L4, item 1328.</ref> title/description (unassigned)
+                  </item>  
+                  <item>
+                     <ref target="ew_j2_513.xml"> Folder J2, item 513</ref>. George, Death of James Jordan. (Bethany Jerger)                 
+                  </item>
+                  <item>
+                     <ref target="ew_p1_405.xml"> Folder P1, item 405</ref>. Author Unknown, Florida A and M University - Letter of Reply (Joseph)                
+                  </item>
+                  <item>
+                     <ref target="ew_q4_1164.xml"> Folder Q4, item 1164</ref>. City Federation of Colored Women's Clubs, A Lecture by Mrs. Booker T Washington (Chad Germany)          
+                  </item>
+                  <item>
+                     <ref target="ew_s4_2872.xml"> Folder S4, item 2872</ref>. Florida Motor Lines, Chicago World's Fair (Bethany Jerger)                 
+                  </item>
+                  <!--
+                  <item>
+                     <ref target="ew_w1_428.xml"> Folder W1, item 428. [Author], Housewives League is Organized. (John Pello-Wasko)                
+                  </item>
+                  -->
+                  <item>
+                     <ref target="ew_w2_648.xml"> Folder W2, item 648</ref>.  E.B. De Lany, "Africa for Christ" (Chad Germany)           
+                  </item>
+                  <item>
+                     <ref target="ew_y1_2468.xml"> Folder Y1, item 2468</ref>. Author Unknown, Indigent Hospital Patients Admitted for Treatment in Duval County during Year Ending June 30th, 1915. (Joseph Fricks)            
+                  </item>  
+                  <item>
+                     <ref target="ew_y2_648.xml"> Folder Y2, item 648</ref>. Mary B. Talbert, Forming an N.A.A.C.P Anti-Lynching Committee (Chad Germany)            
+                  </item>    
+                  <item>
+                     <ref target="ew_z4_1427.xml"> Folder Z4, item 1427</ref>. The Citizens Bank of Jacksonville, Advertisement for Christmas Savings Account (Dean Rice)               
+                  </item> 
+               </list>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

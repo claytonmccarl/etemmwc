@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Clara White Mission. 1933.</title>
+            <author>Clara White Mission</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding by</resp>
+               <name>Janaya Ferrer<!-- that person adds their name here--> </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder: Y, Item: 288</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author summarizes the Clara White Mission's actions from the previous years and asks for donations.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A two page typed letter with the Clara White Mission's letterhead.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_y_288_001.jpg"/>
+         <div><cb/>
+            <p><emph style="cast(allcaps)"><name type="person">Miss Eartha M. M. White</name><lb/>
+               President<lb/></emph></p>
+            <cb/>
+            <p><emph style="cast(allcaps)"><name type="person">Mr. E. Vaughn</name><lb/>
+               Treasurer<lb/></emph></p>
+            <cb/>
+            <p><emph style="cast(allcaps)"><name type="person">Mrs. M. L. Stewart</name><lb/>
+               Secretary<lb/></emph></p>
+         </div>
+         <div><head><name type="organization">The Clara White Mission</name></head></div>
+         <div><div><head><emph style="cast(allcaps)">"A Friend to Man"</emph></head></div></div>
+         <div><div><div><head><emph style="cast(allcaps)"><name type="place">611 W. Ashley St.<lb/>
+         Jacksonville, <choice><orig>Fla</orig><reg>FL</reg></choice>.</name></emph></head></div></div></div>
+         <div>
+            <p><emph style="cast(allcaps)">Pledge</emph><lb/>
+               "I promise to serve God and<lb/>
+               Humanity and let Love reign<lb/>
+               Supremely in my Heart"<lb/></p>
+         </div>
+         <div><opener><salute>Dear <name type="person">Friend</name>:-</salute></opener></div>
+         <div><p style="indent">
+            We are firm in the belief that never so long as the miracle<lb/> 
+            of God’s Love continues to manifest itself in the world, will suf-<lb/>
+            fering and unfortunate humanity fail to find champions and benefac-<lb/>
+            tors. Fortified by this firmly entrenched belief, and becoming<lb/>
+            rapidly, though reluctantly aware that our small and almost single-<lb/>
+            handed efforts can no longer fully silence the piteous pleas for<lb/>
+            assistance that reach our ears each day; we with confidence, make<lb/>
+            this appeal to those who would find that sublime joy that comes from<lb/>
+            an act of unselfish charity.<lb/>
+         </p></div>
+         <div><p style="indent">
+            It is not expedient, and at this time surely not necessary<lb/>
+            that we attempt to portray the hundreds of pathetic cases that have<lb/>
+            come under our observation and care during the past year, for we may<lb/>
+            see their counterparts enacted every hour of the day upon the streets<lb/>
+            of thousands of communities throughout the nation. Suffice to say<lb/>
+            that the organized charities have been overtaxed and unable to take<lb/>
+            care of the needs of all. Among those rejected and those who<lb/>
+            through ignorance have not known how to properly apply for aid, our<lb/>
+            unflinching but deplorably inadequate efforts have been expended.<lb/>
+         </p></div>
+         <div><p style="indent">
+            Last year the Clara White Mission: - - - - - - - -<lb/>
+            Fed at the Free Soup Kitchen (since October 17, 1932 to date) from<lb/>          
+            fifty to one hundred fifty unemployed each day.<lb/>
+            Furnished more than twenty thousand pints of milk to undernourished<lb/>
+            children in the schools.<lb/>
+         </p></div>
+         <div><p>
+            Carried three hundred Blind Orphans and Old People to an outing and<lb/>
+            dinner at the beach.<lb/>
+            Conducted a camp at Manhattan Beach for the Tubercular Suspects and<lb/>
+            underprivileged children. Eighty-six were fed for one month.<lb/>
+         </p></div>
+         <div><p>
+            Celebrated Mother’s Day with appropriate exercises, and distributing<lb/>
+            Flour and vegetables to two hundred impoverished mothers.<lb/>
+         </p></div>
+         <div><p>
+            Our Hope Department carried to homes, and to the sick, two hundred<lb/>
+            and sixty baskets of groceries sufficient for a week.<lb/>
+         </p></div>
+         <div><p style="center"><emph style="cast(allcaps)">"We train, shelter, feed and clothe the needy"</emph></p></div>
+
+         <pb n="2" facs= "../images/ew_y_288_002.jpg"/>
+         <div><p style="indent">2</p></div>
+         <div><p style="indent">
+            Special religious and rehabilitation service were held at
+            Duval County Prison Farm every Sunday during the year.
+         </p></div>
+         <div><p>More than thirty-five hundred were given shoes and clothing.</p></div>
+         <div><p style="center">These efforts have been supplemented this year:</p></div>
+         <div><p>
+            The financing of a worthy girl in school.<lb/>
+            The Establishment of a Free Roading Room in our Goodwill Center.<lb/>
+            The Establishment of a Free Efficiency Training School for adults<lb/>
+            in Home Making and Domestic Service and the operation of an agency<lb/>
+            through which the qualified may obtain jobs.<lb/>
+            Conducting a class in Red Cross First Aid Work.<lb/>
+            The Establishment of an evening school in Business Training, with<lb/>
+            courses in Shorthand and typing.<lb/>
+            Making special investigations and giving help and hospitalization<lb/>
+            to crippled children.<lb/>
+            Opening forty domitories to shelter the stranded and homeless.<lb/>
+         </p></div>
+         <div><p style="indent">
+            In a sentence, we do for Humanity what the Salvation Army<lb/>
+            is doing for white people. The efforts of the Clara White Mission<lb/>
+            have expended and used without regard for race or creed.<lb/>
+         </p></div>
+         <div><p style="indent">
+            There are no slump periods in this business of relief, for<lb/>
+            the sick, the halt, and the poor we have always with us. For them<lb/>            
+            the rise and fall of the stock market has no significance; they<lb/>            
+            are neither enriched nor further impoverished by any any change<lb/>           
+            in the governing parties. The stock ticker that records their destinies is the pulsation of the Human Heart, and the party of their<lb/>
+            salvation is the party in whose heart Charity dwells.<lb/>
+         </p></div>
+         <div><p style="indent">
+            Our immediate and most desired objective is to purchase<lb/>
+            the property we now occupy. The cost will be twenty-five thousand<lb/>
+            dollars ($25,00.00). The ownership of this building would assure<lb/>
+            a permancy of our efforts, supplemented as it shall be by the dona-<lb/>
+            tion of food and clothing from our friends.<lb/>
+         </p></div>
+         <div><p style="indent">
+            We believe that your heart, like ours, is pained because<lb/>
+            of this widespread suffering, and that our appeal shall not fall<lb/>
+            upon deaf ears or closed purses. Your contribution, however small,<lb/>
+            shall be payment in full for that priceless joy that is known only<lb/>
+            to those who have given unselfishly in His name.<lb/>
+         </p></div>
+         <closer><salute>Yours for Humanity,</salute></closer>
+         <signed><emph style="cast(allcaps)"><name type="organization">Clara White Mission</name></emph></signed>
+      </body>
+  </text>
+</TEI>

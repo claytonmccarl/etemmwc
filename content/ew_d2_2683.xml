@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jacksonville Negro Welfare League Letter. November 12, 1930.</title>
+            <author>A. L. Lewis</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding</resp>
+               <name>Austin Sprunger</name> <!-- person adds their name here-->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder D2, Item 2683</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to the Jacksonville Negro Welfare League Board of Directors on donating to the Community Chest Drive.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page typewritten letter from Lewis, president of the Jacksonville Negro Welfare League, to its board. The letter has the organization's heading.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_d2_2683_001.jpg"/>
+            <cb/>
+            <div><p>
+               <name type="person">A.L. Lewis</name>, <choice><abbr>Pres.</abbr><expan>President</expan></choice><lb/>
+               <name type="person">J.M. Baker</name>, <choice><abbr>Vice-Pres.</abbr><expan>Vice-President</expan></choice><lb/>
+               <name type="person">W.H. Lee</name>, <choice><abbr>Secty.</abbr><expan>Secretary</expan></choice><lb/>
+               <name type="person">DR. E. H. Flipper</name>, <choice><abbr>Treas.</abbr><expan>Treasurer</expan></choice><lb/>
+               <name type="place" subtype="address">709 BROAD STREET</name><lb/>
+               Directors<lb/>
+               <name type="person">A.L. Lewis</name><lb/>
+               <name type="person">Geo. W. Powell</name><lb/>
+               <name type="person">J.M. Baker</name><lb/>
+               <name type="person">R.P. Crawford</name><lb/>
+               <name type="person">Dr. C.F. Duncan</name><lb/>
+               <name type="person">Mrs. W.W. Andrews</name><lb/>
+               <name type="person">W.W. Andrews</name><lb/>
+               <name type="person">L.M. Argrett</name><lb/>
+               <name type="person">S.A. Austin </name><lb/>
+               <name type="person">Dr. R.L. Brown</name><lb/>
+               <name type="person">J.C. Crummell</name><lb/>
+               <name type="person">D.H. Dwight</name><lb/>
+               <name type="person">Rev. C.T. Dorrah</name><lb/>
+               <name type="person">J.W. Dunlap</name><lb/>
+               <name type="person">L.D. Ervin</name><lb/>
+               <name type="person">Capt. J.W. Floyd</name><lb/>
+               <name type="person">S.W. Faine</name> <lb/>
+               <name type="person">Dr. E.H. Flipper</name><lb/>
+               <name type="person">Rev. J.E. Ford</name><lb/>
+               <name type="person">Joe H. James Jr.</name><lb/>
+               <name type="person">Mrs. J.C. Hurston</name><lb/>
+               <name type="person">J.H. Lewis</name><lb/>
+               <name type="person">W.H. Lee</name> <lb/>
+               <name type="person">Wash Hampton</name><lb/>
+               <name type="person">Dr. L.H. Myers</name><lb/>
+               <name type="person">S.D. McGill</name><lb/>
+               <name type="person">W.W. Parker</name><lb/>
+               <name type="person">D.W. Perkins</name><lb/>
+               <name type="person">L.L. Pratt</name><lb/>
+               <name type="person">R.B. Stewart</name><lb/>
+               <name type="person">Samuel Smith</name><lb/>
+               <name type="person">Dr. A.W. Smith</name><lb/>
+               <name type="person">R.T. Thomas</name><lb/>
+               <name type="person">B.C. Vanderhorst</name><lb/>
+               <name type="person">Miss E. M.M. White</name><lb/>
+               <name type="person">Mrs. H.I. Williams</name> <lb/>
+               <name type="person">Rev. T.H.B. Walker</name><lb/>
+               <name type="person">J.C. Holmes</name><lb/>
+               <name type="person">Dr. C.A. Ward</name><lb/>
+               <name type="person">C. Blythe Andrews</name><lb/>
+               <name type="person">J. Henry Adams</name><lb/>
+               <name type="person">J.S. McLane</name><lb/>
+            </p></div>
+
+            <cb/>
+            <div><head><name type="organization">Jacksonville Negro Welfare League</name></head></div><lb/>
+            <div><div><head>
+               Department<lb/>
+               Community Chest Association of Duval County <lb/>
+               <name type="place" subtype="city">Jacksonville, Fla.</name><lb/>
+            </head></div></div>
+            <div>
+            <opener>
+               <date when="1930-11-12">November 12, 1930</date><lb/>
+            <salute>
+            To each member of the Board of Directors,<lb/>
+            <name type="organization">Jacksonville Negro Welfare League</name>><lb/>
+            <name type="place" subtype="city">Jacksonville, Florida.</name><lb/>
+            Dear Co-worker: <lb/>
+            </salute>
+            </opener>
+
+            <p>
+               As you know, we begin our <name type="event">Community Chest Drive</name> on the <lb/><date when="1930-11-14">14th of November</date> in order to raise our quota to assist<lb/>
+               in taking care of the colored units of the <name type="organization">Jacksonville <lb/>Negro Welfare League</name>.
+               I am pleased to report that we <lb/>have had several meetings which have very enthusi- <lb/> astic.
+               All the members of the Board were delighted to <lb/>do their bit to relieve the suffering in our City by <lb/>
+               subscribing to this laudable cause.<lb/>
+               Being a member of the Board, holding this honored posi-<lb/>tion, we thought we would ask that each member
+               of the <lb/>Board subscribe first, and we are also asking you subscribe not less than $10.00 if possible. You will<lb/>
+               have six months in which to pay it. We have twenty <lb/>members on the Board, so we ought to get at least
+               $200 <lb/>or more from our bunch. You have always been loyal, and <lb/>contributed each year a liberal amount.
+               May we depend<lb/> on you? I am contributing $50.00 to the Chest. You <lb/>may not see your way clear to contribute
+               that much, but <lb/>I trust you will be one among the big givers this year.<lb/>
+            </p>
+
+            <p>We are planning to have an <name type="person">Executive Secretary</name> to take charge <lb/>of the office and after the interest of our Group
+               in <name type="place" subtype="city">Jackson-<lb/>ville</name>. Many things are happening each day against us. Someone <lb/>must assist in doing the work.
+               We are enclosing a subscription<lb/> blank. You may place the amount you subscribe on same and<lb/> return to this office,
+               together with your first payment on <lb/>pledge. Please pay as much as possible with pledge.<lb/>
+               Thank you in advance for whatever you may give, I am,<lb/>
+            </p>
+            <closer>
+               <salute>
+               <hi style="center">
+               Respectfully, <lb/>
+               </hi>
+               </salute>
+               <signed>
+                  <name type="organization">Jacksonville Negro Welfare League</name><lb/>
+                  By <name type="person">A.L. Lewis</name><lb/>
+                  <name type="person">President</name><lb/>
+               </signed>
+               </closer>
+            </div>
+            <div><p>
+                  ALL:BCD <lb/>
+                  r <lb/>
+            </p></div>
+            
+            <cb/>
+            <div><p>
+               <name type="person">Joe H. James Jr.</name><lb/>
+               <name type="person"><choice><abbr>Campaign Mgr.</abbr><expan>Campaign Manager</expan></choice></name><lb/>
+               <name type="person">D.H. Dwight,</name><lb/>
+               <name type="person"><choice><abbr>Asst. Campaign Mgr.</abbr><expan>Assistant Campaign Manager</expan></choice></name><lb/>
+               Phone 5-4677<lb/>
+            </p></div>
+   
+      </body>
+  </text>
+</TEI>

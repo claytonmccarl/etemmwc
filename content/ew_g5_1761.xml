@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letters from S. A. Brown and Edna Hordson to Eartha M. M. White and unknown. November 11, 1931.</title>
+            <author>S. A. Brown and Edna Hordson</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Kellea Roberson and Carol Hemmingway </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder G5, Item 1761</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>The first author writes to White describing their physical health and a package being sent to her. The second author writes a personal letter to an unknown recipient.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A handwritten letter from Brown to White, written on 11/11/1931. The letter is divided into four pages on a single sheet of folded paper. It is accompanied by its envelope and the envelope and final page of a letter from Edna Hordson to an unknown recipient.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_g5_1761_001.jpg"/>
+         <div><opener style="right"><name type="place" subtype="address">716 <choice><abbr>W.</abbr><expan>West</expan></choice> <choice><sic>42d</sic><corr>42nd</corr></choice>  <choice><abbr>St.</abbr><expan>Street</expan></choice>,<lb/>
+            Savannah <choice><abbr>Ga.</abbr><expan>Georgia</expan></choice>,</name><lb/>
+            <date when="1931-11-11"><choice><abbr>Nov.</abbr><expan>November</expan></choice> 11th, 1931</date>.<lb/></opener>
+         <opener><salute>Dear <name type="person">Eartha</name>,</salute></opener>
+         <p style="indent">Please don’t be shocked<lb/>
+            by reception of a letter<lb/>
+            from me.<lb/></p>
+         <p style="indent">After a trying summer<lb/>
+            in the dentist’s chair, with<lb break="no"/>in four weeks, I had to get<lb/>
+            sick and I almost died. Then<lb/>
+            within a week after getting</p>
+         <pb n="2" facs= "../images/ew_g5_1761_002.jpg"/>
+            <p>up and out from that at<lb break="no"/>tack<choice><orig/><reg>,</reg></choice> I was suddenly seized<lb/>
+            one night with another attack<lb/>
+            of something else. It seemed<lb/>
+            that that would finish me,<lb/>
+            God was with me all the<lb/>
+               way, and I am here, ask<lb break="no"/>ing how you are<choice><orig>,</orig><reg/></choice> and how<lb/>
+            and where the wanderer<lb/> 
+            is.<lb/></p>
+         <p style="indent">I have not heard from<lb/>
+            him<choice><orig>,</orig><reg/></choice> since his famous speech<lb/>
+            at <name type="place">St. Augustine</name>. I heard of<lb/>
+            it<choice><orig>,</orig><reg/></choice> here<choice><orig>,</orig><reg>.</reg></choice><lb/></p>
+         <pb n="3"/>
+         <p>I would have called you,<lb/>
+            but to be sure of finding<lb/>
+            you home, I struck upon the<lb/> 
+            plan of calling somewhere<lb/>
+            around 12 <choice><sic>oclock</sic><corr>o'clock</corr></choice><choice><orig>,</orig><reg/></choice> at night.<lb/></p>
+         <p style="indent">Then, I thought that <add type="caret">I</add> might<lb/>
+            arouse you from a refreshing<lb/> 
+            and much needed sleep after<lb/>
+            a hard day’s work, so I just<lb/>
+            put off and put off meeting<lb/>
+            till this almost disgraceful<lb/> 
+            period of silence.<lb/></p> 
+            <p style="indent">Forgive and forget and<lb/> 
+            let me hear from you, some</p>
+         <pb n="4"/>
+         <p>way by phone, letter or in per<lb break="no"/>son.<lb/></p>
+         <p style="indent">Love to <name type="person">Lucy</name> and everybody<lb/> 
+            of our group.<lb/></p>
+         <p style="indent">Look out for a small pack<lb break="no"/>age soon. I know you<choice><orig></orig><reg>,</reg></choice> like<lb/> 
+            me, are looking for your<lb/>
+            stockings. I got us some<choice><orig>,</orig><reg></reg></choice> and<lb/> 
+            will forward yours soon,<lb/></p>
+            <closer style="center"><salute>Lovingly yours,</salute></closer>  
+         <closer style="right"><signed><name type="person">S. A. Brown</name></signed></closer>
+            <note place="marginBottom">Call me anytime after 8.<lb/>
+            2-0286.</note></div>
+         <pb n="5" facs= "../images/ew_g5_1761_003.jpg"/>
+         <div><p>P.S.<lb/>
+            <name type="person">Dr. Haring</name> spoke before the<lb/> 
+            student body this a.m. and to<lb/> 
+            our neighborhood club this p.m.<lb/> 
+            She was well received.<lb/></p>
+            <closer style="right"><signed><name type="person">E.S.</name></signed></closer><lb/>
+            </div>
+         <pb n="6" facs= "../images/ew_g5_1761_004.jpg"/>
+         <div><p>           3.<lb/>
+            All of this <unclear cert="high" reason="Handwritten is difficult to read.">enlivens</unclear> my time. Of<lb/> 
+            course I am never at a loss<lb/>
+            for things to do since there is<lb/> 
+            always so many things to think<lb/>
+            about as to our present problems.<lb/></p>
+            <p style="indent">Do you find anytime to read<choice><orig/><reg>,</reg></choice><lb/> 
+               busy as you are<choice><orig/><reg>,</reg></choice> about the real<lb/>
+            practical side of our many<lb/> 
+            problems? After all it better<lb/> 
+            to do than to dream. Well<lb/> 
+            this is not a merry letter but<lb/>
+            I will do better next time.<lb/></p>
+               <p style="indent">Lots of love, Take care of<lb/>
+            your health. Think of me some<lb break="no"/>times.<lb/></p>         
+                  <closer style="center"><salute>Lovingly,</salute></closer><lb/>
+                  <closer style="right"><signed><name type="person">Edna Hordson.</name></signed></closer><lb/>
+            </div>
+         <pb n="7"/>
+         <div><p><name type="person">Miss Eartha M. M. White</name>,<lb/>
+            <name type="address">233 <choice><abbr>W.</abbr><expan>West</expan></choice> First <choice><abbr>St.</abbr><expan>Street</expan></choice>,<lb/>
+            Jacksonville<lb/>
+            <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name><lb/>
+         </p></div>
+         <pb n="8"/>
+         <div><p>From <name type="address">716 <choice><abbr>W.</abbr><expan>West</expan></choice> <choice><sic>42d</sic><corr>42nd</corr></choice> <choice><abbr>St.</abbr><expan>Street</expan></choice>,<lb/>
+            Savannah<lb/>
+            <choice><abbr>Ga.</abbr><expan>Georgia</expan></choice></name><lb/>
+         </p></div>
+      </body>
+  </text>
+</TEI>

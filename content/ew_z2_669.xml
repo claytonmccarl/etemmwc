@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Blanch to Eartha M. M. White. Tampa, FL. April 28, 1928.</title>
+            <author>Blanche</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding by</resp>
+               <name>Janaya Ferrer <!-- that person adds their name here--> </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder: Z2, Item: 669</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to White about her health.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page handwritten letter with writing on both sides, accompanied by an envelope.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_z2_669_001.jpg"/>
+         <div>
+            <opener style="right">
+               <choice><abbr>Sat</abbr><expan>Saturday</expan></choice><choice><orig>.</orig><reg>,</reg></choice> 
+               <date when="1928-04-28"><choice><abbr>Apr</abbr><expan>April</expan></choice><choice><orig>.</orig><reg/></choice> 28<choice><orig>.</orig><reg>,</reg></choice>
+                  <choice><abbr>'28</abbr><expan>1928</expan></choice><choice><orig>.</orig><reg/></choice></date>
+            </opener>
+            <opener>
+               <salute>
+                  Dear <name type="person">Eartha</name>,<lb/>
+               </salute>
+            </opener>
+            <p style="indent">
+               It is so sweet of you<lb/>
+               to remember me in my<lb/>
+               dreary hours of illness.<lb/>
+            </p>
+            <p style="indent">
+               Yes, I really believe I'm<lb/>
+               getting better, but my<lb/>
+               recovery will be slow.<lb/>
+               I shall perforce be denied<lb/>
+               participation in all this<lb/>
+               year's big events in <choice><orig>club-life</orig><reg>club life</reg></choice>,<lb/>
+               politics, education, etc.<lb/>
+               I must keep very quiet<lb/>
+               and <hi style="underline">rest</hi>, <hi style="underline">rest</hi>, <hi style="underline">rest</hi>.<lb/>
+            </p>
+         </div>
+
+         <note type="editorial">The following is the envelope included with the letter.</note>
+         <div>
+            <p>
+               <stamp type="postmark">
+                  <name type="place"><emph style="case(allcaps)">Tampa, <choice><abbr>Fla</abbr><expan>FL</expan></choice></emph>.</name>
+                  <date when="1928-04-28"><emph style="case(allcaps)">Apr</emph><choice><orig/><reg>.</reg></choice>
+                     28<choice><orig/><reg>,</reg></choice> 1928</date> 7 PM
+               </stamp>
+            </p>
+            <p>
+               Miss <name type="person">E. M. M. White</name><choice><orig>,</orig><reg/></choice><lb/>
+               <name type="place" subtype="address">233 W. 1<hi style="superscript">st</hi>  St.</name>,<lb/>
+               <name type="place" subtype="city">Jacksonville</name>,<lb/>
+               <name type="place" subtype="state"><choice><abbr>Fla</abbr><expan>FL</expan></choice></name><choice><orig>.</orig><reg/></choice><lb/>  
+            </p>
+         </div>
+         
+         <pb n="2" facs= "../images/ew_z2_669_002.jpg"/>
+         <div>
+            <p>
+               With all good wishes,<lb/>
+               and sincere thanks for<lb/>
+               your prayerful interest<lb/>
+               in my welfare<choice><orig>,</orig><reg>.</reg></choice><lb/>
+            </p>
+            <closer style="right">
+               <salute>
+                  I am <choice><orig>Sincerely</orig><reg>sincerely</reg></choice> <choice><orig>Yours</orig><reg>yours</reg></choice><choice><orig/><reg>,</reg></choice><lb/>
+               </salute>
+               <signed>
+                  <name type="person">Blanche</name><lb/>
+               </signed>
+            </closer>
+         </div>       
+      </body>
+  </text>
+</TEI>

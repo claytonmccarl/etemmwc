@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title of Document Here</title><!-- For letters, use this format: Letter from M.E.J. Washington to Eartha M.M. White, Jacksonville, FL, July 22, 1920 -->
+            <author>Author's Name Here</author>
+            <respStmt>
+               <resp>Transcription, encoding, and edtion</resp>
+               <name>Your Name</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document was produced as part of the project "Editing the Earth M.M. White Collection"
+                and is made available online by permission of the Thomas G. Carpenter Library at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>
+                  <settlement>Jacksonville</settlement>
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository>
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder #, Item #</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A one-sentence summary of contents</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A brief description of the physical object</p><!-- Indicate whether it's handwritten or typed, and give dimensions, where possible. For example: Handwritten note front and back of one sheet of 5x7 paper. -->
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body> 
+         <pb n="1" facs= "../images/filename.jpg"/><!-- "Filename" here must be replaced with name of image file. -->
+            <p>
+               Begin transcribing here.
+            </p>
+      </body>
+  </text>
+</TEI>

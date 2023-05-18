@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Richard Nixon to Eartha M. M. White. Washington, DC. December 5, 1970.</title>
+            <author>Richard Nixon</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding</resp>
+               <name>Zachary Sage Dice</name> <!-- person adds their name here-->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder U4, Item 1251c</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to White about his admiration on her achievements.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A letter printed on a single sheet of paper.</p> <!-- one-sentence physical description of material (number of pages, print or handwritten, condition, dimensions, etc.) -->
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_u4_1251c_001.jpg"/>
+      <div><opener>
+    <hi style="center"><emph style="case(allcaps)"><name type="place" subtype="address">
+       The White House<lb/>
+       Washington<lb/>
+    </name></emph></hi>
+    <date when="1970-12-05">December 5, 1970</date><lb/>
+      <salute>
+      Dear <name type="person">Miss White</name> :<lb/>
+      </salute>
+      </opener></div>
+      <div><p>
+      As I read of your life and works while preparing<lb/>
+      to send a statement to this year's presentation of<lb/>
+      the <name type="event">Lane Bryant Volunteer Awards</name>, I was so struck<lb/>
+      by your remarkable service to others that I would<lb/>
+      like to back up my formal message with a personal<lb/>
+      note to you on your achievements.<lb/>
+      </p></div>
+      <div><p>
+      This is a time when every citizen is particularly<lb/>
+      called upon to do his part in the work of human<lb/>
+      betterment. And nothing could be more gratifying<lb/>
+      to those who lead this country than the knowledge<lb/>
+      that examples<choice><orig/><reg>,</reg></choice> such as you have set<choice><orig/><reg>,</reg></choice> are inspiring<lb/>
+      and encouraging more fellow citizens to follow in<lb/>
+      your footsteps.<lb/>
+      </p></div>
+      <div><p>
+      I want you to know that my own admiration for you<lb/>
+      is second to none, and that I especially value the<lb/>
+      incentive you have provided for others and the spark<lb/>
+      you have given to so many constructive programs.<lb/>
+      I assure you that the knowledge of your good works<lb/>
+      will be a continuing source of strength for me in the<lb/>
+      duties of the Presidency, just as I hope that it may<lb/>
+      bring you growing happiness and satisfaction in the<lb/>
+      years ahead.<lb/>
+      </p></div>
+      <div><p>
+      As a token of my enduring respect for you, I en-<lb/>
+      close a special Certificate of Commendation in<lb/>
+      tribute to your accomplishments.<lb/>
+      </p></div>
+      <closer>
+      <salute>
+      <hi style="center">
+      Sincerely,<lb/>
+      </hi>
+      </salute>
+      <signed>
+      <name type="person">Richard Nixon</name><lb/>
+      </signed>
+
+      <name type="person">Miss Eartha M. M. White</name><lb/>
+      President, <name type="organization">Clara White Mission</name><lb/>
+      <name type="place">Jacksonville, Florida</name>
+
+      </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from J.W. Drake to Eartha M.M. White. April 18, 1929.</title>
+            <author>J.W. Drake</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1658</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes offering help in apparent statewide campaign to raise money for the "redemption of Africa."</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Handwritten letter on St. John Baptist Church printed stationary from Rev. J. W. Drake to Eartha M. M. White on 4/18/1929 regarding; written on letterhead; rust damage from paperclips at top and bottom of paper.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1658_001.jpg"/>
+         <!--I have not transcribed the letterhead-->
+         <div>
+         <head>
+            <hi style="right">
+               <date when="1929-04-18">April 18, 1929</date><lb/>
+               </hi>
+         </head>
+         <opener>
+            <name type="person"><choice><abbr>Sis. E.</abbr><expan>Sister Eartha</expan></choice> M. White.</name><lb/>
+            <name type="place" subtype="city">Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name><lb/>
+            <salute>Dear Co-Worker;</salute><lb/>
+         </opener>
+         <p style="indent">
+            you will see from this, that<lb/>
+            I am, on the job. to put <name type="place"><choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name> over the<lb/>
+            top. I am greatly depending upon<lb/>
+            you sisters to help me raise our<lb/>
+            <supplied reason="illegible" cert="medium">quota</supplied> of fifty thousand quarters<lb/>
+            for <name type="place">Florida</name>.
+         </p>
+         <p style="indent">
+            I mailed our letters yesterday<lb/>
+            and to-day to every Moderator in<lb/>
+            the state.<lb/>
+         </p>
+         <p style="indent">
+            I am, now writing you sisters<lb/>
+            to <supplied reason="illegible" cert="medium">begin</supplied> to line up your district<lb/>
+            see your pastor, and plan your Meetings.
+         </p>
+         <p style="indent">
+            If any time I can be of any<lb/>
+            service to you write or wire me,<lb/>
+            as I have <choice><sic>planed</sic><corr>planned</corr></choice> to visit every association<lb/>
+         </p>
+         </div>
+         <pb n="2" facs="../images/ew_b5_1658_002.jpg"/>
+         <div>
+            <p>
+            in the state. I have a few 20¢ <supplied reason="illegible" cert="medium">gleaners</supplied><lb/>
+               if you can use a few write me.<lb/>
+            </p>
+               <p style="indent">
+               May I be favored with an<lb/>
+               early reply from you.<lb/>
+               </p>
+            <closer>
+               <salute>
+               yours for redemption of Africa<lb/>
+               </salute>
+               <signed><name type="person">J. W. Drake</name>.</signed><lb/>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

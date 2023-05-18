@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notes on Administrative Matters, Edward Waters College, 1924-1925</title>
+            <author>Unknown</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding by</resp>
+               <name>K. Anagnostou and Marisa Pechillo</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document was produced as part of the project "Northeast Florida Editing Workshop" at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier> <!-- this block indicates the repository where the physical item is located. UNF Special Collections is indicated here by default. If your item isn't at UNF, you need to change this information -->
+                  <country>USA</country>
+                  <region>Florida</region>
+                  <settlement>Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection>Eartha M. M. White Collection</collection>
+                  <idno>Folder M1 Item 0370</idno>
+                  <altIdentifier>
+                     <collection><!-- If you have accessed a digital copy of the item through an online collection, indicate the name and URL of the online collection here.--></collection>
+                     <idno><!-- Indicate the item number or whatever is used to designate the item within that online collection here.--></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Handwritten notes pertaining to the curriculum, enrollment, income, and expenses of Edward Waters College in Jacksonville, Florida for the school year 1924-1925. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>The note consists of two handwritten pages and is in generally good condition, with some darkening, stains, and creases.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Northeast Florida Editing Workshop" (nfew.org) at the University of North Florida. Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body> 
+         <pb n="1" facs= "../images/ew_m1_370_001.jpg"/><!--first side of stationary-->
+         <p>
+            <name type = "organization">Edward Waters College</name><lb/></p>
+         <p style="indent"><name type = "place" subtype="city">Jacksonville</name>, <name type="place" subtype="state"><choice><abbr>Fla.</abbr><expan>Florida</expan></choice> </name><lb/></p><!--how to indent this over a little bit to match original?-->
+            <p>Supported wholly by contributions from<lb/>
+               the negro people of the state of<lb/>
+               <name type="place" subtype="state">Florida</name>, through the <choice><abbr>A.M.E.</abbr><expan>African Methodist Episcopal</expan></choice> <lb/>
+               Church, <choice><abbr>11th</abbr><expan>eleventh</expan></choice> Episcopal District.<lb/>
+               <note type="editorial">The African Methodist Episcopal Church grew out of the Free African Society and was dedicated in 1794, under Pastor Richard Allen. The church congregation became an independent institution in the early 1800's, after Pastor Richard Allen successfully sued the courts of Pennsylvania for this right. <lb/>Dickerson, Dennis C. "Our History." The Official Website of the African Methodist Episcopal Church. https://www.ame-church.com/our-church/our-history/ Accessed August 29, 2020.</note><lb/>
+            Governed by a Board of Trustees<lb/>
+            elected by the people throughout<lb/>
+               the state. The presiding Bishop<lb/>
+            is the chancellor of the insti-<lb/>tution.
+            It is co-educational<lb/>
+               and does not limit its stu-<lb/>dents
+            to any particular<lb/>
+            faith. The enrollment for<lb/>
+               1924-25 is approximately<lb/>
+               550. The <choice><orig>College</orig><reg>college</reg></choice> conducts<lb/>
+               classes beginning with the <lb/> <choice><abbr>6th</abbr><expan>sixth</expan></choice> <choice><orig>Grade</orig><reg>grade</reg></choice> and continuing through<lb/>
+            four years of college work<lb/>
+               and<choice><orig></orig><reg>,</reg></choice> in addition<choice><orig></orig><reg>,</reg></choice> maintains<lb/></p>
+            <p style="indent">(over)</p>
+         <pb n="2" facs="../images/ew_m1_370_002.jpg"/><!--second side of stationary with Camp Johnston image--> 
+         <note type="transcription">The top of the note is marked with a printed logo, which is crossed through with pencil. The printed logo portrays two crossed American flags positioned above the words "U.S.A. Camp Johnston Jacksonville, Fla."</note>
+         <p>
+            a theological seminary<lb/>
+            <note type="editorial">Possible reference to <ref target="https://digitalcommons.unf.edu/historical_architecture_main/999/">Lee Theological Seminary</ref></note> for the<lb/>
+            proper training of ministers.<lb/>
+            It also has business, printing,<lb/>
+            tailoring, domestic science, and<lb/>
+            domestic art departments.</p>
+         <p style="indent">The amount of money<lb/>
+            raised each year for the<lb/>
+            operating expenses of the<lb/>
+            school, including board<lb/>
+            and tuition paid by students,<lb/>
+            totals very nearly $100,000.00.</p>
+         <p style="indent">
+            The needs now are the estab-<lb/> lishment
+            of a sufficiently large<lb/>
+            endowment fund so that the<lb/>
+            school might be able to take care<lb/>
+            of its needs and obligations with<lb/>
+            some degree of assurance and not<lb/>
+            depend wholly on the free will <unclear cert="medium" reason="The handwriting is cramped and slightly covered by lower right corner of page">offering of the people</unclear><choice><orig/><reg>.</reg></choice>
+         </p>
+      </body>
+  </text>
+</TEI>

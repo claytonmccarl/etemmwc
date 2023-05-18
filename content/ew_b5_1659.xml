@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from E.D. Ballard and J. H. Lewis to Eartha M.M. White. November 20, 1929. Jacksonville, Florida.</title>
+            <author>E.D. Ballard and J. H. Lewis</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1659</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Authors request donations of furnishings for clubhouse of soon-to-open Lincoln Golf &amp; Country Club.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Typed letter, with handwritten signatures, from E. D. Ballard and J. H. Lewis of the Lincoln Golf and Country Club to Eartha M. White on 11/20/1929, requesting donations of furnishings for the new club house.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1659_001.jpg"/>
+         <!--the envelopes and slip that accompany this letter, but are not here pictured, have not been transcribed/encoded-->
+         <head>
+            <emph style="case(allcaps)">
+               Office Of<lb/>
+            <name type="organization">Lincoln Golf and Country Club</name><lb/>
+               <name type="place" subtype="address">402 Broad <choice><abbr>St.</abbr><expan>Street</expan></choice></name> <name type="place" subtype="city">Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name><lb/>
+            </emph>
+         </head>
+         <head>
+            <date when="1929-11-20">November <choice><abbr>20th</abbr><expan>twentieth</expan></choice>
+            19 <space/> 29</date><lb/>
+         </head>
+         <head>
+            <note type="transcription">This header is in the left margins and is in small print.</note>
+            <emph style="case(allcaps)">Officers</emph><lb/>
+            <name type="person">E. D. Ballard</name>, <hi style="italics"><choice><abbr>Pres.</abbr><expan>President</expan></choice></hi><lb/>
+            <name type="person">J. S. McLane</name>, <hi style="italics"><choice><abbr>Vice Pres.</abbr><expan>Vice President</expan></choice></hi><lb/>
+            <name type="person">J. H. Lewis</name>, <hi style="italics"><choice><abbr>Secty.</abbr><expan>Secretary</expan></choice></hi><lb/>
+            <name type="person">A. L. Lewis</name>, <hi style="italics"><choice><abbr>Treas.</abbr><expan>Treasurer</expan></choice></hi><lb/>
+            <emph style="case(allcaps)">Directors</emph><lb/>
+            <name type="person">S. D. McGill</name>, <hi style="italics"><choice><abbr>Atty.</abbr><expan>Attorney</expan></choice></hi><lb/>
+            <name type="person">L. L. Pratt</name>, <hi style="italics">Auditor</hi><lb/>
+            <name type="person">L. D. Ervin</name>, <hi style="italics">Auditor</hi><lb/>
+            <name type="person">F. Fairchild</name>, <hi style="italics">Auditor</hi><lb/>
+            <name type="person">D. D. Powell</name><lb/>
+            <name type="person">Mrs. A. L. Anderson</name><lb/>
+            <emph style="case(allcaps)">Tennis Club</emph><lb/>
+            <name>R. P. Stewart</name>, <hi style="italics"><choice><abbr>Pres.</abbr><expan>President</expan></choice></hi><lb/>
+            <name type="person">Mrs. R. Holland</name>, <hi style="italics">Solicitor</hi><lb/>
+            <emph style="case(allcaps)">Gun Club</emph><lb/>
+            <name type="person">Calvin Williams</name><hi style="italics"><choice><abbr>Secty.</abbr><expan>Secretary</expan></choice></hi><lb/>
+         </head>
+         <opener>
+            <salute>Dear Sir:-</salute><lb/>
+         </opener>
+         <p>
+            As a member of the <name type="organization">Lincoln Golf &amp; Country Club</name> and interested<lb/>
+            in what we are doing this comes to inform you that we have<lb/>
+            completed our club house, electric lightshave been in<lb break="no"/>
+            stalled, and we are preparing to open the club. But<lb/>
+            we have no furnishings for the inside.<lb/>
+         </p>
+         <p>
+            We are asking all of our club members and Officers to give<lb/>
+            us something to be used in the club house. Anything from<lb/>
+            a cup and saucer to a piece of furniture will be of some<lb/>
+            service. All of us have labored hard to make this an<lb/>
+            ideal spot for recreation and pleasure, and we feel that<lb/>
+            you might have something around the home which you can<lb/>
+            afford to give for the use of the club.<lb/>
+         </p>
+         <p>
+            We are enclosing a slip with a self-addressed envelope.<lb/>
+            If you will kindly fill in same and mail to us we will<lb/>
+            be very glad to have our representative call and get what<lb break="no"/>
+            ever you promise. We want to be able to have our open<lb break="no"/>
+            ing some time in <date when="1929-12">December</date>.<lb/>
+         </p>
+         <p>
+            If you have not been out to the club recently we will be<lb/>
+            glad to have you come out, as things are looking very<lb/>
+            nice there.<lb/>
+         </p>
+         <closer>
+            <salute>Thanking you in advance for whatever you give, we are,<lb/>
+            Very truly yours,<lb/>
+               <emph style="case(allcaps)"><name type="place" subtype="organization">Lincoln Golf &amp; Country Club</name></emph></salute><lb/>
+            <signed>
+               President. <handShift script="cursive" medium="blue-ink"/><name type="person">E. D. Ballard</name><lb/>
+               <handShift script="typed" medium="black-ink"/> 
+               Secretary. <handShift script="cursive" medium="blue-ink"/> <name type="person">J. H. Lewis</name><lb/>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

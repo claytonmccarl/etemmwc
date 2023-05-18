@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from M. E. J. Washington to Eartha M.M. White, Jacksonville, FL, July 22, 1920</title>
+            <author>M.E.J. Washington</author>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <name>Joleen Stahl</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "editing the Earth M.M. White Archive"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder G-5, Item 1814  </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author expresses condolences to Eartha M.M. White 
+                     upon the death of a friend.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Handwritten note on paper 5x7 front and back.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body> 
+         <pb n="1" facs= "../images/ew_g5_1814_001.jpg"/>
+            <opener style="mid-page">
+               <name type="place">Jacksonville<choice><orig/><reg>,</reg></choice> <choice><abbr>Fla</abbr><reg>Florida</reg></choice><choice><orig>-</orig><reg>, </reg></choice><lb/></name>
+               <date when="1920-07-22">July 22<choice><orig>-</orig><reg>, </reg></choice>1920<lb/></date>
+            </opener>
+            <opener>
+               <salute> My dear friend<choice><orig>:</orig><reg>,</reg></choice></salute>
+            </opener>
+            <p> 
+               <choice><orig>in</orig><reg>In</reg></choice> this hour of<lb/>
+               your bereavement over<lb/>
+               the loss of your dearest<lb/>
+               friend I share your<lb/> 
+               sorrow.<lb/> 
+               I hope that you<lb/>
+               have found consolation<lb/>
+               in knowing that she<lb/>
+               has been called to receive<lb/>
+               a reward for her beautiful<lb/>
+               life and service to<lb/>
+               <choice><orig>Humanity</orig><reg>humanity</reg></choice>.<lb/>
+               May this little token<lb/>
+               of my affection for the<lb/>
+               departed one be<lb/>          
+            <pb n="2" facs= "../images/ew_g5_1814_002.jpg"/>         
+               some means of benefit<lb/>
+               in this last <!--A mark that appears to be extraneous.-->opportunity<lb/>
+               of expression<choice><orig/><reg>.</reg></choice><lb/>
+            </p>
+         <closer style="mid-page">
+            <salute>
+               <choice><orig>your</orig><reg>Your</reg></choice> friend<choice><orig/><reg>,</reg></choice><lb/>
+               </salute>
+            <signed>
+               M.E.J. Washington<lb/>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

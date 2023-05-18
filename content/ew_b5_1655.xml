@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Lucile Boston to Eartha M.M. White. February 13, 1930. Jacksonville, Florida.</title>
+            <author>Lucile Boston</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1655</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author requests that White visit her.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Handwritten letter from Lucile Boston to Eartha M. M. White on 1/13/1930 requesting a visit from White. Envelope included.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1655_001.jpg"/>
+         <!--the envelope that accompanies this letter has not been transcribed/encoded-->
+         <head>
+            <hi style="right">
+               <name type="place" subtype="city">Jacksonville <choice><abbr>Fla</abbr><expan>Florida</expan></choice></name><lb/>
+            <date when="1930-01-13"><choice><abbr>Feb, 13, 1930</abbr><expan>February 13, 1930</expan></choice></date><lb/>
+            </hi>
+            <name type="person">Mrs <choice><abbr>E.</abbr><expan>Eartha</expan></choice> M. White</name>.<lb/>
+         </head>
+         <p>
+            <hi style="left">Dear. Just a few</hi><lb/>
+            lines to let you Hear from me<lb/>
+            a <choice><sic>strangle</sic><corr>stranger</corr></choice> to you, but not to<lb/>
+            god, is my <choice><sic>belive</sic><corr>belief</corr></choice><choice><orig/><reg>.</reg></choice> Mrs White w<lb break="no"/>
+            hen <supplied reason="illegible" cert="high">Around</supplied>my way<choice><orig/><reg>,</reg></choice> I wish to<lb/>
+            <supplied reason="illegible" cert="high">Have</supplied> a talk please with you<choice><orig/><reg>.</reg></choice><lb/>
+            <choice><orig>disable</orig><reg>unable</reg></choice> to come to you. Will<lb/>
+            you please let me <choice><sic>Here</sic><corr>hear</corr></choice><lb/>
+            from you. Oblige<lb/>
+            <name type="person"><hi style="right"><supplied reason="illegible" cert="high">Lucile</supplied></hi><lb/>
+               Boston</name><lb/>
+            <name type="place" subtype="address">1506 Haines <choice><abbr>ave.</abbr><expan>Avenue</expan></choice></name><lb/>
+         </p>
+      </body>
+  </text>
+</TEI>

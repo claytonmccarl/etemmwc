@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Program from event featuring address by Mrs. Booker T Washington. March 24, 1913. Jacksonville, Florida.</title>
+            <author><name type="organization">City Federation of Colored Women's Clubs</name></author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Chad Germany</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder Q4, Item 1164</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Item contains program from event, held at Bethel Baptist Institutional Church, listing Eartha M.M. White as "Chairman of Committee of Arrangements."</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>This document is a 1913 10" x 8" program for a speaking by Mrs. Booker T Washington, with numerous moisture stains, several 1cm tears on the top edge and one 1in tear on the bottom edge of the paper.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <pb n="1" facs="../images/ew_q4_1164_002.jpg"/>
+        <cb n="1"/>
+        <list style="simple">
+        <head style="center"><hi style="bold">Presidents of Clubs</hi></head>
+        <item><name type="person"> Mrs. W.H. Alexander</name>, <name type="organization"> M.E.C. Smith Woman's Club</name><lb/></item>
+        <item>"<name type="person"> T.G. Freeland</name>, <name type="organization"> Mother's Club</name></item><lb/>
+        <item>"<name type="person"> M.E. Gray</name>, <name type="organization"> <choice><sic> Brooklin</sic><corr> Brooklyn</corr></choice> Brooklin Improvement Club </name></item>
+        <item>"<name type="person"> Bell Anderson</name>, <name type="organization"> The L.C. Fleming Club </name></item><lb/>
+        <item>"<name type="person"> I.A. Ross</name>, <name type="organization"> The Phillis Wheatley Club</name></item><lb/>
+        <item>"<name type="person"> A.C. Corner</name>, <name type="organization"> Mary Church Terrell Club</name></item><lb/>
+        <item>"<name type="person"> G.N. Barnes</name>, <name type="organization"> The Orphanage Home Association</name></item><lb/>
+        <item>"<name type="person"> H.L. Dennis</name>, <name type="organization"> The Ladies Auxiliary of the Academy</name></item><lb/>
+        <item>"<name type="person"> Flora Wright</name>, <name type="organization"> Pulpit Aid of Bethel Church</name></item><lb/>
+        <item><name type="person"> Miss Eartha M.M. White</name>, <name type="organization"> The Old Folks Home Association</name></item><lb/>
+        <item>"<name type="person"> S.A. Blocker</name>, <name type="organization"> Improvement Club</name></item><lb/>
+        </list>
+        <p><hi style="center">________________________</hi></p>
+        <list style="simple">
+        <head style="center"><hi style="bold"> Lady Attendents</hi></head><lb/>
+        <item><hi style="left"><name type="person"> Mrs. Pollie Duval</name></hi></item><item><hi style="right"><name type="person"> Mrs. Alice Anderson</name></hi></item><lb/>
+        <item>"<hi style="left"><name type="person"> J.W. Agaer</name></hi></item><item><hi style="right"> "<name type="person"> Phillip Elmore</name></hi></item><lb/>
+        <item>"<hi style="left"><name type="person"> M.A. Bennett</name></hi></item><item><hi style="right"> "<name type="person"> Julia Keith</name></hi></item><lb/>
+        <item>"<hi style="left"><name type="person"> Williams</name></hi></item><item><hi style="right"> "<name type="person"> Thompson</name></hi></item><lb/>
+        <item>"<hi style="left"><name type="person"> G.L. Thomas</name></hi></item><item><hi style="right"> "<name type="person"> Brockington</name></hi></item><lb/>
+        <item>"<hi style="left"><name type="person"> H.E. Lee</name></hi></item><item><hi style="right"> "<name type="person"> Silvia Bram</name></hi></item><lb/>
+        <item>"<hi style="left"><name type="person"> E. Lena Williams</name></hi></item><item><hi style="right"> "<name type="person"> Clara Fulford</name></hi></item><lb/>
+        <item>"<hi style="left"><name type="person"> Thomas McIntosh</name></hi></item><item><hi style="right"> "<name type="person"> R.E. Blair</name></hi></item><lb/>
+        <item>"<hi style="left"><name type="person"> Maria Anderson</name></hi></item><item><hi style="right"> "<name type="person"> Mrs. Rodgers</name></hi></item><lb/>
+        <item>"<hi style="left"><name type="person"> Amia White</name></hi></item><item><hi style="right"> "<name type="person"> L.L. Powell</name></hi></item><lb/>
+        <item>"<hi style="left"><name type="person"> C.S. Tucker</name></hi></item><item><hi style="right"> "<name type="person"> Oneil</name></hi></item><lb/>
+        </list>
+        <cb n="2"/>
+        <p><name type="organization">City Federation of<lb/>
+              Colored Women's Clubs<lb/></name>
+              at <name type="organization">Bethel Baptist Institutional Church<lb/>
+              </name> Monday evening, <date when="1913-03-24"> March 24 <hi style="superscript">th</hi></date><lb/>
+              nineteen hundred and thirteen<lb/>
+              <name type="person"> Mrs. Booker T. Washington</name>,<lb/>
+              Honored Guest<lb/>
+              Eight O'Clock<lb/></p>
+        <pb n="2" facs="../images/ew_q4_1164_001.jpg"/>
+        <cb n="2"/>
+        <list style="simple">
+        <head style="center">Officers</head>
+           <item><name type="person"> Mrs. J.W. Ward </name>,<name role="administrator"> President </name></item>
+           <item><name type="person"> Mrs. Phillis Witsell </name>,<name role="administrator"> First Vice President </name></item>
+           <item><name type="person"> Mrs. A.J. Williams </name>,<name role="administrator"> Second Vice President </name></item>
+           <item><name type="person"> Mrs. T.G. Freeland </name>,<name role="administrator"> Third Vice President </name></item>
+           <item><name type="person"> Mrs. E.L. James </name>,<name role="administrator"> Financial Secretary </name></item>
+           <item><name type="person"> Mrs. G.N. Griffin </name>,<name role="administrator"> Corresponding Secretary </name></item>
+           <item><name type="person"> Miss Eartha M.M. White </name>,<name role="administrator"> City Organizer </name></item>
+       </list>
+       <cb n="3"/>
+       <list style="simple">
+       <head n="2" style="center"><hi style="bold"><hi style="underline"></hi></hi> Programme </head>
+       <item style="left"> Singing </item><item style="right"><name type="person"> Mrs. Henrietta Dennis </name></item><lb/>
+       <item style="left"> Prayer </item><item style="right"><name type="person"> Mrs. Williams </name></item><lb/>
+       <item style="left"> Welcome Address </item><item style="right"><name type="person"> Mrs. Cora Heard </name></item><lb/>
+       <item style="left"> Vocal Solo </item><item style="right"><name type="person"> Mrs. C.T. Dorroh.</name><name role="administrator"> State<choice><abbr> Pres.</abbr><expan> President </expan></choice></name></item><lb/>
+       <item style="left"> Introduction </item><item style="right"><name type="person">Mrs. Booker T. Washington</name></item><lb/>
+       <item style="left"> Address </item><item style="right"><name type="person"> little Alma Freeland </name></item><lb/>
+       <item style="left"> Presentation of Flowers </item><item style="right"><name type="person"> Miss Pearl Wimberly </name></item><lb/>
+       <item style="left"> Response of the <orgName type="social"> National Association of Colored Women </orgName><lb/></item><item style="right"><name type="person"> Mrs. Lillian Turner</name></item><lb/>
+       <item style="left"> Remarks </item><item style="right"><name type="person"> Miss Nanie Burroughs </name></item><lb/>
+       <item style="right"> of <name type="place" subtype="city">Washington <choice><abbr> D.C.</abbr><expan> District of Columbia </expan></choice></name></item><lb/>
+       <item style="left"><choice><sic> Duett </sic><corr> Duet </corr></choice></item><item style="right"><orgName type="school"> Florida Baptist Academy </orgName></item><lb/>
+       <item style="left"><name type="person"> Mrs. Ruth Harris Jackson <hi style="large"> { </hi></name></item><item style="right"> Accompanist </item><lb/>
+       <item style="left"><name role="educator"><choice><abbr> Prof. <expan> Professor </expan></abbr></choice></name><name type="person"> W.T. Brandon </name></item><lb/>
+       <item style="center"><name type="person"> Mrs. Amis Gray</name>, <name role="administrator"> Master of Ceremonies </name></item><lb/>
+       <item style="center"><name type="person"><emph style="allcaps"> EARTHA M.M. WHITE </emph></name></item><lb/>
+       <item style="center"><name role="administrator"> Chairman of <choice><sic> Committe <corr> Committee </corr></sic></choice></name></item><lb/>
+        </list>
+     </body>
+   </text>
+</TEI>

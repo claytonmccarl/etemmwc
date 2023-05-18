@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Housewives League is Organized," a news article from July 13, 1958</title>
+            <author>Florida Times-Union</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>John Pello-Wasko</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder W1, Item 428</idno>                 
+               </msIdentifier>
+               <msContents>
+                  <summary>Item discusses efforts by White to compile a directory of local business and professional people and to form a league of housewives.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_w1_428_ 001.jpg"/>
+         <p><name type="person">Dr. Eartha M.M White</name>, a di<lb break="no"/>
+            rector of the Business League,<lb/>
+            launched a drive to compile a di<lb break="no"/>
+            rectory of local business and pro<lb break="no"/>
+            fessional people and to form a <lb/>
+            Housewives League, at a meet<lb break="no"/>
+            ing held at <name type="place">Clara White Mission</name><lb/>
+            <name type="place">Auditorium</name>.</p>
+         
+         <p><name type="person">Dr.White</name> is founder-president<lb/>
+            of <name type="place">Clara White Mission Inc.</name> <name type="place">613</name><lb/>
+            <name type="place">W. Ashley St.</name></p>
+         
+         <p>Persons who attended the ini<lb break="no"/> 
+            tial meeting assisted in recording<lb/>
+            information as to "Who is Who"<lb/>
+            in <name type="place">Jacksonville</name> in more than 50<lb/>
+            diversified types of business and<lb/>
+            professional services here.</p>
+         
+         <p><name type="person">Mrs. Lenora Davis</name> of the<lb/>
+            <name type="place">Davis Employment Agency</name> was<lb/>
+            named to head the <name type="place">Jacksonville</name><lb/>
+            <name type="place">Housewives League</name>. Also on the<lb/>
+            staff are <name type="person">Mrs. C. M. Young</name> and<lb/>
+            <name type="person">Mrs. Izola Fleming</name> of the <name type="place">Taxi</name><lb/>
+            <name type="place">Drivers Ladies Auxiliary</name>, and<lb/> 
+            <name type="person">Mrs. Ethel Powell</name>, <name type="place">Home Dem</name><lb break="no"/>
+            <name type="place">ostration Agent</name> for Duval<lb/> 
+            County</p>
+         
+         <p><name type="person">Miss White</name> plans to report her<lb/>
+            findings in the survey to the <name type="place">Na</name> <lb break="no"/>
+            <name type="place">tional Business League</name> in its an<lb break="no"/>
+            nual convention at <name type="place">Durham, N.C.</name><lb/>
+            July 30.</p>
+         
+         <p>The group will meet at the mis<lb break="no"/>
+            sion Thursday at 7 p.m. to com<lb break="no"/>
+            plete the organization of the<lb/>
+            <name type="place">Housewives League</name>. All house<lb break="no"/>
+            wives and business and profes<lb break="no"/>
+            sional persons may attend.</p>
+      </body>
+  </text>
+</TEI>

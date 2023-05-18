@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Nancy Violette Cunningham to Eartha M. M. White. Novumber 30, 1929.</title>
+            <author>Nancy Violette Cunningham</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder E1, Item 333</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to inform White of a death and to ask for a reply to her letters.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A handwritten letter of two pages from Nancy to White on the death of a figure in a local church, dated 11/30/1929.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs="../images/ew_e1_333_001.jpg"/>
+         <opener><name type="place" subtype="address">4325-27 <choice><abbr>S.</abbr><expan>South</expan></choice> Parkway<lb/>
+         Chicago, Illinois</name><lb/>
+         <date when="1929-11-30">Nov. 30 - 1929</date><lb/>
+         <salute>Dear <name type="person">Eartha</name>;</salute></opener>
+         <p style="indent">
+            Am just back from <name type="person"><choice><abbr>Trus.</abbr><expan>Trustee</expan></choice><lb/>
+            Owen's</name> funeral and heard four<lb/>
+            <choice><sic>telegram</sic><corr>telegrams</corr></choice> read. I was just over<lb/>
+            to see her the last of last month<lb/>
+            and how it had preyed <unclear cert="low" reason="difficult handwriting">on any</unclear><lb/>
+            my mind to call her <del type="strikeout">but</del> last<lb/>
+            week but neglected doing<lb/>
+            so and then she passed before<lb/>
+            I could get back to see her.<lb/>
+         </p>
+         <p style="indent">
+            She hasn't been a well wom<lb break="no"/>an for some time but was<del type="strikeout">n't</del><lb/>
+            carried to her bed or home<lb/>
+            for only a short while less than<lb/>
+            a month even.<lb/>
+         </p>
+         <p style="indent">
+            <name type="person">Bishop Carey</name> and all of <choice><orig>The</orig><reg>the</reg></choice> <choice><orig>Ministers</orig><reg>ministers</reg></choice><lb/>
+            of the city (<choice><abbr>A.M.E.</abbr><expan>African Methodist Episcopal</expan></choice>) were present and spoke<lb/>
+            as well as <name type="person">Senator Roberts</name> (<name type="place" subtype="state"><choice><abbr>Cal</abbr><expan>California</expan></choice></name>)<choice><orig/><reg>;</reg></choice> <name type="person">Judge<lb/>
+            Lupe</name>, in whose court we went that<lb/>
+            day - Court of domestic relations<choice><orig/><reg>;</reg></choice><lb/>
+            and <name type="person">Judge George</name> and many<lb/>
+         </p>
+         <pb n="2" facs="../images/ew_e1_333_002.jpg"/>
+         <p>other political leaders.</p>
+         <p style="indent">
+            It is bitter cold here - six below<lb/>
+            and that had to do with the crowd<lb/>
+            being as small as it was <choice><sic>altho</sic><corr>although</corr></choice><lb/>
+            the church (<name type="place"><unclear cert="low" reason="handwriting">Lerim</unclear> <choice><sic>Chapell</sic><corr>Chapel</corr></choice></name>) was<lb/>
+            <choice><orig>was</orig><reg/></choice><!--repeated word removed 2020-02-24 James Dell'Alba--> <choice><sic>two thirds</sic><corr>two-thirds</corr></choice> full and the<lb/>
+            <unclear cert="medium">flowers</unclear> beautiful.<lb/>
+         </p>
+         <p style="indent">
+            Her passing is to be regretted<lb/> 
+            because of her usefulness and<lb/>
+            her exemplary Christian life.<lb/>
+         </p>
+         <p style="indent">
+            I can't imagine<choice><orig/><reg>,</reg></choice> <name type="person">Eartha</name><choice><orig/><reg>,</reg></choice><lb/>
+            why your folks don't write<lb/>
+            me. What evil have I done that<lb/>
+            you should exclude me so<lb/>
+            completely? Did you all ever get<lb/>
+            your pictures and where is mine?<lb/>
+         </p>
+         <p style="indent">
+            <name type="person">Carrie</name> says old lady <name type="person">Lena</name><lb/>
+            left her <choice><orig>uncluded</orig><reg>included</reg></choice> in her will<choice><orig/><reg>;</reg></choice><lb/>
+            did you hear any thing of it?<lb/>
+         </p>
+         <p style="indent">
+            <name type="person">Sydney</name> is working doing fairly<lb/>
+            well. I hope you are well<choice><orig/><reg>,</reg></choice> <name type="person">Eartha</name><choice><orig/><reg>,</reg></choice><lb/>
+            and that things are moving along<lb/>
+            smoothly for you.<lb/>
+         </p>
+         <closer><salute>Much love and kindest <choice><sic>thots</sic><corr>thoughts</corr></choice><lb/>
+            to you and <name type="person">B.H</name> + Lovingly<choice><orig/><reg>,</reg></choice></salute><signed><name type="person">Nancy</name></signed></closer>
+      </body>
+  </text>
+</TEI>

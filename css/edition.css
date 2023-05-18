@@ -1,0 +1,112 @@
+/* This css file suppresses the original transcription (orig) and shows the edited text (reg) */
+
+/* Show any <reg> (regularized text) and expand abbreviations. */
+/* IMPORTANT: this assumes that all abbreviations have expansions. */
+
+html {
+  width: 40%;
+}
+
+/* Suppress all transcription annotations; type="editorial" and "authorial" will still display */
+note[type="transcription"] {
+    display: none;
+}
+
+choice > reg,
+reg, 
+supplied {
+    display: inline;
+}
+
+choice expan {
+    display: inline !important;
+}
+
+subst add {
+    color: black;
+    vertical-align: baseline;
+}
+
+/* Suppress the original reading as well as any unexpanded abbreviations or deletions */
+
+choice > abbr,
+choice > orig,
+choice > sic,
+choice > del {
+    display: none;
+}
+figure > desc {
+    display: none;
+}
+choice > abbr {
+    border-bottom: none;
+}
+/* Kill the line-breaks, only in paragraphs */
+/* Kill the line-breaks */
+lb {
+	display: none;
+}
+	/* remove centering of text 
+p[style="center"] {
+    text-align: left;
+    }
+    /* remove right align of text
+p[style="right"] {
+    text-align: left;
+    }
+*/
+
+/* trying to remove space after lb break="no" with no luck
+lb:after {
+	content: none;
+}
+*/
+/* Kill the parenthesis around expanded abbreviations and regularized/corrected forms */
+choice abbr + expan:before,
+choice expan + abbr:before,
+choice sic + corr:before,
+choice corr + sic:before,
+choice orig + reg:before,
+choice reg + orig:before {
+  content: "";
+}
+choice abbr + expan:after,
+choice expan + abbr:after,
+choice sic + corr:after,
+choice corr + sic:after,
+choice orig + reg:after,
+choice reg + orig:after {
+  content: "";
+}
+/*color works, but not the alignment
+closer {
+    text-align: left;
+    color: blue;
+}
+*/
+/*
+body {
+    text-align: left;
+    color: blue;
+}
+*/
+salute {
+        text-align: left;
+}
+signed {
+        text-align: left;
+}
+/*this not working*/
+/*
+opener lb:after {
+  content: '\a';
+  white-space: pre;
+}
+*/
+/*this not working -- preserve linebreaks in dateline, if any
+dateline > lb:after {
+  content: '\a';
+  white-space: pre;
+}
+*/
+

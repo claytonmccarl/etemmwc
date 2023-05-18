@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Eartha M.M. White. April 13, 1930, Jacksonville, Florida.</title>
+            <author>Author unknown</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1657</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author appeals for support of Bethel Baptist Institutional Church in context of an apparent fundraising effort.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Handwritten letter from Gracie Armstrong to Eartha M. M. White on 4/13/1930 soliciting donations for a District Rally, Bethel Baptist Church.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1657_001.jpg"/>
+         <div>
+         <head>
+            <name type="place" subtype="city">Jacksonville <choice><abbr>Fla</abbr><expan>Florida</expan></choice></name><lb/>
+            <date when="1930-04-13">April the <choice><abbr>4-13-1930</abbr><expan>April 13, 1930</expan></choice></date><lb/>
+         </head>
+         <p>
+            <name type="person">Miss <choice><sic>Birth</sic><corr>Eartha</corr></choice> White</name> i am askin<lb/>
+            ya to please help me in my<lb/>
+            Rally of <name type="place"><supplied reason="illegible" cert="low"><choice><sic>seckan</sic><corr>second</corr></choice></supplied> Bethel<lb/>
+               Baptist <supplied><choice><abbr>I</abbr><expan>Institutional</expan></choice></supplied> <choice><sic>Hhurch</sic><corr>Church</corr></choice></name><choice><orig/><reg>.</reg></choice>
+            <!-- It is possible that the <mentioned>I</mentioned> that I have here interpreted as an abbreviation of <mentioned>Institutional</mentioned> is in fact a cursive capital "C," which would mean that <mentioned>Church</mentioned> is misspelled because it only has double "Hs" and not a missing "C."-->
+            We <choice><sic>ar</sic><corr>are</corr></choice> in<lb/>
+            a $100.00 Dollar Rally<choice><orig/><reg>.</reg></choice> Each<lb/>
+            District <choice><sic>ar</sic><corr>are</corr></choice> to Report $2.50<lb/>
+            Dollars<choice><orig/><reg>.</reg></choice> we <choice><sic>ar</sic><corr>are</corr></choice> a Few in number<choice><orig/><reg>.</reg></choice><lb/>
+            please vote for District <choice><abbr>no 2</abbr><expan>number two</expan></choice><choice><orig/><reg>.</reg></choice><lb/>
+            i Know ya dont <choice><sic>no</sic><corr>know</corr></choice> me<lb/>
+            By my name<choice><orig/><reg>.</reg></choice> we <choice><sic>ar</sic><corr>are</corr></choice> all <supplied reason="illegible" cert="low">waring</supplied><lb/>
+            For the <supplied reason="illegible" cert="high">Lord</supplied><choice><orig/><reg>.</reg></choice> i am sending<lb/>
+            ya this card<choice><orig/><reg>.</reg></choice> Decan <name type="person">W<lb/>
+               James</name> sister <name type="person"><supplied reason="illegible" cert="high">Gracie Armstrong</supplied></name><lb/>
+            <choice><sic>chearman</sic><corr>chairman</corr></choice> <name type="person">R <supplied reason="illegible" cert="low">q O'Beacly</supplied></name> pastor<lb/>
+            <name type="place" subtype="address">1812 Prince <choice><abbr>st</abbr><expan>Street</expan></choice><location><geo>30.341912 -81.679745</geo></location></name> please <choice><sic>doe</sic><corr>do</corr></choice> all<lb/>
+            ya can miss White<lb/>
+         </p>
+         </div>
+         <div>
+         <p>
+            District <choice><abbr>no 2</abbr><expan>number two</expan></choice> <name type="person">W James</name><note type="editorial">this is written on the <mentioned>card</mentioned> that accompanies the above letter.</note><lb/>
+         </p>
+         </div>
+      </body>
+  </text>
+</TEI>

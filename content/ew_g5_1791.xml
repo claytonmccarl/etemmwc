@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Letter requesting help. W. W. Hamilton to Eartha M. M. White. January 30, 1930. </title>
+            <author>W. W. Hamilton </author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Susan Williams</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "editing the Earth M.M. White Archive"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder:G-5, Item: 1791  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p> Handwritten letter on 5x7 writting tablet paper
+                     front and back dated January 30, 1930</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs= "../images/ew_g5_1791_001.jpg"/>
+         <opener> <name type="place" subtype="address">1106 Kay St. Tampa Fla </name> <date> 1/30/30</date> <lb/>
+         <name type="person">Miss Earther White </name><lb/>  <salute> Dear Sister&amp; friend</salute><lb/></opener>
+         <p>
+         I am writing to let you hear<lb/> from us We are all<lb/>up but not so well<lb/> but I hope that this not<lb/> Will find you well &amp;up<lb/>
+         I wrot <name type="person"> Mrs. Yourk Price</name><lb/> but cant hear from him<lb/> I wrote you also &amp; cant<lb/> hear from you. What is <lb/>
+         the matter.  Is Mr. Price<lb/> still in the house or not<lb/> Please answer this letter <lb/> Please see if you can get<lb/> a Renter fro the down stair<lb/>
+         of that house.
+         </p> 
+         <pb n="2" facs= "../images/ew_g5_1791_002.jpg"/>
+         <p> We put the house in <lb/> charge an agentbut<lb/> We lost his address so<lb/> we cant write him pleas<lb/> get his adress off his<lb/>
+            rent sign &amp; send it to us.<lb/> all sends love to you.<lb/> Thomas is no better as<lb/> we can see.<lb/> Please help us out in<lb/>
+         as it so far up there &amp;<lb/> money is scare we cant<lb/>get up there to see after<lb/> it. let us hear from <lb/> you at once.<lb/>
+         </p>
+            <closer><salute>I am your friend&amp;</salute> <signed>Brother W. W. Hamilton</signed></closer>
+         
+      </body>
+  </text>
+</TEI>

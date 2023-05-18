@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Editing the Eartha M.M. White Archive": Edited Documents, Summer 2016</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <figure><lb/><desc>Image courtesy of UNF Special Collections and Archives</desc>
+            <graphic url="../images/EW2scaled.jpg"></graphic>
+         </figure>
+         <div>
+            <head>"Editing the Eartha M.M. White Archive": Index to Edited Documents</head>
+
+            <p>
+               
+               University of North Florida students, faculty and staff are preparing the following draft documents as part of the pilot phase of the "Editing the Eartha M.M. White Archive" project. We have used an adaptation of TEI Boilerplate as a preliminary test interface for this edition. 
+            </p>
+            <!--
+               Put thumbnail images of first pages on this page!
+            -->
+            <div>
+               <head>For future workshop</head>
+               <list type="index">
+               <item>
+                  <ref target="ew_e4_1068.xml">Folder E4, item 1068.</ref> title/description (unassigned)
+               </item> 
+               <item>
+                  <ref target="ew_e5_1665.xml">Folder E5, item 1665.</ref> title/description (unassigned)
+               </item> 
+               <item>
+                  <ref target="ew_f4_1075.xml">Folder F4, item 1075.</ref> title/description (unassigned)
+               </item> 
+               <item>
+                  <ref target="ew_f5_1697.xml">Folder F5, item 1657.</ref> title/description (unassigned)
+               </item>
+                  <item>
+                     <ref target="ew_g5_1784.xml">Folder G5, item 1784.</ref> title/description (unassigned)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1787.xml">Folder G5, item 1787.</ref> title/description (unassigned)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_2868.xml">Folder G5, item 2868.</ref> title/description (unassigned)
+                  </item>
+                  <item>
+                     <ref target="ew_l4_1328.xml">Folder L4, item 1328.</ref> title/description (unassigned)
+                  </item>
+               </list>
+            </div>
+            <div>
+               <head>Spring 2018 documents</head><!-- as blank templates -->
+               <list type="index">
+                  <item>
+                     <ref target="ew_e4_1065.xml">Folder E4, item 1065.</ref> [title/description] (Glenda Kelsey)
+                  </item>   
+                  <item>
+                     <ref target="ew_e4_1066.xml">Folder E4, item 1066.</ref> [title/description] (Samantha Feaster)
+                  </item> 
+                  <item>
+                     <ref target="ew_g5_1757.xml">Folder G5, item 1757.</ref> [title/description] (Courtenay McLeland)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1791.xml">Folder G5, item 1791.</ref> [title/description] (Susan Williams)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1807.xml">Folder G5, item 1807.</ref> [title/description] (Jennifer Bibb)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1814_template.xml">Folder G5, item 1814.</ref> [title/description] (Joleen Stahl)
+                  </item>
+               </list>
+            </div>
+         <div>
+            <head>Spring 2018 documents</head> <!-- completed documents -->
+               <list type="index">
+                  <item>
+                     <ref target="ew_e4_1065.xml">Folder E4, item 1065.</ref> Letter from Albert Sims to Eartha M.M. White, Port Tampa City, July 15, 1920 (Glenda Kelsey)
+                  </item>   
+                  <item>
+                     <ref target="ew_e4_1066.xml">Folder E4, item 1066.</ref> Letter from Albert Sims to Eartha M.M. White, Port Tampa City, July 20,1920 (Samantha Feaster)
+                  </item> 
+                  <item>
+                     <ref target="ew_g5_1757.xml">Folder G5, item 1757.</ref> Letter from Jos. M Sams to Eartha M.M. White, Long Branch, NJ, July 16, 1920 (Courtenay McLeland)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1791.xml">Folder G5, item 1791.</ref> Letter from W. W. Hamilton to Eartha M.M. White, Tampa, FL, January 30, 1930 (Susan Williams)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1807.xml">Folder G5, item 1807.</ref> Letter from Brother Cornelius to Eartha M.M. White, Palatka, FL, March 6, 1930  (Jennifer Bibb)
+                  </item>
+                  <item>
+                     <ref target="ew_g5_1814.xml">Folder G5, item 1814.</ref> Letter from M. E. J. Washington to Eartha M.M. White, Jacksonville, FL, July 22, 1920. Author expresses condolences to Eartha M.M. White upon the death of a friend. (Joleen Stahl)
+                 </item>
+               </list>
+            </div>
+            <div>
+            
+            <head>Summer 2016 documents</head>
+            <list type="index">
+               <item>
+                  <ref target="ew_b.xml">Folder B, no item number.</ref> A.L. Lewis, President of the Afro-American Life Insurance Company, Letter to Eartha M.M. White (Bethany)                                
+               </item>                              
+               <item>
+                  <ref target="ew_b5_1580.xml">Folder B5, item 1580</ref>. <title level="u">Sarah Best, Letter of Appeal - Release from Mental Institution.</title> Handwritten letter of appeal from Sarah Best to Eartha M. M. White on 4/10/1929 concerning Best's release from Florida State Hospital, Chattahoochee. Transcription, edition, and encoding Aislinn Kelly.  
+               </item>
+               <item>
+                  <ref target="ew_b5_1581.xml"> Folder B5, item 1581</ref>. Willie Harn, Letters of Appeal - Janitor Job (Aislinn)               
+               </item>
+               <item>
+                  <ref target="ew_b5_1582.xml"> Folder B5, item 1582</ref>. G. D. Rogers, Letter of Appeal - Request for Woman's Address (Aislinn)               
+               </item>
+               <item>
+                  <ref target="ew_b5_1583.xml"> Folder B5, item 1583</ref>. H. B. Perkins, Letter of Appeal (Aislinn)               
+               </item>
+               <item>
+                  <ref target="ew_b5_1648.xml"> Folder B5, item 1648</ref>. G. R. Swain, Letter of Appeal (Aislinn)              
+               </item>
+               <item>
+                  <ref target="ew_b5_1649.xml"> Folder B5, item 1649</ref>. J. A. Wynn and S. G. Bellamy, Letter of Appeal (Aislinn)               
+               </item>
+               <item>
+                  <ref target="ew_b5_1650.xml"> Folder B5, item 1650</ref>. Mrs. F. V. Williams, Letter of Appeal (Aislinn)           
+               </item>
+               <item>
+                  <ref target="ew_b5_1652.xml"> Folder B5, item 1652</ref>. Willie Ebron, Letter of Appeal - Help for Motherless Children (Aislinn)        
+               </item>
+               <item>
+                  <ref target="ew_b5_1654.xml"> Folder B5, item 1654</ref>. H. B. Barnes, Letter of Appeal - Debt (Aislinn)               
+               </item>
+               <item>
+                  <ref target="ew_b5_1656.xml"> Folder B5, item 1656</ref>. [Author], Letter of Appeal (Aislinn)               
+               </item>
+               <item>
+                  <ref target="ew_b5_1657.xml"> Folder B5, item 1657</ref>. Author Unknown, Letter of Appeal - Bethel Baptist Church Rally (Aislinn)             
+               </item>
+               <item>
+                  <ref target="ew_b5_1658.xml"> Folder B5, item 1658</ref>. Rev. Drake, Letter of Appeal - Solicitation from Rev. Drake (Aislinn)             
+               </item>
+               <item>
+                  <ref target="ew_b5_1660.xml"> Folder B5, item 1660</ref>. Mrs. Deborah Daniels, Letter of Appeal - Donations for Lorenzo DeCosta's Funeral (Aislinn)             
+               </item>
+               <item>
+                  <ref target="ew_b5_1661.xml"> Folder B5, item 1661</ref>. E. C. Jenkins, Letter of Appeal - Jenkins Orphanage (Aislinn)            
+               </item>
+               <item>
+                  <ref target="ew_b5_1662.xml"> Folder B5, item 1662</ref>.  Ruth, Letter of Appeal - Assistance to Pay Creditors (Aislinn)          
+               </item>
+<!-- problem item
+<item>
+                  <ref target="ew_C3_669_001_002.xml"> Folder C3, item 1. (John)
+               </item>
+-->
+               <item>
+                  <ref target="ew_d5_1687.xml"> Folder D5, item 1687</ref>. Eartha M.M. White, "Suspense" manuscript (Lauren)
+               </item>
+               <item>
+                  <ref target="ew_d5_1687_35-48.xml"> Folder D5, item 1687, pp. 36-48</ref>. A section of Eartha M.M. White, "Suspense" manuscript (Dean)
+               </item>
+               <item>
+                  <ref target="ew_g_56.xml"> Folder G, item 56</ref>. The Mary McLeod Bethune Circle, "Mary McLeod Bethune Night" (Bethany)                 
+               </item>
+               <item>
+                  <ref target="ew_j2_513.xml"> Folder J2, item 513</ref>. George, Death of James Jordan. (Bethany)                 
+               </item>
+               <item>
+                  <ref target="ew_p1_405.xml"> Folder P1, item 405</ref>. Author Unknown, Florida A and M University - Letter of Reply (Joseph)                
+               </item>
+               <item>
+                  <ref target="ew_q4_1164.xml"> Folder Q4, item 1164</ref>. City Federation of Colored Women's Clubs, A Lecture by Mrs. Booker T Washington (Chad)          
+               </item>
+               <item>
+                  <ref target="ew_s4_2872.xml"> Folder S4, item 2872</ref>. Florida Motor Lines, Chicago World's Fair (Bethany)                 
+               </item>
+               <!--
+               <item>
+                  <ref target="ew_w1_428.xml"> Folder W1, item 428. [Author], Housewives League is Organized. (John)                
+               </item>
+               -->
+               <item>
+                  <ref target="ew_w2_648.xml"> Folder W2, item 648</ref>.  E.B. De Lany, "Africa for Christ" (Chad)           
+               </item>
+               <item>
+                  <ref target="ew_y1_2468.xml"> Folder Y1, item 2468</ref>. Author Unknown, Indigent Hospital Patients Admitted for Treatment in Duval County during Year Ending June 30th, 1915. (Joseph)            
+               </item>  
+               <item>
+                  <ref target="ew_y2_648.xml"> Folder Y2, item 648</ref>. Mary B. Talbert, Forming an N.A.A.C.P Anti-Lynching Committee (Chad)            
+               </item>    
+               <item>
+                  <ref target="ew_z4_1427.xml"> Folder Z4, item 1427</ref>. The Citizens Bank of Jacksonville, Advertisement for Christmas Savings Account (Dean)               
+               </item> 
+            </list>
+            </div>
+
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Henrietta G. Andrews. July 10, 1929.</title>
+            <author>Henrietta G. Andrews</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>James Dell'Alba</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder Z2, Item 663 <!-- this should be filled in --></idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to members of the Florida State Federation of Colored Women's Clubs as the newly elected president of the organization.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page typed letter with the Florida State Federation of Colored Women's Clubs header.  <!-- describe material , number of pages, print or handwritten, condition, dimensions etc.--> </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+	<text>
+		<body>        
+			<pb n="1" facs= "../images/ew_z2_663_001.jpg"/>
+			<div>
+				<p style="center">
+					<emph style="case(allcaps)">
+						Officers:
+					</emph>
+				</p>
+				<p>
+					<name type="person">Mrs. Clotell D. Williams</name>, <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice> at<lb/>
+					Large-<name type="place" subtype="city">Tampa</name>.<lb/>
+					<name type="person">Mrs. Alive O. Thompson</name>, <choice><abbr>2nd</abbr><expan>second</expan></choice> <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+					<name type="place" subtype="city">Daytona Beach</name><lb/>
+					<name type="person">Mrs. Annie Mae Twine</name>, <choice><abbr>3rd</abbr><expan>third</expan></choice> <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+					<name type="place" subtype="city">Miami</name>.<lb/>
+					<name type="person">Mrs. Carie B. Hall</name>, <choice><abbr>4th</abbr><expan>fourth</expan></choice> <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+					<name type="place" subtype="city">Tampa</name>.<lb/>
+					<name type="person">Mrs. Ida Dupont</name>, <choice><abbr>5th</abbr><expan>fifth</expan></choice> <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+					<name type="person">Mrs. Mae Beal Williams</name>, <choice><abbr>6th</abbr><expan>sixth</expan></choice> <choice><abbr>Vice-Pres.</abbr><expan>Vice President</expan></choice><lb/>
+					<name type="place" subtype="city">Lakeland</name>.<lb/>
+					<name type="person">Dr. E. C. Hampton</name>, <choice><abbr>1st</abbr><expan>first</expan></choice> <choice><abbr>Rec. Sect'y.</abbr><expan>Recording Secretary</expan></choice><lb/>
+					<name type="place" subtype="city">Ocala</name>.<lb/>
+					<name type="person">Mrs. D. D. Harris</name>, <choice><abbr>2nd</abbr><expan>second</expan></choice> <choice><abbr>Rec. Sect'y.</abbr><expan>Recording Secretary</expan></choice><lb/>
+					<name type="person">Mrs. Willie Wright</name>, <choice><abbr>3rd</abbr><expan>third</expan></choice> <choice><abbr>Rec. Sect'y.</abbr><expan>Recording Secretary</expan></choice><lb/>
+					<name type="place" subtype="city">West Palm Beach</name>.<lb/>
+					<name type="person">Mrs. Fannie Ponder</name>, Corresponding <choice><abbr>Sect'y.</abbr><expan>Secretary</expan></choice><lb/>
+					<name type="place" subtype="city"><choice><abbr>St.</abbr><expan>Saint</expan></choice> Petersburg</name>.<lb/>
+				</p>
+			</div>
+			<div>
+				<head>
+					<hi style="center">
+						<name type="organization">The State Federation<lb/>
+						-OF-<lb/>
+						Colored Women's Clubs<lb/></name>
+					</hi>
+				</head>
+			</div>
+			<div>
+				<div>
+					<head>
+						<hi style="center">
+							Motto<lb/>
+							<emph style="case(allcaps)">
+								"Lifting As We Climb"<lb/>
+							</emph>
+						</hi>
+					</head>
+					<head style="center">
+						<emph style="case(allcaps)"><name type="person">Mrs. H. G. Andrews</name>,</emph> President<lb/>
+						<emph style="case(allcaps)"><name type="address">Jacksonville, Florida<lb/>
+						511 Clay Street</name></emph><lb/>
+					</head>
+				</div>
+			</div>
+			<div>
+				<p style="center">
+					<emph style="case(allcaps)">
+						Officers:
+					</emph>
+				</p>
+				<p>
+					<name type="person">Mrs. Sadie Scott</name>, Treasurer.<lb/>
+					<name type="place" subtype="city">Miami</name>.<lb/>
+					<name type="person">Mrs. Bessie L. Williams</name>, Chairman Ex<lb break="no"/>ecutive Board. <name type="place" subtype="city"><choice><abbr>St.</abbr><expan>Saint</expan></choice> Petersburg</name>.<lb/>
+					<name type="person">Mrs. P. M. Thompson</name>, Statistician<lb/>
+					<name type="place" subtype="city">West Palm Beach</name>.<lb/>
+					<name type="person"><choice><orig>MissWillie</orig><reg>Miss Willie</reg></choice> Zeigler</name>, Organizer.<lb/>
+					<name type="place" subtype="city">Appalachicola</name>.<lb/>
+					<name type="person">Mrs. S. E. Thompson</name>, Chaplain.<lb/>
+					<name type="place" subtype="city">Miami</name>.<lb/>
+					<name type="person">Mrs. Josie Roberts</name>, Musical Director.<lb/>
+					<name type="place" subtype="city">Daytona Beach</name>.<lb/>
+					<hi style="center">
+						<emph style="case(allcaps)">Auditors:</emph>
+					</hi>
+					<name type="person">Mrs. Eloise Patterson</name>.
+					<name type="place" subtype="city">Jacksonville</name>.<lb/>
+					<name type="person">Mrs. Margret Hamilton</name>.
+					<name type="place" subtype="city">Tampa</name>.<lb/>
+					<name type="person">Mrs. Florence Crompton</name>.
+					<name type="place" subtype="city">Ocala</name>.<lb/>
+				</p>
+			</div>
+			<div>
+				<opener>
+					<name type="place" subtype="city">Jacksonville, Florida</name>,<lb/>
+					<date when="1929-07-10">July 10, 1929</date><lb/>
+					<salute>
+						To the Club Women of Florida,<lb/>
+						Greetings:<lb/>
+					</salute>
+				</opener>
+				<p style="indent">
+					The <name type="event">Twenty-Second Annual Session</name> of the <name type="organization">State Federation of Colored Women's Clubs</name> has<lb/>
+					just closed a most harmonious and successful meeting in <name type="place" subtype="city">West Palm Beach</name>.<lb/>
+				</p>
+				<p style="indent">
+					I want to thank you for your unanimous vote for me as your president. I appreciate the<lb/>
+					honor that has been conferred upon me and the trust that you have placed in me as your presi<lb break="no"/>dent. I shall endeavor with the assistance of Him who knoweth no failure and with the co<lb break="no"/>operation of every woman to push out program to a successful completion. How well I do<lb/>
+					this depends on the support I recieve from you.<lb/>
+				</p>
+				<p style="indent">
+					Realizing the splendid record of achievements of the women<choice><orig>,</orig><reg/></choice> who have preceeded me in<lb/>
+					this distinguished office and knowing the part that Negro women are to play the the civic af<lb break="no"/>fairs of this state and knowing that the world today listens only to organized groups<choice><orig>;</orig><reg>,</reg></choice> the <name type="organization">State<lb/>
+					Federation</name> knows what organized womanhood must do for <name type="place">Florida</name> and therefore must speak<lb/>
+					in tones that will break down the doors of prejudice that is daily practiced against us.<lb/>
+				</p>
+				<p style="indent">
+					Our organization must be strengthened at every weak point and our women must cooper<lb break="no"/>ate. In our state meeting we adopted a scholarship fund for some worthy student, who has<lb/>
+					finished high school, which is truly a great step forward for our women. I therefore, set aside<lb/>
+					the <date when="1930-03-08">second Sunday in March 1930</date> as an educational day for the Club Women in <name type="place">Florida</name>.<lb/>
+				</p>
+				<p style="indent">
+					All adult and junior clubs in each city will <choice><orig>get-to-gether</orig><reg>get together</reg></choice>, arrange a program, select your<lb/>
+					church or auditorium in which to hold your meeting. Talk about it in your clubs, in the<lb/>
+					churches, through the press, on the streets, in the schools and everywhere. Have a great<lb/>
+					rally.<lb/>
+				</p>
+				<p style="indent">
+					Send all money to the secretary, <name type="person">Dr. E. C. Hampton</name>, <name type="address">803 South Magnolia Street, Ocala</name>,<lb/>
+					made payable to the <name type="organization">State Federation of Colored Womens Clubs</name>, and she will send it to the tre<lb break="no"/>asurer, who will mail you a receipt for same. Please send a copy<choice><orig>,</orig><reg/></choice> of all letters in which money<lb/>
+					is sent<choice><orig>,</orig><reg/></choice> to me.<lb/>
+				</p>
+				<p style="indent">
+					All <choice><orig>Clubs</orig><reg>clubs</reg></choice> that have donated this year are asked to donate something toward the debt of<lb/>
+					the two women, who took care of the children<choice><orig>,</orig><reg/></choice> who were in the <name type="place">Home for Delinquent girls</name> at<lb/>
+					<name type="place">Ocala</name>. Those who have not paid their state and national dues are asked to please pay them and<lb/>
+					pay something on the debt<choice><orig>,</orig><reg/></choice> we owe these two women. This is an old debt of long standing<lb/>
+					ladies but it is ours. Will you please help us pay these women? Will you please respond<lb/>
+					as quickly as possible? We owe $49.00 to one $26.00 to the other and we have no money at<lb/>
+					all. <name type="person">Mrs. Jackson</name>, the lady<choice><orig>,</orig><reg/></choice> who worked so long is seriously ill and needs her money badly.<lb/>
+					She is unable to walk.<lb/>
+				</p>
+				<p style="indent">
+					Our slogan is one hundred new <choice><orig>Clubs</orig><reg>clubs</reg></choice> and five hundred new members. Depending on each<lb/>
+					and every one of you and pledging my every effort to the upbuilding of our very worthy organi<lb break="no"/>zation, I am,<lb/>
+				</p>
+				<closer>
+					<salute>
+						Yours in "Lifting as we climb."<lb/>
+					</salute>
+					<signed>
+						<emph style="case(allcaps)">
+							<name type="person">Henrietta G. Andrews</name>,<lb/>
+						</emph>
+						President.<lb/>
+						<name type="organization">State Federation of Colored Women's Clubs</name>.
+					</signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>

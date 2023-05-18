@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter of Invitation to the Woman's Club Baby Conference in Jacksonville. 1916.</title>
+            <author>Colored Woman's Club</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Moriah Ferrer and Janaya Ferrer</name> <!-- person adds their name here-->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder Z2, Item 2686</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>The author writes a letter of invitation to the Woman's Club Baby Conference held in March 6th to 11th, 1916.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A one-page typewritten letter.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_z2_2686_001.jpg"/>
+         <opener>
+            <salute>
+            Dear <name type="person">Madam</name>:<lb/>
+            </salute>
+         </opener>
+         <p style="center">
+            You are cordially invited to bring your babies,<lb/>
+            under five years,<lb/>
+            to the <name type="organization">Woman's Club</name><lb/>
+            <name type="place" subtype="address">18 East Duval Street</name>,<lb/>
+            To the<lb/>
+            <name type="event">Baby Conference</name><lb/>
+            to be held<lb/>
+            <date when="1946-03-06">March 6</date> to <date when="1946-03-11">11th, 1946</date>,<lb/>
+            between 9: A. M. and 5: P. M. daily.<lb/>
+            This <name type="event">Conference</name> will be conducted by<lb/>
+            <name type="person">Dr. Frances Sage Bradley</name>,<lb/>
+            an expert on infant health and is intended to show<lb/>
+            the physical condition of babies<lb/>
+            brought for examination<lb/>
+            and to indicate ppints at which their health and vigor<lb/>
+            may be improved by the effort of<lb/>
+            their parents.<lb/>
+            All babies brought must be free from<lb/> 
+            communicable disease, rash, colds,<lb/>
+            sore throat, inflamed eyes, etc. A record of<lb/>
+            examination will be given to each mother<lb/>
+            <note place="marginLeft">Friday<lb/>
+                <choice><abbr>Sat</abbr><expan>Saturday</expan></choice><lb/>
+            </note>
+            <date when="1946-03-10">March 10</date> and morning of <date when="1946-03-14">March 14</date><lb/>
+            reserved for colored babies.<lb/>
+
+         </p>
+      </body>
+  </text>
+</TEI>

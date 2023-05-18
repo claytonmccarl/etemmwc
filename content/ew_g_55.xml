@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Telegram from Albert Bethune to Eartha M. M. White. Jacksonville, FL. May 19, 1955. </title>
+            <author>Albert Bethune</author>
+            <respStmt>
+               <resp>Transcription, edition, and encoding: </resp>
+               <name>Dr. Jametoria Burton and Janaya Ferrer</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder G, Item 55</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author sends a telegram to Eartha White informing about the death of Mrs. Bethune.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A telegram typewritten on a back-to-back single sheet of paper.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_g_55_001.jpg"/>
+         <div>
+            <cb/>
+            <note type="editorial">The following is enclosed in a border:</note>
+            <p>
+                <emph style="case(allcaps)">Class of Service</emph><lb/>
+                This is a fast message<lb/>
+                unless its deferred char-<lb/>
+                acter is indicated by the<lb/>
+                proper symbol<lb/>
+            </p>
+         </div>
+         <cb/>
+         <div><head style="case(allcaps)"><name type="company">Western Union</name></head></div>
+         <div><div><head style="case(allcaps)">Telegram</head></div></div>
+         <div><div><div><head style="case(allcaps)"><name type="person">W. P. Marshall</name>, <name type="person">President</name></head></div></div></div>
+         <div>
+            <cb/>
+            <p>1201</p>
+            <cb/>
+            <note type="editorial">The following is enclosed in a border:</note>
+            <p>
+                <emph style="case(allcaps)">
+                    Symbols<lb/>
+                    DL = Day Letter<lb/>
+                    NL = Night Letter<lb/>
+                    LT = International<lb/>
+                    Letter Telegram<lb/>
+                </emph>
+            </p>  
+         </div>       
+         <div>
+            <note place="marginTop">WH</note>
+            <p>The filing time shown in the date line of domestic telegrams is <emph style="case(allcaps)">Standard Time</emph>
+                at point of origin. Time of receipt is <emph style="case(allcaps)">Standard Time</emph> at point of destination.<lb/></p>
+         </div>
+         <div><!-- Englosed in a border-->
+            <p style="indent">
+                AB381<lb/>
+            </p>
+            <p>
+                <emph style="case(allcaps)">
+                    A DTY026 PD=<name type="place">Daytona Beach <choice><abbr>Flo</abbr><expan>Florida</expan></choice></name> 19 NFT=.<lb/>
+                    <name type="person">Eartha White</name>= <date when="1955-05-19">1955 May 19</date> PM 1 57<lb/>
+                    <note>RX</note><!-- Written on top of 1955 May 19 PM 1 57--><lb/>
+                </emph>
+            </p>
+            <p style="indent">
+                <emph style="case(allcaps)">
+                <name type="place" subtype="address">613 West Ashley <choice><abbr>St</abbr><expan>Street</expan></choice><choice><orig/><reg>,</reg></choice> <lb/>
+                    Jacksonville<choice><orig/><reg>,</reg></choice> <lb/>
+                    <choice><abbr>Flo</abbr><expan>Florida</expan></choice></name>=.<lb/>
+                </emph>
+            </p>
+            <p>
+                <emph style="case(allcaps)">
+                My mother, <name type="person">Mary McLeod Bethune</name>, passed Wednesday evening.<lb/>
+                Funeral Monday, <date when="1955-05-23">May 23rd</date>, 2P.M., <name type="place">Bethune-Cookman College<lb/>
+                Auditorium</name>=<lb/>
+                </emph>
+            </p>
+            <p style="indent">
+                <emph style="case(allcaps)">
+                    <name type="person">Albert M Bethune</name>..<lb/>
+                </emph> 
+            </p>
+         </div>
+         <div>
+            <p style="center">
+                <emph style="case(allcaps)">The company will appreciate suggestions from its patrons concerning its service</emph><lb/>
+            </p>
+         </div>
+
+         <pb n="1" facs= "../images/ew_g_55_002.jpg"/>
+         
+         <div>
+            <cb/>
+            <p>
+                <emph style="case(allcaps)">
+                <date when="1955-05-19">1955 May 19</date> PM 2 09<lb/>
+                <name type="place">WH Jacksonville</name><lb/>
+                </emph>
+            </p>
+            <cb/>
+            <p>
+                <note>RX</note>
+                <emph style="case(allcaps)"><date when="1955-05-19">1955 May 19</date> PM 2 05</emph><lb/>
+            </p>
+         </div>   
+      </body>
+  </text>
+</TEI>

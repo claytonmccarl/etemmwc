@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from E.C. Jenkins to Eartha M.M. White. November 1, 1928. Charleston, S.C.</title>
+            <author>E.C. Jenkins</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1661</idno>                
+               </msIdentifier>
+               <msContents>
+                  <summary>Author requests financial contribution in support of the Jenkins Orphanage.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Typed letter, with handwritten signature, from Mrs. E. C. Jenkins, Secretary/Treasurer of Jenkins Orphanage Institute, to Eartha M. M. White on 11/7/1928 soliciting donations.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1661_001.jpg"/>
+         <div>
+            <head>
+               <note type="transcription">There is a diamond-pattern boarder that encloses the three columns rendered below.</note>
+               <cb n="1"/>
+               Orphan Aid Society Board<lb/>
+               <lb/>
+               <emph style="case(allcaps)">
+                  <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> D. J. Jenkins</name>. <choice><abbr>Pres.</abbr><expan>President</expan></choice> &amp; Founder<lb/>
+                  <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> P. G. Daniels</name>. <choice><abbr>1st Vice-Pres.</abbr><expan>First Vice-President</expan></choice><lb/>
+                  <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> J. J. Walker</name>. <choice><abbr>2nd Vice-Pres.</abbr><expan>Second Vice-President</expan></choice><lb/>
+                  <name type="person">Mr. F. R. Blanchard</name><lb/>
+                  <name type="person">Mr. W. P. Hamilton</name><lb/><name type="person">Miss D. McLeod</name>. <choice><abbr>Fin. Secy'y</abbr><expan><supplied cert="medium">Financial</supplied> Secretary</expan></choice><lb/>
+                  <name type="person">Mrs. F. A. Dickinson</name><lb/>
+                  <name type="person">Mrs. E. C. Jenkins</name>. <choice><abbr>Sec'y</abbr><expan>Secretary</expan></choice> &amp; Cashier<lb/>
+                  <lb/>
+                  All Money is First Deposited in Caro<lb break="no"/>
+                  lina Savings Bank and Drawn on<lb/>
+                  Checks made out by Secretary<lb/>
+               </emph>
+               <cb n="2"/>
+               <emph style="case(allcaps)"><name type="place">Jenkins Orphanage Institute</name></emph><lb/>
+               Founded <date when="1891-12-16">December 16, 1891</date><lb/>
+               <emph style="case(allcaps)"><name>The Orphan Aid Society</name></emph><lb/>
+               <emph style="case(allcaps)">(Incorporated Name)</emph><lb/>
+               <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> D. J. Jenkins, Pres. &amp; Founder</name><lb/>
+               <name type="place" subtype="address">20 Franklin Street</name><lb/>
+               <cb n="2"/>
+               <emph style="case(allcaps)">
+                  Our Advisory Board of<lb/>
+                  Leading White Citizens<lb/>
+                  <name>Mr. <choice><abbr>Robt.</abbr><expan>Robert</expan></choice>Duryea</name>. Chairman<lb/>
+                  <choice><abbr>Att'y</abbr><expan>Attorney</expan></choice> <name type="person">John I. Cosgrove</name><lb/>
+                  Alderman <name type="person"><abbr>I'on</abbr> Rhett</name><lb/>
+                  <name type="person">Mr. J. F. Riley</name><lb/>
+                  Attorney <name type="person">W. H. Hartz</name><lb/>
+                  <name type="person">Mr. A. J. Riley</name>. Secretary<lb/>
+                  <name type="person">Mr. J. C. Dillingham</name>. Auditor<lb/>
+                  For Reference:
+               </emph>
+               Mayor <name type="person"><choice><abbr>Thos P. Stoney</abbr><expan>Thomas Porcher Stoney</expan></choice></name><lb/>
+            </head>
+         </div>
+         <div>
+            <p>
+               There are five (5) sections, Jenkins Orphan Bands <choice><abbr>No. 1, No. 2, No. 3, No 4 and No. 5</abbr><expan>number one, number two, number three, number four, and number five</expan></choice> and two Jubilee Con<lb break="no"/>
+               cert Companies of Girls that are talented musicians, 100 strong, that go out each summer when school clos<lb break="no"/>
+               es to raise funds for the institution. They are invited to all portions of the country, in Europe as well when<lb/>
+               transportation is sent in advance. For immediate answer send stamps.<lb/>
+            </p>
+         </div>
+         <div>
+            <head>
+               <name type="place">Charleston,S.C.</name> <date when="1928-11-01">November 1, 1928.</date><lb/>
+            </head>
+            <opener>
+               <salute>Kind Friend:-</salute><lb/>
+            </opener>
+         <p style="indent">
+            I do not know when I have felt as I do now over the little<lb/>
+            orphan and destitute boys and girls in the <name type="place">Jenkins Orphanage</name>.<lb/>
+            When I see more than two hundred mouths to be fed daily in the<lb/>
+            <name type="place">Home</name> and as many to be clothed: the buildings to be repaired<lb/>
+            at a cost of more than ten thousand dollars with no income from<lb/>
+            city and state, my hear bleeds for <name type="person">Rev.D.J.Jenkins</name>, whose heart<lb/>
+            is centered in the welfare of the children.<lb/>
+         </p>
+            <p style="indent">
+               The drive is now on to raise $10,000 to make necessary<lb/>
+               repairs and have the buildings comfortable before the winter sets<lb/>
+               in.
+            </p>
+            <p style="indent">
+               I am writing you and a few others who, I believe, will<lb/>
+               make a little sacrifice to aid in this drive. My apportionment<lb/>
+               is five hundred dollars. Will you help me in this effort to help<lb/>
+               a worthy charity? Kindly let me hear from you at once as I shall<lb/>
+               be looking until I hear from you with whatever you find in your<lb/>
+               heart to give.<lb/>
+            </p>
+            <closer>
+               <hi style="indent">Thanking you in advance for any consideration, I am</hi><lb/>
+               <hi style="center">Yours respectfully,</hi><lb/>
+               <signed><hi style="center"><handShift script="cursive"/><name type="person">E. C. Jenkins</name></hi></signed><lb/>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

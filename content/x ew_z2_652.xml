@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tenth Biennial Convention of the National Association of Colored Women Program</title>
+            <author>National Association of Colored Women</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Carol Lynne Hemmingway <!-- that person adds their name here--> </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder Z2, Item 652 <!-- this should be filled in --></idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A program for the 10th Convention of the National Association of Colored Women which took place on August 7-10, 1916.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A printed booklet of 12 pages. The front and back of the booklet is a light green color.  <!-- describe material , number of pages, print or handwritten, condition, dimensions etc.--> </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_z2_652_001.jpg"/>
+		  <div><div><head rend="center"><emph rend="case(allcaps)">Tenth</emph></head></div></div>
+         <div><div><head rend="center"><emph rend="case(allcaps)">Biennial Convention</emph></head></div></div>
+         <div><div><div><head rend="center"><emph rend="case(allcaps)">of the</emph></head></div></div></div>
+         <div><head rend="center">National Association</head></div>
+         <div><div><div><head rend="center">of</head></div></div></div>
+         <div><head rend="center">Colored Women</head></div>
+         <div><p rend="center">"Lifting as we climb"</p></div>
+         <div><div><head rend="center"><emph rend="case(allcaps)"><date when="1916-08-07">August 7-10, 1916</date></emph></head></div></div>
+         <div><div><head rend="center"><emph rend="case(allcaps)"><name type="place" subtype="city">Baltimore, Maryland</name></emph></head></div></div>
+         <div><div><head rend="center"><emph rend="case(allcaps)">at <name type="place">Bethel A. M. E. Church</name></emph></head></div></div>
+		 <pb n="2" facs= "../images/ew_z2_652_002.jpg"/>
+         <div><div><head rend="center"><emph rend="case(allcaps)">Tenth</emph></head></div></div>
+         <div><div><head rend="center"><emph rend="case(allcaps)">Biennial Convention</emph></head></div></div>
+         <div><div><div><head rend="center"><emph rend="case(allcaps)">of the</emph></head></div></div></div>
+         <div><head rend="center">National Association</head></div>
+         <div><div><div><head rend="center">of</head></div></div></div>
+         <div><head rend="center">Colored Women</head></div>
+         <div><p rend="center">"Lifting as we climb"</p></div>
+         <div><div><head rend="center"><emph rend="case(allcaps)"><date when="1916-08-07">August 7-10, 1916</date></emph></head></div></div>
+         <div><div><head rend="center"><emph rend="case(allcaps)"><name type="place" subtype="city">Baltimore, Maryland</name></emph></head></div></div>
+         <div><div><head rend="center"><emph rend="case(allcaps)">at <name type="place">Bethel A. M. E. Church</name></emph></head></div></div>
+		 <pb n="3" facs= "../images/ew_z2_652_003.jpg"/>
+         <div><head rend="center"><emph rend="case(allcaps)">Historical Sketch</emph></head></div>
+            <div><p><name type="organization">The National Association of Colored Women</name><lb/>
+            was organized in <name type="place">Washington, D. C.</name>, <date when="1896-07">July, 1896</date>, by<lb/>
+            the consolidation of the <name type="organization">National League</name> and the<lb/>
+            <name type="organization">National Federation of Colored Women.</name> Was af<lb break="no"/>filiated with the <name type="organization">National Council of Women of the<lb/>
+            United States</name> in <date when="1900">1900</date>; was incorporated in <date when="1904">1904</date>.</p>
+            <p rend="indent"><name type="event">National Federations</name> have been held as follows:<lb/>
+            <name type="place" subtype="city">Nashville, <choice><abbr>Tenn.</abbr><expan>Tennessee</expan></choice></name> ... <date when="1897">1897</date><lb/>
+            <name type="place" subtype="city">Chicago, <choice><abbr>Ill.</abbr><expan>Illinois</expan></choice></name> ... <date when="1899">1899</date><lb/>
+            <name type="place" subtype="city">Buffalo, <choice><abbr>N.Y.</abbr><expan>New York</expan></choice></name> ... <date when="1901">1901</date><lb/>
+            <name type="place" subtype="city">St. Louis, <choice><abbr>Mo.</abbr><expan>Missouri</expan></choice></name> ... <date when="1904">1904</date><lb/>
+            <name type="place" subtype="city">Detroit, <choice><abbr>Mich.</abbr><expan>Michigan</expan></choice></name> ... <date when="1906">1906</date><lb/>   
+            <name type="place" subtype="city">Brooklyn, <choice><abbr>N.Y.</abbr><expan>New York</expan></choice></name> ... <date when="1908">1908</date><lb/>   
+            <name type="place" subtype="city">Louisville, <choice><abbr>Ky.</abbr><expan>Kentucky</expan></choice></name> ... <date when="1910">1910</date><lb/>   
+            <name type="place" subtype="city">Hampton, <choice><abbr>Va.</abbr><expan>Virginia</expan></choice></name> ... <date when="1912">1912</date><lb/>   
+            <name type="place" subtype="city">Wilberforce, Ohio</name> ... <date when="1914">1914</date><lb/>   
+            </p>
+            <p>National Association colors, <choice><orig>Royal Purple</orig><reg>royal purple</reg></choice> and <choice><orig>White</orig><reg>white</reg></choice>.</p>
+            <p>National Association flower, the <choice><orig>Violet</orig><reg>violet</reg></choice></p>
+               <p>National Association Motto: "Lifting as we <choice><orig>Climb</orig><reg>climb</reg></choice>."</p>
+            </div>
+       <pb n="4"/>
+         <div><head rend="center"><emph rend="case(allcaps)">Officers</emph></head></div>
+         <div><p><note place="marginTop">1234</note>
+            President, <name type="person">Mrs. Booker T. Washington</name>, <name type="place">Tuskegee In<lb break="no"/><hi rend="indent">stitute, Alabama<choice><orig>.</orig><reg></reg></choice></hi></name><lb/>
+            Vice President-at-Large, <name type="person">Mrs. Mary B. Talbert</name>, <name type="place" subtype="address">521<lb/> 
+               <hi rend="indent">Michigan <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, Buffalo, <choice><abbr>N.Y.</abbr><expan>New York</expan></choice></hi></name><lb/>
+            Chairman of Executive Board, <name type="person">Miss Hallie Q. Brown</name>,<lb/>
+            <hi rend="indent"><name type="place" subtype="address">Wilberforce, Ohio<choice><orig>.</orig><reg></reg></choice></name></hi><lb/>
+            Treasurer, <name type="person">Mrs. Ida Joyce Jackson</name>, <name type="place" subtype="address">548 East Spring<lb/>
+               <hi rend="indent">Street, Columbus, Ohio.</hi></name><lb/>
+            Corresponding <choice><sic>Secretatry</sic><corr>Secretary</corr></choice>, <name type="person">Miss Georgia A. Nugent</name>, <note place="marginRight"><unclear cert="medium">Kee</unclear></note><lb/>
+            <hi rend="indent"><name type="place" subtype="address">3001 <choice><abbr>S.</abbr><expan>South</expan></choice> 6th <choice><abbr>St.</abbr><expan>Street</expan></choice>, Louisville, <choice><abbr>Ky.</abbr><expan>Kentucky</expan></choice></name></hi><lb/>
+            First Recording Secretary, <name type="person">Miss Ida R. Cummings</name>,<lb/>
+            <hi rend="indent"><name type="place" subtype="address">1234 Druid Hill <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, Baltimore, <choice><abbr>Md.</abbr><expan>Maryland</expan></choice></name></hi><lb/>
+            Second Recording Secretary, <name type="person">Mrs. Victoria Clay<lb/>
+               <hi rend="indent">Haley</hi></name><hi rend="indent">, <name type="place" subtype="address">6720 Idaho <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, St. Louis, <choice><abbr>Mo.</abbr><expan>Missouri</expan></choice></name></hi><lb/>
+            Third Recording Secretary, <name type="person">Miss Roberta J. Dunbar</name>,<lb/>
+            <hi rend="indent"><name type="place" subtype="address">58 Winter <choice><abbr>St.</abbr><expan>Street</expan></choice>, Providemce, <choice><abbr>R.I.</abbr><expan>Rhode Island</expan></choice></name></hi>  <note place="marginRight">16 <supplied cert="high" reason="obviously arithmetic">-</supplied> 4 <supplied cert="high" reason="obviously arithmetic">=</supplied></note><lb/>
+            National Organizer, <name type="person">MRs. Elizabeth L. Davis</name>, <name type="place" subtype="address">3226<lb/>
+               <hi rend="indent">Prarie <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, Chicago, <choice><abbr>Ill.</abbr><expan>Illinois</expan></choice></hi></name><lb/>
+            Chairman of Ways and Means Committee, <name type="person">Mrs. A.<lb/>
+               <hi rend="indent">Lewis</hi></name><hi rend="indent">, <name type="place" subtype="address">171 Erskine <choice><abbr>St.</abbr><expan>Street</expan></choice>, Detroit, <choice><abbr>Mich.</abbr><expan>Michigan</expan></choice></name></hi><lb/>
+            Parlimentarian, <name type="person">Mrs. Charlotte H. Brown</name>, Secretary,<lb/>
+            <hi rend="indent"><name type="place" subtype="address">Sedalia, <choice><abbr>N.C.</abbr><expan>North Carolina</expan></choice></name></hi><lb/>
+            Auditor, <name type="person">Mrs. J. C. Napier</name>, <name type="place" subtype="address">Nashville, <choice><abbr>Tenn.</abbr><expan>Tennessee</expan></choice></name><lb/>
+            Statistician, <name type="person">Mrs. Mary V. Parrish</name>, <name type="place" subtype="address">847 <choice><abbr>S.</abbr><expan>South</expan></choice> 6th Street,<lb/>
+               <hi rend="indent">Louisville, Kentucky<choice><orig>.</orig><reg></reg></choice></hi></name><lb/>
+            Chaplain, <name type="person">Mrs. <choice><abbr>Wm.</abbr><expan>William</expan></choice> Alphin</name>, <name type="place" subtype="address">919 <choice><abbr>S.</abbr><expan>South</expan></choice> Ninth Street,<lb/>
+               <hi rend="indent">Waco, Texas<choice><orig>.</orig><reg></reg></choice></hi></name><lb/>
+            National Chairman of Printing, <name type="person">Mrs. M. E. Steward</name>,<lb/>
+            <hi rend="indent"><name type="place" subtype="address">621 <choice><abbr>S.</abbr><expan>South</expan></choice> 8th <choice><abbr>St.</abbr><expan>Street</expan></choice>, Louisville, <choice><abbr>Ky.</abbr><expan>Kentucky</expan></choice></name></hi><lb/>
+            National Programme Committee, <name type="person">Miss Anna H. Jones</name>,<lb/>
+            <hi rend="indent"><name type="place" subtype="address">2444 Montgall <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, Kansas City, <choice><abbr>Mo.</abbr><expan>Missouri</expan></choice></name>; <name type="person">Miss Ida<lb/>
+               R. Cummings</name>, <name type="place" subtype="address">1234 Druid Hill Avenue, Baltimore,<lb/>
+                  <choice><abbr>Md.</abbr><expan>Maryland</expan></choice></name></hi><lb/>
+            Editress, <name type="person">Mrs. B. K. Bruce</name>, <name type="place" subtype="address">1337 Columbia Road,<lb/>
+               <hi rend="indent">Washington, D.C.</hi></name>
+         </p></div>
+		 <pb n="5" facs= "../images/ew_z2_652_004.jpg"/>
+         <div><head rend="center">Programme</head></div>
+         <div><div><head rend="center"><emph rend="case(allcaps)">Sunday, <date when="1916-08-06">August 6</date>, 3 P. M., Mass Meeting</emph></head></div></div>
+         <div><div><div><head rend="center">Monday, <date when="1916-08-07">August 7</date>.</head></div></div></div>
+         <div><p>8:00 A. M. - Executive Board meeting.<lb/>
+         10:00 A. M. - Opening of Convention - <name type="person">Mrs. B. T. Washington</name>.<lb/>
+            <hi rend="indent">Invocation - <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice></name> J. W. Saunders, D D.</hi><lb/>
+            Greetings from the city - <name type="person"><choice><abbr>Hon.</abbr><expan>Honorable</expan></choice> Harry Preston</name>, mayor. Intro<lb break="no"/><hi rend="indent">duced by City Councilman <name type="person">Harry S. Cummings</name>.</hi><lb/>
+         Greetings from <name type="organization">Maryland Federation</name> - <name type="person">Mrs. M. F. Handy</name>, <choice><abbr>Pres-</abbr><expan>President</expan></choice><lb/>
+         Greetings from the citizens of <name type="place">Baltimore</name> - <name type="person">Mrs. Jennie Ross</name>.<lb/>
+         Greetings from the ministers - <name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> R. W. S. Thomas.</name><lb/>
+         Response - <name type="person">Mrs. Booker T. Washington</name>.<lb/>
+         Music - Choir of one hundred voices, <name type="person">Mrs. Helen C. Dean</name>,<lb/>
+            <hi rend="indent">director.</hi><lb/>
+         Announcements.<lb/>
+         Adjournment.</p></div>
+         <div><div><div><head rend="center">Monday, 1:30 P. M.</head></div></div></div>
+         <div><p>Appointment of committees - Credentials, Courtesies, Press,<lb/>
+            <hi rend="indent">Auditing, Resolutions.</hi><lb/>
+            Minutes of Executive Board.<lb/>
+            Report of officers - President, Vice-President at Large, Chair<lb break="no"/><hi rend="indent">man of Executive Board, Treasurer, Recording Secretary,</hi><lb/>
+            <hi rend="indent">Corresponding Secretary, National Organizer, Chairman of</hi><lb/>
+            <hi rend="indent">Ways and Means Committee, Statistician. (From 10 to 15</hi><lb/>
+            <hi rend="indent">minutes each.)</hi><lb/>
+            3:00 P. M. - Pageant - "The Vindication of Negro Womanhood."<lb/>
+            <hi rend="indent">Written by <name type="person">Miss Margaret Williams</name>.</hi><lb/>
+            Chairman, <name type="person">Mrs. F. K. Owens</name>.<lb/>
+            Adjournment.
+         </p></div>
+         <div><div><div><head rend="center">Monday, 8:00 P. M.</head></div></div></div>
+         <div><p>Music.<lb/>
+         Invocation.<lb/>
+         Biennial address by President <name type="person">Mrs. Booker T. Washington</name>.<lb/>
+         Music - <name type="person">Miss Sara Mae Talbert</name>.<lb/>
+         Evening Topic - "Social Community Work Among Our Women."  <note place="marginRight">thrift <hi style="underline">good</hi></note><lb/>
+            <hi rend="indent"><name type="person">Mrs. Lena Harris</name>, <name type="place" subtype="city">Johnstown, <choice><abbr>Pa.</abbr><expan>Pennsylvania</expan></choice></name>; <name type="person">Mrs. Gertrude Ball</name>, <name type="place" subtype="city">Lex<lb break="no"/>ington, <choice><abbr>Mo.</abbr><expan>Missouri</expan></choice></name>; <name type="person">Mrs. D. R. Woodland</name>, <name type="place" subtype="city">Austin, <choice><abbr>Tex.</abbr><expan>Texas</expan></choice></name>; <name type="person">Mrs. Mary</name></hi><lb/>
+            <hi rend="indent"><name>M. Bethune</name>, <name type="place" subtype="city">Daytona, <choice><abbr>Fla.</abbr><expan>Florida</expan></choice></name></hi><lb/>
+          Music.<lb/>
+            Acquaintance meeting.
+         </p></div>
+       <pb n="6"/>
+         <div><div><div><head rend="center">Tuesday, <date when="1916-08-08">August 8</date>, 8:30 A. M.</head></div></div></div>
+         <div><p>
+            Music.<lb/>
+            Invocation.<lb/>
+            Report from Credentials Committee.<lb/>
+            Reports from State Organizers or Presidents.<lb/>
+            Topic - Rural <choice><orig>Work</orig><reg>work</reg></choice><lb/>
+            Report on <name type="organization">Farmers' Improvement Society</name> - <name type="person">Mrs. R. L. Smith</name>,<lb/>
+            <hi rend="indent"><name type="place" subtype="city">Waco, Texas</name>.</hi><lb/>
+            Meeting Rural conditions - <name type="person">Mrs. A. T. Johnson</name>, <name type="place" subtype="city">Oakland, <choice><abbr>Tenn.</abbr><expan>Tennessee</expan></choice></name><lb/>
+            Rural Work in Kentucky - <name type="person">Mrs. T. L. Anderson</name>, Chairman of<lb/>
+            <hi rend="indent"><name type="organization">Kentucky Rural Work</name>.</hi><lb/>
+            Discussion.<lb/>
+            Reports of Clubs.<lb/>
+            Adjournment.
+         </p></div>
+         <div><div><div><head rend="center">Tuesday, 1:30 P.M.</head></div></div></div>
+         <div><p>
+            Music.<lb/>
+            Minutes - Unfinished business.<lb/>
+            Topic - Club <choice><orig>Work</orig><reg>work</reg></choice><lb/>
+            Improvement of Our Clubs - <name type="person">Mrs. Eva Monroe</name>, <name type="place" subtype="city">Springfield, <choice><abbr>Ill.</abbr><expan>Illinois</expan></choice></name><lb/>
+            Club Unity - <name type="person">Mrs. Mattie Hicks</name>, <name type="place" subtype="city">St. Paul, <choice><abbr>Minn.</abbr><expan>Minnesota</expan></choice></name><lb/>
+            Hope of the Colored Club Woman of California - <name type="person">Mrs. C. N.</name><lb/>
+            <hi rend="indent"><name type="name">Dodge</name></hi>, <name type="place">California</name>.<lb/>
+            Music.<lb/>
+            Possibilities of Club Work Among Women - <name type="person">Mrs. J. H. Palmer</name>, <lb/>
+            <hi rend="indent"><name type="place" subtype="city">Tsukegee, <choice><abbr>Ala.</abbr><expan>Alabama</expan></choice></name>.</hi><lb/>
+            Value of Club Work to Our Women - <name type="person">Miss Adena E. E. Minott</name>,<lb/>
+            <hi rend="indent"><name type="place" subtype="city">New York City</name>.</hi><lb/>
+            Discussion.<lb/>
+            3:00 P. M. - Excursion.
+         </p></div>
+         <div><div><div><head rend="center">Tuesday, 8:30 P. M.</head></div></div></div>
+         <div><p>
+            Music.<lb/>
+            Invocation<lb/>
+            Address - Heralds of a Better Day - <name type="person">Mrs. J. F. Lane</name>, <name type="place" subtype="city">Jackson,<lb/> 
+               <hi rend="indent"><choice><abbr>Tenn.</abbr><expan>Tennessee</expan></choice></hi></name><lb/>
+            Some Ideals for Our Girls - <name type="person">Miss Deon Jackson</name>, <name type="place" subtype="city">Newport, <choice><abbr>R.I.</abbr><expan>Rhode Island</expan></choice></name><lb/>
+            Music - Piano solo, <name type="person">Miss Alberta Bell,</name> <name type="place" subtype="city">St. Paul, <choice><abbr>Minn.</abbr><expan>Minnesota</expan></choice></name><lb/>
+            Mistaken Values - <name type="person">Mrs. Lillian Anderson Bagnal</name>, <name type="place" subtype="city">Detroit, <choice><abbr>Mich</abbr><expan>Michigan.</expan></choice></name><lb/>
+            Some Ideals in the Education of Our Girls - <name type="person">Mrs. Frances R.<lb/>
+            <hi rend="indent">Keyser</hi></name>, <name type="place">Florida</name>.<lb/>
+            Music.<lb/>
+            Adjournment.
+         </p></div>
+		 <pb n="7" facs= "../images/ew_z2_652_005.jpg"/>
+         <div><div><div><head rend="center">Wednesday, <date when="1916-08-09">August 9</date>, 8:30 A. M.</head></div></div></div>
+         <div><p>
+            Invocation.<lb/>
+            Minutes - Unfinished Business - Reports.<lb/>
+            Reports from <name type="organization">National Organization of Uplift</name>.<lb/>
+            The Work of the <name type="organization">National League on Urban Conditions</name> Among<lb/>
+            <hi rend="indent">Negroes - <name type="person">Miss Estelle A. Jarrott</name>, Secrety of Girls' Work.</hi><lb/>
+            The <name type="organization">National Association for the Advancement of Colored Peo<lb break="no"/><hi rend="indent">ple</hi></name> - Mrs. <name type="person">Mrs. Butler Wilson</name>, <name type="place">Boston.</name><lb/>
+            The <name type="organization">Y. W. C. A.</name> - <name type="person">Miss Eva Bowles</name>, <name type="place" subtype="city">New York City</name>. National<lb/>
+            <hi rend="indent">Secretary for City Work.</hi><lb/>
+            The <name type="organization">W. C. T. U.</name> - Discussion.<lb/>
+            The Voice of Prohibition - <name type="person">Mrs. L. A. Moorer</name>, <name type="place" subtype="city">Orangeburg, <choice><abbr>S. C.</abbr><expan>South Carolina</expan></choice></name><lb/>
+            Music - Temperance hymn.<lb/>
+            Unfortunate Women - <name type="person">Mrs. Ethelyn Collins</name>, <name type="place" subtype="city">Dayton, <choice><abbr>O.</abbr><expan>Ohio</expan></choice></name>, and <name type="person">Mrs.</name><lb/>
+            <hi rend="rend"><name type="person">S. W. Layton</name>, <name type="place" subtype="city">Philadelphia, <choice><abbr>Pa.</abbr><expan>Pennsylvania.</expan></choice></name></hi>
+         </p></div>
+         <div><p rend="center">
+            "Seeking the lost, kindly entreating<lb/>
+            Wanderers on the mountains astray,<lb/>
+            Come unto Me, His message repeating<lb/>
+            Words of the Master, speaking today.
+         </p></div>
+         <div><p rend="center">
+            "Going afar upon the mountain,<lb/>
+            Bringing the wanderers back again<lb/>
+            Into the fold of my Redeemer,<lb/>
+            Jesus the Lamb for sinners slain."
+         </p></div>
+         <div><p>
+            Adjournment,
+         </p></div>
+         <div><div><div><head rend="center">Wednesday, <date when="1916-08-09">August 9</date>, 1:30 P. M.</head></div></div></div>
+         <div><p rend="center">
+            1:30 to 2:30 - Memorial hour.
+         </p></div>
+         <div><p>
+            "To live in hearts we leave behind<choice><orig>,</orig><reg></reg></choice> is not to die."<lb/>
+            2:30 P.M. - Topic - Race Improvement.<lb/>
+            Improving the Homes of the Race - <name type="person">Mrs. W. G. Pearson</name>, <name type="place">North</name><lb/>
+            <hi rend="indent"><name type="place">Carolina.</name></hi><lb/>
+            Raising the Moral Status of the Race - <name type="person">Mrs. L. C. Snowden</name>, <name type="place">Ken<lb break="no"/><hi rend="indent">tucky</hi></name><hi rend="indent">, and <name type="person">Mrs. Norris B. Clark</name>, <name type="place" subtype="city">Newport News, <choice><abbr>Va.</abbr><expan>Virginia</expan></choice></name></hi><lb/>
+            Raising the Submerged Tenth - <name type="person">Mrs. M. C. Lawton</name>, <name type="place" subtype="city">Brooklyn<lb/>
+               <choice><orig>N. Y.</orig><reg>New York.</reg></choice></name><lb/>
+            Discussion.<lb/>
+            Pilgrimage to <name type="place">Colored Fresh Air Farm</name>.
+         </p></div>
+         <div><div><div><head rend="center">Wednesday, <date when="1916-08-09">August 9</date>, 8:00 P.M.</head></div></div></div>
+         <div><p>
+            Music - Chorus.<lb/>
+            Invocation.<lb/>
+            Music.<lb/>
+            Topic - Negro Womanhood.<lb/>
+            Negro Womanhood a Factor in Race Uplift - <name type="person">Mrs. W. T. Johnson</name>,<lb/>
+            <hi rend="indent"><name type="place" subtype="city">Richmond, <choice><abbr>Va.</abbr><expan>Virginia.</expan></choice></name></hi><lb/>
+            The Negro Woman of Today - <name type="person">Mrs. D. H. Butler</name>, <name type="place" subtype="city">Jackson, <choice><abbr>Miss.</abbr><expan>Mississippi.</expan></choice></name><lb/>
+            Music.<lb/>
+            Reply of NEgro Womanhood to the 20th Century Challenge - <name type="person">Mrs.<lb/>
+               <hi rend="indent">Maude B. Cotton,</hi></name> <hi rend="indent"><name type="place" subtype="city">Henderson, <choice><abbr>N. C.</abbr><expan>North Carolina.</expan></choice></name></hi><lb/>
+            The Negro Woman's Contribution to Civilization - <name type="person">Miss Edna<lb/>
+               <hi rend="indent">Reid</hi></name><hi rend="indent">, <name type="place" subtype="city">Baltimore, <choice><abbr>Md.</abbr><expan>Maryland.</expan></choice></name></hi><lb/>
+            Music.<lb/>
+            The Negro Woman in Business - (Stereopticon illustrations) -<lb/>
+            <hi rend="indent"><name type="person">Madame C. J. Walker</name>, <name type="place" subtype="city">Indianapolis.</name></hi><lb/>
+            Adjournment.
+         </p></div>
+       <pb n="8"/>
+         <div><div><div><head rend="center">Thursday, <date when="1916-08-10">August 10th</date>, 8 A. M.</head></div></div></div>
+         <div><p>
+            Invocation.<lb/>
+            Minutes - Unfinished business - Reports of Clubs - Reports of<lb/>
+            <hi rend="indent">Departments.</hi><lb/>
+            Address - Organization in our Sunday Schools - <name type="person">Mrs. Lizzie B.<lb/>
+            <hi rend="indent">Fouse</hi></name><hi rend="indent">, <name type="person">Kentucky.</name></hi><lb/>
+            Election of officers.<lb/>
+            Adjournment.
+         </p></div>
+         <div><div><div><head rend="center">Thursday, <date when="1916-08-10">August 10th</date>, 1:30 P. M.</head></div></div></div>
+         <div><p>
+            Invocation.<lb/>
+            Unfinished business.<lb/>
+            Topic - Child Welfare.<lb/>
+            The Child's Welfare - <name type="person">Mrs. L. C. Wilkis</name>, <name type="place" subtype="city">Griffin, Georgia.</name><lb/>
+            What Parents Owe Their Children - <name type="person">Mrs. Sarah Jackson</name>, <name type="place" subtype="city">Prince<lb break="no"/><hi rend="indent">ton, <choice><abbr>Ind.</abbr><expan>Indiana</expan></choice>,</hi></name><hi rend="indent"> and <name type="person">Mrs. Minnie Crosthwait</name><choice><orig></orig><reg>,</reg></choice> <name type="place" subtype="city">Kansas City, <choice><abbr>Mo.</abbr><expan>Missouri.</expan></choice></name></hi><lb/>
+            The City Child - <name type="person">Mrs. Joanna Snowden Porter</name>, <name type="place" subtype="city">Chicago, <choice><abbr>Ill.</abbr><expan>Illinois.</expan></choice></name><lb/>
+            Music.<lb/>
+            Report of Mothers' Meeting Department.<lb/>
+            <hi rend="indent">Opened by <name type="person">Mrs. J. B. Rush.</name> (Five minutes each.)</hi><lb/>
+            <hi rend="indent"><name type="person">Mrs. S. Adams</name>, <name type="place" subtype="city">Chicago</name>; <name type="person">Mrs. Martha Taylor</name>, <name type="place" subtype="city"><choice><abbr>Ind.</abbr><expan>Indiana</expan></choice></name>; </hi><name type="person">Mrs. Wil<lb break="no"/>liam Alphin</name>, <name type="place" subtype="city">Waco, Texas</name>; <name type="person">Mrs. C. B. Lewis</name>, <name type="place" subtype="city">Kansas City, <choice><abbr>Mo.</abbr><expan>Missouri</expan></choice></name><lb/>
+            <name type="person">Mrs. Minnie Scott</name>, <name type="place" subtype="city">Toledo, Ohio</name>.<lb/>
+            Music.<lb/>
+            Adjournment.
+         </p></div>
+         <div><div><div><head rend="center">Thursday, <date when="1916-08-10">August 10th</date>, 8 P. M.</head></div></div></div>
+         <div><p>
+            Music.<lb/>
+            Invocation.<lb/>
+            Music.<lb/>
+            Topic - Preparation for Civic Responsibility - <name type="person">Mrs. <choice><abbr>Thos.</abbr><expan>Thomas</expan></choice> Fleming</name>,<lb/>
+            <name type="place" subtype="city">Cleveland, <choice><abbr>O.</abbr><expan>Ohio</expan></choice></name>; <name type="person">Mrs. M. A. Powell</name>, <name type="place" subtype="city">Mishawauka, <choice><abbr>Ind.</abbr><expan>Indiana</expan></choice></name>; <name type="person">Mrs. J. M.<lb/>
+               Arter</name>, <name type="place" subtype="city">Hill Top, West Virginia</name>; <name type="person">Mrs. Judith C. Horton</name>, <name type="place" subtype="city">Guthrie,<lb/>
+                  <choice><abbr>Okla.</abbr><expan>Oklahoma.</expan></choice></name><lb/>
+               Music.<lb/>
+            Topic - Woman Suffrage - Conductor, <name type="person">Miss M. E. Jackson</name>.<lb/>
+            <hi rend="indent"><name type="person">Mrs. Alice Dunbar Nelson</name>, <name type="place" subtype="city">Wilmington, <choice><abbr>Del.</abbr><expan>Delaware</expan></choice></name>; <name type="person">Miss Hallie Q.</name></hi><lb/>
+            <hi rend="indent"><name type="person">Brown</name>, <name type="place" subtype="city">Wilberforce, Ohio</name>; <name type="person">Mrs. Henrietta Harper</name>, <name type="place" subtype="city">Wichita,</name></hi><lb/>
+            <hi rend="indent"><name type="place" subtype="city">Kansas.</name></hi><lb/>
+            Music.<lb/>
+            Report of Committees on Resolutions and Contests.<lb/>
+            Introduction of officers.<lb/>
+            Adjournment.<lb/>
+           <hi rend="center">"God Be With You Till We Meet Again."</hi>
+         </p></div>
+         <div><div><div><head rend="center"><emph rend="case(allcaps)">Reception<choice><orig>.</orig><reg/></choice></emph></head></div></div></div>
+         <div><div><div><head rend="center"><emph rend="case(allcaps)">Program Committee<choice><orig>.</orig><reg/></choice></emph></head></div></div></div>
+         <div><p rend="center"><name type="person">Miss Anna H. Jones</name>, <name type="place" subtype="city">Kansas City, <choice><abbr>Mo.</abbr><expan>Missouri</expan></choice></name><lb/>
+            <name type="person">Miss Ida R. Cummings</name>, <name type="place" subtype="city">Baltimore, <choice><abbr>Md.</abbr><expan>Maryland</expan></choice></name></p></div>
+         <div><p>
+            <emph rend="case(allcaps)">Note</emph> - Papers and addresses from ten to fifteen minutes, Dis<lb break="no"/>cussion from floor from three to five minutes each.
+         </p></div>
+       <pb n="9" facs= "../images/ew_z2_652_006.jpg"/>
+         <div><head rend="center"><emph rend="case(allcaps)">Heads of Departments<choice><orig>.</orig><reg/></choice></emph></head></div>
+         <div><p>
+            Legislation, <name type="person">Mrs. A. W. Dickerson</name>, <name type="place" subtype="address">628 16th Street,<lb/>
+            <hi rend="indent"><choice><abbr>S.</abbr><expan>South</expan></choice> Philadelphia, <choice><abbr>Pa.</abbr><expan>Philadelphia</expan></choice></hi></name><lb/>
+            Social Science, <name type="person">Mrs. S. Joe Brown</name>, <name type="place" subtype="address">1058 5th Street,<lb/>
+            <hi rend="indent">Des Moines, Iowa<choice><orig>.</orig><reg/></choice></hi></name><lb/>
+            Literature and Library Extension, <name type="person">Mrs. G. W. Clin<lb break="no"/><hi rend="indent">ton</hi></name><hi rend="indent">, <name type="place" subtype="address">415 <choice><abbr>N.</abbr><expan>North</expan></choice> Myers <choice><abbr>St.</abbr><expan>Street</expan></choice>, Charlotte, <choice><abbr>N. C.</abbr><expan>North Carolina</expan></choice></name></hi><lb/>
+            Young Women's Work, <name type="person">Miss Nannie H. Burroughs</name>,<lb/>
+            <hi rend="indent"><name type="place" subtype="address">Lincoln <choice><abbr>Hts.</abbr><expan>Heights</expan></choice>, Washington, D.C.</name></hi><lb/>
+            Household Economics, <name type="person">Mrs. M. Wilkerson</name>, State Col<lb break="no"/>ored School, <name type="place" subtype="address">Orangeburg, <choice><abbr>S. C.</abbr><expan>South Carolina</expan></choice></name><lb/>
+            Industrial and Social Conditions, <name type="person">Mrs. M. E. Steward</name>,<lb/>
+            <hi rend="indent"><name type="place" subtype="address">621 <choice><abbr>S.</abbr><expan>South</expan></choice> 8th <choice><abbr>St.</abbr><expan>Street</expan></choice>, Louisville, <choice><abbr>Ky.</abbr><expan>Kentucky</expan></choice></name></hi><lb/>
+            Suffrage, <name type="person">Miss Mary S. Jackson</name>, <name type="place" subtype="address">102 Cranston Street,<lb/>
+            <hi rend="indent">Providence, <choice><abbr>R. I.</abbr><expan>Rhode Island</expan></choice></hi></name><lb/>
+            Art, <name type="person">Mrs. C. W. Posey</name>, <name type="place" subtype="address">320 Thirteenth Street, <choice><sic>omestead</sic><corr>Home<lb break="no"/><hi rend="indent">stead</hi></corr></choice><hi rend="indent">, <choice><abbr>Pa.</abbr><expan>Pennsylvania</expan></choice></hi></name><lb/>
+            Mother's Meeting, <name type="person">Mrs. J. B. Rush</name>, <name type="place" subtype="address">1547 20th Street,<lb/>
+               <hi rend="indent">Des Moines, Iowa<choice><orig>.</orig><reg/></choice></hi></name><lb/>
+            Rescue, <name type="person">Mrs. E. B. Jackson</name>, <name type="place" subtype="address">314 East Short Street,<lb/>
+               <hi rend="indent">Lexington, <choice><abbr>Ky.</abbr><expan>Kentucky</expan></choice></hi></name><lb/>
+            Music, <name type="person">Mrs. W. T. B. Williams</name>, <name type="place" subtype="address">Hampton Institute,<lb/>
+               <hi rend="indent">Virginia<choice><orig>.</orig><reg></reg></choice></hi></name><lb/>
+            Kindergarten, <name type="person">Mrs. H. P. Jacobson</name>, <name type="place" subtype="address">224 <choice><abbr>E.</abbr><expan>East</expan></choice> 2nd Street,<lb/>
+               <hi rend="indent">Oklahoma City, <choice><abbr>Okla.</abbr><expan>Oklahoma</expan></choice></hi></name><lb/>
+            Business, <name type="person">Miss Maggie Walker</name>, <name type="place" subtype="address">904 St. James Street,<lb/>
+            <hi rend="indent">Richmond, Virginia<choice><orig>.</orig><reg/></choice></hi></name><lb/>
+            Juvenile Court Work, <name type="person">Mrs. Sadie Black Hamilton</name>,<lb/>
+            <hi rend="indent"><name type="place" subtype="address">106 McNaughter <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, Pittsburg, <choice><abbr>Pa.</abbr><expan>Pennsylvania</expan></choice></name></hi><lb/>
+            Religious Work, <name type="person">Mrs. I. N. Ross</name>, <name type="place" subtype="address">18 <choice><abbr>W.</abbr><expan>West</expan></choice> Montgomery<lb/>
+               <hi rend="indent"><choice><abbr>St.</abbr><expan>Street</expan></choice>, Baltimore, <choice><abbr>Md.</abbr><expan>Maryland</expan></choice></hi></name><lb/>
+            Civics, <name type="person">Mrs. Blanch Gilmeare</name>, <name type="place" subtype="address">2281 74th Street, Cleve<lb break="no"/><hi rend="indent">land, Ohio<choice><orig>.</orig><reg></reg></choice></hi></name><lb/>
+            Ministers and Bishops Wives, <name type="person">Mrs. C. S. Smith</name>, <name type="place" subtype="address">35<lb/>
+            <hi rend="indent">Alexandrian <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice> <choice><abbr>E.</abbr><expan>East</expan></choice>, Detroit, <choice><abbr>Mich.</abbr><expan>Michigan</expan></choice></hi></name><lb/>
+            Health and Hygiene, <name type="person">Dr. Mary F. Waring</name>, <name type="place" subtype="address">528 Bowen<lb/>
+            <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>, Chicago, <choice><abbr>Ill.</abbr><expan>Illinois</expan></choice></name><lb/>
+            Children, <name type="person">Mrs. L. J. Brown</name>, <name type="place" subtype="address">1125 North Senate Ave<lb break="no"/><hi rend="indent">nue, Indianapolis, <choice><abbr>Ind.</abbr><expan>Indiana</expan></choice></hi></name><lb/>
+            Associated Charities, <name type="person">Mrs. M. C. Lawton</name>, <name type="place" subtype="address">173 Wil<lb break="no"/><hi rend="indent">loughby <choice><abbr>St</abbr><expan>Street</expan></choice>, Brooklyn, <choice><abbr>N. Y.</abbr><expan>New York</expan></choice></hi></name><lb/>
+            Temperance, <name type="name">Mrs. M. C. B. Mason</name>, <name type="place" subtype="address"><choice><sic>Cinciinnati</sic><corr>Cincinnati</corr></choice>, <choice><abbr>O.</abbr><expan>Ohio</expan></choice></name><lb/>
+            Education, <name type="name">Miss Anna H. Jones</name>, <name type="place" subtype="address">2444 Montgall <choice><abbr>Ave.</abbr><expan>Avenue</expan></choice>,<lb/>
+            <hi rend="indent">Kansas City, <choice><abbr>Mo.</abbr><expan>Missouri</expan></choice></hi></name><lb/>
+            Rural Conditions, <name type="person">Mrs. T. L. Anderson</name>, <name type="place" subtype="address">609 High<lb/>
+               <hi rend="indent">Street, Frankfort, <choice><abbr>Ky.</abbr><expan>Kentucky</expan></choice></hi></name><lb/>
+            Historian, <name type="person">Mrs. Blanch Stubbs</name>, <name type="place" subtype="address">827 Tatnall <choice><abbr>St.</abbr><expan>Street</expan></choice>, Wil<lb break="non"/><hi rend="indent">mington, Delaware</hi></name><lb/>
+            Railroad Conditions, <name type="person">Mrs. L. B. Fouse</name>, <name type="place" subtype="address">219 <choice><abbr>N.</abbr><expan>North</expan></choice> Upper<lb/>
+            <hi rend="indent">Street, Lexington, <choice><abbr>Ky.</abbr><expan>Kentucky</expan></choice></hi></name><lb/>
+            Public Posters and Print, <name type="person">Mrs. Katherine D. Tillman</name>,<lb/>
+               <hi rend="indent"><name type="place" subtype="address">1254 Lyon <choice><abbr>St.</abbr><expan>Street</expan></choice>, Hannibal, <choice><abbr>Mo.</abbr><expan>Missouri</expan></choice></name></hi><lb/>
+            Humane, <name type="name">Mrs. Mary F. Handy</name>, <name type="place" subtype="address">1341 Carey <choice><abbr>St.</abbr><expan>Street</expan></choice>, Balti<lb break="no"/><hi rend="indent">more, Maryland<choice><orig>.</orig></choice><reg></reg></hi></name><lb/>
+            Press Committee, <name type="person">Mrs. Nellie Francis</name>, <name type="place" subtype="address">606 Anthony<lb/>
+            <hi rend="indent"><choice><abbr>St.</abbr><expan>Street</expan></choice>, St. Paul, <choice><abbr>Minn.</abbr><expan>Minnesota</expan></choice></hi></name><hi rend="indent">, <name type="person">Mrs. Noah D. Thompson</name>,</hi><lb/>
+            <hi rend="indent"><name type="place" subtype="address">1171 <choice><abbr>E.</abbr><expan>East</expan></choice> 55th Street, Los Angeles, California<choice><orig>.</orig><reg></reg></choice></name></hi>
+         </p></div>
+		 <pb n="10" facs= "../images/ew_z2_652_007.jpg"/>
+		  <div><p>118/36 - <choice><abbr>St.</abbr><expan>Street</expan></choice> 6<lb/>
+		  <name type="person">Madam Walker</name></p></div> 
+         <div><p><name type="person">C. A. Franklin</name>, Printer.<lb/>
+         <name type="place" subtype="city"><choice><abbr>K. C.</abbr><expan>Kansas City</expan></choice>, <choice><abbr>Mo.</abbr><expan>Missouri</expan></choice></name></p></div>
+      </body>
+  </text>
+</TEI>

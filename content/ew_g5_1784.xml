@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tuburculosis Association  </title>
+            <author>Florence Breed </author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Bryan Morris and Carol Hemmingway</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "editing the Earth M.M. White Archive"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder G5 , Item 1784  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p> Typed letter on Letter head of Tuberculosis Association of Duval County
+                        dated November 27, 1929.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs= "../images/ew_g5_1784_001.jpg"/>
+         <head>Tuberculosis Association of Duval County, Inc.</head>
+         <div><div><div><head>Affiliated with</head></div></div></div>
+         <div><div><head><name type="organization"><emph style="case(allcaps)">The Florida Public Health Association</emph></name></head></div></div>
+         <div><div><div><head>In the</head></div></div></div>
+         <div><head><emph style="case(allcaps)"><name type="event">Twenty-second Annual Christmas Seal Sale</name></emph></head></div>
+         <div><p><cb/><emph style="case(allcaps)">Executive committee</emph><lb/>
+              <name type="person">S. H. Berg</name>. President<lb/>
+            <name type="person"><emph style="case(allcaps)">Louie Limbaugh</emph>, M. D.</name>. <emph style="case(allcaps)">Vice President</emph><lb/>
+            <name type="person"><emph style="case(allcaps)">Mrs. E. G. McFadden</emph></name>, Secretary<lb/>
+            <name type="person"><emph style="case(allcaps)">F. W. Beidleman</emph></name>, Treasurer<lb/>
+            <name type="person"><emph style="case(allcaps)">T. Z. Cason</emph>. M. D.</name><lb/>
+            <name type="person"><emph style="case(allcaps)">Mrs. Robert H. Anderson</emph></name><lb/>
+            <name type="person"><emph style="case(allcaps)">F. B. Noble</emph></name><lb/>
+            <cb/><emph style="case(allcaps)">All for health for all</emph><lb/>
+               <name type="address"><emph style="case(allcaps)">422 St. James Building</emph></name><lb/>
+                  <name type="place" subtype="city"><emph style="case(allcaps)">Jacksonville, Florida</emph></name><lb/>
+              Telephone 5-6663<lb/>
+                     <cb/><emph style="case(allcaps)">Seal sale committee</emph><lb/>
+                        <emph style="case(allcaps)"><name type="person"><choice><abbr>Chas.</abbr><expan>Charles</expan></choice> H. Mann</name>, Chairman</emph><lb/>
+                           <name type="person"><emph style="case(allcaps)">Mrs. J. N. Warfield</emph></name><lb/>
+            <name type="person"><emph style="case(allcaps)">V. J. Armstrong</emph></name><lb/>
+               <name type="person"><emph style="case(allcaps)">C. A. Ashby. D. D.</emph></name><lb/>
+                  <name type="person"><emph style="case(allcaps)">Marcus C. Fagg</emph></name><lb/>
+                     <name type="person"><emph style="case(allcaps)">Sydney L. Moore</emph></name><lb/></p>
+              
+            <div><opener style="right"><date when="1929-11-27">November 27, 1929.</date></opener>
+            
+               <opener><name type="person">Eartha M. M. White</name>,<lb/>
+                 <name type="address">233 West First Street</name>,<lb/>
+                 City.<lb/>
+            <salute>Dear <name type="person">Eartha</name>:</salute></opener></div>
+                 
+              <div><p>Before suggesting something for your group<lb/>
+                 to do for colored cases, I would like to talk<lb/>
+                 to you concerning what you are in a position<lb/>
+                 to do. I had expected you to make an appoint<lb break="no"/>ment when you phoned, as I am out of the office<lb/>
+                 a great deal. It is difficult to see me unless<lb/>
+                 you have made some appointment.<lb/></p>
+                 
+                 <p>I am sure that you can help us a great deal<choice><orig>,</orig><reg/></choice><lb/>
+                 and shall be very glad to you about it.</p></div>
+                 
+                 <closer style="right"><salute>Sincerely,</salute><lb/>
+                    <signed><name type="person">Florence B. Breed</name></signed><lb/>
+                 Executive Secretary</closer></div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Mary B. Talbert to Eartha M. M. White, July 25, 1922</title>
+            <author>Mary B. Talbert</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Bryan Morris and Carol Lynne Hemmingway</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder: Y2, Item: 649</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to White describing the organization of the Anti-Lynching Crusaders and White's duties as Florida state director.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A single page typed letter.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_y2_649_001.jpg"/>
+      	<opener style="right"><name type="place" subtype="address">Buffalo, <choice><abbr>N.Y.</abbr><expan>New York<choice><orig>.</orig><reg>,</reg></choice></expan></choice></name> <date when="1922-07-25">July 25th, 1922</date><choice><orig>.</orig><reg/></choice></opener>
+      	<opener><salute>Dear <choice><orig>State</orig><reg>state</reg></choice> <choice><orig>Director</orig><reg>director</reg></choice>:</salute></opener>
+         <p style="indent"> 
+		In my previous letter to you, it was not possible for me to give you in<lb/> 
+		detail the work of this <choice><orig>Association</orig><reg>association</reg></choice>, known as the <name type="organization">Anti-Lynching Crusaders</name>, of<lb/> 
+		which I am glad to consider you a part.<lb/> 
+	</p>
+	<p style="indent">
+		The object of this <choice><orig>Association</orig><reg>association</reg></choice> shall be to unite a million American<lb/> 
+	women to stop lynching. The crusading is to be conducted thru prayer; and<lb/> 
+	while we have designated the month of August as our month of organization,<lb/> 
+	the month of September for instruction, our intensive campaign work will<lb/> 
+	begin the first Sunday morning in October with sunrise prayer meeting, at<lb/> 
+	which time, we hope over a million women will unite in prayer to God<lb/> 
+	for the stopping of this,<choice><orig>-</orig><reg></reg></choice> the greatest crime in America.<lb/> 
+	</p>
+	<p style="indent">
+		Believing that the greater number of <choice><orig>State</orig><reg>state</reg></choice> <choice><orig>Directors</orig><reg>directors</reg></choice> will be assembled <lb/>
+	at <name type="place" subtype="city">Richmond</name><choice><orig>,</orig><reg/></choice> than any other place during the <choice><orig>Summer</orig><reg>summer</reg></choice>, I shall call a meeting of<lb/> 
+		the <choice><orig>State</orig><reg>state</reg></choice> <choice><orig>Directors</orig><reg>directors</reg></choice> either August 10th or 11th<choice><orig>--</orig><reg>,</reg></choice> the time to be announced while<lb/> 
+	at the <choice><orig>Convention</orig><reg>convention</reg></choice>.<lb/> 
+	</p>
+	<p style="indent">
+		<name type="person">Miss Mary E. Jackson</name> will be the <choice><orig>National</orig><reg>national</reg></choice> <choice><orig>Organizer</orig><reg>organizer</reg></choice>, and as <choice><orig>Organizer</orig><reg>organizer</reg></choice>,<lb/> 
+	will be available to help in your particular section. If the work is too stren<lb break="no"/>uous, we will place in the field<choice><orig>,</orig><reg/></choice> other organizers to assist <name type="person">Miss Jackson</name>.<lb/>
+	</p>
+	<p style="indent">
+	It is the aim of this <choice><orig>Committee</orig><reg>committee</reg></choice> to start on the <choice><orig>Campaign</orig><reg>campaign</reg></choice><choice><orig>,</orig><reg/></choice> with every women<lb/> 
+	talking and praying for the same thing, and<choice><orig></orig><reg>,</reg></choice> in order to do this effectively, a<lb/> 
+	letter of instruction will be issued the first week in September.<lb/> 
+	</p>
+	<p style="indent">
+		As <choice><orig>State</orig><reg>state</reg></choice> <choice><orig>Director</orig><reg>director</reg></choice>, the important thing for you to do now<choice><orig></orig><reg>,</reg></choice> is to appoint <lb/>
+		a <choice><orig>Key</orig><reg>key</reg></choice> <choice><orig>Woman</orig><reg>woman</reg></choice> in every city and town in your state. This <choice><orig>Key</orig><reg>key</reg></choice> <choice><orig>Woman</orig><reg>woman</reg></choice><choice><orig></orig><reg>,</reg></choice> in turn, will <lb/> 
+		gather about her<choice><orig>,</orig><reg/></choice> her committee, who will do intensive work during this <choice><orig>Campaign</orig><reg>campaign</reg></choice>. <lb/> 
+	</p>
+	<p style="indent">
+	Anti-Lynching Campaign buttons will be furnished, which will be the <lb/>
+	emblem worn by every crusader<choice><orig>,</orig><reg></reg></choice> during this <choice><orig>Drive</orig><reg>drive</reg></choice>. These buttons will be <lb/>
+	furnished to you at cost, and you in turn will sell them at 10 cents each. <lb/>
+	</p> 
+	<p style="indent">
+		Let it be understood<choice><orig>,</orig><reg></reg></choice> that the expense necessary to carry on this crusade <lb/>
+		will be raised by a separate expense fund, for we have decided<choice><orig>,</orig><reg></reg></choice> that no part of <lb/>
+	this sacrifice or self denial fund shall be used for any thing except for the <lb/>
+	purpose for which it has been raised. <lb/>
+	</p>
+	<p style="indent">
+		We will expect you as <choice><orig>State</orig><reg>state</reg></choice> <choice><orig>Director</orig><reg>director</reg></choice><choice><orig>,</orig><reg></reg></choice> to cover your territory, and at <lb/>
+		<name type="place" subtype="city">Richmond</name><choice><orig>,</orig><reg></reg></choice> we will decide how your expense will be taken care of, as well as <lb/>
+		postage, stationary, and other things necessary to care on this <choice><orig>Campaign</orig><reg>campaign</reg></choice>. <lb/>
+	</p>
+	<p style="indent">
+		I have not attempted to give a full and perfect letter of instructions<choice><orig>,</orig><reg></reg></choice> <lb/> 
+		but simply thoughts for you to think about<choice><orig>,</orig><reg></reg></choice> and which we will discuss at <lb/>
+		<name type="place" subtype="city">Richmond</name>. <lb/>
+	</p>
+<closer style="right">
+	<salute>Yours for the <choice><orig>Greatest</orig><reg>greatest</reg></choice> <choice><orig>Movement</orig><reg>movement</reg></choice> that has ever swept<lb/>
+	<name type="place">America</name>, embracing both white women and black women,</salute>
+	<signed><name type="person">Mary B. Talbert</name></signed>
+</closer>
+      </body>
+  </text>
+</TEI>

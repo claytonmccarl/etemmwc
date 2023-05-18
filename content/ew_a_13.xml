@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from H. E. Thompson to Eartha M. M. White. July 16, 1930.  </title>
+            <author>Mrs. H. E. Thompson</author>
+            <respStmt>
+               <resp> Transcription, edition, and encoding</resp>
+               <name>Kevin Force</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country> USA</country>
+                  <region> Florida</region>
+                  <settlement> Jacksonville</settlement>
+                  <repository> University of North Florida, Thomas G. Carpenter Library
+                  Special Collections and Archives</repository>
+                  <collection> Eartha M. M. White Collection</collection>
+                  <idno>Folder A, Item 13</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Author writes to White to learn where to adopt an orhpan boy.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A handwritten letter from Mrs. H. E. Thompson to Eartha M. M. White on 7/16/1930. The letter is accompanied by its torn envelope, addressed to White of Jacksonville with no street address.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Collection." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>         
+         <pb n="1" facs= "../images/ew_a_13_001.jpg"/>
+         <div><opener style="right"><name type="place"><choice><abbr>E.</abbr><expan>East</expan></choice> Hiram<choice><orig></orig><reg>,</reg></choice> Maine</name><lb/>
+         <date when="1930-07-16">July 16-30</date></opener>
+         <p style="indent">
+            Can you give me any information<lb/>
+            where I can find a colored boy<lb/>
+            that needs a home? I would rather<lb/>
+            have an orphan for I would know<lb/>
+            that he was worthy, but any good,<lb/>
+            rugged, strong boy 12-14 years of<lb/>
+            age would answer, that I would<lb/>
+            teach our way<choice><orig>,</orig><reg/></choice> and give a good<lb/>
+            home until he was of age. I want<lb/>
+            one that can save me steps and<lb/>
+            do errands about the place<choice><orig>,</orig><reg/></choice> and<lb/>
+            be generally useful<choice><orig>,</orig><reg/></choice> and for such<lb/>
+            a home is offered. I shall return home<lb/> 
+            to <name type="place"><choice><abbr>Fla</abbr><expan>Florida</expan></choice></name>, in <choice><abbr>Oct</abbr><expan>October</expan></choice>, and could stop as I<lb/>
+            go through <name type="place"><choice><abbr>Jax</abbr><expan>Jacksonville</expan></choice></name>, &amp; see you if you could<lb/>
+            locate one for me, or write me of some<lb/>
+            one needing a place.</p>
+            <closer style="right"><signed><name type="person">Mrs. H. E. Thompson</name></signed></closer></div>
+         <pb n="2"/>
+         <div><p><name type="person">Eartha M. White</name><lb/>
+         <name type="place">Jacksonville</name></p></div>
+      </body>
+  </text>
+</TEI>

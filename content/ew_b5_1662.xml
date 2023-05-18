@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Ruth P to Eartha M.M. White. c. 1908. Jacksonville, Florida.</title>
+            <author>Ruth</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1662</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author requests urgent assistance in paying her creditors.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Handwritten letter on Bethel Baptist Church letterhead from Ruth (?) to Eartha M. M. White requesting financial assistance to pay creditors. No date given, but the letterhead indicates that it was probably sometime between 1908 and 1909.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1662_001.jpg"/>
+         <div>
+         <head>
+            <emph style="case(allcaps)">Study Of</emph><lb/>
+            <name type="place"></name>Bethel Baptist Institutional Church<lb/>
+            <name type="place" subtype="address"><emph style="case(all caps)">Corner Hogan</emph> and <emph style="case(allcaps)">Caroline Streets</emph></name><lb/>
+            <emph style="case(allcaps)"><name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> John E. Ford</name></emph>,<lb/>
+            <emph style="case(allcaps)">Minister</emph>.<lb/>
+            <emph style="case(allcaps)">Office Hours: 9 A. M. To 1 P. M.<space/>Telephone 2354</emph><lb/>
+         </head>
+         <head>
+            <hi style="right"><emph style="case(allcaps)"><name type="place" subtype="city"></name> <choice><abbr>Fla.</abbr><expan>Florida</expan></choice>, <space/><date>190</date></emph><space/></hi><note type="transcription">The space is a dotted line where one is meant to fill in the month, day and the last digit of the year.</note><lb/>
+         </head>
+         <opener>
+            <salute>
+               Dear <name type="person">Eartha</name><lb/>
+            </salute>
+         </opener>
+         <p style="indent">
+            Here I am up<lb/>
+            against the "real thing"<choice><orig/><reg>.</reg></choice> I<lb/>
+            spent my <hi style="underline">rent</hi> money thinking<lb/>
+            I would get double back and<lb/>
+            I did not get <hi style="underline">one</hi> <choice><sic>deligate</sic><corr>delegate</corr></choice><choice><orig/><reg>.</reg></choice> I<lb/>
+            held <name type="person">Archibald</name> off <choice><sic>untill</sic><corr>until</corr></choice> yesterday<lb/>
+            of course I must pay him the <gap reason="illegible"/><lb/>
+            <supplied reason="illegible" cert="medium">wish some</supplied> thing to happen to <supplied reason="illegible" cert="high">me</supplied><choice><orig/><reg>.</reg></choice> I got a<lb/>
+            <gap reason="illegible"/> to pay yesterday after I left you <gap reason="illegible"/> <supplied reason="illegible" cert="low">vacate</supplied><lb/>
+            <supplied reason="illegible" cert="medium"><name type="person">Mr Penny</name></supplied> is a secondary matter, for he sends me<lb/>
+            money when he <supplied reason="illegible" cert="medium"><choice><sic>choose</sic><corr>chooses</corr></choice></supplied><choice><orig/><reg>.</reg></choice> I owe him 16 and<lb/>
+            have only $3. Is there any way you can help<lb/>
+            me this morning<choice><orig/><reg>?</reg></choice> I am Trying to sell my<lb/>
+         </p>
+         </div>
+         <pb n="2" facs="../images/ew_b5_1662_002.jpg"/>
+         <div>
+         <head>
+            <cb n="1"/>
+               <handShift script="typed" medium="red-ink"/>
+               Sunday=School Congress Subjects
+               A List of Subjects to Be Discussed Before<lb/>
+            the Third Annual Session of the<lb/>
+            <emph style="case(allcaps)"><name type="organization">National Baptist Sunday<lb/>
+               School Congress</name></emph><lb/>
+            And <name type="organization">Young Peoples' Chautauqua</name><lb/>
+            <emph style="case(allcaps)">To Be Held At</emph><lb/>
+            <name type="organization">Bethel Baptist Institutional Church</name>,
+            <emph style="case(allcaps)"><name type="place" subtype="city">Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida.</expan></choice></name></emph>,<lb/>
+            <date from="1908-06-24" to="1908-06-29">June 24-29, 1908</date><lb/>
+            <cb n="2"/>
+            <hi style="right"><figure><graphic url="ew_b5_1662_002_001.jpg"/></figure><figure><desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder B5, Item 1662.</desc><graphic url="../images/ew_b5_1662_002_001.jpg"></graphic></figure></hi>
+            <name type="place">Bethel Baptist Institutional Church</name>, <name type="place" subtype="city">Jacksonville, <choice><abbr>Fla.</abbr><expan>Florida.</expan></choice></name><lb/>
+            <emph style="case(allcaps)"><name type="person"><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> J. E. Ford</name></emph>, D. D., Pastor.<lb/>
+         </head>
+            <list style="numbered">
+               <cb n="1"/>
+               <item> <name type="organization">The National Baptist Sunday School<lb/>
+                  Congress</name>: Its origin and Purpose.</item><lb/>
+               <item> The Origin and History of the Sun<lb break="no"/>
+               day School Movement.</item><lb/>
+               <item> The Modern Sunday School: Its<lb/>
+               Origin and Methods.</item><lb/>
+               <item> The International Sunday School<lb/>
+               Lesson System: Its History and Influ<lb break="no"/>
+               ence.</item>
+               <item> The Bible: Its place in the Sunday<lb/>
+               School, and How to Teach It.</item><lb/>
+               <item> How to Organize and Conduct the<lb/>
+               Sunday School.</item><lb/>
+               <item> The Sunday School: Its Relations<lb/>
+               and Obligations to the Church.</item><lb/>
+               <item> The Duties and Obligations of a<lb/>
+               Baptist Church to its Sunday School.</item><lb/>
+               <item> The Pastor's Place and Opportuni<lb break="no"/>
+               ties in the Sunday School.</item><lb/>
+               <item> Baptist Sunday School Literature:<lb/>
+               Its Authors and Publishers.</item><lb/>
+               <item> Sunday School Officers: How and<lb/>
+               by Whom Selected.</item>
+               <item> Sunday School Officers: Their<lb/>
+               Character, Qualification and Duty.</item><lb/>
+               <item> The Sunday School Teacher: His<lb/>
+               Duties, Opportunities and Responsibili<lb break="no"/>
+               ties.</item><lb/>
+               <item> The Sunday School Superintend<lb break="no"/>
+               ent, His Co-Workers and Advisers.</item><lb/>
+               <item> The Sunday School Teachers'<lb/>
+               Meeting: How to Conduct It.</item><lb/>
+               <item> The Problem of Sunday School<lb/>
+               Teaching: Whom, How and What to<lb/>
+               Teach.</item><lb/>
+               <item> The Sunday School Library: Its<lb/>
+               Contents, and How Circulated.</item><lb/>
+               <item> Music: Its Character, Place and<lb/>
+               Influence in the Sunday School.</item><lb/>
+               <cb n="2"/>
+               <item> Lessen Reviews: How to Conduct<lb/>
+               Them.</item><lb/>
+               <item> Grading the Sunday School: How<lb/>
+               And When.</item><lb/>
+               <item> The Cradle-Roll: What is It, and<lb/>
+               How to Conduct It.</item><lb/>
+               <item> Primary Department: Who Should<lb/>
+               Teach It.</item><lb/>
+               <item> The Sunday School Home Depart<lb break="no"/>
+               ment: How Conducted.</item><lb/>
+               <item> Modern Missions: Their Claims<lb/>
+               Upon the Sunday School.</item><lb/>
+               <item> Sunday School Finances: How<lb/>
+               Raised.</item><lb/>
+               <item> The Sunday School Expenses:<lb/>
+               Who Should Be Responsible for Them.</item><lb/>
+               <item> Sunday School: Its Relations to<lb/>
+               Benevolence.</item><lb/>
+               <item> Sunday School Entertainments:<lb/>
+               Their Character and Purpose.</item><lb/>
+               <item> Children's Day: How to Observe<lb/>
+               It.</item><lb/>
+               <item> The Child's Place in Sunday<lb/>
+               School.</item><lb/>
+               <item> Bible Day: Its Claim Upon the<lb/>
+               Sunday School</item><lb/>
+               <item> Country Sunday Schools: How to<lb/>
+               Organize and Conduct Them.</item><lb/>
+               <item> The Value of Sunday School Sta<lb break="no"/>
+               tistics: How to Obtain Them.</item><lb/>
+               <item> Sunday School Prerequisites—<lb/>
+               Maps, Charts, Blackboards, etc.: How<lb/>
+               To Use Them.</item><lb/>
+               <item> The Present Demands of the Sun<lb break="no"/>
+               day School.</item><lb/>
+               <item> Women, Young and Old, in the Sun<lb break="no"/>
+               day School: their opportunities for good.</item>
+               </list><lb/>
+         </div>
+         <div>
+            <p>
+               <emph style="case(allcaps)"><name type="person">R. H. Boyd</name></emph>, <choice><abbr>Sec'y</abbr><expan>Secretary</expan></choice>, N. B. P. B., <name type="place" subtype="city">Nashville, <choice><abbr>Tenn.</abbr><expan>Tennessee.</expan></choice></name><lb/>
+            </p>
+         </div>
+         <pb n="3" facs="../images/ew_b5_1662_003.jpg"/>
+         <gap reason="half of second page missing"/>
+         <div>
+         <p>
+            rights <gap reason="illegible"/> of that will of<lb/>
+            <name type="person">Dodge</name> <supplied reason="illegible" cert="low">&amp;</supplied> <name type="person">Cullens</name><choice><orig/><reg>.</reg></choice> I have the<lb/>
+            papers<choice><orig/><reg>.</reg></choice> I wish you could<lb/>
+            buy them <name type="person">Eartha</name><choice><orig/><reg>.</reg></choice> I have<lb/>
+            worried <choice><sic>untill</sic><corr>until</corr></choice> I am sick<lb/>
+            and have been <gap reason="illegible"/> for<lb/>
+            three weeks<choice><orig>,</orig><reg>.</reg></choice> I am sick in bed<choice><orig/><reg>.</reg></choice><lb/>
+            <supplied reason="illegible">If you</supplied> can do <choice><orig>any thing</orig><reg>anything</reg></choice><choice><orig/><reg>,</reg></choice> do<lb/>
+            it before 9. or else I will be<lb/>
+            <choice><sic>compell</sic><corr>compelled</corr></choice> to give <supplied reason="illegible">up</supplied> the house<choice><orig/><reg>.</reg></choice><lb/>
+         </p>
+         <closer>
+            <salute>yours</salute> <name type="person">Ruth</name> (P <gap reason="illegible"/>)<lb/>
+         </closer>
+         </div>
+         <pb n="4" facs="../images/ew_b5_1662_004.jpg"/>
+         <gap reason="half of page missing"/>
+         <div>
+               <list style="numbered">
+                  <cb n="2"/>
+                  <item> The Sunday School: Its Relations<lb/>
+                     and Obligations to the Church.</item><lb/>
+                  <item> The Duties and Obligations of a<lb/>
+                     Baptist Church to its Sunday School.</item><lb/>
+                  <item> The Pastor's Place and Opportuni<lb break="no"/>
+                     ties in the Sunday School.</item><lb/>
+                  <item> Baptist Sunday School Literature:<lb/>
+                     Its Authors and Publishers.</item><lb/>
+                  <item> Sunday School Officers: How and<lb/>
+                     by Whom Selected.</item>
+                  <item> Sunday School Officers: Their<lb/>
+                     Character, Qualification and Duty.</item><lb/>
+                  <item> The Sunday School Teacher: His<lb/>
+                     Duties, Opportunities and Responsibili<lb break="no"/>
+                     ties.</item><lb/>
+                  <item> The Sunday School Superintend<lb break="no"/>
+                     ent, His Co-Workers and Advisers.</item><lb/>
+                  <item> The Sunday School Teachers'<lb/>
+                     Meeting: How to Conduct It.</item><lb/>
+                  <item> The Problem of Sunday School<lb/>
+                     Teaching: Whom, How and What to<lb/>
+                     Teach.</item><lb/>
+                  <item> The Sunday School Library: Its<lb/>
+                     Contents, and How Circulated.</item><lb/>
+                  <item> Music: Its Character, Place and<lb/>
+                     Influence in the Sunday School.</item><lb/>
+                  <cb n="2"/>
+               <item> The Sunday School Expenses:<lb/>
+                  Who Should Be Responsible for Them.</item><lb/>
+               <item> Sunday School: Its Relations to<lb/>
+                  Benevolence.</item><lb/>
+               <item> Sunday School Entertainments:<lb/>
+                  Their Character and Purpose.</item><lb/>
+               <item> Children's Day: How to Observe<lb/>
+                  It.</item><lb/>
+               <item> The Child's Place in Sunday<lb/>
+                  School.</item><lb/>
+               <item> Bible Day: Its Claim Upon the<lb/>
+                  Sunday School</item><lb/>
+               <item> Country Sunday Schools: How to<lb/>
+                  Organize and Conduct Them.</item><lb/>
+               <item> The Value of Sunday School Sta<lb break="no"/>
+                  tistics: How to Obtain Them.</item><lb/>
+               <item> Sunday School Prerequisites—<lb/>
+                  Maps, Charts, Blackboards, etc.: How<lb/>
+                  To Use Them.</item><lb/>
+               <item> The Present Demands of the Sun<lb break="no"/>
+                  day School.</item><lb/>
+               <item> Women, Young and Old, in the Sun<lb break="no"/>
+                  day School: their opportunities for good.</item><lb/>
+                  </list>
+               <p>
+                  <emph style="case(allcaps)"><name type="person">R. H. Boyd</name></emph>, <choice><abbr>Sec'y</abbr><expan>Secretary</expan></choice>, N. B. P. B., <name type="place" subtype="city">Nashville, <choice><abbr>Tenn.</abbr><expan>Tennessee.</expan></choice></name><lb/>
+                  <note place="marginRight">
+                     I have some silver<gap reason="half of page missing"/><lb/>
+                     come let you hold<gap reason="half of page missing"/><lb/>
+                     like.<lb/>
+                  </note>
+               </p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to [recipient], [place], [date]</title>
+            <author>[author]</author>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <name>[your name]</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Earth M.M. White Collection"
+               at the University of North Florida.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>
+                  <settlement>Jacksonville</settlement>
+                  <repository>Special Collections and Archives, 
+                     Thomas G. Carpenter Library, 
+                     University of North Florida</repository>
+                  <collection>Eartha M. M. White Collection</collection>
+                  <idno>Folder G-5, item 1814</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>[A summary of document contents, 25 words max.]</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Handwritten note on 5"x7" sheet of paper, front and back.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs= "../images/ew_g5_1814_001.jpg"/>
+         <p>
+            [text]<lb/>
+         </p>
+         <pb n="2" facs= "../images/ew_g5_1814_002.jpg"/>
+         <p>
+            [text]<lb/>
+         </p>
+      </body>
+  </text>
+</TEI>

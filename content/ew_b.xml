@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from A.L. Lewis to Eartha M.M. White, January 18, 1936, Jacksonville, FL</title>
+            <author>A.L. Lewis</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Bethany Jerger</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B, Item no number</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Author expresses support for the writing of a history of African Americans in Jacksonville, asks for meeting regarding appointment of both to advisory committee for Slum Housing Act</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p> Previously copied letter, modern paper.Date: Jan 18, 1936 </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+      </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b_001.jpg"/>
+         <figure>
+            <desc><!-- Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder B, no item number.-->
+            <address>
+               <addrLine>           
+                  The Afro-American Life Insurance Company<lb/>
+               </addrLine>
+               <addrLine rendition="#capitalize">
+                  Incorporated under the laws of Florida<lb/>
+               </addrLine>
+               <addrLine>
+                  Paid up capital stock$150,000.00<lb/>
+               </addrLine>
+               <addrLine>
+                  <name type="person">A.L. Lewis</name>, president
+               </addrLine>
+               <addrLine>
+                  <name type="person">J.H. Lewis</name>, vice president<lb/>
+               </addrLine>
+               <addrLine>
+                  <name type="person">Louis D. Ervin</name>, cashier
+               </addrLine>
+               <addrLine>
+                  <name type="person">William H. Lee</name>, secretary<lb/>
+               </addrLine>
+               <addrLine>
+                  <name type="place">Home Office</name> <name type="place" subtype="address"> 101-105 E. Union Street<location><geo>30.331966 -81.654918</geo></location></name><lb/>
+               </addrLine>
+               <addrLine>
+                  <name type="place">Office of President</name> <lb/>
+               </addrLine>
+               <addrLine>
+                  <name type="place" subtype="address">P.O. Box 660</name><lb/>
+               </addrLine>
+               <addrLine>
+                  <name type="place" subtype="city">Jacksonville, Florida</name><lb/>
+               </addrLine>
+            </address>
+         </desc><graphic url="../images/ew_b_001_001.jpg"></graphic>
+         </figure>
+         
+         <opener>
+                  <date when="1936-01-18">January <space/>18<choice><orig>-</orig><reg>,</reg></choice> 1936</date><lb/>
+                  <address>
+                     <addrLine>
+                        <name type="person">Miss Eartha White</name><lb/>
+                     </addrLine>
+                     <addrLine>
+                        <name type="place" subtype="building">611 West Ashley Street</name><location><geo>30.332490 -81.664152</geo></location><lb/>
+                     </addrLine>
+                     <addrLine>
+                        Jacksonville, Florida<lb/>
+                     </addrLine>
+                  </address>
+                  <salute>
+                     My dear <name type="person">Miss White</name>:<lb/>
+                  </salute>
+         </opener>
+
+
+         <p>
+            
+            I noticed recently your publication with reference<lb/>
+            to <supplied reason="omitted-in-original" cert="high">the</supplied><name type="organization"> History Society for Jacksonville Negroes</name>.<lb/>
+            I have always felt that <choice><orig>some one</orig><reg>someone</reg></choice> should write a<lb/>
+            history of the <name type="person_group">Negroes</name> of our <name type="place">city</name>, as far back<lb/>
+            as we can get information, so that in future years<lb/>
+            the young generation will know of some of the<lb/>
+            accomplishments and hardships. You have my hearty<lb/>
+            support and if I can be of any service to you, <lb/>
+            call on me.<lb/> 
+      </p>
+      <p>
+         <name type="person">Mayor Aslop</name> called me and stated that he wanted to <lb/>
+         appoint you and myself as an <name type="committee">Advisory Committee</name> on<lb/>
+         the <name type="legislation">Slum Housing Act</name>, and ask that I talk with <lb/>
+         <name type="person">Mr. Bradshaw</name>, who I saw this morning and he<lb/>
+         suggested that we talk with <name type="person">Mr. Edwards</name> in <name type="place">Barnett<lb/>
+         Bank building<location><geo>30.328120 -81.659319</geo></location></name> next Monday or Tuesday. Please get<lb/>
+         in touch with me for this meeting. 
+      </p>
+      <p>
+          May I wish for you continued good health and success. 
+      </p>
+
+         <closer style="mid-page">
+               <salute>
+                      Very truly yours,<lb/>
+               </salute>
+               <signed>
+                  <name type="person"> <name type="person">A.L. Lewis</name>,<name role="administrator">  PRESIDENT</name></name>.<lb/>
+               </signed>
+            
+            </closer>
+      <closer style="left">
+         ALL- eaj 
+      </closer>
+    
+      </body>
+  </text>
+</TEI>

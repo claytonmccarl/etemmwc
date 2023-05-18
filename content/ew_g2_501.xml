@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Jim Ward to Miss Snodgrass. September 26, 1972. Jacksonville, Florida.</title>
+            <author>Jim Ward</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Lauren Kelley Winters</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder g2, Item 501</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>In letter on Florida Times-Union/Jacksonville Journal letterhead, author remits to recipient materials related to James Weldon Johnson.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>A description of the object, including its material (type of paper, etc.), dimensions, number of pages, print or handwritten, etc., and some mention of its condition, if relevant.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_g2_501_001.jpg"/>
+         <figure><desc>Taken from University of North Florida Special Collections, Eartha M.M. White Collection, Folder W2, Item 648.</desc><graphic url="../images/ew_g2_501_001_001.jpg"></graphic></figure>
+         <note place="marginTop">Editorial Department</note><lb/>
+         <lb/>
+         <lb/>
+         <p>
+            <hi style="center"><date when="1972-09-27">26 September 1972</date></hi><lb/>
+            <lb/>
+            <lb/>
+            <lb/>
+         </p>
+         <div>
+            <opener>
+               <salute>
+                  Dear <name type="person">Miss Snodgrass,</name> :<lb/>
+               </salute>
+            </opener>
+         </div>
+         <div>
+           <p style="indent">
+         Enclosed, you will find letters and other artifacts<lb/>
+              concerning the past of <name type="person">James Weldon Johnson</name> and the present<lb/>
+         recollections of same by his widow, who is 86 and lives in<lb/>
+              <name type="place">New York City</name>.<lb/>
+           </p>
+            <p style="indent">
+          If I should ever need any of this material -- which, at<lb/>
+               present, I doubt -- I am sure it will be made available.<lb/>
+               
+         </p>
+            <closer>
+               <salute>
+                  <hi style="center">
+                     Archively yours,
+                  </hi>
+               </salute>
+               <signed>
+                  <name type="person">Jim Ward</name>.<lb/>
+               </signed>
+            </closer>
+         </div>
+            <div>
+            <p>Enclosures: 2 envelopes (1910 &amp; 1914)<lb/>
+               and two letters to <name type="person">Jim Ward</name> from <name type="person">Mrs.<lb/>
+                  James W. Johnson</name>.   DS <date when="1972-09-27">9/27/72</date><lb/></p></div>
+            <figure><graphic url="ew_g2_503_001_002.jpg"/></figure>
+           
+      </body>
+  </text>
+</TEI>

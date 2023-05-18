@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from J.A. Wynn and S.G. Bellamy to Eartha M.M. White. January 29, 1925. Marianna, FL.</title>
+            <author>J.A. Wynn</author>
+            <author>S.G. Bellamy</author>
+            <respStmt>
+               <resp>Document selection, transcription, and encoding</resp>
+               <name>Aislinn Kelly</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document forms part of the project "Editing the Eartha M.M. White Archive" at the University of North Florida.</p>            
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>Florida</region>                  
+                  <settlement>Jacksonville</settlement>                  
+                  <repository>University of North Florida, Thomas G. Carpenter Library Special Collections and Archives</repository> 
+                  <collection>Eartha M.M. White Collection</collection>
+                  <idno>Folder B5, Item 1649</idno>                  
+               </msIdentifier>
+               <msContents>
+                  <summary>Authors request assistance in raising matching funds to build schoolhouse.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Typed letter, with handwritten additions, from J. A. Wynn and S. G. Bellamy to Eartha M. M. White on 1/29/1925 soliciting donations for a school house at St. John. Paper has many small holes.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>This file was transcribed and encoded according to the editorial criteria of the project "Editing the Eartha M.M. White Archive." Using the various options encoded within &lt;choice&gt; elements, this file enables the viewing of a diplomatic transcription and a regularized reading text.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="../images/ew_b5_1649_001.jpg"/>
+         <head>
+            <hi style="right">
+            <name type="place" subtype="city">
+               Marianna,
+               <supplied reason="hole in paper" cert="high"><choice><abbr>Fla.</abbr><expan>Florida</expan></choice></supplied>
+            </name>,
+               <handShift script="cursive" medium="dark-blue-ink"/>
+               <date when="1925-01-09"><choice><abbr>Jan</abbr><expan>January</expan></choice> <supplied reason="hole in paper" cert="high"><choice><abbr>29<hi style="superscript">th</hi></abbr><expan>twenty-ninth</expan></choice></supplied>
+                  <handShift script="typed" medium="black-ink"/>, 192<handShift script="cursive" medium="dark-blue-ink"/>5</date><lb/>
+            </hi>
+         </head>
+         <p style="indent">
+            <handShift script="typed" medium="black-ink"/>We want to build a school house at <name type="place">St. John.</name> <name type="person">Mr. <supplied reason="hole in paper" cert="high">Rosenwald</supplied></name><note type="editorial"><mentioned>Rosenwald</mentioned> is likely the philanthropist Julius Rosenwald</note> has <supplied reason="hole in paper" cert="high">promised</supplied> us<lb/>
+            $900; that is, if we can raise $900 ourselves. The past year was a bad crop year. <supplied reason="hole in paper" cert="high">So</supplied><lb/>
+            we would be <supplied reason="hole in paper" cert="high">pleased</supplied> to have you help us raise our $900.<lb/>
+         </p>
+         <p style="indent">
+            Please <supplied reason="hole in paper" cert="high">send</supplied> us any amount you can spare by the <date when="1925-02-13"><choice><abbr>13<hi style="superscript">th</hi></abbr><expan>thirteenth</expan></choice> of February, 1925</date>, as we<lb/>
+            must report by <supplied reason="hole in paper" cert="high">that</supplied> date.<lb/>
+         </p>
+         <p style="indent">
+            We hope <supplied reason="hole in paper" cert="high">you</supplied> will send us something at once.<lb/>
+         </p>
+         <closer>
+            <salute>
+               <hi style="center">Yours truly,</hi><lb/>
+            </salute>
+            <signed>
+               <hi style="right">
+                  <name type="person"><emph style="case(allcaps)">
+                     J. A. Wynn</emph></name>, Chairman<lb/>
+                  <name type="person"><emph style="case(allcaps)">
+                     S. G. Bellamy</emph></name>, Secretary<lb/>
+               </hi>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>
